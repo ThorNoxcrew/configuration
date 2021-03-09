@@ -117,6 +117,8 @@ def main():
             consul_kv_root = consul_kv_root.strip()[:-1]
 
         for root, dirs, files in os.walk(args.fs_kv_path):
+            files = [f for f in files if not f[0] == '.']
+            dirs[:] = [d for d in dirs if not d[0] == '.']
 
             for name in files:
                 filepath = os.path.join(root, name)
