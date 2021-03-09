@@ -4,5 +4,5 @@ stages:
 
 upload_consul:
   stage: upload
-  image: python:3-alpine
-  script: "python .ci/fs2consulkv.py --fs-kv-path . --consul-url $CONSUL_URL --consul-acl-token $CONSUL_ACL_TOKEN --consul-kv-root configuration/$CI_COMMIT_BRANCH --skip-prompt"
+  image: git.noxcrew.online:5050/noxcrew/mcc/fs2consulkv:master-e7d66904691625f1c798a83e0c4d18936a27b6b8
+  script: "fs2consulkv --fs-kv-path . --consul-url $CONSUL_URL --consul-acl-token $CONSUL_ACL_TOKEN --consul-kv-root configuration/$CI_COMMIT_BRANCH --skip-prompt"
