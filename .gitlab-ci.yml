@@ -4,4 +4,5 @@ stages:
 
 upload_consul:
   stage: upload
-  script: "python3 .ci/fs2consul.py --fs-kv-path . --consul-url $CONSUL_URL --consul-acl-token $CONSUL_ACL_TOKEN --consul-kv-root configuration/$CI_COMMIT_BRANCH --skip-prompt"
+  image: python:3-alpine
+  script: "python .ci/fs2consulkv.py --fs-kv-path . --consul-url $CONSUL_URL --consul-acl-token $CONSUL_ACL_TOKEN --consul-kv-root configuration/$CI_COMMIT_BRANCH --skip-prompt"
