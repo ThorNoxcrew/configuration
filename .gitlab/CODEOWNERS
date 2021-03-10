@@ -1,4 +1,4 @@
 [Infrastructure]
 .gitlab-ci.yml  @marius.metzger @jackson.isted @michael.hoekema
-
+.gitlab/	@marius.metzger @jackson.isted @michael.hoekema
 
