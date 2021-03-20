@@ -1,0 +1,99 @@
+{
+    "input": {
+        "type": "build_server",
+        "name": "hole_in_the_wall"
+    },
+    "sections": {
+        "original": [
+            [0, 0]
+        ],
+        "beach": [
+            [2, 0]
+        ],
+        "highrise": [
+            [4, 0]
+        ],
+        "ref_walls": [
+            [-7, 7]
+        ]
+    },
+    "processors": [
+        {
+            "type": "scanner",
+            "sections": {
+                "type": "DENY",
+                "contents": [
+                    "ref_walls"
+                ]
+            },
+            "targets": {
+                "spawnpoints": {
+                    "type": "grouped",
+                    "block": "SPONGE"
+                },
+                "spectator_spawnpoint": {
+                    "type": "single",
+                    "block": "unknown"
+                },
+                "spawn_barriers": {
+                    "type": "area",
+                    "min": "unknown",
+                    "max": "unknown"
+                },
+                "platform_min_corner": {
+                    "type": "single",
+                    "block": "unknown",
+                    "limit": {
+                        "max": 1
+                    }
+                },
+                "wall_min_corner": {
+                    "type": "single",
+                    "block": "unknown",
+                    "sign": "Direction",
+                    "limit": {
+                        "min": 4,
+                        "max": 4
+                    }
+                }
+            }
+        },
+        {
+            "type": "scanner",
+            "sections": {
+                "type": "ALLOW",
+                "contents": [
+                    "ref_walls"
+                ]
+            },
+            "targets": {
+                "platform_sources": {
+                    "type": "area",
+                    "min": "INFESTED_STONE",
+                    "max": "INFESTED_STONE_BRICKS",
+                    "sign": "Stage"
+                },
+                "walls": {
+                    "type": "area",
+                    "min": "GOLD_ORE",
+                    "max": "NETHER_GOLD_ORE"
+                }
+            }
+        },
+        {
+            "type": "lighting_updater"
+        },
+        {
+            "type": "split_world_per_section",
+            "filter": {
+                "type": "DENY",
+                "contents": [
+                    "ref_walls"
+                ]
+            }
+        },
+        {
+            "type": "empty_region_padding"
+        }
+    ]
+}

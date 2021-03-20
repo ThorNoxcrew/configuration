@@ -1,0 +1,87 @@
+{
+    "input": {
+        "type": "build_server",
+        "name": "tgttosawaf"
+    },
+    "sections": {
+        "terra_swoop_force/tunnel_1": [
+            [2, 2],
+            [2, 3],
+            [2, 4]
+        ],
+        "boats": [
+            [-2, -4]
+        ],
+        "launcher": [
+            [0, -2]
+        ],
+        "glide": [
+            [2, -4]
+        ],
+        "walls": [
+            [-2, -2]
+        ],
+        "pit": [
+            [2, -2]
+        ],
+        "doors": [
+            [-2, 0]
+        ],
+        "cliff": [
+            [0, 0]
+        ],
+        "basins": [
+            [2, 0]
+        ],
+        "skydive": [
+            [-2, 2]
+        ],
+        "swamp": [
+            [0, 2]
+        ],
+        "factory": [
+            [-2, 4]
+        ],
+        "breakdown": [
+            [0, 4]
+        ],
+        "golf": [
+            [-2, 6],
+            [-2, 7]
+        ],
+        "mesa": [
+            [0, 6]
+        ]
+    },
+    "processors": [
+        {
+            "type": "scanner",
+            "targets": {
+                "spawnpoints": {
+                    "type": "grouped",
+                    "block": "INFESTED_COBBLESTONE"
+                },
+                "spectator_spawnpoint": {
+                    "type": "single",
+                    "block": "INFESTED_CHISELED_STONE_BRICKS"
+                },
+                "chicken_spawn_area": {
+                    "type": "area",
+                    "min": "INFESTED_STONE",
+                    "max": "INFESTED_STONE_BRICKS"
+                },
+                "spawn_barriers": {
+                    "type": "area",
+                    "min": "INFESTED_MOSSY_STONE_BRICKS",
+                    "max": "INFESTED_CRACKED_STONE_BRICKS"
+                }
+            }
+        },
+        {
+            "type": "lighting_updater"
+        },
+        {
+            "type": "empty_region_padding"
+        }
+    ]
+}

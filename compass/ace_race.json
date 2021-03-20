@@ -1,0 +1,81 @@
+{
+    "input": {
+        "type": "build_server",
+        "name": "ace_race"
+    },
+    "sections": {
+        "clouds": [
+            [0, 0],
+            [1, 0]
+        ],
+        "pythons_crypt": [
+            [3, 0]
+        ]
+    },
+    "processors": [
+        {
+            "type": "scanner",
+            "targets": {
+                "spawnpoints": {
+                    "type": "grouped",
+                    "block": "unknown"
+                },
+                "spectator_spawnpoint": {
+                    "type": "single",
+                    "block": "unknown"
+                },
+                "checkpoints": {
+                    "type": "area",
+                    "min": "unknown",
+                    "max": "unknown",
+                    "sign": "Key"
+                },
+                "speed_pad": {
+                    "type": "single",
+                    "block": "infested_mossy_stone_bricks"
+                },
+                "red_launcher": {
+                    "type": "single",
+                    "block": "infested_cracked_stone_bricks"
+                },
+                "orange_launcher": {
+                    "type": "single",
+                    "block": "infested_chiseled_stone_bricks"
+                },
+                "dolphin_ring": {
+                    "type": "single",
+                    "block": "infested_stone"
+                },
+                "elytra_ring": {
+                    "type": "single",
+                    "block": "infested_cobblestone"
+                }
+            }
+        },
+        {
+            "type": "scanner",
+            "sections": {
+                "type": "ALLOW",
+                "contents": [
+                    "clouds"
+                ]
+            },
+            "targets": {
+                "spawn_barriers": {
+                    "type": "area",
+                    "min": "unknown",
+                    "max": "unknown"
+                }
+            }
+        },
+        {
+            "type": "lighting_updater"
+        },
+        {
+            "type": "split_world_per_section"
+        },
+        {
+            "type": "empty_region_padding"
+        }
+    ]
+}

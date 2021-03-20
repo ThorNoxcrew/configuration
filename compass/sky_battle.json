@@ -1,0 +1,47 @@
+{
+    "input": {
+        "type": "build_server",
+        "name": "sky_battle"
+    },
+    "sections": {
+        "classic": [
+            [0, 0]
+        ],
+        "medieval": [
+            [2, 0]
+        ]
+    },
+    "processors": [
+        {
+            "type": "scanner",
+            "targets": {
+                "spawnpoints": {
+                    "type": "grouped",
+                    "block": "SPONGE"
+                },
+                "spectator_spawnpoint": {
+                    "type": "single",
+                    "block": "unknown"
+                },
+                "spawn_barriers": {
+                    "type": "area",
+                    "min": "unknown",
+                    "max": "unknown"
+                }
+            }
+        },
+        {
+            "type": "lighting_updater"
+        },
+        {
+            "type": "split_world_per_section"
+        },
+        {
+            "type": "duplicate_sections",
+            "amount": 3
+        },
+        {
+            "type": "empty_region_padding"
+        }
+    ]
+}
