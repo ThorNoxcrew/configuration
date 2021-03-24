@@ -20,7 +20,7 @@
     "processors": [
         {
             "type": "scanner",
-            "sections": {
+            "filter": {
                 "type": "DENY",
                 "contents": [
                     "ref_walls"
@@ -50,7 +50,12 @@
                 "wall_min_corner": {
                     "type": "single",
                     "block": "unknown",
-                    "sign": "Direction",
+                    "signs": {
+                        "type": "ALLOW",
+                        "contents": [
+                            "Direction"
+                        ]
+                    },
                     "limit": {
                         "min": 4,
                         "max": 4
@@ -60,7 +65,7 @@
         },
         {
             "type": "scanner",
-            "sections": {
+            "filter": {
                 "type": "ALLOW",
                 "contents": [
                     "ref_walls"
@@ -71,7 +76,12 @@
                     "type": "area",
                     "min": "INFESTED_STONE",
                     "max": "INFESTED_STONE_BRICKS",
-                    "sign": "Stage"
+                    "signs": {
+                        "type": "ALLOW",
+                        "contents": [
+                            "Stage"
+                        ]
+                    }
                 },
                 "walls": {
                     "type": "area",

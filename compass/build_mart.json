@@ -18,7 +18,7 @@
     "processors": [
         {
             "type": "scanner",
-            "sections": {
+            "filter": {
                 "type": "DENY",
                 "contents": [
                     "ref_builds"
@@ -37,7 +37,7 @@
         },
         {
             "type": "scanner",
-            "sections": {
+            "filter": {
                 "type": "ALLOW",
                 "contents": [
                     "ref_builds"

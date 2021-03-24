@@ -28,7 +28,12 @@
                     "type": "area",
                     "min": "unknown",
                     "max": "unknown",
-                    "sign": "Key"
+                    "signs": {
+                        "type": "ALLOW",
+                        "content": [
+                            "Key"
+                        ]
+                    }
                 },
                 "speed_pad": {
                     "type": "single",
@@ -54,7 +59,7 @@
         },
         {
             "type": "scanner",
-            "sections": {
+            "filter": {
                 "type": "ALLOW",
                 "contents": [
                     "clouds"

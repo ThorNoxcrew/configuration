@@ -1,0 +1,143 @@
+{
+    "input": {
+        "type": "build_server",
+        "name": "battle_box"
+    },
+    "sections": {
+        "reference": [
+            [0, 0]
+        ]
+    },
+    "processors": [
+        {
+            "type": "scanner",
+            "targets": {
+                "hub_hat_area": {
+                    "type": "area",
+                    "min": "GOLD_ORE",
+                    "max": "NETHER_GOLD_ORE",
+                    "limit": {
+                        "min": 1,
+                        "max": 1
+                    }
+                },
+                "game_area": {
+                    "type": "area",
+                    "min": "DIAMOND_ORE",
+                    "max": "EMERALD_ORE",
+                    "signs": {
+                        "type": "ALLOW",
+                        "contents": [
+                            "Key"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "type": "battle_box_map_splitter",
+            "filter": {
+                "type": "ALLOW",
+                "contents": [
+                    "reference"
+                ]
+            },
+            "map_scan": "game_area",
+            "maps": {
+                "type": "ALLOW",
+                "contents": [
+                    "villa"
+                ]
+            }
+        },
+        {
+            "type": "scanner",
+            "filter": {
+                "type": "ALLOW",
+                "contents": [
+                    "game"
+                ]
+            },
+            "targets": {
+                "hub_paste_height": {
+                    "type": "single",
+                    "limit": {
+                        "min": 1,
+                        "max": 1
+                    },
+                    "block": "ANCIENT_DEBRIS"
+                },
+                "spawnpoints": {
+                    "type": "grouped",
+                    "block": "SPONGE",
+                    "signs": {
+                        "type": "ALLOW",
+                        "contents": [
+                            "Phase"
+                        ]
+                    },
+                    "limit": {
+                        "min": 16,
+                        "max": 16
+                    }
+                },
+                "spectator_spawnpoint": {
+                    "type": "single",
+                    "block": "END_STONE"
+                }
+            }
+        },
+        {
+            "type": "battle_box_hub_assembler",
+            "hub_scan": "hub_hat_area",
+            "paste_height_scan": "hub_paste_height",
+            "offset": [6, 0, 0],
+            "negative_padding": [-10, 0, -10],
+            "positive_padding": [10, 10, 10]
+        },
+        {
+            "type": "scanner",
+            "filter": {
+                "type": "ALLOW",
+                "contents": [
+                    "hub"
+                ]
+            },
+            "targets": {
+                "hub_spawnpoints": {
+                    "type": "grouped",
+                    "block": "SPONGE"
+                },
+                "hub_spectator_spawnpoint": {
+                    "type": "single",
+                    "block": "DRIED_KELP_BLOCK"
+                }
+            }
+        },
+        {
+            "type": "remove_sections",
+            "filter": {
+                "type": "ALLOW",
+                "contents": [
+                    "reference"
+                ] 
+            }
+        },
+        {
+            "type": "lighting_updater"
+        },
+        {
+            "type": "duplicate_sections",
+            "filter": {
+                "type": "ALLOW",
+                "contents": [
+                    "game"
+                ]
+            },
+            "amount": 9
+        },
+        {
+            "type": "empty_region_padding"
+        }
+    ]
+}

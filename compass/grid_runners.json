@@ -1,0 +1,72 @@
+{
+    "input": {
+        "type": "build_server",
+        "name": "grid_runners"
+    },
+    "sections": {
+        "template": [
+            [0, 0]
+        ],
+        "rooms": [
+            [-9, 2]
+        ]
+    },
+    "processors": [
+        {
+            "type": "scanner",
+            "targets": {
+                "template_area": {
+                    "type": "area",
+                    "min": "GOLD_ORE",
+                    "max": "NETHER_GOLD_ORE",
+                    "limit": {
+                        "min": 1,
+                        "max": 1
+                    }
+                },
+                "rooms": {
+                    "type": "area",
+                    "min": "DIAMOND_ORE",
+                    "max": "EMERALD_ORE",
+                    "signs": {
+                        "type": "ALLOW",
+                        "contents": [
+                            "Room"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "type": "grid_runners_assembler",
+            "template_scan": "template_area",
+            "rooms_scan": "rooms",
+            "selected_rooms": [
+                "picturepanic",
+                "picturepanic",
+                "picturepanic",
+                "picturepanic",
+                "picturepanic",
+                "picturepanic",
+                "picturepanic",
+                "picturepanic"
+            ]
+        },
+        {
+            "type": "remove_sections",
+            "filter": {
+                "type": "ALLOW",
+                "contents": [
+                    "template",
+                    "rooms"
+                ] 
+            }
+        },
+        {
+            "type": "lighting_updater"
+        },
+        {
+            "type": "empty_region_padding"
+        }
+    ]
+}

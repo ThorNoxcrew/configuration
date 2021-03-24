@@ -1,0 +1,155 @@
+{
+    "input": {
+        "type": "build_server",
+        "name": "parkour_tag"
+    },
+    "sections": {
+        "reference": [
+            [0, 0]
+        ]
+    },
+    "processors": [
+        {
+            "type": "scanner",
+            "targets": {
+                "anchor": {
+                    "type": "single",
+                    "limit": {
+                        "min": 3
+                    },
+                    "block": "ANCIENT_DEBRIS"
+                },
+                "hub_hat_area": {
+                    "type": "area",
+                    "min": "warped_nylium",
+                    "max": "crimson_nylium",
+                    "limit": {
+                        "min": 1,
+                        "max": 1
+                    }
+                },
+                "match_hat_area": {
+                    "type": "area",
+                    "min": "GOLD_ORE",
+                    "max": "NETHER_GOLD_ORE",
+                    "limit": {
+                        "min": 1,
+                        "max": 1
+                    }
+                },
+                "game_area": {
+                    "type": "area",
+                    "min": "DIAMOND_ORE",
+                    "max": "crimson_stem",
+                    "signs": {
+                        "type": "ALLOW",
+                        "contents": [
+                            "Key"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "type": "parkour_tag_assembler",
+            "filter": {
+                "type": "ALLOW",
+                "contents": [
+                    "reference"
+                ]
+            },
+            "hub_scan": "hub_hat_area",
+            "match_scan": "match_hat_area",
+            "map_scan": "game_area",
+            "maps": {
+                "type": "ALLOW",
+                "contents": [
+                    "sewage"
+                ]
+            },
+            "anchor": "anchor"
+        },
+        {
+            "type": "remove_sections",
+            "filter": {
+                "type": "ALLOW",
+                "contents": [
+                    "reference"
+                ] 
+            }
+        },
+        {
+            "type": "scanner",
+            "filter": {
+                "type": "ALLOW",
+                "contents": [
+                    "game"
+                ]
+            },
+            "targets": {
+                "waiting_spawnpoints": {
+                    "type": "grouped",
+                    "block": "unknown",
+                    "limit": {
+                        "min": 0,
+                        "max": 8
+                    }
+                },
+                "round_spawnpoints": {
+                    "type": "grouped",
+                    "block": "SPONGE",
+                    "limit": {
+                        "min": 4,
+                        "max": 4
+                    },
+                    "offset": [0, -1, 0]
+                },
+                "spectator_spawnpoint": {
+                    "type": "single",
+                    "block": "unknown",
+                    "signs": {
+                        "type": "ALLOW",
+                        "contents": [
+                            "Key"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "type": "scanner",
+            "filter": {
+                "type": "ALLOW",
+                "contents": [
+                    "hub"
+                ]
+            },
+            "targets": {
+                "hub_spawnpoints": {
+                    "type": "grouped",
+                    "block": "SPONGE"
+                },
+                "hub_spectator_spawnpoint": {
+                    "type": "single",
+                    "block": "unknown"
+                }
+            }
+        },
+        {
+            "type": "lighting_updater"
+        },
+        {
+            "type": "duplicate_sections",
+            "filter": {
+                "type": "ALLOW",
+                "contents": [
+                    "game"
+                ]
+            },
+            "amount": 18
+        },
+        {
+            "type": "empty_region_padding"
+        }
+    ]
+}
