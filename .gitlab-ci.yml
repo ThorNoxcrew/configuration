@@ -5,12 +5,11 @@ stages:
 upload_consul_dev:
   stage: upload
   image: git.noxcrew.online:5050/noxcrew/devops/fs2consulkv:master-70dae7e08fda29b866eb58635b62ae6b5efe77e8
+  environment:
+    name: dev-fs2consulkv
+    kubernetes:
+      namespace: ops
   before_script: 
-    - kubectl config set-cluster k8s --server="$SERVER_DEV"
-    - kubectl config set clusters.k8s.certificate-authority-data $CERTIFICATE_AUTHORITY_DATA_DEV
-    - kubectl config set-credentials gitlab --token="$USER_TOKEN_DEV"
-    - kubectl config set-context default --cluster=k8s --user=fs2consulkv-ci
-    - kubectl config use-context default
     - kubectl port-forward svc/consul -n ops 8500:8500 &
     - sleep 2
   script: "fs2consulkv --fs-kv-path . --consul-url http://127.0.0.1:8500 --consul-acl-token $CONSUL_ACL_TOKEN_DEV --consul-kv-root configuration/$CI_COMMIT_BRANCH --skip-prompt"
@@ -18,8 +17,12 @@ upload_consul_dev:
 upload_consul_ptr:
   stage: upload
   image: git.noxcrew.online:5050/noxcrew/devops/fs2consulkv:master-70dae7e08fda29b866eb58635b62ae6b5efe77e8
+  environment:
+    name: ptr-fs2consulkv
+    kubernetes:
+      namespace: ops
   before_script: 
-    - "kubectl port-forward svc/consul -n ops 8500:8500 --context=noxcrew-mcc-ptr-cluster &"
+    - "kubectl port-forward svc/consul -n ops 8500:8500 &"
   script: 
     - "fs2consulkv --fs-kv-path . --consul-url http://127.0.0.1:8500 --consul-acl-token $CONSUL_ACL_TOKEN_PTR --consul-kv-root configuration/$CI_COMMIT_BRANCH --skip-prompt"
 
