@@ -10,7 +10,7 @@ upload_consul_dev:
     kubernetes:
       namespace: ops
   before_script: 
-    - kubectl port-forward svc/consul -n ops 8500:8500 &
+    - kubectl port-forward svc/consul-server -n ops 8500:8500 &
     - sleep 2
   script: "fs2consulkv --fs-kv-path . --consul-url http://127.0.0.1:8500 --consul-acl-token $CONSUL_ACL_TOKEN_DEV --consul-kv-root configuration/$CI_COMMIT_BRANCH --skip-prompt"
 
@@ -22,7 +22,7 @@ upload_consul_ptr:
     kubernetes:
       namespace: ops
   before_script: 
-    - "kubectl port-forward svc/consul -n ops 8500:8500 &"
+    - "kubectl port-forward svc/consul-server -n ops 8500:8500 &"
   script: 
     - "fs2consulkv --fs-kv-path . --consul-url http://127.0.0.1:8500 --consul-acl-token $CONSUL_ACL_TOKEN_PTR --consul-kv-root configuration/$CI_COMMIT_BRANCH --skip-prompt"
 
