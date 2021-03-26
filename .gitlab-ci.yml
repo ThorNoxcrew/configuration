@@ -2,38 +2,26 @@ stages:
   - upload
   - deploy
 
-upload_consul_dev:
+.upload_consul:
   stage: upload
   image: git.noxcrew.online:5050/noxcrew/devops/fs2consulkv:master-70dae7e08fda29b866eb58635b62ae6b5efe77e8
+  # https://gitlab.com/gitlab-org/gitlab-runner/-/issues/27524
+  script: 
+    - kubectl port-forward svc/consul-server -n ops 8500:8500 &
+    - sleep 2
+    - fs2consulkv --fs-kv-path . --consul-url http://127.0.0.1:8500 --consul-acl-token $CONSUL_ACL_TOKEN --consul-kv-root configuration/$CI_COMMIT_BRANCH --skip-prompt
+    - kill $!
+
+.kube_env_dev:
+  extends: .upload_consul
   environment:
     name: dev-fs2consulkv
     kubernetes:
       namespace: ops
-  # https://gitlab.com/gitlab-org/gitlab-runner/-/issues/27524
-  script: 
-    - kubectl port-forward svc/consul-server -n ops 8500:8500 &
-    - sleep 2
-    - fs2consulkv --fs-kv-path . --consul-url http://127.0.0.1:8500 --consul-acl-token $CONSUL_ACL_TOKEN_DEV --consul-kv-root configuration/$CI_COMMIT_BRANCH --skip-prompt
-    - kill $!
 
-upload_consul_ptr:
-  stage: upload
-  image: git.noxcrew.online:5050/noxcrew/devops/fs2consulkv:master-70dae7e08fda29b866eb58635b62ae6b5efe77e8
+.kube_env_ptr:
+  extends: .upload_consul
   environment:
     name: ptr-fs2consulkv
     kubernetes:
       namespace: ops
-  # https://gitlab.com/gitlab-org/gitlab-runner/-/issues/27524
-  script: 
-    - kubectl port-forward svc/consul-server -n ops 8500:8500 &
-    - sleep 2
-    - fs2consulkv --fs-kv-path . --consul-url http://127.0.0.1:8500 --consul-acl-token $CONSUL_ACL_TOKEN_DEV --consul-kv-root configuration/$CI_COMMIT_BRANCH --skip-prompt
-    - kill $!
-
-#upload_consul_prod:
-#  stage: upload
-#  image: git.noxcrew.online:5050/noxcrew/devops/fs2consulkv:master-70dae7e08fda29b866eb58635b62ae6b5efe77e8
-#  before_script:
-#  - "kubectl port-forward svc/consul -n ops 8500:8500 --token $K8S_PROD_TOKEN &"
-#  script: 
-#  - "fs2consulkv --fs-kv-path . --consul-url $CONSUL_URL --consul-acl-token $CONSUL_ACL_TOKEN --consul-kv-root configuration/$CI_COMMIT_BRANCH #--skip-prompt"
