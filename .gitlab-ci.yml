@@ -2,7 +2,25 @@ stages:
   - upload
   - deploy
 
-upload_consul:
+upload_consul_dev:
   stage: upload
-  image: git.noxcrew.online:5050/noxcrew/devops/fs2consulkv:master-e7d66904691625f1c798a83e0c4d18936a27b6b8
-  script: "fs2consulkv --fs-kv-path . --consul-url $CONSUL_URL --consul-acl-token $CONSUL_ACL_TOKEN --consul-kv-root configuration/$CI_COMMIT_BRANCH --skip-prompt"
+  image: git.noxcrew.online:5050/noxcrew/devops/fs2consulkv:master-70dae7e08fda29b866eb58635b62ae6b5efe77e8
+  before_script: 
+    - "kubectl port-forward svc/consul -n ops 8500:8500 --context=noxcrew-mcc-dev-cluster &"
+  script: "fs2consulkv --fs-kv-path . --consul-url http://127.0.0.1:8500 --consul-acl-token $CONSUL_ACL_TOKEN_DEV --consul-kv-root configuration/$CI_COMMIT_BRANCH --skip-prompt"
+
+upload_consul_ptr:
+  stage: upload
+  image: git.noxcrew.online:5050/noxcrew/devops/fs2consulkv:master-70dae7e08fda29b866eb58635b62ae6b5efe77e8
+  before_script: 
+    - "kubectl port-forward svc/consul -n ops 8500:8500 --context=noxcrew-mcc-ptr-cluster &"
+  script: 
+    - "fs2consulkv --fs-kv-path . --consul-url http://127.0.0.1:8500 --consul-acl-token $CONSUL_ACL_TOKEN_PTR --consul-kv-root configuration/$CI_COMMIT_BRANCH --skip-prompt"
+
+#upload_consul_prod:
+#  stage: upload
+#  image: git.noxcrew.online:5050/noxcrew/devops/fs2consulkv:master-70dae7e08fda29b866eb58635b62ae6b5efe77e8
+#  before_script:
+#  - "kubectl port-forward svc/consul -n ops 8500:8500 --token $K8S_PROD_TOKEN &"
+#  script: 
+#  - "fs2consulkv --fs-kv-path . --consul-url $CONSUL_URL --consul-acl-token $CONSUL_ACL_TOKEN --consul-kv-root configuration/$CI_COMMIT_BRANCH #--skip-prompt"
