@@ -9,10 +9,15 @@ upload_consul_dev:
     name: dev-fs2consulkv
     kubernetes:
       namespace: ops
-  before_script: 
+  # https://gitlab.com/gitlab-org/gitlab-runner/-/issues/27524
+  script: 
+    - /bin/sh <<EOF
+    - set -ex
+    - trap "echo done; pkill -P \$\$" exit
     - kubectl port-forward svc/consul-server -n ops 8500:8500 &
     - sleep 2
-  script: "fs2consulkv --fs-kv-path . --consul-url http://127.0.0.1:8500 --consul-acl-token $CONSUL_ACL_TOKEN_DEV --consul-kv-root configuration/$CI_COMMIT_BRANCH --skip-prompt"
+    - fs2consulkv --fs-kv-path . --consul-url http://127.0.0.1:8500 --consul-acl-token $CONSUL_ACL_TOKEN_DEV --consul-kv-root configuration/$CI_COMMIT_BRANCH --skip-prompt
+    - EOF
 
 upload_consul_ptr:
   stage: upload
@@ -21,10 +26,15 @@ upload_consul_ptr:
     name: ptr-fs2consulkv
     kubernetes:
       namespace: ops
-  before_script: 
-    - "kubectl port-forward svc/consul-server -n ops 8500:8500 &"
+  # https://gitlab.com/gitlab-org/gitlab-runner/-/issues/27524
   script: 
-    - "fs2consulkv --fs-kv-path . --consul-url http://127.0.0.1:8500 --consul-acl-token $CONSUL_ACL_TOKEN_PTR --consul-kv-root configuration/$CI_COMMIT_BRANCH --skip-prompt"
+    - /bin/sh <<EOF
+    - set -ex
+    - trap "echo done; pkill -P \$\$" exit
+    - kubectl port-forward svc/consul-server -n ops 8500:8500 &
+    - sleep 2
+    - fs2consulkv --fs-kv-path . --consul-url http://127.0.0.1:8500 --consul-acl-token $CONSUL_ACL_TOKEN_PTR --consul-kv-root configuration/$CI_COMMIT_BRANCH --skip-prompt
+    - EOF
 
 #upload_consul_prod:
 #  stage: upload
