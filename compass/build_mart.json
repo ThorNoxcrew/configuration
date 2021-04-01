@@ -20,7 +20,7 @@
             "type": "scanner",
             "filter": {
                 "type": "DENY",
-                "contents": [
+                "entries": [
                     "ref_builds"
                 ]
             },
@@ -39,7 +39,7 @@
             "type": "scanner",
             "filter": {
                 "type": "ALLOW",
-                "contents": [
+                "entries": [
                     "ref_builds"
                 ]
             },
@@ -57,7 +57,7 @@
             "type": "split_world_per_section",
             "filter": {
                 "type": "DENY",
-                "contents": [
+                "entries": [
                     "ref_builds"
                 ]
             }

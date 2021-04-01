@@ -43,7 +43,7 @@
                     "max": "crimson_stem",
                     "signs": {
                         "type": "ALLOW",
-                        "contents": [
+                        "entries": [
                             "Key"
                         ]
                     }
@@ -54,7 +54,7 @@
             "type": "parkour_tag_assembler",
             "filter": {
                 "type": "ALLOW",
-                "contents": [
+                "entries": [
                     "reference"
                 ]
             },
@@ -63,7 +63,7 @@
             "map_scan": "game_area",
             "maps": {
                 "type": "ALLOW",
-                "contents": [
+                "entries": [
                     "sewage"
                 ]
             },
@@ -73,7 +73,7 @@
             "type": "remove_sections",
             "filter": {
                 "type": "ALLOW",
-                "contents": [
+                "entries": [
                     "reference"
                 ] 
             }
@@ -82,7 +82,7 @@
             "type": "scanner",
             "filter": {
                 "type": "ALLOW",
-                "contents": [
+                "entries": [
                     "game"
                 ]
             },
@@ -109,7 +109,7 @@
                     "block": "unknown",
                     "signs": {
                         "type": "ALLOW",
-                        "contents": [
+                        "entries": [
                             "Key"
                         ]
                     }
@@ -120,7 +120,7 @@
             "type": "scanner",
             "filter": {
                 "type": "ALLOW",
-                "contents": [
+                "entries": [
                     "hub"
                 ]
             },
@@ -142,7 +142,7 @@
             "type": "duplicate_sections",
             "filter": {
                 "type": "ALLOW",
-                "contents": [
+                "entries": [
                     "game"
                 ]
             },

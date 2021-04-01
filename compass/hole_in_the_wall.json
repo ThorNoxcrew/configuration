@@ -22,7 +22,7 @@
             "type": "scanner",
             "filter": {
                 "type": "DENY",
-                "contents": [
+                "entries": [
                     "ref_walls"
                 ]
             },
@@ -52,7 +52,7 @@
                     "block": "unknown",
                     "signs": {
                         "type": "ALLOW",
-                        "contents": [
+                        "entries": [
                             "Direction"
                         ]
                     },
@@ -67,7 +67,7 @@
             "type": "scanner",
             "filter": {
                 "type": "ALLOW",
-                "contents": [
+                "entries": [
                     "ref_walls"
                 ]
             },
@@ -78,7 +78,7 @@
                     "max": "INFESTED_STONE_BRICKS",
                     "signs": {
                         "type": "ALLOW",
-                        "contents": [
+                        "entries": [
                             "Stage"
                         ]
                     }
@@ -97,7 +97,7 @@
             "type": "split_world_per_section",
             "filter": {
                 "type": "DENY",
-                "contents": [
+                "entries": [
                     "ref_walls"
                 ]
             }

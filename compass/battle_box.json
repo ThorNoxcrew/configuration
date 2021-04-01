@@ -27,7 +27,7 @@
                     "max": "EMERALD_ORE",
                     "signs": {
                         "type": "ALLOW",
-                        "contents": [
+                        "entries": [
                             "Key"
                         ]
                     }
@@ -38,14 +38,14 @@
             "type": "battle_box_map_splitter",
             "filter": {
                 "type": "ALLOW",
-                "contents": [
+                "entries": [
                     "reference"
                 ]
             },
             "map_scan": "game_area",
             "maps": {
                 "type": "ALLOW",
-                "contents": [
+                "entries": [
                     "villa"
                 ]
             }
@@ -54,7 +54,7 @@
             "type": "scanner",
             "filter": {
                 "type": "ALLOW",
-                "contents": [
+                "entries": [
                     "game"
                 ]
             },
@@ -72,7 +72,7 @@
                     "block": "SPONGE",
                     "signs": {
                         "type": "ALLOW",
-                        "contents": [
+                        "entries": [
                             "Phase"
                         ]
                     },
@@ -99,7 +99,7 @@
             "type": "scanner",
             "filter": {
                 "type": "ALLOW",
-                "contents": [
+                "entries": [
                     "hub"
                 ]
             },
@@ -118,7 +118,7 @@
             "type": "remove_sections",
             "filter": {
                 "type": "ALLOW",
-                "contents": [
+                "entries": [
                     "reference"
                 ] 
             }
@@ -130,7 +130,7 @@
             "type": "duplicate_sections",
             "filter": {
                 "type": "ALLOW",
-                "contents": [
+                "entries": [
                     "game"
                 ]
             },

@@ -30,7 +30,7 @@
                     "max": "EMERALD_ORE",
                     "signs": {
                         "type": "ALLOW",
-                        "contents": [
+                        "entries": [
                             "Room"
                         ]
                     }
@@ -56,7 +56,7 @@
             "type": "remove_sections",
             "filter": {
                 "type": "ALLOW",
-                "contents": [
+                "entries": [
                     "template",
                     "rooms"
                 ] 
