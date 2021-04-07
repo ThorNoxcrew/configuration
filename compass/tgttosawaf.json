@@ -74,6 +74,16 @@
                     "type": "area",
                     "min": "INFESTED_MOSSY_STONE_BRICKS",
                     "max": "INFESTED_CRACKED_STONE_BRICKS"
+                },
+                "mob_spawns": {
+                    "type": "single",
+                    "block": "GOLD_ORE",
+                    "signs": {
+                        "type": "ALLOW",
+                        "entries": [
+                            "Mob"
+                        ]
+                    }
                 }
             }
         },
