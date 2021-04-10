@@ -8,7 +8,7 @@
             [0, 0]
         ],
         "rooms": [
-            [-9, 2]
+            [0, 1]
         ]
     },
     "processors": [
@@ -29,7 +29,7 @@
                     "min": "DIAMOND_ORE",
                     "max": "EMERALD_ORE",
                     "signs": {
-                        "type": "ALLOW",
+                        "strategy": "ALLOW",
                         "entries": [
                             "Room"
                         ]
@@ -39,9 +39,9 @@
         },
         {
             "type": "grid_runners_assembler",
-            "template_scan": "template_area",
-            "rooms_scan": "rooms",
-            "selected_rooms": [
+            "templateScan": "template_area",
+            "roomsScan": "rooms",
+            "selectedRooms": [
                 "picturepanic",
                 "picturepanic",
                 "picturepanic",
@@ -55,7 +55,7 @@
         {
             "type": "remove_sections",
             "filter": {
-                "type": "ALLOW",
+                "strategy": "ALLOW",
                 "entries": [
                     "template",
                     "rooms"

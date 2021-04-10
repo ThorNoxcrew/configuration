@@ -42,7 +42,7 @@
                     "min": "DIAMOND_ORE",
                     "max": "crimson_stem",
                     "signs": {
-                        "type": "ALLOW",
+                        "strategy": "ALLOW",
                         "entries": [
                             "Key"
                         ]
@@ -53,16 +53,16 @@
         {
             "type": "parkour_tag_assembler",
             "filter": {
-                "type": "ALLOW",
+                "strategy": "ALLOW",
                 "entries": [
                     "reference"
                 ]
             },
-            "hub_scan": "hub_hat_area",
-            "match_scan": "match_hat_area",
-            "map_scan": "game_area",
+            "hubScan": "hub_hat_area",
+            "matchScan": "match_hat_area",
+            "mapScan": "game_area",
             "maps": {
-                "type": "ALLOW",
+                "strategy": "ALLOW",
                 "entries": [
                     "sewage"
                 ]
@@ -72,7 +72,7 @@
         {
             "type": "remove_sections",
             "filter": {
-                "type": "ALLOW",
+                "strategy": "ALLOW",
                 "entries": [
                     "reference"
                 ] 
@@ -81,7 +81,7 @@
         {
             "type": "scanner",
             "filter": {
-                "type": "ALLOW",
+                "strategy": "ALLOW",
                 "entries": [
                     "game"
                 ]
@@ -108,7 +108,7 @@
                     "type": "single",
                     "block": "unknown",
                     "signs": {
-                        "type": "ALLOW",
+                        "strategy": "ALLOW",
                         "entries": [
                             "Key"
                         ]
@@ -119,7 +119,7 @@
         {
             "type": "scanner",
             "filter": {
-                "type": "ALLOW",
+                "strategy": "ALLOW",
                 "entries": [
                     "hub"
                 ]
@@ -141,7 +141,7 @@
         {
             "type": "duplicate_sections",
             "filter": {
-                "type": "ALLOW",
+                "strategy": "ALLOW",
                 "entries": [
                     "game"
                 ]

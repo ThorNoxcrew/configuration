@@ -26,7 +26,7 @@
                     "min": "DIAMOND_ORE",
                     "max": "EMERALD_ORE",
                     "signs": {
-                        "type": "ALLOW",
+                        "strategy": "ALLOW",
                         "entries": [
                             "Key"
                         ]
@@ -37,14 +37,14 @@
         {
             "type": "battle_box_map_splitter",
             "filter": {
-                "type": "ALLOW",
+                "strategy": "ALLOW",
                 "entries": [
                     "reference"
                 ]
             },
-            "map_scan": "game_area",
+            "mapScan": "game_area",
             "maps": {
-                "type": "ALLOW",
+                "strategy": "ALLOW",
                 "entries": [
                     "villa"
                 ]
@@ -53,7 +53,7 @@
         {
             "type": "scanner",
             "filter": {
-                "type": "ALLOW",
+                "strategy": "ALLOW",
                 "entries": [
                     "game"
                 ]
@@ -71,7 +71,7 @@
                     "type": "grouped",
                     "block": "SPONGE",
                     "signs": {
-                        "type": "ALLOW",
+                        "strategy": "ALLOW",
                         "entries": [
                             "Phase"
                         ]
@@ -89,16 +89,16 @@
         },
         {
             "type": "battle_box_hub_assembler",
-            "hub_scan": "hub_hat_area",
-            "paste_height_scan": "hub_paste_height",
+            "hubScan": "hub_hat_area",
+            "pasteHeightScan": "hub_paste_height",
             "offset": [6, 0, 0],
-            "negative_padding": [-10, 0, -10],
-            "positive_padding": [10, 10, 10]
+            "negativePadding": [-10, 0, -10],
+            "positivePadding": [10, 10, 10]
         },
         {
             "type": "scanner",
             "filter": {
-                "type": "ALLOW",
+                "strategy": "ALLOW",
                 "entries": [
                     "hub"
                 ]
@@ -117,7 +117,7 @@
         {
             "type": "remove_sections",
             "filter": {
-                "type": "ALLOW",
+                "strategy": "ALLOW",
                 "entries": [
                     "reference"
                 ] 
@@ -129,7 +129,7 @@
         {
             "type": "duplicate_sections",
             "filter": {
-                "type": "ALLOW",
+                "strategy": "ALLOW",
                 "entries": [
                     "game"
                 ]

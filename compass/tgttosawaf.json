@@ -79,7 +79,7 @@
                     "type": "single",
                     "block": "GOLD_ORE",
                     "signs": {
-                        "type": "ALLOW",
+                        "strategy": "ALLOW",
                         "entries": [
                             "Mob"
                         ]

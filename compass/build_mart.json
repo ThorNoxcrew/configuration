@@ -38,7 +38,7 @@
         {
             "type": "scanner",
             "filter": {
-                "type": "ALLOW",
+                "strategy": "ALLOW",
                 "entries": [
                     "ref_builds"
                 ]
