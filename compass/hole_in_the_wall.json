@@ -39,27 +39,6 @@
                     "type": "area",
                     "min": "unknown",
                     "max": "unknown"
-                },
-                "platform_min_corner": {
-                    "type": "single",
-                    "block": "unknown",
-                    "limit": {
-                        "max": 1
-                    }
-                },
-                "wall_min_corner": {
-                    "type": "single",
-                    "block": "unknown",
-                    "signs": {
-                        "strategy": "ALLOW",
-                        "entries": [
-                            "Direction"
-                        ]
-                    },
-                    "limit": {
-                        "min": 4,
-                        "max": 4
-                    }
                 }
             }
         },
