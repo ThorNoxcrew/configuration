@@ -39,6 +39,38 @@
                     "type": "area",
                     "min": "unknown",
                     "max": "unknown"
+                },
+                "wall_spawn": {
+                    "type": "single",
+                    "block": "unknown",
+                    "limit": {
+                        "min": 4,
+                        "max": 4
+                    },
+                    "signs": {
+                        "strategy": "ALLOW",
+                        "entries": [
+                            "Direction"
+                        ]
+                    }
+                },
+                "wall_crossing_area": {
+                    "type": "area",
+                    "min": "unknown",
+                    "max": "unknown",
+                    "limit": {
+                        "min": 1,
+                        "max": 1
+                    }
+                },
+                "platform": {
+                    "type": "area",
+                    "min": "unknown",
+                    "max": "unknown",
+                    "limit": {
+                        "min": 1,
+                        "max": 1
+                    }
                 }
             }
         },
@@ -51,21 +83,35 @@
                 ]
             },
             "targets": {
-                "platform_sources": {
+                "platform": {
                     "type": "area",
-                    "min": "INFESTED_STONE",
-                    "max": "INFESTED_STONE_BRICKS",
+                    "min": "unknown",
+                    "max": "unknown",
                     "signs": {
                         "strategy": "ALLOW",
                         "entries": [
-                            "Stage"
+                            "Step"
                         ]
+                    },
+                    "limit": {
+                        "min": 3,
+                        "max": 3
                     }
                 },
                 "walls": {
                     "type": "area",
-                    "min": "GOLD_ORE",
-                    "max": "NETHER_GOLD_ORE"
+                    "min": "unknown",
+                    "max": "unknown",
+                    "signs": {
+                        "strategy": "ALLOW",
+                        "entries": [
+                            "Difficulty"
+                        ]
+                    },
+                    "limit": {
+                        "min": 3,
+                        "max": 3
+                    }
                 }
             }
         },
