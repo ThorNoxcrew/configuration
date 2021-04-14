@@ -13,11 +13,11 @@
             "type": "scanner",
             "targets": {
                 "anchor": {
-                    "type": "mcc:markers/parkour_tag/anchor",
+                    "type": "single",
                     "limit": {
                         "min": 3
                     },
-                    "block": "ANCIENT_DEBRIS"
+                    "block": "mcc:markers/parkour_tag/anchor"
                 },
                 "hub_hat_area": {
                     "type": "area",
@@ -113,7 +113,7 @@
                 },
                 "spectator_spawnpoint": {
                     "type": "single",
-                    "block": "mcc:markers/spectator_spawnpoint",
+                    "block": "mcc:markers/spectator_spawnpoint/extra",
                     "signs": {
                         "strategy": "ALLOW",
                         "entries": [

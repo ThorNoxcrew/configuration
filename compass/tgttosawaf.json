@@ -87,7 +87,7 @@
                 },
                 "mob_spawns": {
                     "type": "single",
-                    "block": "mcc:markers/mob_spawn",
+                    "block": "mcc:markers/mob_spawn/extra",
                     "signs": {
                         "strategy": "ALLOW",
                         "entries": [

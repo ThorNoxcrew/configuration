@@ -67,7 +67,7 @@
                 },
                 "spawnpoints": {
                     "type": "grouped",
-                    "block": "mcc:markers/player_spawnpoints",
+                    "block": "mcc:markers/player_spawnpoints/extra",
                     "signs": {
                         "strategy": "ALLOW",
                         "entries": [

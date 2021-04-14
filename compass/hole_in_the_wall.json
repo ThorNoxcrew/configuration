@@ -85,7 +85,7 @@
             "targets": {
                 "platform": {
                     "type": "area",
-                    "min": "mcc:markers/hitw/platform/min",
+                    "min": "mcc:markers/hitw/platform/extra/min",
                     "max": "mcc:markers/hitw/platform/max",
                     "signs": {
                         "strategy": "ALLOW",
