@@ -59,35 +59,35 @@
             "targets": {
                 "spawnpoints": {
                     "type": "grouped",
-                    "block": "INFESTED_COBBLESTONE"
+                    "block": "mcc:markers/player_spawnpoints"
                 },
                 "spectator_spawnpoint": {
                     "type": "single",
-                    "block": "INFESTED_CHISELED_STONE_BRICKS"
+                    "block": "mcc:markers/spectator_spawnpoint"
                 },
                 "chicken_spawn_area": {
                     "type": "area",
-                    "min": "INFESTED_STONE",
-                    "max": "INFESTED_STONE_BRICKS"
+                    "min": "mcc:markers/tgttos/chicken_spawn_area/min",
+                    "max": "mcc:markers/tgttos/chicken_spawn_area/max"
                 },
                 "spawn_barriers": {
                     "type": "area",
-                    "min": "INFESTED_MOSSY_STONE_BRICKS",
-                    "max": "INFESTED_CRACKED_STONE_BRICKS"
+                    "min": "mcc:markers/spawn_barriers/min",
+                    "max": "mcc:markers/spawn_barriers/max"
                 },
                 "spawn_area": {
                     "type": "area",
-                    "min": "unknown",
-                    "max": "unknown"
+                    "min": "mcc:markers/tgttos/spawn_area/min",
+                    "max": "mcc:markers/tgttos/spawn_area/max"
                 },
                 "playable_area": {
                     "type": "area",
-                    "min": "unknown",
-                    "max": "unknown"
+                    "min": "mcc:markers/playable_area/min",
+                    "max": "mcc:markers/playable_area/max"
                 },
                 "mob_spawns": {
                     "type": "single",
-                    "block": "GOLD_ORE",
+                    "block": "mcc:markers/mob_spawn",
                     "signs": {
                         "strategy": "ALLOW",
                         "entries": [

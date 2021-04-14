@@ -29,20 +29,20 @@
             "targets": {
                 "spawnpoints": {
                     "type": "grouped",
-                    "block": "SPONGE"
+                    "block": "mcc:markers/player_spawnpoints"
                 },
                 "spectator_spawnpoint": {
                     "type": "single",
-                    "block": "unknown"
+                    "block": "mcc:markers/spectator_spawnpoint"
                 },
                 "spawn_barriers": {
                     "type": "area",
-                    "min": "unknown",
-                    "max": "unknown"
+                    "min": "mcc:markers/spawn_barriers/min",
+                    "max": "mcc:markers/spawn_barriers/max"
                 },
                 "wall_spawn": {
                     "type": "single",
-                    "block": "unknown",
+                    "block": "mcc:markers/hitw/wall_spawns",
                     "limit": {
                         "min": 4,
                         "max": 4
@@ -56,8 +56,8 @@
                 },
                 "wall_crossing_area": {
                     "type": "area",
-                    "min": "unknown",
-                    "max": "unknown",
+                    "min": "mcc:markers/hitw/wall_crossing/min",
+                    "max": "mcc:markers/hitw/wall_crossing/max",
                     "limit": {
                         "min": 1,
                         "max": 1
@@ -65,8 +65,8 @@
                 },
                 "platform": {
                     "type": "area",
-                    "min": "unknown",
-                    "max": "unknown",
+                    "min": "mcc:markers/hitw/platform/min",
+                    "max": "mcc:markers/hitw/platform/max",
                     "limit": {
                         "min": 1,
                         "max": 1
@@ -85,8 +85,8 @@
             "targets": {
                 "platform": {
                     "type": "area",
-                    "min": "unknown",
-                    "max": "unknown",
+                    "min": "mcc:markers/hitw/platform/min",
+                    "max": "mcc:markers/hitw/platform/max",
                     "signs": {
                         "strategy": "ALLOW",
                         "entries": [
@@ -100,8 +100,8 @@
                 },
                 "walls": {
                     "type": "area",
-                    "min": "unknown",
-                    "max": "unknown",
+                    "min": "mcc:markers/hitw/walls_sources/min",
+                    "max": "mcc:markers/hitw/walls_sources/max",
                     "signs": {
                         "strategy": "ALLOW",
                         "entries": [

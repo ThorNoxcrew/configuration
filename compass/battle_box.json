@@ -14,8 +14,8 @@
             "targets": {
                 "hub_hat_area": {
                     "type": "area",
-                    "min": "GOLD_ORE",
-                    "max": "NETHER_GOLD_ORE",
+                    "min": "mcc:markers/battle_box/hub/min",
+                    "max": "mcc:markers/battle_box/hub/max",
                     "limit": {
                         "min": 1,
                         "max": 1
@@ -23,8 +23,8 @@
                 },
                 "game_area": {
                     "type": "area",
-                    "min": "DIAMOND_ORE",
-                    "max": "EMERALD_ORE",
+                    "min": "mcc:markers/battle_box/map/min",
+                    "max": "mcc:markers/battle_box/map/max",
                     "signs": {
                         "strategy": "ALLOW",
                         "entries": [
@@ -44,10 +44,8 @@
             },
             "mapScan": "game_area",
             "maps": {
-                "strategy": "ALLOW",
-                "entries": [
-                    "villa"
-                ]
+                "strategy": "DENY",
+                "entries": []
             }
         },
         {
@@ -65,11 +63,11 @@
                         "min": 1,
                         "max": 1
                     },
-                    "block": "ANCIENT_DEBRIS"
+                    "block": "mcc:markers/battle_box/hub_paste_height"
                 },
                 "spawnpoints": {
                     "type": "grouped",
-                    "block": "SPONGE",
+                    "block": "mcc:markers/player_spawnpoints",
                     "signs": {
                         "strategy": "ALLOW",
                         "entries": [
@@ -83,7 +81,7 @@
                 },
                 "spectator_spawnpoint": {
                     "type": "single",
-                    "block": "END_STONE"
+                    "block": "mcc:markers/spectator_spawnpoint"
                 }
             }
         },
@@ -106,11 +104,11 @@
             "targets": {
                 "hub_spawnpoints": {
                     "type": "grouped",
-                    "block": "SPONGE"
+                    "block": "mcc:markers/player_spawnpoints"
                 },
                 "hub_spectator_spawnpoint": {
                     "type": "single",
-                    "block": "DRIED_KELP_BLOCK"
+                    "block": "mcc:markers/spectator_spawnpoint"
                 }
             }
         },

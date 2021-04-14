@@ -27,11 +27,11 @@
             "targets": {
                 "spawnpoints": {
                     "type": "grouped",
-                    "block": "unknown"
+                    "block": "mcc:markers/player_spawnpoints"
                 },
                 "spectator_spawnpoint": {
                     "type": "single",
-                    "block": "unknown"
+                    "block": "mcc:markers/spectator_spawnpoint"
                 }
             }
         },
@@ -46,7 +46,7 @@
             "targets": {
                 "build_corners": {
                     "type": "single",
-                    "block": "unknown"
+                    "block": "mcc:markers/build_mart/build_template"
                 }
             }
         },

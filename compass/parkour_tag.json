@@ -13,7 +13,7 @@
             "type": "scanner",
             "targets": {
                 "anchor": {
-                    "type": "single",
+                    "type": "mcc:markers/parkour_tag/anchor",
                     "limit": {
                         "min": 3
                     },
@@ -21,8 +21,8 @@
                 },
                 "hub_hat_area": {
                     "type": "area",
-                    "min": "warped_nylium",
-                    "max": "crimson_nylium",
+                    "min": "mcc:markers/parkour_tag/hub_hat/min",
+                    "max": "mcc:markers/parkour_tag/hub_hat/max",
                     "limit": {
                         "min": 1,
                         "max": 1
@@ -30,8 +30,8 @@
                 },
                 "match_hat_area": {
                     "type": "area",
-                    "min": "GOLD_ORE",
-                    "max": "NETHER_GOLD_ORE",
+                    "min": "mcc:markers/parkour_tag/match_hat/min",
+                    "max": "mcc:markers/parkour_tag/match_hat/max",
                     "limit": {
                         "min": 1,
                         "max": 1
@@ -39,8 +39,8 @@
                 },
                 "game_area": {
                     "type": "area",
-                    "min": "DIAMOND_ORE",
-                    "max": "crimson_stem",
+                    "min": "mcc:markers/parkour_tag/map/min",
+                    "max": "mcc:markers/parkour_tag/map/max",
                     "signs": {
                         "strategy": "ALLOW",
                         "entries": [
@@ -61,13 +61,11 @@
             "hubScan": "hub_hat_area",
             "matchScan": "match_hat_area",
             "mapScan": "game_area",
+            "anchor": "anchor",
             "maps": {
-                "strategy": "ALLOW",
-                "entries": [
-                    "sewage"
-                ]
-            },
-            "anchor": "anchor"
+                "strategy": "DENY",
+                "entries": []
+            }
         },
         {
             "type": "remove_sections",
@@ -89,28 +87,37 @@
             "targets": {
                 "waiting_spawnpoints": {
                     "type": "grouped",
-                    "block": "unknown",
+                    "block": "mcc:markers/parkour_tag/lounge_spawnpoints",
                     "limit": {
                         "min": 0,
                         "max": 8
                     }
                 },
-                "round_spawnpoints": {
-                    "type": "grouped",
-                    "block": "SPONGE",
+                "runner_spawnpoints": {
+                    "type": "single",
+                    "block": "mcc:markers/parkour_tag/runner_spawnpoints",
                     "limit": {
-                        "min": 4,
-                        "max": 4
+                        "min": 3,
+                        "max": 3
+                    },
+                    "offset": [0, -1, 0]
+                },
+                "hunter_spawnpoints": {
+                    "type": "single",
+                    "block": "mcc:markers/parkour_tag/hunter_spawnpoint",
+                    "limit": {
+                        "min": 1,
+                        "max": 1
                     },
                     "offset": [0, -1, 0]
                 },
                 "spectator_spawnpoint": {
                     "type": "single",
-                    "block": "unknown",
+                    "block": "mcc:markers/spectator_spawnpoint",
                     "signs": {
                         "strategy": "ALLOW",
                         "entries": [
-                            "Key"
+                            "Phase"
                         ]
                     }
                 }

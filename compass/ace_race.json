@@ -18,16 +18,16 @@
             "targets": {
                 "spawnpoints": {
                     "type": "grouped",
-                    "block": "unknown"
+                    "block": "mcc:markers/player_spawnpoints"
                 },
                 "spectator_spawnpoint": {
                     "type": "single",
-                    "block": "unknown"
+                    "block": "mcc:markers/spectator_spawnpoint"
                 },
                 "checkpoints": {
                     "type": "area",
-                    "min": "unknown",
-                    "max": "unknown",
+                    "min": "mcc:markers/ace_race/checkpoint/min",
+                    "max": "mcc:markers/ace_race/checkpoint/max",
                     "signs": {
                         "strategy": "ALLOW",
                         "entries": [
@@ -35,41 +35,25 @@
                         ]
                     }
                 },
-                "speed_pad": {
+                "speed_boosts": {
                     "type": "single",
-                    "block": "infested_mossy_stone_bricks"
+                    "block": "mcc:markers/ace_race/speed_boosts"
                 },
-                "red_launcher": {
+                "jump_pads": {
                     "type": "single",
-                    "block": "infested_cracked_stone_bricks"
+                    "block": "mcc:markers/ace_race/jump_pads"
                 },
-                "orange_launcher": {
+                "mega_jump_pads": {
                     "type": "single",
-                    "block": "infested_chiseled_stone_bricks"
+                    "block": "mcc:markers/ace_race/mega_jump_pads"
                 },
-                "dolphin_ring": {
+                "aqua_launchers": {
                     "type": "single",
-                    "block": "infested_stone"
+                    "block": "mcc:markers/ace_race/aqua_launchers"
                 },
-                "elytra_ring": {
+                "wing_rings": {
                     "type": "single",
-                    "block": "infested_cobblestone"
-                }
-            }
-        },
-        {
-            "type": "scanner",
-            "filter": {
-                "strategy": "ALLOW",
-                "entries": [
-                    "clouds"
-                ]
-            },
-            "targets": {
-                "spawn_barriers": {
-                    "type": "area",
-                    "min": "unknown",
-                    "max": "unknown"
+                    "block": "mcc:markers/ace_race/wing_rings"
                 }
             }
         },
