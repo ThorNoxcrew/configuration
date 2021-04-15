@@ -1,0 +1,47 @@
+{
+    "input": {
+        "type": "build_server",
+        "name": "hub"
+    },
+    "sections": {
+        "hub": [
+            [0, 0],
+            [1, 0],
+            [0, 1],
+            [1, 1],
+            [2, 0],
+            [2, 1]
+        ]
+    },
+    "processors": [
+        {
+            "type": "scanner",
+            "targets": {
+                "spawnpoints": {
+                    "type": "grouped",
+                    "block": "mcc:markers/player_spawnpoints/extra",
+                    "signs": {
+                        "strategy": "ALLOW",
+                        "entries": [
+                            "Phase"
+                        ]
+                    },
+                    "limit": {
+                        "min": 120,
+                        "max": 120
+                    }
+                },
+                "spectator_spawnpoint": {
+                    "type": "single",
+                    "block": "mcc:markers/spectator_spawnpoint"
+                }
+            }
+        },
+        {
+            "type": "lighting_updater"
+        },
+        {
+            "type": "empty_region_padding"
+        }
+    ]
+}
