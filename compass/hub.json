@@ -33,7 +33,17 @@
                 },
                 "spectator_spawnpoint": {
                     "type": "single",
-                    "block": "mcc:markers/spectator_spawnpoint"
+                    "block": "mcc:markers/spectator_spawnpoint/extra",
+                    "signs": {
+                        "strategy": "ALLOW",
+                        "entries": [
+                            "Phase"
+                        ]
+                    },
+                    "limit": {
+                        "min": 3,
+                        "max": 3
+                    }
                 }
             }
         },

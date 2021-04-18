@@ -19,7 +19,7 @@
         {
             "type": "scanner",
             "filter": {
-                "type": "DENY",
+                "strategy": "DENY",
                 "entries": [
                     "ref_builds"
                 ]
@@ -56,7 +56,7 @@
         {
             "type": "split_world_per_section",
             "filter": {
-                "type": "DENY",
+                "strategy": "DENY",
                 "entries": [
                     "ref_builds"
                 ]
