@@ -51,6 +51,9 @@
         ],
         "mesa": [
             [0, 6]
+        ],
+        "beehive": [
+            [0, -4]
         ]
     },
     "processors": [
