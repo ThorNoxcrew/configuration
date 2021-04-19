@@ -54,6 +54,13 @@
         ],
         "beehive": [
             [0, -4]
+        ],
+        "glide2": [
+            [4, 0],
+            [4, -1]
+        ],
+        "sandtemple": [
+            [4, -2]
         ]
     },
     "processors": [
