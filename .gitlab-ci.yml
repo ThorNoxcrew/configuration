@@ -6,7 +6,9 @@ stages:
   image: git.noxcrew.online:5050/noxcrew/devops/fs2consulkv:master-70dae7e08fda29b866eb58635b62ae6b5efe77e8
   # https://gitlab.com/gitlab-org/gitlab-runner/-/issues/27524
   script: 
+    - kubectl port-forward --namespace ops service consul-server 8500:8500 &
     - fs2consulkv --fs-kv-path . --consul-url http://consul-server.ops.svc:8500 --consul-acl-token "$CONSUL_ACL_TOKEN" --consul-kv-root "configuration/$CI_COMMIT_BRANCH" --skip-prompt
+    - kill $!
     
 .kube_env_dev:
   extends: .upload_consul
