@@ -7,7 +7,7 @@ stages:
   tags: [docker]
   # https://gitlab.com/gitlab-org/gitlab-runner/-/issues/27524
   script: 
-    - ./consul-wrapper.py fs2consulkv --fs-kv-path . --consul-url http://localhost:8500 --consul-acl-token "$CONSUL_ACL_TOKEN" --consul-kv-root "configuration/$CI_COMMIT_BRANCH" --skip-prompt
+    - ./.consul-wrapper.py fs2consulkv --fs-kv-path . --consul-url http://localhost:8500 --consul-acl-token "$CONSUL_ACL_TOKEN" --consul-kv-root "configuration/$CI_COMMIT_BRANCH" --skip-prompt
     
 .kube_env_dev:
   extends: .upload_consul
