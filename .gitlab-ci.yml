@@ -7,7 +7,8 @@ stages:
   # https://gitlab.com/gitlab-org/gitlab-runner/-/issues/27524
   script: 
     - kubectl port-forward --namespace ops service consul-server 8500:8500 &
-    - fs2consulkv --fs-kv-path . --consul-url http://consul-server.ops.svc:8500 --consul-acl-token "$CONSUL_ACL_TOKEN" --consul-kv-root "configuration/$CI_COMMIT_BRANCH" --skip-prompt
+    - sleep 5
+    - fs2consulkv --fs-kv-path . --consul-url http://localhost:8500 --consul-acl-token "$CONSUL_ACL_TOKEN" --consul-kv-root "configuration/$CI_COMMIT_BRANCH" --skip-prompt
     - kill $!
     
 .kube_env_dev:
