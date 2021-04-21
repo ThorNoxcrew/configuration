@@ -3,13 +3,15 @@
         "type": "build_server",
         "name": "hole_in_the_wall"
     },
-    "sections": {
+    "unused_sections": {
         "original": [
             [0, 0]
         ],
         "beach": [
             [2, 0]
-        ],
+        ]
+    },
+    "sections": {
         "highrise": [
             [4, 0]
         ],
@@ -29,16 +31,26 @@
             "targets": {
                 "spawnpoints": {
                     "type": "grouped",
-                    "block": "mcc:markers/player_spawnpoints"
+                    "block": "mcc:markers/player_spawnpoints",
+                    "limit": {
+                        "min": 40,
+                        "max": 40 
+                    }
                 },
                 "spectator_spawnpoint": {
                     "type": "single",
-                    "block": "mcc:markers/spectator_spawnpoint"
+                    "block": "mcc:markers/spectator_spawnpoint",
+                    "limit": {
+                        "min": 1
+                    }
                 },
                 "spawn_barriers": {
                     "type": "area",
                     "min": "mcc:markers/spawn_barriers/min",
-                    "max": "mcc:markers/spawn_barriers/max"
+                    "max": "mcc:markers/spawn_barriers/max",
+                    "limit": {
+                        "min": 1
+                    }
                 },
                 "wall_spawn": {
                     "type": "single",
@@ -100,8 +112,8 @@
                 },
                 "walls": {
                     "type": "area",
-                    "min": "mcc:markers/hitw/walls_sources/min",
-                    "max": "mcc:markers/hitw/walls_sources/max",
+                    "min": "mcc:markers/hitw/wall_sources/min",
+                    "max": "mcc:markers/hitw/wall_sources/max",
                     "signs": {
                         "strategy": "ALLOW",
                         "entries": [

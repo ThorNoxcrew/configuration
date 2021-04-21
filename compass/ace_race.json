@@ -10,6 +10,10 @@
         ],
         "pythons_crypt": [
             [3, 0]
+        ],
+        "space": [
+            [5, 0],
+            [5, -1]
         ]
     },
     "processors": [
@@ -18,11 +22,19 @@
             "targets": {
                 "spawnpoints": {
                     "type": "grouped",
-                    "block": "mcc:markers/player_spawnpoints"
+                    "block": "mcc:markers/player_spawnpoints",
+                    "limit": {
+                        "min": 40,
+                        "max": 40 
+                    }
                 },
                 "spectator_spawnpoint": {
                     "type": "single",
-                    "block": "mcc:markers/spectator_spawnpoint"
+                    "block": "mcc:markers/spectator_spawnpoint",
+                    "limit": {
+                        "min": 1,
+                        "max": 1 
+                    }
                 },
                 "checkpoints": {
                     "type": "area",

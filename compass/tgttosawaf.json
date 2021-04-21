@@ -81,8 +81,7 @@
                     "type": "single",
                     "block": "mcc:markers/spectator_spawnpoint",
                     "limit": {
-                        "min": 1,
-                        "max": 1
+                        "min": 1
                     }
                 },
                 "chicken_spawn_area": {
@@ -120,6 +119,26 @@
                             "Mob"
                         ]
                     }
+                },
+                "speed_boosts": {
+                    "type": "single",
+                    "block": "mcc:markers/ace_race/speed_boosts"
+                },
+                "jump_pads": {
+                    "type": "single",
+                    "block": "mcc:markers/ace_race/jump_pads"
+                },
+                "mega_jump_pads": {
+                    "type": "single",
+                    "block": "mcc:markers/ace_race/mega_jump_pads"
+                },
+                "aqua_launchers": {
+                    "type": "single",
+                    "block": "mcc:markers/ace_race/aqua_launchers"
+                },
+                "wing_rings": {
+                    "type": "single",
+                    "block": "mcc:markers/ace_race/wing_rings"
                 }
             }
         },

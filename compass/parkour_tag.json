@@ -89,7 +89,7 @@
                     "type": "grouped",
                     "block": "mcc:markers/parkour_tag/lounge_spawnpoints",
                     "limit": {
-                        "min": 0,
+                        "min": 8,
                         "max": 8
                     }
                 },
@@ -113,12 +113,9 @@
                 },
                 "spectator_spawnpoint": {
                     "type": "single",
-                    "block": "mcc:markers/spectator_spawnpoint/extra",
-                    "signs": {
-                        "strategy": "ALLOW",
-                        "entries": [
-                            "Phase"
-                        ]
+                    "block": "mcc:markers/spectator_spawnpoint",
+                    "limit": {
+                        "min": 1
                     }
                 }
             }
@@ -134,11 +131,18 @@
             "targets": {
                 "hub_spawnpoints": {
                     "type": "grouped",
-                    "block": "SPONGE"
+                    "block": "mcc:markers/player_spawnpoints",
+                    "limit": {
+                        "min": 40,
+                        "max": 40 
+                    }
                 },
                 "hub_spectator_spawnpoint": {
                     "type": "single",
-                    "block": "unknown"
+                    "block": "mcc:markers/spectator_spawnpoint",
+                    "limit": {
+                        "min": 1
+                    }
                 }
             }
         },
