@@ -4,26 +4,46 @@
         "name": "grid_runners"
     },
     "sections": {
-        "template": [
-            [0, 0]
+        "arena": [
+            [0, 0],
+            [1, 0]
         ],
-        "rooms": [
-            [0, 1]
+        "ref_rooms": [
+            [11, 9],
+            [12, 9],
+            [13, 9],
+            [14, 9]
         ]
     },
     "processors": [
         {
             "type": "scanner",
+            "filter": {
+                "strategy": "ALLOW",
+                "entries": [
+                    "arena"
+                ]
+            },
             "targets": {
-                "templates_area": {
-                    "type": "area",
-                    "min": "mcc:markers/grid_runners/templates_area/min",
-                    "max": "mcc:markers/grid_runners/templates_area/max",
+                "paste_anchors": {
+                    "type": "single",
+                    "block": "mcc:markers/grid_runners/paste_anchor",
                     "limit": {
                         "min": 1,
                         "max": 1
                     }
-                },
+                }
+            }
+        },
+        {
+            "type": "scanner",
+            "filter": {
+                "strategy": "ALLOW",
+                "entries": [
+                    "ref_rooms"
+                ]
+            },
+            "targets": {
                 "rooms": {
                     "type": "area",
                     "min": "mcc:markers/grid_runners/room/min",
@@ -39,8 +59,6 @@
         },
         {
             "type": "grid_runners_assembler",
-            "templateScan": "template_area",
-            "roomsScan": "rooms",
             "selected": "mcc14",
             "presets": {
                 "mcc14": [
