@@ -41,16 +41,19 @@
             "type": "grid_runners_assembler",
             "templateScan": "template_area",
             "roomsScan": "rooms",
-            "selectedRooms": [
-                "picturepanic",
-                "picturepanic",
-                "picturepanic",
-                "picturepanic",
-                "picturepanic",
-                "picturepanic",
-                "picturepanic",
-                "picturepanic"
-            ]
+            "selected": "mcc14",
+            "presets": {
+                "mcc14": [
+                    "picturepanic",
+                    "picturepanic",
+                    "picturepanic",
+                    "picturepanic",
+                    "picturepanic",
+                    "picturepanic",
+                    "picturepanic",
+                    "picturepanic"
+                ]
+            }
         },
         {
             "type": "remove_sections",

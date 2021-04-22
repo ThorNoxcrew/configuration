@@ -41,6 +41,29 @@
                     "limit": {
                         "min": 1
                     }
+                },
+                "resource_areas": {
+                    "type": "area",
+                    "min": "mcc:markers/build_mart/resource_area/min",
+                    "max": "mcc:markers/build_mart/resource_area/max",
+                    "limit": {
+                        "min": 1
+                    }
+                },
+                "jump_pads": {
+                    "type": "single",
+                    "block": "mcc:markers/ace_race/jump_pads"
+                },
+                "mega_jump_pads": {
+                    "type": "single",
+                    "block": "mcc:markers/ace_race/mega_jump_pads"
+                },
+                "cannon": {
+                    "type": "single",
+                    "block": "mcc:markers/build_mart/cannon",
+                    "limit": {
+                        "min": 1
+                    }
                 }
             }
         },
