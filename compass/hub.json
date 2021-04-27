@@ -40,9 +40,37 @@
                         "min": 3
                     }
                 },
-                "dome_segments": {
+                "dome/dial/piston": {
                     "type": "single",
-                    "block": "mcc:markers/decision_dome/segment",
+                    "block": "mcc:markers/decision_dome/dial/piston"
+                },
+                "dome/dial/segment/floor": {
+                    "type": "single",
+                    "block": "mcc:markers/decision_dome/dial/segment/floor",
+                    "signs": {
+                        "strategy": "ALLOW",
+                        "entries": ["Segment"]
+                    },
+                    "limit": {
+                        "min": 8
+                    },
+                    "offset": [0, -1, 0]
+                },
+                "dome/dial/segment/game_icon": {
+                    "type": "single",
+                    "block": "mcc:markers/decision_dome/dial/segment/game_icon",
+                    "signs": {
+                        "strategy": "ALLOW",
+                        "entries": ["Segment"]
+                    },
+                    "limit": {
+                        "min": 8
+                    },
+                    "offset": [0, 1, 0]
+                },
+                "dome/dial/segment/vote_display": {
+                    "type": "single",
+                    "block": "mcc:markers/decision_dome/dial/segment/vote_display",
                     "signs": {
                         "strategy": "ALLOW",
                         "entries": ["Segment"]
