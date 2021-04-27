@@ -1,32 +1,40 @@
 stages:
-  - upload
-  - deploy
+    - test
+    - upload
+    - deploy
+
+prettier:
+    stage: test
+    image: node:15.4.0-alpine
+    script:
+        - yarn global add prettier
+        - prettier -c .
 
 .upload_consul:
-  image: git.noxcrew.com:5050/noxcrew/fs2consulkv:master-5cb065cccf7422fe56f3526fceace7a4cf44e2a7
-  tags: [docker]
-  # https://gitlab.com/gitlab-org/gitlab-runner/-/issues/27524
-  script: 
-    - ./.consul-wrapper.py fs2consulkv --fs-kv-path . --consul-url http://localhost:8500 --consul-acl-token "$CONSUL_ACL_TOKEN" --consul-kv-root "configuration/$CI_COMMIT_BRANCH" --skip-prompt
-    
+    image: git.noxcrew.com:5050/noxcrew/fs2consulkv:master-5cb065cccf7422fe56f3526fceace7a4cf44e2a7
+    tags: [docker]
+    # https://gitlab.com/gitlab-org/gitlab-runner/-/issues/27524
+    script:
+        - ./.consul-wrapper.py fs2consulkv --fs-kv-path . --consul-url http://localhost:8500 --consul-acl-token "$CONSUL_ACL_TOKEN" --consul-kv-root "configuration/$CI_COMMIT_BRANCH" --skip-prompt
+
 .kube_env_dev:
-  extends: .upload_consul
-  environment:
-    name: dev-fs2consulkv
-    kubernetes:
-      namespace: ops
+    extends: .upload_consul
+    environment:
+        name: dev-fs2consulkv
+        kubernetes:
+            namespace: ops
 
 .kube_env_ptr:
-  extends: .upload_consul
-  environment:
-    name: ptr-fs2consulkv
-    kubernetes:
-      namespace: ops
+    extends: .upload_consul
+    environment:
+        name: ptr-fs2consulkv
+        kubernetes:
+            namespace: ops
 
 upload_consul_dev:
-  stage: upload
-  extends: [ .kube_env_dev, .upload_consul ]
+    stage: upload
+    extends: [.kube_env_dev, .upload_consul]
 
 upload_consul_ptr:
-  stage: upload
-  extends: [ .kube_env_ptr, .upload_consul ]
+    stage: upload
+    extends: [.kube_env_ptr, .upload_consul]

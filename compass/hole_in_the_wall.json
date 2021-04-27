@@ -4,29 +4,19 @@
         "name": "hole_in_the_wall"
     },
     "unused_sections": {
-        "original": [
-            [0, 0]
-        ],
-        "beach": [
-            [2, 0]
-        ]
+        "original": [[0, 0]],
+        "beach": [[2, 0]]
     },
     "sections": {
-        "highrise": [
-            [4, 0]
-        ],
-        "ref_walls": [
-            [-7, 7]
-        ]
+        "highrise": [[4, 0]],
+        "ref_walls": [[-7, 7]]
     },
     "processors": [
         {
             "type": "scanner",
             "filter": {
                 "strategy": "DENY",
-                "entries": [
-                    "ref_walls"
-                ]
+                "entries": ["ref_walls"]
             },
             "targets": {
                 "spawnpoints": {
@@ -34,7 +24,7 @@
                     "block": "mcc:markers/player_spawnpoints",
                     "limit": {
                         "min": 40,
-                        "max": 40 
+                        "max": 40
                     }
                 },
                 "spectator_spawnpoint": {
@@ -61,9 +51,7 @@
                     },
                     "signs": {
                         "strategy": "ALLOW",
-                        "entries": [
-                            "Direction"
-                        ]
+                        "entries": ["Direction"]
                     }
                 },
                 "wall_crossing_area": {
@@ -90,9 +78,7 @@
             "type": "scanner",
             "filter": {
                 "strategy": "ALLOW",
-                "entries": [
-                    "ref_walls"
-                ]
+                "entries": ["ref_walls"]
             },
             "targets": {
                 "platform": {
@@ -101,9 +87,7 @@
                     "max": "mcc:markers/hitw/platform/max",
                     "signs": {
                         "strategy": "ALLOW",
-                        "entries": [
-                            "Step"
-                        ]
+                        "entries": ["Step"]
                     },
                     "limit": {
                         "min": 3,
@@ -116,9 +100,7 @@
                     "max": "mcc:markers/hitw/wall_sources/max",
                     "signs": {
                         "strategy": "ALLOW",
-                        "entries": [
-                            "Difficulty"
-                        ]
+                        "entries": ["Difficulty"]
                     },
                     "limit": {
                         "min": 3,
@@ -134,9 +116,7 @@
             "type": "split_world_per_section",
             "filter": {
                 "strategy": "DENY",
-                "entries": [
-                    "ref_walls"
-                ]
+                "entries": ["ref_walls"]
             }
         },
         {

@@ -4,12 +4,8 @@
         "name": "sky_battle"
     },
     "sections": {
-        "classic": [
-            [0, 0]
-        ],
-        "medieval": [
-            [2, 0]
-        ]
+        "classic": [[0, 0]],
+        "medieval": [[2, 0]]
     },
     "processors": [
         {

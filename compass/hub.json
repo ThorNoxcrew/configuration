@@ -22,9 +22,7 @@
                     "block": "mcc:markers/player_spawnpoints/extra",
                     "signs": {
                         "strategy": "ALLOW",
-                        "entries": [
-                            "Phase"
-                        ]
+                        "entries": ["Phase"]
                     },
                     "limit": {
                         "min": 120,
@@ -36,12 +34,21 @@
                     "block": "mcc:markers/spectator_spawnpoint/extra",
                     "signs": {
                         "strategy": "ALLOW",
-                        "entries": [
-                            "Phase"
-                        ]
+                        "entries": ["Phase"]
                     },
                     "limit": {
                         "min": 3
+                    }
+                },
+                "dome_segments": {
+                    "type": "single",
+                    "block": "mcc:markers/decision_dome/segment",
+                    "signs": {
+                        "strategy": "ALLOW",
+                        "entries": ["Segment"]
+                    },
+                    "limit": {
+                        "min": 8
                     }
                 }
             }
