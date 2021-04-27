@@ -4,9 +4,7 @@
         "name": "battle_box"
     },
     "sections": {
-        "reference": [
-            [0, 0]
-        ]
+        "reference": [[0, 0]]
     },
     "processors": [
         {
@@ -27,9 +25,7 @@
                     "max": "mcc:markers/battle_box/map/max",
                     "signs": {
                         "strategy": "ALLOW",
-                        "entries": [
-                            "Key"
-                        ]
+                        "entries": ["Key"]
                     },
                     "limit": {
                         "min": 1
@@ -41,9 +37,7 @@
             "type": "battle_box_map_splitter",
             "filter": {
                 "strategy": "ALLOW",
-                "entries": [
-                    "reference"
-                ]
+                "entries": ["reference"]
             },
             "mapScan": "game_area",
             "maps": {
@@ -55,9 +49,7 @@
             "type": "scanner",
             "filter": {
                 "strategy": "ALLOW",
-                "entries": [
-                    "game"
-                ]
+                "entries": ["game"]
             },
             "targets": {
                 "hub_paste_height": {
@@ -73,9 +65,7 @@
                     "block": "mcc:markers/player_spawnpoints/extra",
                     "signs": {
                         "strategy": "ALLOW",
-                        "entries": [
-                            "Phase"
-                        ]
+                        "entries": ["Phase"]
                     },
                     "limit": {
                         "min": 16,
@@ -103,9 +93,7 @@
             "type": "scanner",
             "filter": {
                 "strategy": "ALLOW",
-                "entries": [
-                    "hub"
-                ]
+                "entries": ["hub"]
             },
             "targets": {
                 "hub_spawnpoints": {
@@ -113,7 +101,7 @@
                     "block": "mcc:markers/player_spawnpoints",
                     "limit": {
                         "min": 40,
-                        "max": 40 
+                        "max": 40
                     }
                 },
                 "hub_spectator_spawnpoint": {
@@ -129,9 +117,7 @@
             "type": "remove_sections",
             "filter": {
                 "strategy": "ALLOW",
-                "entries": [
-                    "reference"
-                ] 
+                "entries": ["reference"]
             }
         },
         {
@@ -141,9 +127,7 @@
             "type": "duplicate_sections",
             "filter": {
                 "strategy": "ALLOW",
-                "entries": [
-                    "game"
-                ]
+                "entries": ["game"]
             },
             "amount": 9
         },

@@ -4,9 +4,7 @@
         "name": "parkour_tag"
     },
     "sections": {
-        "reference": [
-            [0, 0]
-        ]
+        "reference": [[0, 0]]
     },
     "processors": [
         {
@@ -43,9 +41,7 @@
                     "max": "mcc:markers/parkour_tag/map/max",
                     "signs": {
                         "strategy": "ALLOW",
-                        "entries": [
-                            "Key"
-                        ]
+                        "entries": ["Key"]
                     }
                 }
             }
@@ -54,9 +50,7 @@
             "type": "parkour_tag_assembler",
             "filter": {
                 "strategy": "ALLOW",
-                "entries": [
-                    "reference"
-                ]
+                "entries": ["reference"]
             },
             "hubScan": "hub_hat_area",
             "matchScan": "match_hat_area",
@@ -71,18 +65,14 @@
             "type": "remove_sections",
             "filter": {
                 "strategy": "ALLOW",
-                "entries": [
-                    "reference"
-                ] 
+                "entries": ["reference"]
             }
         },
         {
             "type": "scanner",
             "filter": {
                 "strategy": "ALLOW",
-                "entries": [
-                    "game"
-                ]
+                "entries": ["game"]
             },
             "targets": {
                 "waiting_spawnpoints": {
@@ -124,9 +114,7 @@
             "type": "scanner",
             "filter": {
                 "strategy": "ALLOW",
-                "entries": [
-                    "hub"
-                ]
+                "entries": ["hub"]
             },
             "targets": {
                 "hub_spawnpoints": {
@@ -134,7 +122,7 @@
                     "block": "mcc:markers/player_spawnpoints",
                     "limit": {
                         "min": 40,
-                        "max": 40 
+                        "max": 40
                     }
                 },
                 "hub_spectator_spawnpoint": {
@@ -153,9 +141,7 @@
             "type": "duplicate_sections",
             "filter": {
                 "strategy": "ALLOW",
-                "entries": [
-                    "game"
-                ]
+                "entries": ["game"]
             },
             "amount": 18
         },

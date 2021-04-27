@@ -20,9 +20,7 @@
             "type": "scanner",
             "filter": {
                 "strategy": "ALLOW",
-                "entries": [
-                    "arena"
-                ]
+                "entries": ["arena"]
             },
             "targets": {
                 "paste_anchors": {
@@ -39,9 +37,7 @@
             "type": "scanner",
             "filter": {
                 "strategy": "ALLOW",
-                "entries": [
-                    "ref_rooms"
-                ]
+                "entries": ["ref_rooms"]
             },
             "targets": {
                 "rooms": {
@@ -50,9 +46,7 @@
                     "max": "mcc:markers/grid_runners/room/max",
                     "signs": {
                         "strategy": "ALLOW",
-                        "entries": [
-                            "Room"
-                        ]
+                        "entries": ["Room"]
                     }
                 }
             }
@@ -77,10 +71,7 @@
             "type": "remove_sections",
             "filter": {
                 "strategy": "ALLOW",
-                "entries": [
-                    "template",
-                    "rooms"
-                ] 
+                "entries": ["template", "rooms"]
             }
         },
         {
