@@ -5,6 +5,7 @@ stages:
 
 prettier:
     stage: test
+    image: node:15.4.0-alpine
     script:
         - yarn prettier -c .
 
