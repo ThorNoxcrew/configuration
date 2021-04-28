@@ -19,7 +19,7 @@
             "targets": {
                 "spawnpoints": {
                     "type": "grouped",
-                    "block": "mcc:markers/player_spawnpoints/extra",
+                    "block": "mcc:markers.player_spawnpoints.extra",
                     "signs": {
                         "strategy": "ALLOW",
                         "entries": ["Phase"]
@@ -31,7 +31,7 @@
                 },
                 "spectator_spawnpoint": {
                     "type": "single",
-                    "block": "mcc:markers/spectator_spawnpoint/extra",
+                    "block": "mcc:markers.spectator_spawnpoint.extra",
                     "signs": {
                         "strategy": "ALLOW",
                         "entries": ["Phase"]
@@ -40,13 +40,13 @@
                         "min": 3
                     }
                 },
-                "dome/dial/piston": {
+                "dome.dial.piston": {
                     "type": "single",
-                    "block": "mcc:markers/decision_dome/dial/piston"
+                    "block": "mcc:markers.decision_dome.dial.piston"
                 },
-                "dome/dial/segment/floor": {
+                "dome.dial.segment.floor": {
                     "type": "single",
-                    "block": "mcc:markers/decision_dome/dial/segment/floor",
+                    "block": "mcc:markers.decision_dome.dial.segment.floor",
                     "signs": {
                         "strategy": "ALLOW",
                         "entries": ["Segment"]
@@ -56,9 +56,9 @@
                     },
                     "offset": [0, -1, 0]
                 },
-                "dome/dial/segment/game_icon": {
+                "dome.dial.segment.game_icon": {
                     "type": "single",
-                    "block": "mcc:markers/decision_dome/dial/segment/game_icon",
+                    "block": "mcc:markers.decision_dome.dial.segment.game_icon",
                     "signs": {
                         "strategy": "ALLOW",
                         "entries": ["Segment"]
@@ -68,9 +68,9 @@
                     },
                     "offset": [0, 1, 0]
                 },
-                "dome/dial/segment/vote_display": {
+                "dome.dial.segment.vote_display": {
                     "type": "single",
-                    "block": "mcc:markers/decision_dome/dial/segment/vote_display",
+                    "block": "mcc:markers.decision_dome.dial.segment.vote_display",
                     "signs": {
                         "strategy": "ALLOW",
                         "entries": ["Segment"]

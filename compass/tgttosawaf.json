@@ -4,7 +4,7 @@
         "name": "tgttosawaf"
     },
     "sections": {
-        "terra_swoop_force/tunnel_1": [
+        "terra_swoop_force.tunnel_1": [
             [2, 2],
             [2, 3],
             [2, 4]
@@ -37,7 +37,7 @@
             "targets": {
                 "spawnpoints": {
                     "type": "grouped",
-                    "block": "mcc:markers/player_spawnpoints",
+                    "block": "mcc:markers.player_spawnpoints",
                     "limit": {
                         "min": 40,
                         "max": 40
@@ -45,40 +45,40 @@
                 },
                 "spectator_spawnpoint": {
                     "type": "single",
-                    "block": "mcc:markers/spectator_spawnpoint",
+                    "block": "mcc:markers.spectator_spawnpoint",
                     "limit": {
                         "min": 1
                     }
                 },
                 "chicken_spawn_area": {
                     "type": "area",
-                    "min": "mcc:markers/tgttos/chicken_spawn_area/min",
-                    "max": "mcc:markers/tgttos/chicken_spawn_area/max",
+                    "min": "mcc:markers.tgttos.chicken_spawn_area.min",
+                    "max": "mcc:markers.tgttos.chicken_spawn_area.max",
                     "limit": {
                         "min": 1
                     }
                 },
                 "spawn_barriers": {
                     "type": "area",
-                    "min": "mcc:markers/spawn_barriers/min",
-                    "max": "mcc:markers/spawn_barriers/max",
+                    "min": "mcc:markers.spawn_barriers.min",
+                    "max": "mcc:markers.spawn_barriers.max",
                     "limit": {
                         "min": 1
                     }
                 },
                 "spawn_area": {
                     "type": "area",
-                    "min": "mcc:markers/tgttos/spawn_area/min",
-                    "max": "mcc:markers/tgttos/spawn_area/max"
+                    "min": "mcc:markers.tgttos.spawn_area.min",
+                    "max": "mcc:markers.tgttos.spawn_area.max"
                 },
                 "playable_area": {
                     "type": "area",
-                    "min": "mcc:markers/playable_area/min",
-                    "max": "mcc:markers/playable_area/max"
+                    "min": "mcc:markers.playable_area.min",
+                    "max": "mcc:markers.playable_area.max"
                 },
                 "mob_spawns": {
                     "type": "single",
-                    "block": "mcc:markers/mob_spawn/extra",
+                    "block": "mcc:markers.mob_spawn.extra",
                     "signs": {
                         "strategy": "ALLOW",
                         "entries": ["Mob"]
@@ -86,23 +86,23 @@
                 },
                 "speed_boosts": {
                     "type": "single",
-                    "block": "mcc:markers/ace_race/speed_boosts"
+                    "block": "mcc:markers.ace_race.speed_boosts"
                 },
                 "jump_pads": {
                     "type": "single",
-                    "block": "mcc:markers/ace_race/jump_pads"
+                    "block": "mcc:markers.ace_race.jump_pads"
                 },
                 "mega_jump_pads": {
                     "type": "single",
-                    "block": "mcc:markers/ace_race/mega_jump_pads"
+                    "block": "mcc:markers.ace_race.mega_jump_pads"
                 },
                 "aqua_launchers": {
                     "type": "single",
-                    "block": "mcc:markers/ace_race/aqua_launchers"
+                    "block": "mcc:markers.ace_race.aqua_launchers"
                 },
                 "wing_rings": {
                     "type": "single",
-                    "block": "mcc:markers/ace_race/wing_rings"
+                    "block": "mcc:markers.ace_race.wing_rings"
                 }
             }
         },

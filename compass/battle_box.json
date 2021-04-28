@@ -12,8 +12,8 @@
             "targets": {
                 "hub_hat_area": {
                     "type": "area",
-                    "min": "mcc:markers/battle_box/hub/min",
-                    "max": "mcc:markers/battle_box/hub/max",
+                    "min": "mcc:markers.battle_box.hub.min",
+                    "max": "mcc:markers.battle_box.hub.max",
                     "limit": {
                         "min": 1,
                         "max": 1
@@ -21,8 +21,8 @@
                 },
                 "game_area": {
                     "type": "area",
-                    "min": "mcc:markers/battle_box/map/min",
-                    "max": "mcc:markers/battle_box/map/max",
+                    "min": "mcc:markers.battle_box.map.min",
+                    "max": "mcc:markers.battle_box.map.max",
                     "signs": {
                         "strategy": "ALLOW",
                         "entries": ["Key"]
@@ -54,7 +54,7 @@
             "targets": {
                 "hub_paste_height": {
                     "type": "single",
-                    "block": "mcc:markers/battle_box/hub_paste_height",
+                    "block": "mcc:markers.battle_box.hub_paste_height",
                     "limit": {
                         "min": 1,
                         "max": 1
@@ -62,7 +62,7 @@
                 },
                 "spawnpoints": {
                     "type": "grouped",
-                    "block": "mcc:markers/player_spawnpoints/extra",
+                    "block": "mcc:markers.player_spawnpoints.extra",
                     "signs": {
                         "strategy": "ALLOW",
                         "entries": ["Phase"]
@@ -74,7 +74,7 @@
                 },
                 "spectator_spawnpoint": {
                     "type": "single",
-                    "block": "mcc:markers/spectator_spawnpoint",
+                    "block": "mcc:markers.spectator_spawnpoint",
                     "limit": {
                         "min": 1
                     }
@@ -98,7 +98,7 @@
             "targets": {
                 "hub_spawnpoints": {
                     "type": "grouped",
-                    "block": "mcc:markers/player_spawnpoints",
+                    "block": "mcc:markers.player_spawnpoints",
                     "limit": {
                         "min": 40,
                         "max": 40
@@ -106,7 +106,7 @@
                 },
                 "hub_spectator_spawnpoint": {
                     "type": "single",
-                    "block": "mcc:markers/spectator_spawnpoint",
+                    "block": "mcc:markers.spectator_spawnpoint",
                     "limit": {
                         "min": 1
                     }
