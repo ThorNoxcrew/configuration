@@ -13,16 +13,16 @@
             "targets": {
                 "spawnpoints": {
                     "type": "grouped",
-                    "block": "mcc:markers/player_spawnpoints"
+                    "block": "mcc:markers.player_spawnpoints"
                 },
                 "spectator_spawnpoint": {
                     "type": "single",
-                    "block": "mcc:markers/spectator_spawnpoint"
+                    "block": "mcc:markers.spectator_spawnpoint"
                 },
                 "spawn_barriers": {
                     "type": "area",
-                    "min": "mcc:markers/spawn_barriers/min",
-                    "max": "mcc:markers/spawn_barriers/max"
+                    "min": "mcc:markers.spawn_barriers.min",
+                    "max": "mcc:markers.spawn_barriers.max"
                 }
             }
         },

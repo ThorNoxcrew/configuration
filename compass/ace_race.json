@@ -20,7 +20,7 @@
             "targets": {
                 "spawnpoints": {
                     "type": "grouped",
-                    "block": "mcc:markers/player_spawnpoints",
+                    "block": "mcc:markers.player_spawnpoints",
                     "limit": {
                         "min": 40,
                         "max": 40
@@ -28,7 +28,7 @@
                 },
                 "spectator_spawnpoint": {
                     "type": "single",
-                    "block": "mcc:markers/spectator_spawnpoint",
+                    "block": "mcc:markers.spectator_spawnpoint",
                     "limit": {
                         "min": 1,
                         "max": 1
@@ -36,8 +36,8 @@
                 },
                 "checkpoints": {
                     "type": "area",
-                    "min": "mcc:markers/ace_race/checkpoint/min",
-                    "max": "mcc:markers/ace_race/checkpoint/max",
+                    "min": "mcc:markers.ace_race.checkpoint.min",
+                    "max": "mcc:markers.ace_race.checkpoint.max",
                     "signs": {
                         "strategy": "ALLOW",
                         "entries": ["Key"]
@@ -45,23 +45,23 @@
                 },
                 "speed_boosts": {
                     "type": "single",
-                    "block": "mcc:markers/ace_race/speed_boosts"
+                    "block": "mcc:markers.ace_race.speed_boosts"
                 },
                 "jump_pads": {
                     "type": "single",
-                    "block": "mcc:markers/ace_race/jump_pads"
+                    "block": "mcc:markers.ace_race.jump_pads"
                 },
                 "mega_jump_pads": {
                     "type": "single",
-                    "block": "mcc:markers/ace_race/mega_jump_pads"
+                    "block": "mcc:markers.ace_race.mega_jump_pads"
                 },
                 "aqua_launchers": {
                     "type": "single",
-                    "block": "mcc:markers/ace_race/aqua_launchers"
+                    "block": "mcc:markers.ace_race.aqua_launchers"
                 },
                 "wing_rings": {
                     "type": "single",
-                    "block": "mcc:markers/ace_race/wing_rings"
+                    "block": "mcc:markers.ace_race.wing_rings"
                 }
             }
         },

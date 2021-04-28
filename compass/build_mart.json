@@ -23,7 +23,7 @@
             "targets": {
                 "spawnpoints": {
                     "type": "grouped",
-                    "block": "mcc:markers/player_spawnpoints",
+                    "block": "mcc:markers.player_spawnpoints",
                     "limit": {
                         "min": 40,
                         "max": 40
@@ -31,30 +31,30 @@
                 },
                 "spectator_spawnpoint": {
                     "type": "single",
-                    "block": "mcc:markers/spectator_spawnpoint",
+                    "block": "mcc:markers.spectator_spawnpoint",
                     "limit": {
                         "min": 1
                     }
                 },
                 "resource_areas": {
                     "type": "area",
-                    "min": "mcc:markers/build_mart/resource_area/min",
-                    "max": "mcc:markers/build_mart/resource_area/max",
+                    "min": "mcc:markers.build_mart.resource_area.min",
+                    "max": "mcc:markers.build_mart.resource_area.max",
                     "limit": {
                         "min": 1
                     }
                 },
                 "jump_pads": {
                     "type": "single",
-                    "block": "mcc:markers/ace_race/jump_pads"
+                    "block": "mcc:markers.ace_race.jump_pads"
                 },
                 "mega_jump_pads": {
                     "type": "single",
-                    "block": "mcc:markers/ace_race/mega_jump_pads"
+                    "block": "mcc:markers.ace_race.mega_jump_pads"
                 },
                 "cannon": {
                     "type": "single",
-                    "block": "mcc:markers/build_mart/cannon",
+                    "block": "mcc:markers.build_mart.cannon",
                     "limit": {
                         "min": 1
                     }
@@ -70,7 +70,7 @@
             "targets": {
                 "build_corners": {
                     "type": "single",
-                    "block": "mcc:markers/build_mart/build_template"
+                    "block": "mcc:markers.build_mart.build_template"
                 }
             }
         },
