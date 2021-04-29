@@ -70,10 +70,7 @@
         },
         {
             "type": "scanner",
-            "filter": {
-                "strategy": "ALLOW",
-                "entries": ["game"]
-            },
+            "_note": "We scan on both hub and game so the markers are removed from the hub build.",
             "targets": {
                 "waiting_spawnpoints": {
                     "type": "grouped",
