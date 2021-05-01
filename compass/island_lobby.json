@@ -9,9 +9,7 @@
             [0, 0],
             [1, 0],
             [0, 1],
-            [1, 1],
-            [2, 0],
-            [2, 1]
+            [1, 1]
         ]
     },
     "processors": [
@@ -19,65 +17,10 @@
             "type": "scanner",
             "targets": {
                 "spawnpoints": {
-                    "type": "grouped",
-                    "block": "mcc:markers.player_spawnpoints.extra",
-                    "signs": {
-                        "strategy": "ALLOW",
-                        "entries": ["Phase"]
-                    },
-                    "limit": {
-                        "min": 120,
-                        "max": 120
-                    }
-                },
-                "spectator_spawnpoint": {
                     "type": "single",
-                    "block": "mcc:markers.spectator_spawnpoint.extra",
-                    "signs": {
-                        "strategy": "ALLOW",
-                        "entries": ["Phase"]
-                    },
+                    "block": "mcc:markers.player_spawnpoints",
                     "limit": {
-                        "min": 3
-                    }
-                },
-                "dome.dial.piston": {
-                    "type": "single",
-                    "block": "mcc:markers.decision_dome.dial.piston"
-                },
-                "dome.dial.segment.floor": {
-                    "type": "single",
-                    "block": "mcc:markers.decision_dome.dial.segment.floor",
-                    "signs": {
-                        "strategy": "ALLOW",
-                        "entries": ["Segment"]
-                    },
-                    "limit": {
-                        "min": 8
-                    },
-                    "offset": [0, -1, 0]
-                },
-                "dome.dial.segment.game_icon": {
-                    "type": "single",
-                    "block": "mcc:markers.decision_dome.dial.segment.game_icon",
-                    "signs": {
-                        "strategy": "ALLOW",
-                        "entries": ["Segment"]
-                    },
-                    "limit": {
-                        "min": 8
-                    },
-                    "offset": [0, 3, 0]
-                },
-                "dome.dial.segment.vote_display": {
-                    "type": "single",
-                    "block": "mcc:markers.decision_dome.dial.segment.vote_display",
-                    "signs": {
-                        "strategy": "ALLOW",
-                        "entries": ["Segment"]
-                    },
-                    "limit": {
-                        "min": 8
+                        "min": 1
                     }
                 }
             }
