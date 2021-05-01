@@ -5,7 +5,7 @@
         "name": "lobby"
     },
     "sections": {
-        "lobby": [
+        "island_lobby": [
             [0, 0],
             [1, 0],
             [0, 1],
