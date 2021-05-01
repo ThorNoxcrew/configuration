@@ -87,6 +87,10 @@
         },
         {
             "type": "empty_region_padding"
+        },
+        {
+            "type": "rename_pipeline",
+            "name": "event_lobby"
         }
     ]
 }

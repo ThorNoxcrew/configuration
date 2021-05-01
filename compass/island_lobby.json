@@ -5,7 +5,7 @@
         "name": "lobby"
     },
     "sections": {
-        "hub": [
+        "lobby": [
             [0, 0],
             [1, 0],
             [0, 1],
@@ -30,6 +30,10 @@
         },
         {
             "type": "empty_region_padding"
+        },
+        {
+            "type": "rename_pipeline",
+            "name": "island_lobby"
         }
     ]
 }
