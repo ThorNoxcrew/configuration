@@ -1,6 +1,7 @@
 {
     "input": {
         "type": "build_server",
+        "server": "event",
         "name": "hub"
     },
     "sections": {
