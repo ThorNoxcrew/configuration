@@ -3,12 +3,14 @@
         "type": "build_server",
         "name": "ace_race"
     },
-    "sections": {
+    "unused_sections": {
         "clouds": [
             [0, 0],
             [1, 0]
         ],
-        "pythons_crypt": [[3, 0]],
+        "pythons_crypt": [[3, 0]]
+    },
+    "sections": {
         "space": [
             [5, 0],
             [5, -1]

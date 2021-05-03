@@ -72,12 +72,20 @@
             "type": "scanner",
             "_note": "We scan on both hub and game so the markers are removed from the hub build.",
             "targets": {
-                "waiting_spawnpoints": {
-                    "type": "grouped",
-                    "block": "mcc:markers.parkour_tag.lounge_spawnpoints",
+                "waiting_spawnpoints_home": {
+                    "type": "single",
+                    "block": "mcc:markers.parkour_tag.lounge_spawnpoints.home",
                     "limit": {
-                        "min": 8,
-                        "max": 8
+                        "min": 4,
+                        "max": 4
+                    }
+                },
+                "waiting_spawnpoints_away": {
+                    "type": "single",
+                    "block": "mcc:markers.parkour_tag.lounge_spawnpoints.away",
+                    "limit": {
+                        "min": 4,
+                        "max": 4
                     }
                 },
                 "selected_hunter_spawnpoint": {
