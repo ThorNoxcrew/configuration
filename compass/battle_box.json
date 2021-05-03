@@ -60,16 +60,28 @@
                         "max": 1
                     }
                 },
-                "spawnpoints": {
-                    "type": "grouped",
-                    "block": "mcc:markers.player_spawnpoints.extra",
+                "spawnpoints_home": {
+                    "type": "single",
+                    "block": "mcc:markers.battle_box.spawnpoints.home",
                     "signs": {
                         "strategy": "ALLOW",
                         "entries": ["Phase"]
                     },
                     "limit": {
-                        "min": 16,
-                        "max": 16
+                        "min": 8,
+                        "max": 8
+                    }
+                },
+                "spawnpoints_away": {
+                    "type": "single",
+                    "block": "mcc:markers.battle_box.spawnpoints.away",
+                    "signs": {
+                        "strategy": "ALLOW",
+                        "entries": ["Phase"]
+                    },
+                    "limit": {
+                        "min": 8,
+                        "max": 8
                     }
                 },
                 "spectator_spawnpoint": {
