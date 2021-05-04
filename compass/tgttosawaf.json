@@ -28,7 +28,6 @@
         "mesa": [[0, 6]],
         "beehive": [[0, -4]],
         "go": [[4, 0]],
-        "pyramid": [[4, -2]],
         "sift": [[4, -4]]
     },
     "processors": [
