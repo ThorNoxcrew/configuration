@@ -23,6 +23,14 @@
                     "type": "area",
                     "min": "mcc:markers.spawn_barriers.min",
                     "max": "mcc:markers.spawn_barriers.max"
+                },
+                "border_center": {
+                    "type": "single",
+                    "block": "mcc:markers.border_center",
+                    "limit": {
+                        "min": 1,
+                        "max": 1
+                    }
                 }
             }
         },
