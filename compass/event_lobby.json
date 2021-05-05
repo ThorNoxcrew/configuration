@@ -1,11 +1,10 @@
 {
     "input": {
         "type": "build_server",
-        "server": "event",
         "name": "hub"
     },
     "sections": {
-        "event_lobby": [
+        "hub": [
             [0, 0],
             [1, 0],
             [0, 1],
@@ -67,7 +66,7 @@
                     "limit": {
                         "min": 8
                     },
-                    "offset": [0, 3, 0]
+                    "offset": [0, 1, 0]
                 },
                 "dome.dial.segment.vote_display": {
                     "type": "single",
@@ -79,6 +78,11 @@
                     "limit": {
                         "min": 8
                     }
+                },
+                "dome.dial.segment.piston": {
+                    "type": "single",
+                    "block": "mcc:markers.decision_dome.dial.segment.piston",
+                    "offset": [0, -3, 0]
                 }
             }
         },
@@ -87,10 +91,6 @@
         },
         {
             "type": "empty_region_padding"
-        },
-        {
-            "type": "rename_pipeline",
-            "name": "event_lobby"
         }
     ]
 }
