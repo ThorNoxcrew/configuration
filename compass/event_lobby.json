@@ -79,6 +79,11 @@
                     "limit": {
                         "min": 8
                     }
+                },
+                "dome.dial.segment.piston": {
+                    "type": "single",
+                    "block": "mcc:markers.decision_dome.dial.segment.piston",
+                    "offset": [0, -3, 0]
                 }
             }
         },
