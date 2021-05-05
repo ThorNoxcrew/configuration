@@ -1,6 +1,7 @@
 {
     "input": {
         "type": "build_server",
+        "server": "event",
         "name": "hub"
     },
     "sections": {
@@ -91,6 +92,10 @@
         },
         {
             "type": "empty_region_padding"
+        },
+        {
+            "type": "rename_pipeline",
+            "name": "event_lobby"
         }
     ]
 }
