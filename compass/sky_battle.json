@@ -3,8 +3,10 @@
         "type": "build_server",
         "name": "sky_battle"
     },
+    "unused_sections": {
+        "classic": [[0, 0]]
+    },
     "sections": {
-        "classic": [[0, 0]],
         "medieval": [[2, 0]]
     },
     "processors": [
@@ -13,16 +15,26 @@
             "targets": {
                 "spawnpoints": {
                     "type": "grouped",
-                    "block": "mcc:markers.player_spawnpoints"
+                    "block": "mcc:markers.player_spawnpoints",
+                    "limit": {
+                        "min": 40,
+                        "max": 40
+                    }
                 },
                 "spectator_spawnpoint": {
                     "type": "single",
-                    "block": "mcc:markers.spectator_spawnpoint"
+                    "block": "mcc:markers.spectator_spawnpoint",
+                    "limit": {
+                        "min": 1
+                    }
                 },
                 "spawn_barriers": {
                     "type": "area",
                     "min": "mcc:markers.spawn_barriers.min",
-                    "max": "mcc:markers.spawn_barriers.max"
+                    "max": "mcc:markers.spawn_barriers.max",
+                    "limit": {
+                        "min": 10
+                    }
                 },
                 "border_center": {
                     "type": "single",

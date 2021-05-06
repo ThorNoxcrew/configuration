@@ -1,0 +1,33 @@
+{
+    "input": {
+        "type": "build_server",
+        "server": "island",
+        "name": "faction_houses"
+    },
+    "sections": {
+        "aqua_axolotls": [[0, 0]]
+    },
+    "processors": [
+        {
+            "type": "scanner",
+            "targets": {
+                "spawnpoints": {
+                    "type": "single",
+                    "block": "mcc:markers.player_spawnpoints",
+                    "limit": {
+                        "min": 1
+                    }
+                }
+            }
+        },
+        {
+            "type": "lighting_updater"
+        },
+        {
+            "type": "split_world_per_section"
+        },
+        {
+            "type": "empty_region_padding"
+        }
+    ]
+}
