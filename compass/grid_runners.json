@@ -129,17 +129,20 @@
                 "strategy": "ALLOW",
                 "entries": ["arena"]
             },
+            "mirroredRooms": [
+                "picturepanic"
+            ],
             "selected": "mcc14",
             "presets": {
                 "mcc14": [
+                    "gliding",
+                    "sawmill",
+                    "bakery",
                     "picturepanic",
-                    "picturepanic",
-                    "picturepanic",
-                    "picturepanic",
-                    "picturepanic",
-                    "picturepanic",
-                    "picturepanic",
-                    "picturepanic"
+                    "cozykitchen",
+                    "minigolf",
+                    "aztec",
+                    "prison"
                 ]
             }
         },
