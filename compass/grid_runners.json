@@ -23,12 +23,75 @@
                 "entries": ["arena"]
             },
             "targets": {
+                "spawnpoints": {
+                    "type": "grouped",
+                    "block": "mcc:markers.player_spawnpoints",
+                    "limit": {
+                        "real_min": 40,
+                        "max": 40
+                    }
+                },
+                "spectator_spawnpoint": {
+                    "type": "single",
+                    "block": "mcc:markers.spectator_spawnpoint",
+                    "limit": {
+                        "min": 1
+                    }
+                },
+                "spawn_barriers": {
+                    "type": "area",
+                    "min": "mcc:markers.spawn_barriers.min",
+                    "max": "mcc:markers.spawn_barriers.max",
+                    "limit": {
+                        "min": 1
+                    }
+                },
                 "paste_anchors": {
                     "type": "single",
-                    "block": "mcc:markers.grid_runners.paste_anchor",
+                    "block": "mcc:markers.grid_runners.paste_anchor.normal",
                     "limit": {
-                        "min": 1,
-                        "max": 1
+                        "real_min": 32,
+                        "max": 32
+                    },
+                    "signs": {
+                        "strategy": "ALLOW",
+                        "entries": ["Room"]
+                    }
+                },
+                "mirror_paste_anchors": {
+                    "type": "single",
+                    "block": "mcc:markers.grid_runners.paste_anchor.mirrored",
+                    "limit": {
+                        "real_min": 32,
+                        "max": 32
+                    },
+                    "signs": {
+                        "strategy": "ALLOW",
+                        "entries": ["Room"]
+                    }
+                },
+                "edge_paste_anchors": {
+                    "type": "single",
+                    "block": "mcc:markers.grid_runners.paste_anchor.normal.edge",
+                    "limit": {
+                        "real_min": 8,
+                        "max": 8
+                    },
+                    "signs": {
+                        "strategy": "ALLOW",
+                        "entries": ["Room"]
+                    }
+                },
+                "mirror_edge_paste_anchors": {
+                    "type": "single",
+                    "block": "mcc:markers.grid_runners.paste_anchor.mirrored.edge",
+                    "limit": {
+                        "real_min": 8,
+                        "max": 8
+                    },
+                    "signs": {
+                        "strategy": "ALLOW",
+                        "entries": ["Room"]
                     }
                 }
             }
@@ -44,6 +107,15 @@
                     "type": "area",
                     "min": "mcc:markers.grid_runners.room.min",
                     "max": "mcc:markers.grid_runners.room.max",
+                    "signs": {
+                        "strategy": "ALLOW",
+                        "entries": ["Room"]
+                    }
+                },
+                "room_walls": {
+                    "type": "area",
+                    "min": "mcc:markers.grid_runners.wall.min",
+                    "max": "mcc:markers.grid_runners.wall.max",
                     "signs": {
                         "strategy": "ALLOW",
                         "entries": ["Room"]
