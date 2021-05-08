@@ -143,7 +143,7 @@
                     "sawmill",
                     "bakery",
                     "mansion",
-                    "picturepanic",
+                    "courtyard",
                     "minigolf",
                     "tower",
                     "prison"
@@ -203,7 +203,7 @@
                     }
                 }
             },
-            "specifcScanTargets": {
+            "specificScanTargets": {
                 "redstone_signal": {
                     "input": {
                         "type": "single",
