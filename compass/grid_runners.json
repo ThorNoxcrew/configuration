@@ -129,21 +129,45 @@
                 "strategy": "ALLOW",
                 "entries": ["arena"]
             },
-            "mirroredRooms": [
-                "picturepanic"
-            ],
+            "mirroredRooms": ["picturepanic"],
             "selected": "mcc14",
             "presets": {
                 "mcc14": [
                     "gliding",
                     "sawmill",
                     "bakery",
-                    "picturepanic",
+                    "mansion",
                     "cozykitchen",
                     "minigolf",
-                    "aztec",
+                    "tower",
                     "prison"
                 ]
+            },
+            "scanTargets": {
+                "redstone_signal": {},
+                "light_lamps": {},
+                "find_key": {},
+                "replicate": {},
+                "item_check": {},
+                "block_check": {},
+                "slay_enemies": {
+                    "mob_spawns": {
+                        "type": "single",
+                        "block": "mcc:markers.mob_spawn.extra",
+                        "signs": {
+                            "strategy": "ALLOW",
+                            "entries": ["Mob"]
+                        }
+                    },
+                    "mob_spawners": {
+                        "type": "single",
+                        "block": "mcc:markers.mob_spawner.extra",
+                        "signs": {
+                            "strategy": "ALLOW",
+                            "entries": ["Mob"]
+                        }
+                    }
+                }
             }
         },
         {
