@@ -50,7 +50,7 @@
                     "type": "single",
                     "block": "mcc:markers.grid_runners.paste_anchor.normal",
                     "limit": {
-                        "real_min": 32,
+                        "min": 32,
                         "max": 32
                     },
                     "signs": {
@@ -62,7 +62,7 @@
                     "type": "single",
                     "block": "mcc:markers.grid_runners.paste_anchor.mirrored",
                     "limit": {
-                        "real_min": 32,
+                        "min": 32,
                         "max": 32
                     },
                     "signs": {
@@ -74,7 +74,7 @@
                     "type": "single",
                     "block": "mcc:markers.grid_runners.paste_anchor.normal.edge",
                     "limit": {
-                        "real_min": 8,
+                        "min": 8,
                         "max": 8
                     },
                     "signs": {
@@ -86,7 +86,7 @@
                     "type": "single",
                     "block": "mcc:markers.grid_runners.paste_anchor.mirrored.edge",
                     "limit": {
-                        "real_min": 8,
+                        "min": 8,
                         "max": 8
                     },
                     "signs": {
@@ -110,6 +110,9 @@
                     "signs": {
                         "strategy": "ALLOW",
                         "entries": ["Room"]
+                    },
+                    "limit": {
+                        "min": 1
                     }
                 },
                 "room_walls": {
@@ -119,6 +122,9 @@
                     "signs": {
                         "strategy": "ALLOW",
                         "entries": ["Room"]
+                    },
+                    "limit": {
+                        "min": 1
                     }
                 }
             }
@@ -130,8 +136,18 @@
                 "entries": ["arena"]
             },
             "mirroredRooms": ["picturepanic"],
-            "selected": "mcc14",
+            "selected": "test",
             "presets": {
+                "test": [
+                    "gliding",
+                    "sawmill",
+                    "bakery",
+                    "mansion",
+                    "picturepanic",
+                    "minigolf",
+                    "tower",
+                    "prison"
+                ],
                 "mcc14": [
                     "gliding",
                     "sawmill",
@@ -141,15 +157,152 @@
                     "minigolf",
                     "tower",
                     "prison"
+                ],
+                "mcc14+targets": [
+                    "gliding",
+                    "sawmill",
+                    "bakery",
+                    "arcade",
+                    "cozykitchen",
+                    "minigolf",
+                    "tower",
+                    "prison"
                 ]
             },
-            "scanTargets": {
-                "redstone_signal": {},
-                "light_lamps": {},
-                "find_key": {},
-                "replicate": {},
+            "generalScanTargets": {
+                "entry_scales": {
+                    "type": "single",
+                    "block": "mcc:markers.grid_runners.scale",
+                    "signs": {
+                        "strategy": "ALLOW",
+                        "entries": ["Amount"]
+                    },
+                    "limit": {
+                        "min": 1
+                    }
+                },
+                "entry_door.in": {
+                    "type": "single",
+                    "block": "mcc:markers.grid_runners.entry_door.in",
+                    "limit": {
+                        "min": 1
+                    }
+                },
+                "entry_door.out": {
+                    "type": "single",
+                    "block": "mcc:markers.grid_runners.entry_door.out",
+                    "limit": {
+                        "min": 1
+                    }
+                },
+                "exit_door": {
+                    "type": "single",
+                    "block": "mcc:markers.grid_runners.exit_door",
+                    "limit": {
+                        "min": 1
+                    }
+                }
+            },
+            "specifcScanTargets": {
+                "redstone_signal": {
+                    "input": {
+                        "type": "single",
+                        "block": "mcc:markers.grid_runners.redstone_signal.input",
+                        "limit": {
+                            "min": 1
+                        }
+                    }
+                },
+                "light_lamps": {
+                    "lamp": {
+                        "type": "single",
+                        "block": "mcc:markers.grid_runners.light_lamps.lamp",
+                        "limit": {
+                            "min": 1
+                        }
+                    }
+                },
+                "find_key": {
+                    "key": {
+                        "type": "single",
+                        "block": "mcc:markers.grid_runners.find_key.key",
+                        "limit": {
+                            "min": 1
+                        }
+                    }
+                },
+                "replicate": {
+                    "example": {
+                        "type": "area",
+                        "min": "mcc:markers.grid_runners.replicate.example.min",
+                        "max": "mcc:markers.grid_runners.replicate.example.max",
+                        "signs": {
+                            "strategy": "ALLOW",
+                            "entries": ["Id"]
+                        },
+                        "limit": {
+                            "min": 1
+                        }
+                    },
+                    "plot": {
+                        "type": "area",
+                        "min": "mcc:markers.grid_runners.replicate.plot.min",
+                        "max": "mcc:markers.grid_runners.replicate.plot.max",
+                        "signs": {
+                            "strategy": "ALLOW",
+                            "entries": ["Id"]
+                        },
+                        "limit": {
+                            "min": 1
+                        }
+                    },
+                    "source": {
+                        "type": "area",
+                        "min": "mcc:markers.grid_runners.replicate.source.min",
+                        "max": "mcc:markers.grid_runners.replicate.source.max",
+                        "signs": {
+                            "strategy": "ALLOW",
+                            "entries": ["Id"]
+                        }
+                    }
+                },
                 "item_check": {},
-                "block_check": {},
+                "block_check": {
+                    "add_block_single": {
+                        "type": "single",
+                        "block": "mcc:markers.grid_runners.block_check.add",
+                        "signs": {
+                            "strategy": "ALLOW",
+                            "entries": ["Block"]
+                        }
+                    },
+                    "add_block_area": {
+                        "type": "area",
+                        "min": "mcc:markers.grid_runners.block_check.add.min",
+                        "max": "mcc:markers.grid_runners.block_check.add.max",
+                        "signs": {
+                            "strategy": "ALLOW",
+                            "entries": ["Block"]
+                        }
+                    },
+                    "remove_block_single": {
+                        "type": "single",
+                        "block": "mcc:markers.grid_runners.block_check.remove",
+                        "signs": {
+                            "strategy": "ALLOW",
+                            "entries": ["Block"]
+                        }
+                    },
+                    "remove_block_area": {
+                        "type": "area",
+                        "min": "mcc:markers.grid_runners.block_check.remove.min",
+                        "max": "mcc:markers.grid_runners.block_check.remove.max",
+                        "signs": {
+                            "strategy": "ALLOW",
+                            "entries": ["Block"]
+                        }
+                    }
+                },
                 "slay_enemies": {
                     "mob_spawns": {
                         "type": "single",
