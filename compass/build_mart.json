@@ -36,6 +36,66 @@
                         "min": 1
                     }
                 },
+                "mart_portal": {
+                    "type": "area",
+                    "min": "mcc:markers.build_mart.mart_portal.min",
+                    "max": "mcc:markers.build_mart.mart_portal.max",
+                    "limit": {
+                        "min": 1,
+                        "max": 1
+                    }
+                },
+                "team_portals": {
+                    "type": "area",
+                    "min": "mcc:markers.build_mart.team_portal.min",
+                    "max": "mcc:markers.build_mart.team_portal.max",
+                    "limit": {
+                        "min": 10,
+                        "max": 10
+                    },
+                    "signs": {
+                        "strategy": "ALLOW",
+                        "entries": ["Team"]
+                    }
+                },
+                "example_plots": {
+                    "type": "area",
+                    "min": "mcc:markers.build_mart.example_plot.min",
+                    "max": "mcc:markers.build_mart.example_plot.max",
+                    "limit": {
+                        "min": 30,
+                        "max": 30
+                    },
+                    "signs": {
+                        "strategy": "ALLOW",
+                        "entries": ["Team"]
+                    }
+                },
+                "target_plots": {
+                    "type": "area",
+                    "min": "mcc:markers.build_mart.target_plot.min",
+                    "max": "mcc:markers.build_mart.target_plot.max",
+                    "limit": {
+                        "min": 30,
+                        "max": 30
+                    },
+                    "signs": {
+                        "strategy": "ALLOW",
+                        "entries": ["Team"]
+                    }
+                },
+                "plot_holograms": {
+                    "type": "single",
+                    "block": "mcc:markers.build_mart.plot_hologram",
+                    "limit": {
+                        "min": 30,
+                        "max": 30
+                    },
+                    "signs": {
+                        "strategy": "ALLOW",
+                        "entries": ["Team"]
+                    }
+                },
                 "resource_areas": {
                     "type": "area",
                     "min": "mcc:markers.build_mart.resource_area.min",
@@ -43,6 +103,19 @@
                     "limit": {
                         "min": 1
                     }
+                },
+                "team_areas": {
+                    "type": "area",
+                    "min": "mcc:markers.build_mart.team_area.min",
+                    "max": "mcc:markers.build_mart.team_area.max",
+                    "limit": {
+                        "min": 10,
+                        "max": 10
+                    }
+                },
+                "speed_boosts": {
+                    "type": "single",
+                    "block": "mcc:markers.ace_race.speed_boosts"
                 },
                 "jump_pads": {
                     "type": "single",
@@ -52,9 +125,17 @@
                     "type": "single",
                     "block": "mcc:markers.ace_race.mega_jump_pads"
                 },
-                "cannon": {
+                "aqua_launchers": {
                     "type": "single",
-                    "block": "mcc:markers.build_mart.cannon",
+                    "block": "mcc:markers.ace_race.aqua_launchers"
+                },
+                "wing_rings": {
+                    "type": "single",
+                    "block": "mcc:markers.ace_race.wing_rings"
+                },
+                "fan": {
+                    "type": "single",
+                    "block": "mcc:markers.build_mart.fan",
                     "limit": {
                         "min": 1
                     }
@@ -70,7 +151,14 @@
             "targets": {
                 "build_corners": {
                     "type": "single",
-                    "block": "mcc:markers.build_mart.build_template"
+                    "block": "mcc:markers.build_mart.build_template",
+                    "limit": {
+                        "min": 1
+                    },
+                    "signs": {
+                        "strategy": "ALLOW",
+                        "entries": ["Build"]
+                    }
                 }
             }
         },
