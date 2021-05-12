@@ -65,7 +65,8 @@
                         "entries": ["Segment"]
                     },
                     "limit": {
-                        "min": 8
+                        "min": 8,
+                        "max": 8
                     },
                     "offset": [0, 3, 0]
                 },
@@ -77,7 +78,8 @@
                         "entries": ["Segment"]
                     },
                     "limit": {
-                        "min": 8
+                        "min": 8,
+                        "max": 8
                     }
                 },
                 "dome.dial.segment.piston": {
