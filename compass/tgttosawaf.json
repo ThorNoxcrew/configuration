@@ -30,7 +30,9 @@
         "go": [[4, 0]],
         "sift": [[4, -4]],
         "siege": [[0, -6]],
-        "slimy_sprint": [[2, -6]]
+        "slimy_sprint": [[2, -6]],
+        "how_many": [[4, -6]],
+        "vulcano": [[-4, -2]]
     },
     "processors": [
         {
