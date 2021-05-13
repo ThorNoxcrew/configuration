@@ -32,7 +32,8 @@
         "siege": [[0, -6]],
         "slimy_sprint": [[2, -6]],
         "how_many": [[4, -6]],
-        "vulcano": [[-4, -2]]
+        "vulcano": [[-4, -2]],
+        "chilly_con_carnage": [[-2, -6]]
     },
     "processors": [
         {
