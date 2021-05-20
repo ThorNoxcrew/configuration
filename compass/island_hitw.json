@@ -1,127 +1,127 @@
 {
-  "input": {
-    "type": "build_server",
-    "server": "island",
-    "name": "island_hitw"
-  },
-  "unused_sections": {
-    "original": [[0, 0]],
-    "beach": [[2, 0]]
-  },
-  "sections": {
-    "highrise": [[4, 0]],
-    "ref_walls": [[-7, 7]]
-  },
-  "processors": [
-    {
-      "type": "scanner",
-      "filter": {
-        "strategy": "DENY",
-        "entries": ["ref_walls"]
-      },
-      "targets": {
-        "spawnpoints": {
-          "type": "grouped",
-          "block": "mcc:markers.player_spawnpoints",
-          "limit": {
-            "min": 40,
-            "max": 40
-          }
+    "input": {
+        "type": "build_server",
+        "server": "island",
+        "name": "island_hitw"
+    },
+    "unused_sections": {
+        "original": [[0, 0]],
+        "beach": [[2, 0]]
+    },
+    "sections": {
+        "highrise": [[4, 0]],
+        "ref_walls": [[-7, 7]]
+    },
+    "processors": [
+        {
+            "type": "scanner",
+            "filter": {
+                "strategy": "DENY",
+                "entries": ["ref_walls"]
+            },
+            "targets": {
+                "spawnpoints": {
+                    "type": "grouped",
+                    "block": "mcc:markers.player_spawnpoints",
+                    "limit": {
+                        "min": 40,
+                        "max": 40
+                    }
+                },
+                "spectator_spawnpoint": {
+                    "type": "single",
+                    "block": "mcc:markers.spectator_spawnpoint",
+                    "limit": {
+                        "min": 1
+                    }
+                },
+                "spawn_barriers": {
+                    "type": "area",
+                    "min": "mcc:markers.spawn_barriers.min",
+                    "max": "mcc:markers.spawn_barriers.max",
+                    "limit": {
+                        "min": 1
+                    }
+                },
+                "wall_spawn": {
+                    "type": "single",
+                    "block": "mcc:markers.hitw.wall_spawns",
+                    "limit": {
+                        "min": 4,
+                        "max": 4
+                    },
+                    "signs": {
+                        "strategy": "ALLOW",
+                        "entries": ["Direction"]
+                    }
+                },
+                "wall_crossing_area": {
+                    "type": "area",
+                    "min": "mcc:markers.hitw.wall_crossing.min",
+                    "max": "mcc:markers.hitw.wall_crossing.max",
+                    "limit": {
+                        "min": 1,
+                        "max": 1
+                    }
+                },
+                "platform": {
+                    "type": "area",
+                    "min": "mcc:markers.hitw.platform.min",
+                    "max": "mcc:markers.hitw.platform.max",
+                    "limit": {
+                        "min": 1,
+                        "max": 1
+                    }
+                }
+            }
         },
-        "spectator_spawnpoint": {
-          "type": "single",
-          "block": "mcc:markers.spectator_spawnpoint",
-          "limit": {
-            "min": 1
-          }
+        {
+            "type": "scanner",
+            "filter": {
+                "strategy": "ALLOW",
+                "entries": ["ref_walls"]
+            },
+            "targets": {
+                "platform": {
+                    "type": "area",
+                    "min": "mcc:markers.hitw.platform.extra.min",
+                    "max": "mcc:markers.hitw.platform.max",
+                    "signs": {
+                        "strategy": "ALLOW",
+                        "entries": ["Step"]
+                    },
+                    "limit": {
+                        "min": 3,
+                        "max": 3
+                    }
+                },
+                "walls": {
+                    "type": "area",
+                    "min": "mcc:markers.hitw.wall_sources.min",
+                    "max": "mcc:markers.hitw.wall_sources.max",
+                    "signs": {
+                        "strategy": "ALLOW",
+                        "entries": ["Difficulty"]
+                    },
+                    "limit": {
+                        "min": 3,
+                        "max": 3
+                    }
+                }
+            }
         },
-        "spawn_barriers": {
-          "type": "area",
-          "min": "mcc:markers.spawn_barriers.min",
-          "max": "mcc:markers.spawn_barriers.max",
-          "limit": {
-            "min": 1
-          }
+        {
+            "type": "lighting_updater"
         },
-        "wall_spawn": {
-          "type": "single",
-          "block": "mcc:markers.hitw.wall_spawns",
-          "limit": {
-            "min": 4,
-            "max": 4
-          },
-          "signs": {
-            "strategy": "ALLOW",
-            "entries": ["Direction"]
-          }
+        {
+            "type": "split_world_per_section",
+            "filter": {
+                "strategy": "DENY",
+                "entries": ["ref_walls"]
+            }
         },
-        "wall_crossing_area": {
-          "type": "area",
-          "min": "mcc:markers.hitw.wall_crossing.min",
-          "max": "mcc:markers.hitw.wall_crossing.max",
-          "limit": {
-            "min": 1,
-            "max": 1
-          }
-        },
-        "platform": {
-          "type": "area",
-          "min": "mcc:markers.hitw.platform.min",
-          "max": "mcc:markers.hitw.platform.max",
-          "limit": {
-            "min": 1,
-            "max": 1
-          }
+        {
+            "type": "empty_region_padding"
         }
-      }
-    },
-    {
-      "type": "scanner",
-      "filter": {
-        "strategy": "ALLOW",
-        "entries": ["ref_walls"]
-      },
-      "targets": {
-        "platform": {
-          "type": "area",
-          "min": "mcc:markers.hitw.platform.extra.min",
-          "max": "mcc:markers.hitw.platform.max",
-          "signs": {
-            "strategy": "ALLOW",
-            "entries": ["Step"]
-          },
-          "limit": {
-            "min": 3,
-            "max": 3
-          }
-        },
-        "walls": {
-          "type": "area",
-          "min": "mcc:markers.hitw.wall_sources.min",
-          "max": "mcc:markers.hitw.wall_sources.max",
-          "signs": {
-            "strategy": "ALLOW",
-            "entries": ["Difficulty"]
-          },
-          "limit": {
-            "min": 3,
-            "max": 3
-          }
-        }
-      }
-    },
-    {
-      "type": "lighting_updater"
-    },
-    {
-      "type": "split_world_per_section",
-      "filter": {
-        "strategy": "DENY",
-        "entries": ["ref_walls"]
-      }
-    },
-    {
-      "type": "empty_region_padding"
-    }
-  ]
+    ]
 }
