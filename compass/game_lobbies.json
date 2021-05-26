@@ -1,0 +1,37 @@
+{
+    "input": {
+        "type": "build_server",
+        "server": "island",
+        "name": "game_lobbies"
+    },
+    "sections": {
+        "ace_race": [[-1, 0]],
+        "battlebox": [[0, -1]],
+        "hitw": [[-1, 2]],
+        "survival_games": [[-1, -1]],
+        "tgttos": [[0, 0]]
+    },
+    "processors": [
+        {
+            "type": "scanner",
+            "targets": {
+                "spawnpoints": {
+                    "type": "single",
+                    "block": "mcc:markers.player_spawnpoints",
+                    "limit": {
+                        "min": 1
+                    }
+                }
+            }
+        },
+        {
+            "type": "lighting_updater"
+        },
+        {
+            "type": "split_world_per_section"
+        },
+        {
+            "type": "empty_region_padding"
+        }
+    ]
+}
