@@ -102,10 +102,6 @@
                     "signs": {
                         "strategy": "ALLOW",
                         "entries": ["Difficulty"]
-                    },
-                    "limit": {
-                        "min": 3,
-                        "max": 3
                     }
                 }
             }
