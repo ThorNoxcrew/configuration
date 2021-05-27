@@ -4,12 +4,14 @@
         "server": "island",
         "name": "game_lobbies"
     },
-    "sections": {
+    "unused_sections": {
         "ace_race": [[-1, 0]],
         "battlebox": [[0, -1]],
-        "hitw": [[-1, 2]],
         "survival_games": [[-1, -1]],
         "tgttos": [[0, 0]]
+    },
+    "sections": {
+        "hitw": [[-1, 2]]
     },
     "processors": [
         {
