@@ -1,0 +1,61 @@
+{
+  "input": {
+    "type": "build_server",
+    "server": "island",
+    "name": "apartments"
+  },
+  "sections": {
+    "elevator": [[1, 1]],
+    "ref_furniture": [[0, 0]]
+  },
+  "processors": [
+    {
+      "type": "scanner",
+      "filter": {
+        "strategy": "DENY",
+        "entries": ["ref_furniture"]
+      },
+      "targets": {
+        "spawnpoints": {
+          "type": "single",
+          "block": "mcc:markers.player_spawnpoints",
+          "limit": {
+            "min": 1,
+            "max": 1
+          }
+        }
+      }
+    },
+    {
+      "type": "scanner",
+      "filter": {
+        "strategy": "ALLOW",
+        "entries": ["ref_furniture"]
+      },
+      "targets": {
+        "walls": {
+          "type": "area",
+          "min": "mcc:markers.furniture.min",
+          "max": "mcc:markers.furniture.max",
+          "signs": {
+            "strategy": "ALLOW",
+            "entries": ["Furniture"]
+          }
+        }
+      }
+    },
+    {
+      "type": "lighting_updater"
+    },
+    {
+      "type": "split_world_per_section",
+      "filter": {
+        "strategy": "DENY",
+        "entries": ["ref_furniture"]
+      }
+    },
+    {
+      "type": "empty_region_padding"
+    }
+  ]
+}
