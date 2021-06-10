@@ -11,7 +11,7 @@
         "tgttos": [[0, 0]]
     },
     "sections": {
-        "hitw": [[-1, 2]]
+        "hitw": [[-1, -2]]
     },
     "processors": [
         {
