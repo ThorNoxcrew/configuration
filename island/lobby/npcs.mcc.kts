@@ -5,6 +5,7 @@ mccScript {
     // You can also provide the enc
     playerNPC(absoluteVec(352.5, 35.0, 554.5), "Noxite", "Noxite") {
         rotation(-90.0, 0.0)
+        lookClosePerPlayer(10)
         interactBehavior { npc, player ->
             player.sendToAny("hole-in-the-wall", "island")
         }
