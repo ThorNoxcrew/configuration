@@ -11,6 +11,7 @@ prettier:
             - "**/*.yaml"
             - "**/*.yml"
             - "**/*.json"
+            - ".prettierrc.js"
     script:
         - yarn global add prettier
         - prettier -c .
