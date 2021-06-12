@@ -6,7 +6,7 @@ mkdir -p /tmp/configuration-ktfmt
 cp -R * /tmp/configuration-ktfmt
 
 for f in /tmp/configuration-ktfmt/**/+(*.mcc.kts|*.kts|*.kt); do
-  java -jar .ktfmt-0.25.jar $f
+  java -jar .gitlab/tools/.ktfmt-0.25.jar $f
 done
 
 echo "Comparing repository with Kotlin formatted one"
