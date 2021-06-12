@@ -21,6 +21,7 @@ pyhocon:
    image: python:3.9-alpine
    script:
        - pip install pyhocon==0.3.57
+       - apk add --no-cache bash
        - ./.pyhocon.sh
 
 .upload_consul:
