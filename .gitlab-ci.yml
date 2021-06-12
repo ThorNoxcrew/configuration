@@ -6,6 +6,11 @@ stages:
 prettier:
     stage: lint
     image: node:15.4.0-alpine
+    only:
+        changes:
+            - "**/*.yaml"
+            - "**/*.yml"
+            - "**/*.json"
     script:
         - yarn global add prettier
         - prettier -c .
@@ -13,12 +18,20 @@ prettier:
 ktfmt:
     stage: lint
     image: adoptopenjdk/openjdk11:debian-slim
+    only:
+        changes:
+            - "**/*.kts"
+            - "**/*.kt"
+            - "**/*.mcc.kts"
     script:
         - ./.ktfmt.sh
 
 pyhocon:
     stage: lint
     image: python:3.9-alpine
+    only:
+        changes:
+            - "**/*.conf"
     script:
         - pip install pyhocon==0.3.57
         - apk add --no-cache bash
