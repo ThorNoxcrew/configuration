@@ -1,23 +1,23 @@
 stages:
-    - test
+    - lint
     - upload
     - deploy
 
 prettier:
-    stage: test
+    stage: lint
     image: node:15.4.0-alpine
     script:
         - yarn global add prettier
         - prettier -c .
 
 ktfmt:
-    stage: test
+    stage: lint
     image: adoptopenjdk/openjdk11:debian-slim
     script:
         - ./.ktfmt.sh
 
 pyhocon:
-    stage: test
+    stage: lint
     image: python:3.9-alpine
     script:
         - pip install pyhocon==0.3.57
