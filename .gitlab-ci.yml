@@ -10,6 +10,12 @@ prettier:
         - yarn global add prettier
         - prettier -c .
 
+ktfmt:
+    stage: test
+    image: adoptopenjdk/openjdk11:debian-slim
+    script:
+        - ./.ktfmt.sh
+
 .upload_consul:
     image: git.noxcrew.com:5050/noxcrew/fs2consulkv:master-5cb065cccf7422fe56f3526fceace7a4cf44e2a7
     tags: [docker]
