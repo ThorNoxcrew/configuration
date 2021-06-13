@@ -82,7 +82,7 @@
                 "entries": ["ref_walls"]
             },
             "targets": {
-                "platform": {
+                "platform_reference": {
                     "type": "area",
                     "min": "mcc:markers.hitw.platform.extra.min",
                     "max": "mcc:markers.hitw.platform.max",
