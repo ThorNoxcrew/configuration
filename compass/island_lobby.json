@@ -22,6 +22,15 @@
                     "limit": {
                         "min": 1
                     }
+                },
+                "server_portal": {
+                    "type": "area",
+                    "min": "mcc:markers.island_lobby.server_portal.min",
+                    "max": "mcc:markers.island_lobby.server_portal.max",
+                    "signs": {
+                        "strategy": "ALLOW",
+                        "entries": ["ServerType"]
+                    }
                 }
             }
         },
