@@ -72,6 +72,16 @@ mccScript {
     // roaming(absoluteVec(230.5, 70.0, -210.5), absoluteVec(238.5, 70.0, -226.5))
     proximityBubbleChat(text("im bad at this!"), 10.seconds)
   }
+  playerNPC(
+      absoluteVec(391.5, 34, 542),
+      "The Tax Man",
+      "ewogICJ0aW1lc3RhbXAiIDogMTYyMzc3NTYyODQ3NywKICAicHJvZmlsZUlkIiA6ICI0ZTMwZjUwZTdiYWU0M2YzYWZkMmE3NDUyY2ViZTI5YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJfdG9tYXRvel8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTM5MGI3MDQ1Yjk3ZjNjZDliMWY1OWEwNmRjNjRhYTkwNGM3NWRjNjZkN2NkNzhmZDI4YmI1ZDdhN2E5YzQ1NSIKICAgIH0KICB9Cn0=",
+      "VI7uRnXkhwtk0p1hGscxALzKwk9AHOoEot0eogRHzg8867vkSl3uYFNOFWd2QvnavY7RCeuB/0YZsWF1R5xTpwtpcyVgrABu9NcICYDy78VFcHHfhBPxb9rCKthYc0b/ZPMAO4mGR1dXiSTpFVTbpr8eHnP6Cxc0Z8sNxMjvYojNdM5FnbYN9vKv8/W3xGuKepXSIHga+5Jc86Hv7d1xRNkn7ca9HVBw5iEjRTqXlu+bnQABpDMak2QAVQ6UBoRS6N5vbbVY7zsjMlRbtm8Ty1iZGx/eMXOGk2UQMp/BilAhElurzKdrovfJV950XA4w7SRZgrebutJG9lr3yu+RVHy/TUnKIaOyvFR5q5wHqmknhgXgUYFycxhPGq/NkGoabSkYLQmZFvYAg0KvQLPZIIMxCMGTlDLCdHi0ok9pyOIRcnvO93YBAau+WCPVQfXXf1Fy1RuCW9QfBGbsF8+aIkdL2KRfi/Tzm7GuWm4B4NPF3XNZevZkz2ahn6gfHMlKudwGxFWuRxqTG7iPnbr7KrJuwFMR+3LGaDzyZnaXNHx3czOFPiQMArUsMuHkvS6AwOh7loDRS2IkKEtTgBJGEhGsz46wIEMQ1rw8twYN7lvwYDj9m/AVGsYNW5U48I3nyqjr5mjYH5Sc2poga7AsOE9hlIxGVryRN+0NsALkjcs=") {
+    rotation(-90.0, 0.0)
+    lookClosePerPlayer(5)
+    // roaming(absoluteVec(230.5, 70.0, -210.5), absoluteVec(238.5, 70.0, -226.5))
+    proximityBubbleChat(text("Tadaa."), 10.seconds)
+  }
 
   // The below NPC does the same thing as above, but has a skin that doesn't need "fetched"
 
