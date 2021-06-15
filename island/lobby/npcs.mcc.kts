@@ -32,6 +32,16 @@ mccScript {
     // roaming(absoluteVec(393.5, 34.0, 567.5), absoluteVec(386.5, 34.0, 573.5))
     proximityBubbleChat(text("Hmm... Where did I lose my keys?"), 15.seconds)
   }
+  playerNPC(
+      absoluteVec(381.5, 36.0, 554.5),
+      "Test NPC",
+      "ewogICJ0aW1lc3RhbXAiIDogMTYyMzc2OTc5NjI0MCwKICAicHJvZmlsZUlkIiA6ICI0OWIzODUyNDdhMWY0NTM3YjBmN2MwZTFmMTVjMTc2NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJiY2QyMDMzYzYzZWM0YmY4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzc0MWUzYzJhYWY4ZTBiYzE3YmNjYTg0YzgyM2QwOWZmMTFmYjQxYzU1MGJlZmJjOGJiMmZlMGQ1OTU1NDc3ZjUiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ",
+      "jaf45mvWUl9H3onEqSOfwWz6a9VjH5lC8Y85wsTP2+fIZpaoeNOkpdeVaVeZLkKA3aVT4B2SBsNqG7QTpIgDhYx0p1+tJtOYFf2BJzuNTZV8jPlTOSTSXgV+YTFFKvXtAK4TVRC/hkZucXAbKHBjieXcDYZmT2dWQynx32L2tpj5L3YcD6J6X0EIJ6rmVQ7Ft3tOh2+xWTR0efAgAYVen2MzRaQFEVswZCsXvhMnncq2E2zJlu5p1jSsR5UR30ws7S366EHuFNQnB6jdddhVqTNtVBPMX7JYMKSLhPE/vKpZSqzz7nBBvVWZ4L7t5urLneMffiRyqrzyW8XZNaOsKTRywrSAF2Lt+I9SSRqqoWmVOeBo5RB5D2plrzH2teRgHccrZzrViBe4kz7TJwEvRXa4E3i/5ia/4+0OJfVGiPp25oiMc9uc/TKOxYgSnh0vWXi9Ej3Q+v/JKESRKWKbqLAcL/yiXZSRD9B7gqHW8Z49137UMenxZ0guNegnK7YytbIq9janlG/wYU5+zi9Hy/wytX24nw0jmj1U5F5XQOUASt+d9HJzNJdKm4YjXS8IZ8YXO85rlPO8TvkKisgIrirYyIWpEsCqJHUk2Lq//kqdcomBZ+0qYQewWVaooz9REYKx3TcxCEkY/N3LzEIdROkCnSTJxeP1SS16IGLjsU8=") {
+    rotation(-90.0, 0.0)
+    lookClosePerPlayer(5)
+    // roaming(absoluteVec(230.5, 70.0, -210.5), absoluteVec(238.5, 70.0, -226.5))
+    proximityBubbleChat(text("Test yoself!"), 10.seconds)
+  }
 
   // The below NPC does the same thing as above, but has a skin that doesn't need "fetched"
 
