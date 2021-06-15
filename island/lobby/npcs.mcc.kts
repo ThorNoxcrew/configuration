@@ -52,6 +52,16 @@ mccScript {
     // roaming(absoluteVec(230.5, 70.0, -210.5), absoluteVec(238.5, 70.0, -226.5))
     proximityBubbleChat(text("Test yoself!"), 10.seconds)
   }
+  playerNPC(
+      absoluteVec(397, 34, 561),
+      "Tina NPC",
+      "ewogICJ0aW1lc3RhbXAiIDogMTYyMzc3NTQ4Njg1OCwKICAicHJvZmlsZUlkIiA6ICI5ZDIyZGRhOTVmZGI0MjFmOGZhNjAzNTI1YThkZmE4ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTYWZlRHJpZnQ0OCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81YTRjZGJmMjRhMDUyYjczZmY5OGFkMWVjYmUyMDEzYjZlMzU0ZDNiMTliZjE2MzIyMzU2Yzg5MGQ5Nzg5MzJjIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+      "SYPM/P/Pc7P6Lo6F6J5Zs2CGp9XIC7naURkRUAJ4n09hgMz9ZtTYjxa/UlkP9OFqeD6ShjQhsnRTt6y63MXzDKNKPbdO2rqQ6vsENoWakinT501hx8H1L2f3w9dQTaGWyVnHokX37HzHSXfhyliBOdK3zOg2XubdQ1r3u0hqPiFcoi+ImcaWNOwvYhutE5KPkwm2Zly2uuFWk/WD5P9oMEAeVha08uKkBAiIiDtkB9gb6aFtl7c4NGCpixVhfmryqXgexHqtEpzPNUPClTCuMFqDxX1ks+pz2yYYeuwfXEh0xWAHN0TZofuk+CRwV5ljh6Mezyu3uV/gi67dejiwETaHEhmdkGAUYPhA8H1hcOe9HdFk1x6DQfykCqYybuu5RDPA6nTu716HU8zTgf08F/dEmcVQpvoTXrfieptz9VGB9cX5rUGjBplNMXy892SSbCTCnBzgvtDaQvxFMvpM5SpXHiji8zgLLGtB4V1FnpN3TUULDgMrWN0F3020ZuFsxuV2qwTJPYOIWEFZ/O196Gk0prHPiDi6RROv01u1/qjinhNyOVYEgIQoKoPj8i5uINPYeHYdDcVIHoQwQZsARz6+KfXoLTCnUluSW7Lmt3rdodGgESjz/w1An8llRfwvj/CLU5S+Bupq2IpUKl5/TcHT16qiDwnVSd4LqSAUA40=") {
+    rotation(-90.0, 0.0)
+    lookClosePerPlayer(5)
+    // roaming(absoluteVec(230.5, 70.0, -210.5), absoluteVec(238.5, 70.0, -226.5))
+    proximityBubbleChat(text("im bad at this!"), 10.seconds)
+  }
 
   // The below NPC does the same thing as above, but has a skin that doesn't need "fetched"
 
