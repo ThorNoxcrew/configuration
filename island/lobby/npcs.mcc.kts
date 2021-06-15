@@ -25,16 +25,6 @@ mccScript {
     // proximityBubbleChat(text("It's super fun!"), 8.seconds)
   }
   playerNPC(
-      absoluteVec(407.5, 26, 522.5),
-      "Dr. Crabb Fischer",
-      "ewogICJ0aW1lc3RhbXAiIDogMTYyMjMwNzIxMjA0NiwKICAicHJvZmlsZUlkIiA6ICI3MmNiMDYyMWU1MTA0MDdjOWRlMDA1OTRmNjAxNTIyZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNb3M5OTAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWRmYmEwYTVmMTA1NmIyMDRhMDU1YmYwYjA0YjU2ZjYzMTczZTJkODFkZWRkYzEwYTIxMzFjZjk0MGQ1ZjdhZiIKICAgIH0KICB9Cn0=",
-      "jpXYneFqAPSzaJZboylGWwBrD0tusYlwVSA+dehjJFGLvs73NMIFWP9jARe70W4IzbbXmPJSCqzGEtiiH0H3/j3z+1sU3xLr8oo00I25x+DKe61zBBayHisDnp0aNoFM0MQTK3yEehWDpJ7bKByihIHrO9ElstA5XJbDkIlukkJVLnBAM8NaTIxI/zXbeLR4ryRX5Lg+AoOGUcUt+lIE+VKy0WH7a7+7dd4twZB22a/hdAadmX9ruVb5kKXDl/yA6APfXRGVbTGxugfyZcuJF9THWpvP5rNzJh+XuCvS1N8xcN2hFtH6Aqle1Q+RcJa6RyBzTEb+haqVmw7zbnluuoPyI4wm+GtpEsH7LCAh9qoajn6N9BfUzcoOOpZobYxChwcpAf/sFIJYJi7HVTRDNpC8kZdaH0oceKE3RKB+MIB1Cy2OJbBRPhGJGB7GjqZQOXRlBbngfsOryJ3eEzklWain671czPT6pegsl9MH53EJ0cM2vBLQhiTZ0NWen1K8Q88QdRW92LbAbFI3d/NaGKNwgW23NILkaGiL0yM6L7W55oY0JlE+oepAXz0LiusPrUIGKkWJvw+nVCfI2RNyrv5X3bmbn3NLjmhesHBdUFgzDFr84K5m05+EqUxlFfIkx4NFrEl78UQst7VkpCVc+fjTW5Ueo5+IJ7pxjHBPgwk=") {
-    rotation(-45.0, 0.0)
-    lookClosePerPlayer(50)
-    // roaming(absoluteVec(230.5, 70.0, -210.5), absoluteVec(238.5, 70.0, -226.5))
-    // proximityBubbleChat(text("Hope I catch a big one!"), 5.seconds)
-  }
-  playerNPC(
       absoluteVec(393.5, 34.0, 554.5),
       "Epic_Landlord",
       "ewogICJ0aW1lc3RhbXAiIDogMTYyMzc3NTYyNDU5OCwKICAicHJvZmlsZUlkIiA6ICJjOTk2NWFhMWM5Y2U0MmUzYmFlYWZmYWMyMDMyMDY4ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJFcGljX0xhbmRsb3JkIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzUzNDU5OWMzYzBiODAxY2ZlOWU3ZDIwZWJmMTRmODYwOGM1YmM3YjZkNjQ3MGUxNDhmYWQ5ODQ4NmRmYThkNTQiCiAgICB9CiAgfQp9",
