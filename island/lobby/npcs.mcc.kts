@@ -25,6 +25,16 @@ mccScript {
     // proximityBubbleChat(text("It's super fun!"), 8.seconds)
   }
   playerNPC(
+      absoluteVec(393.5, 34.0, 554.5),
+      "Epic_Landlord",
+      "ewogICJ0aW1lc3RhbXAiIDogMTYyMzc3NTYyNDU5OCwKICAicHJvZmlsZUlkIiA6ICJjOTk2NWFhMWM5Y2U0MmUzYmFlYWZmYWMyMDMyMDY4ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJFcGljX0xhbmRsb3JkIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzUzNDU5OWMzYzBiODAxY2ZlOWU3ZDIwZWJmMTRmODYwOGM1YmM3YjZkNjQ3MGUxNDhmYWQ5ODQ4NmRmYThkNTQiCiAgICB9CiAgfQp9",
+      "vF33cJFBoHokvuXBeKsmn4k9ydk4tprlzzAN+rN0+zMUMDOLEuyLON2SXO4+loChK0n/hg7lo9+r4PgAZwP3KPyetsWbUoyynBJSCHvgfEet9pqRpeaWN0XoZZ0S0oB8+KD8n2woSIkd0+CnxfsRaw+wn42bTxHdHnXSOgxlRm5Lr/4RGYQHNeT9PAO7tTXv4t8+gBmCTrYwyKj8qEgp8VWF9vt6Urh/Tb3hObKj9ym6l5xdJ3I98g3VItzcOBMBm/pXYxB5ebLaktI5Ndw4Tv/88Qzt5ukUke0t7ifsuj5o8Drjy/kHqvI3+9wxnOV4xvnxPtqBjEg1CLAGonhbop71nKm0CBYnEgF4gxR3HbJIOp9EneSSxa5uoVENdBWzCebbHcltl+qeOCvC9JfTwNqEsAM85KrinZ57j/HZ2dMFPWHVfHJwv3osKsyEr9EzUo//Tp3jj+8sxFm+yoiTMZ3KTyXwP8pql2RLt/mqakhjMM54I130qbu8IiEX1MLRVJjMlZ8YWnxK4bv7Q/91On+npR1ZiaUp93NIQ1mFgUD0VZHVozyb2Thg8+22C9oEmBMmA6wVwZEdGNIunih9A1Fgh07jxRuhFE94aQcjll5K70btFGCEsvzrDlPTVZXGsrRwha2nfof7Tih9yvHbFCIr2npMN8SrOddJNSnNJMk=") {
+    rotation(-90.0, 0.0)
+    lookClosePerPlayer(50)
+    // roaming(absoluteVec(230.5, 70.0, -210.5), absoluteVec(238.5, 70.0, -226.5))
+    proximityBubbleChat(text("Hello"), 4.seconds)
+  }
+  playerNPC(
       absoluteVec(389.5, 34.0, 570.5),
       "Joey Fresh",
       "ewogICJ0aW1lc3RhbXAiIDogMTYyMzI4NDAwMzUwNCwKICAicHJvZmlsZUlkIiA6ICI1NjY3NWIyMjMyZjA0ZWUwODkxNzllOWM5MjA2Y2ZlOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVJbmRyYSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hZjA3ZjI5YjU0MGE0YWNiNDI5Y2JjMzU0YWZjMDg0ZTJkYjQ5MzhjNTAxMTU5MjhmNjlkNjI0NzNlMmJmZGQ5IgogICAgfQogIH0KfQ==",
