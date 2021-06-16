@@ -5,6 +5,11 @@ import com.noxcrew.mcc.commons.server.i18n.sendMessage
 import com.noxcrew.mcc.commons.server.path.camera.CameraPath
 import com.noxcrew.mcc.commons.server.path.camera.CameraPathConfig
 import com.noxcrew.mcc.commons.server.path.camera.CameraPathManager
+import com.noxcrew.mcc.commons.server.path.camera.CameraPathStopEvent
+import org.bukkit.Material
+import org.bukkit.inventory.ItemStack
+import org.bukkit.potion.PotionEffect
+import org.bukkit.potion.PotionEffectType
 
 mccScript {
   val cameraPathManager: CameraPathManager by inject()
@@ -15,8 +20,24 @@ mccScript {
 
   val playerGroup = (data["players"] as PlayerGroup)
 
-  for (player in playerGroup.onlinePlayers) {
-    cameraPathManager.start(player, cameraPath)
+  withContext(Dispatchers.Minecraft) {
+    for (player in playerGroup.onlinePlayers) {
+      player.addPotionEffect(PotionEffect(PotionEffectType.BLINDNESS, 30, 2, false, false, false))
+    }
+  }
+
+  delay(100)
+
+  withContext(Dispatchers.Minecraft) {
+    for (player in playerGroup.onlinePlayers) {
+      cameraPathManager.start(player, cameraPath)
+
+      player.inventory.helmet = ItemStack(Material.CARVED_PUMPKIN)
+    }
+  }
+
+  cameraPathManager.addListener(CameraPathStopEvent::class.java, this) { e: CameraPathStopEvent ->
+    e.cameraPathTask.player.inventory.helmet = ItemStack(Material.AIR)
   }
 
   delay(2000)
