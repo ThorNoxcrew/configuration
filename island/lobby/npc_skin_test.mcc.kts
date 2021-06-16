@@ -12,11 +12,11 @@ mccScript {
     rotation(-90.0, 0.0)
     lookClosePerPlayer(10)
 
-    proximityBubbleChat(
-        listOf(
-            i18n.translatable("first.translation.here"),
-            i18n.translatable("second.translation.here"),
-            i18n.translatable("third.translation.here")),
-        4.seconds)
+    /*    proximityBubbleChat(
+    listOf(
+        i18n.translatable("first.translation.here"),
+        i18n.translatable("second.translation.here"),
+        i18n.translatable("third.translation.here")),
+    4.seconds)*/
   }
 }
