@@ -18,9 +18,9 @@ mccScript {
     // Create an ordered list of points
     val pointList = LinkedList<Transform>()
     // Add points to the list
-    pointList += Transform(389.5, 34.0, 561.5) // ALL values must be decimals
-    pointList += Transform(393.5, 34.0, 554.5)
-    pointList += Transform(389.5, 34.0, 549.5)
+    pointList += Transform(389.5, 34.0, 561.5, -145.0) // ALL values must be decimals
+    pointList += Transform(393.5, 34.0, 554.5, 140.0)
+    pointList += Transform(389.5, 34.0, 549.5, 140.0)
 
     // Set the NPC to patrol the points
     patrol(pointList)
