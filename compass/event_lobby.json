@@ -25,10 +25,7 @@
                         "strategy": "ALLOW",
                         "entries": ["Phase"]
                     },
-                    "limit": {
-                        "min": 120,
-                        "max": 120
-                    }
+                    "limit": "120..120"
                 },
                 "spectator_spawnpoint": {
                     "type": "single",
@@ -37,9 +34,7 @@
                         "strategy": "ALLOW",
                         "entries": ["Phase"]
                     },
-                    "limit": {
-                        "min": 3
-                    }
+                    "limit": "3.."
                 },
                 "dome.dial.piston": {
                     "type": "single",
@@ -52,9 +47,7 @@
                         "strategy": "ALLOW",
                         "entries": ["Segment"]
                     },
-                    "limit": {
-                        "min": 8
-                    },
+                    "limit": "8..",
                     "offset": [0, -1, 0]
                 },
                 "dome.dial.segment.game_icon": {
@@ -64,10 +57,7 @@
                         "strategy": "ALLOW",
                         "entries": ["Segment"]
                     },
-                    "limit": {
-                        "min": 8,
-                        "max": 8
-                    },
+                    "limit": "8..8",
                     "offset": [0, 3, 0]
                 },
                 "dome.dial.segment.vote_display": {
@@ -77,10 +67,7 @@
                         "strategy": "ALLOW",
                         "entries": ["Segment"]
                     },
-                    "limit": {
-                        "min": 8,
-                        "max": 8
-                    }
+                    "limit": "8..8"
                 },
                 "dome.dial.segment.piston": {
                     "type": "single",

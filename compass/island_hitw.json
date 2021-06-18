@@ -24,33 +24,23 @@
                 "spawnpoints": {
                     "type": "grouped",
                     "block": "mcc:markers.player_spawnpoints",
-                    "limit": {
-                        "min": 40,
-                        "max": 40
-                    }
+                    "limit": "40..40"
                 },
                 "spectator_spawnpoint": {
                     "type": "single",
                     "block": "mcc:markers.spectator_spawnpoint",
-                    "limit": {
-                        "min": 1
-                    }
+                    "limit": "1.."
                 },
                 "spawn_barriers": {
                     "type": "area",
                     "min": "mcc:markers.spawn_barriers.min",
                     "max": "mcc:markers.spawn_barriers.max",
-                    "limit": {
-                        "min": 1
-                    }
+                    "limit": "1.."
                 },
                 "wall_spawn": {
                     "type": "single",
                     "block": "mcc:markers.hitw.wall_spawns",
-                    "limit": {
-                        "min": 4,
-                        "max": 4
-                    },
+                    "limit": "4..4",
                     "signs": {
                         "strategy": "ALLOW",
                         "entries": ["Direction"]
@@ -60,19 +50,13 @@
                     "type": "area",
                     "min": "mcc:markers.hitw.wall_crossing.min",
                     "max": "mcc:markers.hitw.wall_crossing.max",
-                    "limit": {
-                        "min": 1,
-                        "max": 1
-                    }
+                    "limit": "1..1"
                 },
                 "platform": {
                     "type": "area",
                     "min": "mcc:markers.hitw.platform.min",
                     "max": "mcc:markers.hitw.platform.max",
-                    "limit": {
-                        "min": 1,
-                        "max": 1
-                    }
+                    "limit": "1..1"
                 }
             }
         },
@@ -91,10 +75,7 @@
                         "strategy": "ALLOW",
                         "entries": ["Step"]
                     },
-                    "limit": {
-                        "min": 3,
-                        "max": 3
-                    }
+                    "limit": "3..3"
                 },
                 "walls": {
                     "type": "area",

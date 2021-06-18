@@ -19,9 +19,7 @@
                 "spawnpoints": {
                     "type": "single",
                     "block": "mcc:markers.player_spawnpoints",
-                    "limit": {
-                        "min": 1
-                    }
+                    "limit": "1.."
                 },
                 "server_portal": {
                     "type": "area",

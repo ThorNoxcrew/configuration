@@ -23,26 +23,18 @@
                 "spawnpoints": {
                     "type": "grouped",
                     "block": "mcc:markers.player_spawnpoints",
-                    "limit": {
-                        "min": 40,
-                        "max": 40
-                    }
+                    "limit": "40..40"
                 },
                 "spectator_spawnpoint": {
                     "type": "single",
                     "block": "mcc:markers.spectator_spawnpoint",
-                    "limit": {
-                        "min": 1,
-                        "max": 1
-                    }
+                    "limit": "1..1"
                 },
                 "spawn_barriers": {
                     "type": "area",
                     "min": "mcc:markers.spawn_barriers.min",
                     "max": "mcc:markers.spawn_barriers.max",
-                    "limit": {
-                        "min": 1
-                    },
+                    "limit": "1..",
                     "signs": {
                         "strategy": "ALLOW",
                         "entries": ["Block"]
@@ -60,10 +52,7 @@
                         "respawn_point": {
                             "type": "single",
                             "block": "mcc:markers.ace_race.respawn_point",
-                            "limit": {
-                                "min": 0,
-                                "max": 1
-                            }
+                            "limit": "..1"
                         }
                     }
                 },
@@ -79,10 +68,7 @@
                         "respawn_point": {
                             "type": "single",
                             "block": "mcc:markers.ace_race.respawn_point",
-                            "limit": {
-                                "min": 0,
-                                "max": 1
-                            }
+                            "limit": "..1"
                         }
                     }
                 },

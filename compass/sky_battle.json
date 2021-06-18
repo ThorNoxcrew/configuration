@@ -16,33 +16,23 @@
                 "spawnpoints": {
                     "type": "grouped",
                     "block": "mcc:markers.player_spawnpoints",
-                    "limit": {
-                        "min": 40,
-                        "max": 40
-                    }
+                    "limit": "40..40"
                 },
                 "spectator_spawnpoint": {
                     "type": "single",
                     "block": "mcc:markers.spectator_spawnpoint",
-                    "limit": {
-                        "min": 1
-                    }
+                    "limit": "1.."
                 },
                 "spawn_barriers": {
                     "type": "area",
                     "min": "mcc:markers.spawn_barriers.min",
                     "max": "mcc:markers.spawn_barriers.max",
-                    "limit": {
-                        "min": 10
-                    }
+                    "limit": "10.."
                 },
                 "border_center": {
                     "type": "single",
                     "block": "mcc:markers.border_center",
-                    "limit": {
-                        "min": 1,
-                        "max": 1
-                    }
+                    "limit": "1..1"
                 }
             }
         },

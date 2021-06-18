@@ -24,26 +24,18 @@
                 "spawnpoints": {
                     "type": "grouped",
                     "block": "mcc:markers.player_spawnpoints",
-                    "limit": {
-                        "min": 40,
-                        "max": 40
-                    }
+                    "limit": "40..40"
                 },
                 "spectator_spawnpoint": {
                     "type": "single",
                     "block": "mcc:markers.spectator_spawnpoint",
-                    "limit": {
-                        "min": 1
-                    }
+                    "limit": "1.."
                 },
                 "mart_portal": {
                     "type": "area",
                     "min": "mcc:markers.build_mart.mart_portal.min",
                     "max": "mcc:markers.build_mart.mart_portal.max",
-                    "limit": {
-                        "min": 1,
-                        "max": 1
-                    }
+                    "limit": "1..1"
                 },
                 "team_portals": {
                     "type": "area",
@@ -100,9 +92,7 @@
                     "type": "area",
                     "min": "mcc:markers.build_mart.resource_area.min",
                     "max": "mcc:markers.build_mart.resource_area.max",
-                    "limit": {
-                        "min": 1
-                    }
+                    "limit": "1.."
                 },
                 "team_areas": {
                     "type": "area",
@@ -136,9 +126,7 @@
                 "fan": {
                     "type": "single",
                     "block": "mcc:markers.build_mart.fan",
-                    "limit": {
-                        "min": 1
-                    }
+                    "limit": "1.."
                 }
             }
         },
@@ -152,9 +140,7 @@
                 "build_corners": {
                     "type": "single",
                     "block": "mcc:markers.build_mart.build_template",
-                    "limit": {
-                        "min": 1
-                    },
+                    "limit": "1..",
                     "signs": {
                         "strategy": "ALLOW",
                         "entries": ["Build"]
