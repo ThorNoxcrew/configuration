@@ -1,6 +1,5 @@
 {
     "input": {
-        "type": "folder",
         "name": "build_mart"
     },
     "unused_sections": {
