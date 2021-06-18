@@ -1,6 +1,6 @@
 {
     "input": {
-        "type": "build_server",
+        "type": "folder",
         "server": "island",
         "name": "game_lobbies"
     },
@@ -20,9 +20,7 @@
                 "spawnpoints": {
                     "type": "single",
                     "block": "mcc:markers.player_spawnpoints",
-                    "limit": {
-                        "min": 1
-                    }
+                    "limit": "1.."
                 }
             }
         },

@@ -1,6 +1,6 @@
 {
     "input": {
-        "type": "build_server",
+        "type": "folder",
         "server": "island",
         "name": "apartments"
     },

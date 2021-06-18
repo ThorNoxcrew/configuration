@@ -1,6 +1,6 @@
 {
     "input": {
-        "type": "build_server",
+        "type": "folder",
         "name": "build_mart"
     },
     "unused_sections": {
@@ -41,10 +41,7 @@
                     "type": "area",
                     "min": "mcc:markers.build_mart.team_portal.min",
                     "max": "mcc:markers.build_mart.team_portal.max",
-                    "limit": {
-                        "min": 10,
-                        "max": 10
-                    },
+                    "limit": "10..10",
                     "signs": {
                         "strategy": "ALLOW",
                         "entries": ["Team"]
@@ -54,10 +51,7 @@
                     "type": "area",
                     "min": "mcc:markers.build_mart.example_plot.min",
                     "max": "mcc:markers.build_mart.example_plot.max",
-                    "limit": {
-                        "min": 30,
-                        "max": 30
-                    },
+                    "limit": "30..30",
                     "signs": {
                         "strategy": "ALLOW",
                         "entries": ["Team"]
@@ -67,10 +61,7 @@
                     "type": "area",
                     "min": "mcc:markers.build_mart.target_plot.min",
                     "max": "mcc:markers.build_mart.target_plot.max",
-                    "limit": {
-                        "min": 30,
-                        "max": 30
-                    },
+                    "limit": "30..30",
                     "signs": {
                         "strategy": "ALLOW",
                         "entries": ["Team"]
@@ -79,10 +70,7 @@
                 "plot_holograms": {
                     "type": "single",
                     "block": "mcc:markers.build_mart.plot_hologram",
-                    "limit": {
-                        "min": 30,
-                        "max": 30
-                    },
+                    "limit": "30..30",
                     "signs": {
                         "strategy": "ALLOW",
                         "entries": ["Team"]
@@ -98,10 +86,7 @@
                     "type": "area",
                     "min": "mcc:markers.build_mart.team_area.min",
                     "max": "mcc:markers.build_mart.team_area.max",
-                    "limit": {
-                        "min": 10,
-                        "max": 10
-                    }
+                    "limit": "10..10"
                 },
                 "speed_boosts": {
                     "type": "single",

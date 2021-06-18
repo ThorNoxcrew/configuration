@@ -1,6 +1,6 @@
 {
     "input": {
-        "type": "build_server",
+        "type": "folder",
         "name": "hole_in_the_wall"
     },
     "unused_sections": {

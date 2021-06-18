@@ -1,6 +1,6 @@
 {
     "input": {
-        "type": "build_server",
+        "type": "folder",
         "name": "battle_box"
     },
     "sections": {
@@ -59,10 +59,7 @@
                         "strategy": "ALLOW",
                         "entries": ["Phase"]
                     },
-                    "limit": {
-                        "min": 8,
-                        "max": 8
-                    }
+                    "limit": "8..8"
                 },
                 "spawnpoints_away": {
                     "type": "single",
@@ -71,10 +68,7 @@
                         "strategy": "ALLOW",
                         "entries": ["Phase"]
                     },
-                    "limit": {
-                        "min": 8,
-                        "max": 8
-                    }
+                    "limit": "8..8"
                 },
                 "spectator_spawnpoint": {
                     "type": "single",

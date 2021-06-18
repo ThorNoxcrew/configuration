@@ -1,6 +1,6 @@
 {
     "input": {
-        "type": "build_server",
+        "type": "folder",
         "name": "ace_race"
     },
     "unused_sections": {
