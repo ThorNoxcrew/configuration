@@ -10,6 +10,8 @@ mccScript {
     lookClosePerPlayer(20)
     cooldown(5.seconds)
 
-    interactBehavior { npc, player -> player.performCommand("faction join") }
+    interactBehavior { npc, player ->
+      withContext(Dispatchers.Minecraft) { player.performCommand("faction join") }
+    }
   }
 }
