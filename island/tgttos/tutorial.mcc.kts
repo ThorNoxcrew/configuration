@@ -15,14 +15,18 @@ mccScript {
 
   val playerGroup = (data["players"] as PlayerGroup)
 
+  // Start camera pathing for the tutorial
   withContext(Dispatchers.Minecraft) {
     for (player in playerGroup.onlinePlayers) {
       cameraPathManager.start(player, cameraPath)
     }
   }
 
-  delay(2000)
-  playerGroup.sendMessage(i18n.translatable("island.games.tutorial.tgttos.line1"))
-  delay(2000)
-  playerGroup.sendMessage(i18n.translatable("island.games.tutorial.tgttos.line2"))
+  // Send lines 1-6 to the players
+  for (i in 1..6) {
+    playerGroup.sendMessage(i18n.translatable("island.games.tutorial.tgttos.line$i"))
+    delay(3000)
+  }
+  // Send standby text
+  playerGroup.sendMessage(i18n.translatable("island.games.tutorial.standby"))
 }
