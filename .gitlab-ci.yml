@@ -62,7 +62,6 @@ pyhocon:
 upload_consul_dev:
     stage: upload
     extends: [.kube_env_dev, .upload_consul]
-
 # upload_consul_ptr:
 #     stage: upload
 #     extends: [.kube_env_ptr, .upload_consul]
