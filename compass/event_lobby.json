@@ -1,7 +1,8 @@
 {
     "input": {
         "server": "event",
-        "name": "hub"
+        "name": "event_lobby",
+        "worldName": "hub"
     },
     "sections": {
         "event_lobby": [
@@ -80,10 +81,6 @@
         },
         {
             "type": "empty_region_padding"
-        },
-        {
-            "type": "rename_pipeline",
-            "name": "event_lobby"
         }
     ]
 }

@@ -39,11 +39,11 @@
             "type": "lighting_updater"
         },
         {
-            "type": "split_world_per_section"
+            "type": "split_per_section"
         },
         {
             "type": "duplicate_sections",
-            "amount": 3
+            "duplicates": 2
         },
         {
             "type": "empty_region_padding"

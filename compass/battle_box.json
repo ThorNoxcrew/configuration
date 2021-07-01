@@ -119,7 +119,7 @@
                 "strategy": "ALLOW",
                 "entries": ["game"]
             },
-            "amount": 9
+            "duplicates": 7
         },
         {
             "type": "empty_region_padding"
