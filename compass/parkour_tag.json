@@ -39,7 +39,7 @@
         },
         {
             "type": "parkour_tag_assembler",
-            "filter": {
+            "referenceSections": {
                 "strategy": "ALLOW",
                 "entries": ["reference"]
             },
