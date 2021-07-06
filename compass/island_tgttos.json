@@ -36,11 +36,16 @@
         "breakdown": [[0, 4]],
         "skydive": [[-2, 2]],
         "go": [[4, 0]],
-        "basins": [[2, 0]]
+        "basins": [[2, 0]],
+        "ref_randomization": [[9, 8]]
     },
     "processors": [
         {
             "type": "scanner",
+            "filter": {
+                "strategy": "DENY",
+                "entries": ["ref_randomization"]
+            },
             "targets": {
                 "spawnpoints": {
                     "type": "grouped",
@@ -110,11 +115,45 @@
                 "wing_rings": {
                     "type": "single",
                     "block": "mcc:markers.ace_race.wing_rings"
+                },
+                "random_targets": {
+                    "type": "area",
+                    "min": "mcc:markers.tgttos.randomization.target_min",
+                    "max": "mcc:markers.tgttos.randomization.target_max",
+                    "signs": {
+                        "strategy": "ALLOW",
+                        "entries": ["Target"]
+                    }
+                }
+            }
+        },
+        {
+            "type": "scanner",
+            "filter": {
+                "strategy": "ALLOW",
+                "entries": ["ref_randomization"]
+            },
+            "targets": {
+                "random_reference": {
+                    "type": "area",
+                    "min": "mcc:markers.tgttos.randomization.reference_min",
+                    "max": "mcc:markers.tgttos.randomization.reference_max",
+                    "signs": {
+                        "strategy": "ALLOW",
+                        "entries": ["Reference"]
+                    }
                 }
             }
         },
         {
             "type": "lighting_updater"
+        },
+        {
+            "type": "split_world_per_section",
+            "filter": {
+                "strategy": "DENY",
+                "entries": ["ref_randomization"]
+            }
         },
         {
             "type": "empty_region_padding"
