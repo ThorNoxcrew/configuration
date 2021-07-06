@@ -37,7 +37,7 @@
         "skydive": [[-2, 2]],
         "go": [[4, 0]],
         "basins": [[2, 0]],
-        "ref_randomization": [[9, 8]]
+        "ref_randomization": [[-9, 8]]
     },
     "processors": [
         {
