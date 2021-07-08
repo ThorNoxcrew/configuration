@@ -42,10 +42,6 @@
     "processors": [
         {
             "type": "scanner",
-            "filter": {
-                "strategy": "DENY",
-                "entries": ["ref_randomization"]
-            },
             "targets": {
                 "spawnpoints": {
                     "type": "grouped",
@@ -124,16 +120,7 @@
                         "strategy": "ALLOW",
                         "entries": ["Target"]
                     }
-                }
-            }
-        },
-        {
-            "type": "scanner",
-            "filter": {
-                "strategy": "ALLOW",
-                "entries": ["ref_randomization"]
-            },
-            "targets": {
+                },
                 "random_reference": {
                     "type": "area",
                     "min": "mcc:markers.tgttos.randomization.reference_min",
