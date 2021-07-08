@@ -118,8 +118,8 @@
                 },
                 "random_targets": {
                     "type": "area",
-                    "min": "mcc:markers.tgttos.randomization.target_min",
-                    "max": "mcc:markers.tgttos.randomization.target_max",
+                    "min": "mcc:markers.randomization.target_min",
+                    "max": "mcc:markers.randomization.target_max",
                     "signs": {
                         "strategy": "ALLOW",
                         "entries": ["Target"]
@@ -136,8 +136,8 @@
             "targets": {
                 "random_reference": {
                     "type": "area",
-                    "min": "mcc:markers.tgttos.randomization.reference_min",
-                    "max": "mcc:markers.tgttos.randomization.reference_max",
+                    "min": "mcc:markers.randomization.reference_min",
+                    "max": "mcc:markers.randomization.reference_max",
                     "signs": {
                         "strategy": "ALLOW",
                         "entries": ["Reference"]
