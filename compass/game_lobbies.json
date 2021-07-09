@@ -5,13 +5,13 @@
         "name": "game_lobbies"
     },
     "unused_sections": {
-        "ace_race": [[-1, 0]],
         "battlebox": [[0, -1]],
         "survival_games": [[-1, -1]]
     },
     "sections": {
         "hitw": [[-1, -2]],
-        "tgttos": [[0, 0]]
+        "tgttos": [[0, 0]],
+        "ace_race": [[-1, 0]]
     },
     "processors": [
         {
