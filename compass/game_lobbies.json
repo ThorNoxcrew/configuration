@@ -11,7 +11,7 @@
     "sections": {
         "hitw": [[-1, -2]],
         "tgttos": [[0, 0]],
-        "ace_race": [[-1, 0]]
+        "ace-race": [[-1, 0]]
     },
     "processors": [
         {
