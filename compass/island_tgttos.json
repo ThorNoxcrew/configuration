@@ -202,7 +202,7 @@
                     }
                 },
                 "podium_spawnpoints": {
-                    "type": "single",
+                    "type": "grouped",
                     "block": "mcc:markers.podium.spawnpoint",
                     "limit": {
                         "min": 1,
