@@ -153,7 +153,7 @@
                 "entries": ["podium_area"]
             },
             "targets": {
-                "first_place": {
+                "podium_first_place": {
                     "type": "single",
                     "block": "mcc:markers.podium.first_place",
                     "limit": {
@@ -161,7 +161,7 @@
                         "max": 1
                     }
                 },
-                "second_place": {
+                "podium_second_place": {
                     "type": "single",
                     "block": "mcc:markers.podium.second_place",
                     "limit": {
@@ -169,7 +169,7 @@
                         "max": 1
                     }
                 },
-                "third_place": {
+                "podium_third_place": {
                     "type": "single",
                     "block": "mcc:markers.podium.third_place",
                     "limit": {
@@ -177,7 +177,7 @@
                         "max": 1
                     }
                 },
-                "fourth_place": {
+                "podium_fourth_place": {
                     "type": "single",
                     "block": "mcc:markers.podium.fourth_place",
                     "limit": {
@@ -185,7 +185,7 @@
                         "max": 1
                     }
                 },
-                "fifth_place": {
+                "podium_fifth_place": {
                     "type": "single",
                     "block": "mcc:markers.podium.fifth_place",
                     "limit": {
@@ -193,7 +193,7 @@
                         "max": 1
                     }
                 },
-                "player": {
+                "podium_player": {
                     "type": "single",
                     "block": "mcc:markers.podium.player",
                     "limit": {
