@@ -5,6 +5,7 @@ import com.noxcrew.mcc.commons.server.i18n.sendMessage
 import com.noxcrew.mcc.commons.server.path.camera.CameraPath
 import com.noxcrew.mcc.commons.server.path.camera.CameraPathConfig
 import com.noxcrew.mcc.commons.server.path.camera.CameraPathManager
+import com.noxcrew.mcc.commons.server.sound.playSound
 
 mccScript {
   val cameraPathManager: CameraPathManager by inject()
@@ -21,6 +22,8 @@ mccScript {
       cameraPathManager.start(player, cameraPath)
     }
   }
+
+  playerGroup.playSound("mcc:games.global.timer.grace_period")
 
   // Send lines 1-6 to the players
   for (line in i18n.range("island.games.tutorial.tgttos.line")) {
