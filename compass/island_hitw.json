@@ -10,14 +10,15 @@
     },
     "sections": {
         "highrise": [[4, 0]],
-        "ref_walls": [[-7, 7]]
+        "ref_walls": [[-7, 7]],
+        "podium_area": [[3, 1]]
     },
     "processors": [
         {
             "type": "scanner",
             "filter": {
                 "strategy": "DENY",
-                "entries": ["ref_walls"]
+                "entries": ["ref_walls", "podium_area"]
             },
             "targets": {
                 "spawnpoints": {
@@ -102,6 +103,71 @@
                     "signs": {
                         "strategy": "ALLOW",
                         "entries": ["Difficulty"]
+                    }
+                }
+            }
+        },
+        {
+            "type": "scanner",
+            "filter": {
+                "strategy": "ALLOW",
+                "entries": ["podium_area"]
+            },
+            "targets": {
+                "podium_first_place": {
+                    "type": "single",
+                    "block": "mcc:markers.podium.first_place",
+                    "limit": {
+                        "min": 1,
+                        "max": 1
+                    }
+                },
+                "podium_second_place": {
+                    "type": "single",
+                    "block": "mcc:markers.podium.second_place",
+                    "limit": {
+                        "min": 1,
+                        "max": 1
+                    }
+                },
+                "podium_third_place": {
+                    "type": "single",
+                    "block": "mcc:markers.podium.third_place",
+                    "limit": {
+                        "min": 1,
+                        "max": 1
+                    }
+                },
+                "podium_fourth_place": {
+                    "type": "single",
+                    "block": "mcc:markers.podium.fourth_place",
+                    "limit": {
+                        "min": 1,
+                        "max": 1
+                    }
+                },
+                "podium_fifth_place": {
+                    "type": "single",
+                    "block": "mcc:markers.podium.fifth_place",
+                    "limit": {
+                        "min": 1,
+                        "max": 1
+                    }
+                },
+                "podium_player": {
+                    "type": "single",
+                    "block": "mcc:markers.podium.player",
+                    "limit": {
+                        "min": 1,
+                        "max": 1
+                    }
+                },
+                "podium_spawnpoints": {
+                    "type": "grouped",
+                    "block": "mcc:markers.podium.spawnpoint",
+                    "limit": {
+                        "min": 1,
+                        "max": 40
                     }
                 }
             }
