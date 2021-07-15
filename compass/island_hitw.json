@@ -179,7 +179,7 @@
             "type": "split_world_per_section",
             "filter": {
                 "strategy": "DENY",
-                "entries": ["ref_walls"]
+                "entries": ["ref_walls", "podium_area"]
             }
         },
         {
