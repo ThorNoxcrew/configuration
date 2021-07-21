@@ -8,7 +8,7 @@ mccScript {
       "ZQ5nAwWIapz31/Z2IcCQPPLUQtck4EuQBovOHo8RHsR2QVC+mHFyS+XDwL8KIaJ6D/9Og8CWRp0xzPphlWMI507ycz42PbySzN5A448/4VhVyTHJmtvFPluRK4b+51r/UjKFIzOtwCFYLh4+C00yw7FWZJzW1IxPD1GcD2w7JpwILJUdlDZS5uHe415hJTFgT+pRQhuKzPaI/+a3vI78WGbC3SlhOHuTVnZ4N8Ndar6oLY26BH6Jpm6yFgIyMES2goBdi84pxxAqmifj9Wzth83EnFKrJvY+bYOY+E/arEaxcMaVKcMa3glTJFEZFPqZ8xVHv3OKVPvm+OlcEQ+jntw2gwQ5nnSQHzMn2BboiJxy7rPIJ5iWIdeoiTDac8xgEPCKoYeqP5ogFGQfypRcIVzDaxP80Pi0hNXoOXNs/P0PX40bsi5Hu5zcW9VG6EKfDaVN71U1G8l1AaVxKXcf3egzIF03FoHBOZrYMlfWhSl+X2Wg52ES0JBgSupzkusl/3kqBwlHMcXvdT0dErJOUqroqepJ/jXpw18c0OlxWWtXKAQtHtypzB3tH5qqsQYLy++1cWn6hh8dGkZg0D0cFjuHyIhS7AqePG7kj6TR1xs/wnz+gms9SzTZLR43dby4/sVPJurnjc74m49Wq7sE37p1YqNh+S9/cIZWUMy4ek0=") {
     rotation(0.0, 0.0)
     lookClosePerPlayer(20)
-    cooldown(5.seconds)
+    cooldown(1.seconds)
 
     interactBehavior { npc, player ->
       withContext(Dispatchers.Minecraft) { player.performCommand("faction join") }
