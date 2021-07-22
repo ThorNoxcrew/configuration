@@ -8,6 +8,7 @@ import com.noxcrew.mcc.commons.server.module.container.ModuleRegistry
 import com.noxcrew.mcc.commons.server.path.camera.CameraPath
 import com.noxcrew.mcc.commons.server.path.camera.CameraPathConfig
 import com.noxcrew.mcc.commons.server.path.camera.CameraPathManager
+import org.bukkit.entity.Player
 
 mccScript {
   val cameraPathManager: CameraPathManager by inject()
@@ -23,9 +24,7 @@ mccScript {
 
   // Start camera pathing for the tutorial
   withContext(Dispatchers.Minecraft) {
-    for (player in player.onlinePlayers) {
-      cameraPathManager.start(player, cameraPath)
-    }
+    cameraPathManager.start(player, cameraPath)
   }
 
   player.playSound("mcc:games.global.timer.grace_period")
