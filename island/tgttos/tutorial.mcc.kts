@@ -3,11 +3,13 @@ import com.noxcrew.mcc.commons.base.i18n.I18n
 import com.noxcrew.mcc.commons.base.inject
 import com.noxcrew.mcc.commons.base.serialization.Serializers
 import com.noxcrew.mcc.commons.server.config.ConfigManager
+import com.noxcrew.mcc.commons.server.i18n.sendMessage
 import com.noxcrew.mcc.commons.server.module.container.Container
 import com.noxcrew.mcc.commons.server.module.container.ModuleRegistry
 import com.noxcrew.mcc.commons.server.path.camera.CameraPath
 import com.noxcrew.mcc.commons.server.path.camera.CameraPathConfig
 import com.noxcrew.mcc.commons.server.path.camera.CameraPathManager
+import com.noxcrew.mcc.commons.server.sound.playSound
 import org.bukkit.entity.Player
 
 mccScript {
