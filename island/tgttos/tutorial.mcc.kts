@@ -30,7 +30,7 @@ mccScript {
 
   // Send lines 1-6 to the players
   for (line in player.translateLines("island.games.tutorial.tgttos")) {
-    player.sendMessage(i18n.translatable(line))
+    player.sendMessage(line)
     delay(3000)
   }
   // Send standby text
