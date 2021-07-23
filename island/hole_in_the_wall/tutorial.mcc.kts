@@ -17,7 +17,7 @@ mccScript {
 
   val config: CameraPathConfig by container.injectModuleConfig()
   val cameraPath = CameraPath.fromConfig(config)
-  val modifierTitles by container.injectModule()
+  val modifierTitles: ModifierTitles by container.injectModule()
 
   val i18n: I18n by inject()
 
