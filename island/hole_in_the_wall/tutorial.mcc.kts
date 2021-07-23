@@ -1,9 +1,9 @@
 import com.noxcrew.mcc.commons.base.i18n.I18n
 import com.noxcrew.mcc.commons.base.inject
-import com.noxcrew.mcc.commons.server.config.injectModule
 import com.noxcrew.mcc.commons.server.config.injectModuleConfig
 import com.noxcrew.mcc.commons.server.i18n.sendMessage
 import com.noxcrew.mcc.commons.server.i18n.translateLines
+import com.noxcrew.mcc.commons.server.module.container
 import com.noxcrew.mcc.commons.server.module.container.Container
 import com.noxcrew.mcc.commons.server.path.camera.CameraPath
 import com.noxcrew.mcc.commons.server.path.camera.CameraPathConfig
