@@ -4,7 +4,6 @@ import com.noxcrew.mcc.commons.server.config.injectModuleConfig
 import com.noxcrew.mcc.commons.server.game.modifier.ModifierTitles
 import com.noxcrew.mcc.commons.server.i18n.sendMessage
 import com.noxcrew.mcc.commons.server.i18n.translateLines
-import com.noxcrew.mcc.commons.server.module.container
 import com.noxcrew.mcc.commons.server.module.container.Container
 import com.noxcrew.mcc.commons.server.module.container.injectModule
 import com.noxcrew.mcc.commons.server.path.camera.CameraPath
