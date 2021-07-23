@@ -7,7 +7,6 @@ import com.noxcrew.mcc.commons.server.module.container.Container
 import com.noxcrew.mcc.commons.server.path.camera.CameraPath
 import com.noxcrew.mcc.commons.server.path.camera.CameraPathConfig
 import com.noxcrew.mcc.commons.server.path.camera.CameraPathManager
-import com.noxcrew.mcc.commons.server.sound.playSound
 import org.bukkit.entity.Player
 
 mccScript {
@@ -16,6 +15,7 @@ mccScript {
 
   val config: CameraPathConfig by container.injectModuleConfig()
   val cameraPath = CameraPath.fromConfig(config)
+  val modifierTitles by container.injectModule()
 
   val i18n: I18n by inject()
 
@@ -23,6 +23,7 @@ mccScript {
 
   withContext(Dispatchers.Minecraft) {
     cameraPathManager.start(player, cameraPath)
+    modifierTitles.showToPlayer(player)
   }
 
   for (line in player.translateLines("island.games.tutorial.hitw")) {
