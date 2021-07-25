@@ -1,5 +1,6 @@
 import com.noxcrew.mcc.commons.base.i18n.I18n
 import com.noxcrew.mcc.commons.base.inject
+import com.noxcrew.mcc.commons.base.text.text
 import com.noxcrew.mcc.commons.server.config.injectModuleConfig
 import com.noxcrew.mcc.commons.server.game.modifier.ModifierTitles
 import com.noxcrew.mcc.commons.server.i18n.sendMessage
@@ -9,6 +10,11 @@ import com.noxcrew.mcc.commons.server.module.container.injectModule
 import com.noxcrew.mcc.commons.server.path.camera.CameraPath
 import com.noxcrew.mcc.commons.server.path.camera.CameraPathConfig
 import com.noxcrew.mcc.commons.server.path.camera.CameraPathManager
+import java.time.Duration
+import net.kyori.adventure.text.Component
+import net.kyori.adventure.text.format.NamedTextColor
+import net.kyori.adventure.text.format.TextDecoration
+import net.kyori.adventure.title.Title
 import org.bukkit.entity.Player
 
 mccScript {
@@ -25,8 +31,21 @@ mccScript {
 
   withContext(Dispatchers.Minecraft) {
     cameraPathManager.start(player, cameraPath)
-    modifierTitles.showToPlayer(player)
+
+    player.showTitle(
+        Title.title(
+            text("Hole In The Wall") {
+              style {
+                color(NamedTextColor.GOLD)
+                decorate(TextDecoration.BOLD)
+              }
+            },
+            Component.empty(),
+            Title.Times.of(Duration.ofSeconds(1), Duration.ofSeconds(1), Duration.ofSeconds(1))))
   }
+
+  delay(3000)
+  withContext(Dispatchers.Minecraft) { modifierTitles.showToPlayer(player) }
 
   for (line in player.translateLines("island.games.tutorial.hitw")) {
     player.sendMessage(line)
