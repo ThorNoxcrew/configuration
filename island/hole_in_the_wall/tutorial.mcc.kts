@@ -10,6 +10,7 @@ import com.noxcrew.mcc.commons.server.module.container.injectModule
 import com.noxcrew.mcc.commons.server.path.camera.CameraPath
 import com.noxcrew.mcc.commons.server.path.camera.CameraPathConfig
 import com.noxcrew.mcc.commons.server.path.camera.CameraPathManager
+import com.noxcrew.mcc.commons.server.text.font.CustomGlyphProvider
 import java.time.Duration
 import net.kyori.adventure.text.Component
 import net.kyori.adventure.text.format.NamedTextColor
@@ -29,9 +30,18 @@ mccScript {
 
   val player = data["player"] as Player
 
+  val customGlyphProvider: CustomGlyphProvider by player.injectModule()
+
+  player.showTitle(
+      Title.title(
+          customGlyphProvider["mcc:gui.black_box_1"].toComponent(NamedTextColor.WHITE),
+          Component.empty(),
+          Title.Times.of(Duration.ZERO, Duration.ofSeconds(1), Duration.ofSeconds(1))))
+
   withContext(Dispatchers.Minecraft) {
     cameraPathManager.start(player, cameraPath)
 
+    delay(1000)
     player.showTitle(
         Title.title(
             text("Hole In The Wall") {
