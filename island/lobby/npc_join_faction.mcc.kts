@@ -13,5 +13,8 @@ mccScript {
     interactBehavior { npc, player ->
       withContext(Dispatchers.Minecraft) { player.performCommand("faction join") }
     }
+
+    type("interactable")
+    aboveName("<glyph=mcc:icon.emojis.clown>", TextFormat.MINI_MESSAGE)
   }
 }
