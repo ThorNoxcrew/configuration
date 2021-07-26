@@ -7,5 +7,7 @@ mccScript {
     rotation(180.0, 0.0)
     lookClosePerPlayer(6)
     proximityBubbleChat(text("I'm The Boss!"), 30.seconds)
+	
+	type("shop")
   }
 }
