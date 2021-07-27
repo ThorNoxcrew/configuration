@@ -38,5 +38,7 @@ mccScript {
             i18n.translatable("second.translation.here"),
             i18n.translatable("third.translation.here")),
         4.seconds)
+
+    type("ambient")
   }
 }
