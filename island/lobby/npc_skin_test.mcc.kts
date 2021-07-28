@@ -12,7 +12,7 @@ mccScript {
       // The spawn position of the NPC, must use decimals
       absoluteVec(390.5, 37.0, 554.5),
       // Translation key for name or untranslatable text
-      "Jack Lumberdo",
+      "island.npcs.lobby.testnpc",
       // The texture provided from https://mineskin.org/
       "ewogICJ0aW1lc3RhbXAiIDogMTYyMzg3MjIxMDU0OCwKICAicHJvZmlsZUlkIiA6ICJjZGM5MzQ0NDAzODM0ZDdkYmRmOWUyMmVjZmM5MzBiZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJSYXdMb2JzdGVycyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kNTI5ZjA3OWRjYTVmMGE0NDU4MzFhMjBhNjg4OTMzMDEyMzkzMjdkMzU3OTY1MTViMjYxNjM2YTZhODYxMWQ3IgogICAgfQogIH0KfQ==",
       // The testure signature provided from https://mineskin.org/
@@ -34,10 +34,10 @@ mccScript {
     // Bubble chat, randomly selecting one from the list every 4 seconds
     proximityBubbleChat(
         listOf(
-            i18n.translatable("island.npc.jacklumberdo.dialogue1"),
-            i18n.translatable("island.npc.jacklumberdo.dialogue2"),
-            i18n.translatable("island.npc.jacklumberdo.dialogue3")),
-        15.seconds)
+            i18n.translatable("first.translation.here"),
+            i18n.translatable("second.translation.here"),
+            i18n.translatable("third.translation.here")),
+        4.seconds)
 
     type("ambient")
   }
