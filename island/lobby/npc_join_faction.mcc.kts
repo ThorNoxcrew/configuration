@@ -14,6 +14,6 @@ mccScript {
       withContext(Dispatchers.Minecraft) { player.performCommand("faction join") }
     }
 
-    type("interactable")
+    type("faction_master")
   }
 }
