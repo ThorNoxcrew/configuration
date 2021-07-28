@@ -1,7 +1,11 @@
 import com.noxcrew.mcc.commons.server.util.sendToAny
 import kotlin.time.seconds
+import com.noxcrew.mcc.commons.base.i18n.I18n
+import com.noxcrew.mcc.commons.base.inject
 
 mccScript {
+  val i18n: I18n by inject()
+
   // Player NPC using a username for a skin, first string is the display name, the second name is
   // the skin to use
   playerNPC(

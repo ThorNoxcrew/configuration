@@ -1,4 +1,9 @@
+import com.noxcrew.mcc.commons.base.i18n.I18n
+import com.noxcrew.mcc.commons.base.inject
+
 mccScript {
+  val i18n: I18n by inject()
+
   playerNPC(
       absoluteVec(389.5, 34.0, 570.5),
       "Joey Fresh",
