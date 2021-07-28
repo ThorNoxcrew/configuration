@@ -15,6 +15,5 @@ mccScript {
     }
 
     type("interactable")
-    aboveName("<glyph=mcc:icon.emojis.clown>", TextFormat.MINI_MESSAGE)
   }
 }
