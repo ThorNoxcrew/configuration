@@ -1,5 +1,5 @@
 Active,System,Item ID,Category,Item Name,Name Translation,Description Translation,Use Type,Place Type,Stack,Rarity,Set,Icon ID,Coin Price,Premium Price,Dollar Price,Override,Source,In Daily,In Weekly,In Static,Status,Description
-FALSE,Furniture,mcc:furniture.bed.floor_mattress,Bed,Floor Mattress,,,Lying,Floor,None,Common,,,,,  ,---,,FALSE,FALSE,TRUE,In Progress,A rickety mattress with fluff and springs sticking out of it.
+TRUE,Furniture,mcc:furniture.bed.floor_mattress,Bed,Floor Mattress,,,Lying,Floor,None,Common,,,,,  ,---,furnitureTestStore,FALSE,FALSE,TRUE,In Progress,A rickety mattress with fluff and springs sticking out of it.
 FALSE,Furniture,,Bed,Sleeping Bag,,,Lying,Floor,None,Common,,,,,  ,---,,FALSE,FALSE,TRUE,In Progress,A shaky bunk with wooden legs.
 FALSE,Furniture,,Bed,Single Bed,,,Lying,Floor,None,Common,,,,,,---,,FALSE,FALSE,FALSE,,
 FALSE,Furniture,,Bed,Single Oak Bed,,,Lying,Floor,None,Common,,,,,  ,---,,FALSE,FALSE,TRUE,In Progress,An empty bed panel. No mattress.
