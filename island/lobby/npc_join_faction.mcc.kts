@@ -1,6 +1,10 @@
+import com.noxcrew.mcc.commons.base.i18n.I18n
+import com.noxcrew.mcc.commons.base.inject
 import kotlin.time.seconds
 
 mccScript {
+  val i18n: I18n by inject()
+
   playerNPC(
       absoluteVec(392.5, 34.0, 549.5),
       "Albedo Squidface",
