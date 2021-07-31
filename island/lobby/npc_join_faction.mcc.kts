@@ -10,6 +10,12 @@ mccScript {
     lookClosePerPlayer(20)
     cooldown(1.seconds)
 
+    proximityBubbleChat(
+        listOf(
+            i18n.translatable("island.npc.joinfaction.dialogue1"),
+            i18n.translatable("island.npc.joinfaction.dialogue2")),
+        60.seconds)
+
     interactBehavior { npc, player ->
       withContext(Dispatchers.Minecraft) { player.performCommand("faction join") }
     }

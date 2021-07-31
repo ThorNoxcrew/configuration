@@ -37,7 +37,7 @@ mccScript {
             i18n.translatable("island.npc.jacklumberdo.dialogue1"),
             i18n.translatable("island.npc.jacklumberdo.dialogue2"),
             i18n.translatable("island.npc.jacklumberdo.dialogue3")),
-        15.seconds)
+        45.seconds)
 
     type("ambient")
   }
