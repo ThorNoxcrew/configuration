@@ -53,7 +53,7 @@ compile_scripts:
               - compiled/
 
 .upload_consul:
-    image: git.noxcrew.com:5050/noxcrew/online-devops/fs2consulkv:master-f2a4a8bdf1492e146268de1fed4c9fef26898d1b
+    image: git.noxcrew.com:5050/noxcrew/online-devops/fs2consulkv:main-3f4dc889efe5820a9efacdbb8ee73c14f807731f
     tags: [docker]
     # https://gitlab.com/gitlab-org/gitlab-runner/-/issues/27524
     cache:
@@ -61,9 +61,6 @@ compile_scripts:
         key: "$CI_COMMIT_BRANCH"
         paths:
             - compiled/
-    before_script:
-        - apk add --no-cache bash jq findutils
-        - apk add --no-cache -X http://dl-cdn.alpinelinux.org/alpine/edge/main consul
     script:
         - ./.gitlab/tools/consul-wrapper.py fs2consulkv -n --fs-kv-path . --consul-url http://localhost:8500 --consul-acl-token "$CONSUL_ACL_TOKEN" --consul-kv-root "configuration/$CI_COMMIT_BRANCH" --skip-prompt
         - ./.gitlab/tools/consul-wrapper.py bash ./.gitlab/tools/consul-diff.sh
