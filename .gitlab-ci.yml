@@ -66,7 +66,7 @@ compile_scripts:
         - apk add --no-cache -X http://dl-cdn.alpinelinux.org/alpine/edge/main consul
     script:
         - find . -name "*.bytecode" -type f -delete
-        - ./.gitlab/tools/consul-wrapper.py fs2consulkv --fs-kv-path . --consul-url http://localhost:8500 --consul-acl-token "$CONSUL_ACL_TOKEN" --consul-kv-root "configuration/$CI_COMMIT_BRANCH" --skip-prompt
+        - ./.gitlab/tools/consul-wrapper.py fs2consulkv -n --fs-kv-path . --consul-url http://localhost:8500 --consul-acl-token "$CONSUL_ACL_TOKEN" --consul-kv-root "configuration/$CI_COMMIT_BRANCH" --skip-prompt
         - ./.gitlab/tools/consul-wrapper.py bash ./.gitlab/tools/consul-diff.sh
 
 .kube_env_dev:
