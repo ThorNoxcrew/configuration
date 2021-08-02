@@ -62,10 +62,10 @@ compile_scripts:
         paths:
             - compiled/
     before_script:
-        - apk add --no-cache bash jq
+        - apk add --no-cache bash jq findutils
         - apk add --no-cache -X http://dl-cdn.alpinelinux.org/alpine/edge/main consul
     script:
-        - rm compiled/**/*.bytecode
+        - find . -name "*.bytecode" -type f -delete
         - ./.gitlab/tools/consul-wrapper.py fs2consulkv --fs-kv-path . --consul-url http://localhost:8500 --consul-acl-token "$CONSUL_ACL_TOKEN" --consul-kv-root "configuration/$CI_COMMIT_BRANCH" --skip-prompt
         - ./.gitlab/tools/consul-wrapper.py bash ./.gitlab/tools/consul-diff.sh
 
