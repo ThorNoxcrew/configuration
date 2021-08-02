@@ -1,6 +1,6 @@
 stages:
     - lint
-    - upload
+    - compile
     - deploy
 
 prettier:
@@ -39,6 +39,19 @@ pyhocon:
         - apk add --no-cache bash
         - ./.gitlab/tools/pyhocon.sh
 
+compile_scripts:
+    stage: compile
+    image: git.noxcrew.online:5050/registry/registry/mcc-script-cli
+    script:
+      - ./.gitlab/tools/compile-scripts.sh
+    only:
+      changes:
+        - "**/*.mcc.kts"
+    cache:
+        key: "$CI_COMMIT_BRANCH"
+        paths:
+            - compiled/
+
 .upload_consul:
     image: git.noxcrew.com:5050/noxcrew/fs2consulkv:master-5cb065cccf7422fe56f3526fceace7a4cf44e2a7
     tags: [docker]
@@ -65,8 +78,8 @@ pyhocon:
             namespace: ops
 
 upload_consul_dev:
-    stage: upload
+    stage: deploy
     extends: [.kube_env_dev, .upload_consul]
 # upload_consul_ptr:
-#     stage: upload
+#     stage: deploy
 #     extends: [.kube_env_ptr, .upload_consul]
