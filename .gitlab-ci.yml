@@ -56,6 +56,11 @@ compile_scripts:
     image: git.noxcrew.com:5050/noxcrew/fs2consulkv:master-5cb065cccf7422fe56f3526fceace7a4cf44e2a7
     tags: [docker]
     # https://gitlab.com/gitlab-org/gitlab-runner/-/issues/27524
+    cache:
+        policy: pull
+        key: "$CI_COMMIT_BRANCH"
+        paths:
+            - compiled/
     before_script:
         - apk add --no-cache bash jq
         - apk add --no-cache -X http://dl-cdn.alpinelinux.org/alpine/edge/main consul
