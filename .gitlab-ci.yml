@@ -53,7 +53,7 @@ compile_scripts:
               - compiled/
 
 .upload_consul:
-    image: git.noxcrew.com:5050/noxcrew/online-devops/fs2consulkv:master-5af2c38e8490d8813d2bdd05784c4726f8c964cb
+    image: git.noxcrew.com:5050/noxcrew/online-devops/fs2consulkv:master-f2a4a8bdf1492e146268de1fed4c9fef26898d1b
     tags: [docker]
     # https://gitlab.com/gitlab-org/gitlab-runner/-/issues/27524
     cache:
