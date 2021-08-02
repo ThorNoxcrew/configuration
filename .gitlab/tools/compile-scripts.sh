@@ -3,7 +3,6 @@ set -euo pipefail
 
 compile_script() {
 	java -jar /mcc-script-cli.jar $1 compiled/$1
-        zstd -f compiled/$1/*.bytecode
 }
 
 SCRIPT_DIRECTORIES=$(find . -type f -name "*.mcc.kts" -printf "%h\n" | cut -c 3- | uniq)
