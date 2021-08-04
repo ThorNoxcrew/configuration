@@ -62,6 +62,7 @@ compile_scripts:
         paths:
             - compiled/
     script:
+        - ./.gitlab/tools/compress-csv.sh
         - ./.gitlab/tools/consul-wrapper.py fs2consulkv --fs-kv-path . --consul-url http://localhost:8500 --consul-acl-token "$CONSUL_ACL_TOKEN" --consul-kv-root "configuration/$CI_COMMIT_BRANCH"
         - ./.gitlab/tools/consul-wrapper.py bash ./.gitlab/tools/consul-diff.sh
 
