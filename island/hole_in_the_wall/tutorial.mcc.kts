@@ -10,6 +10,7 @@ import com.noxcrew.mcc.commons.server.module.container.injectModule
 import com.noxcrew.mcc.commons.server.path.camera.CameraPath
 import com.noxcrew.mcc.commons.server.path.camera.CameraPathConfig
 import com.noxcrew.mcc.commons.server.path.camera.CameraPathManager
+import com.noxcrew.mcc.commons.server.sound.SoundConfig
 import com.noxcrew.mcc.commons.server.text.font.CustomGlyphProvider
 import java.time.Duration
 import net.kyori.adventure.text.Component
@@ -42,6 +43,9 @@ mccScript {
     cameraPathManager.start(player, cameraPath)
 
     delay(1000)
+
+    SoundConfig("mcc:games.global.gameentry").play(player)
+
     player.showTitle(
         Title.title(
             text("Hole In The Wall") {
