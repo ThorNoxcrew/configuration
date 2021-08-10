@@ -44,9 +44,6 @@ compile_scripts:
     image: git.noxcrew.com:5050/noxcrew/online-devops/mcc-script-cli:main-a58dccdadc42957f3065b7386eb9c9bb9d34676b
     script:
       - ./.gitlab/tools/compile-scripts.sh
-    only:
-      changes:
-        - "**/*.mcc.kts"
     cache:
         - key: "$CI_COMMIT_BRANCH"
           paths:
