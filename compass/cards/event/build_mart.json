@@ -1,20 +1,18 @@
 {
-    "processors" : [
+    "processors": [
         {
-            "type" : "add_world",
-            "world" : "event/build_mart"
+            "type": "add_world",
+            "world": "event/build_mart"
         },
         {
-            "type" : "lighting_updater"
+            "type": "lighting_updater"
         },
         {
-            "type" : "split_per_section",
-            "sections" : [
-                "~ref_builds"
-            ]
+            "type": "split_per_section",
+            "sections": ["~ref_builds"]
         },
         {
-            "type" : "empty_region_padding"
+            "type": "empty_region_padding"
         }
     ]
 }

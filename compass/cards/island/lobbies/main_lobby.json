@@ -1,21 +1,19 @@
 {
-    "processors" : [
+    "processors": [
         {
-            "type" : "add_world",
-            "world" : "island/general/lobby"
+            "type": "add_world",
+            "world": "island/general/lobby"
         },
         {
-            "type" : "add_world",
-            "world" : "island/general/apartments",
-            "sections" : [
-                "ref_furniture"
-            ]
+            "type": "add_world",
+            "world": "island/general/apartments",
+            "sections": ["ref_furniture"]
         },
         {
-            "type" : "lighting_updater"
+            "type": "lighting_updater"
         },
         {
-            "type" : "empty_region_padding"
+            "type": "empty_region_padding"
         }
     ]
 }

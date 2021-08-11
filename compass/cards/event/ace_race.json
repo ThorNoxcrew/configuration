@@ -1,17 +1,17 @@
 {
-    "processors" : [
+    "processors": [
         {
-            "type" : "add_world",
-            "world" : "event/ace_race"
+            "type": "add_world",
+            "world": "event/ace_race"
         },
         {
-            "type" : "lighting_updater"
+            "type": "lighting_updater"
         },
         {
-            "type" : "split_per_section"
+            "type": "split_per_section"
         },
         {
-            "type" : "empty_region_padding"
+            "type": "empty_region_padding"
         }
     ]
 }
