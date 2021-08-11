@@ -1,3 +1,4 @@
+import com.noxcrew.mcc.commons.base.currency.CurrencyType
 import com.noxcrew.mcc.commons.base.i18n.I18n
 import com.noxcrew.mcc.commons.base.inject
 import com.noxcrew.mcc.island.base.shop.ShopManager
