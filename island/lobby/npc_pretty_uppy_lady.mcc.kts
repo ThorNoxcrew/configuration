@@ -19,7 +19,7 @@ mccScript {
 
     interactBehavior { npc, player ->
       withContext(Dispatchers.Minecraft) {
-        ShopGui(currencyType, "particleStore", player).open(player)
+        ShopGui(CurrencyType.NON_PREMIUM, "particleStore", player).open(player)
       }
     }
 
