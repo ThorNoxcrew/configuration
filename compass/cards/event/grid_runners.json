@@ -1,0 +1,37 @@
+{
+    "processors" : [
+        {
+            "type" : "add_world",
+            "world" : "event/grid_runners"
+        },
+        {
+            "comment": "Custom assembler to create the Grid Runners arena and paste in all selected rooms.",
+            "type" : "grid_runners_assembler",
+            "selectedPreset" : "test",
+            "presets" : {
+                "test" : [
+                    "gliding",
+                    "sawmill",
+                    "bakery",
+                    "mansion",
+                    "courtyard",
+                    "minigolf",
+                    "tower",
+                    "prison"
+                ]
+            }
+        },
+        {
+            "type" : "remove_sections",
+            "sections" : [
+                "ref_rooms"
+            ]
+        },
+        {
+            "type" : "lighting_updater"
+        },
+        {
+            "type" : "empty_region_padding"
+        }
+    ]
+}

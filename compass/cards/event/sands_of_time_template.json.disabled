@@ -1,0 +1,12 @@
+{
+    "processors" : [
+        {
+            "type" : "add_world",
+            "world" : "event/sands_of_time"
+        },
+        {
+            "comment": "Custom parser to create the SOT template data",
+            "type" : "sands_of_time_parser"
+        }
+    ]
+}

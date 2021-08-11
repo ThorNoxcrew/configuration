@@ -1,0 +1,30 @@
+{
+    "processors" : [
+        {
+            "type" : "add_world",
+            "world" : "event/parkour_tag"
+        },
+        {
+            "type": "parkour_tag_assembler"
+        },
+        {
+            "type": "remove_sections",
+            "sections": [
+                "ref_maps"
+            ]
+        },
+        {
+            "type" : "lighting_updater"
+        },
+        {
+            "type": "duplicate_sections",
+            "sections": [
+                "match"
+            ],
+            "duplicates": 17
+        },
+        {
+            "type" : "empty_region_padding"
+        }
+    ]
+}

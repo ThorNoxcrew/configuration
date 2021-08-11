@@ -1,0 +1,30 @@
+{
+    "processors" : [
+        {
+            "comment": "Start with the output world from the template card",
+            "type" : "add_world",
+            "world" : "cards/event/sands_of_time_template"
+        },
+        {
+            "type" : "sands_of_time_dungeon_builder"
+        },
+        {
+            "comment": "Get rid of the templates area as we don't need it at runtime.",
+            "type" : "remove_sections",
+            "sections" : [
+                "ref_templates"
+            ]
+        },
+        {
+            "type" : "lighting_updater"
+        },
+        {
+            "comment": "Make 9 copies so we have 10 dungeons in total",
+            "type" : "duplicate_sections",
+            "duplicates" : 9
+        },
+        {
+            "type" : "empty_region_padding"
+        }
+    ]
+}
