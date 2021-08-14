@@ -7,8 +7,18 @@
         {
             "comment": "Custom assembler to create the Grid Runners arena and paste in all selected rooms.",
             "type": "grid_runners_assembler",
-            "selectedPreset": "test",
+            "selectedPreset": "debug",
             "presets": {
+                "debug": [
+                    "gliding",
+                    "gliding",
+                    "gliding",
+                    "gliding",
+                    "gliding",
+                    "gliding",
+                    "gliding",
+                    "gliding"
+                ],
                 "test": [
                     "gliding",
                     "sawmill",
