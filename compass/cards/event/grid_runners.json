@@ -11,9 +11,9 @@
             "presets": {
                 "debug": [
                     "gliding",
-                    "gliding",
-                    "gliding",
-                    "gliding",
+                    "mansion",
+                    "courtyard",
+                    "minigolf",
                     "gliding",
                     "gliding",
                     "gliding",
