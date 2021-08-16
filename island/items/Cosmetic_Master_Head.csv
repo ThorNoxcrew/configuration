@@ -1,131 +1,131 @@
 Active,System,Item ID,Category,Item Name,Name Translation,Description Translation,Rarity,Icon ID,Coin Price,Premium Price,Dollar Price,Override,Source,In Daily,In Weekly,In Static,Status,Description
 FALSE,Cosmetic,,Head,Aqua Cap,,,Common,,---,---, --- ,No Currency,achievement,FALSE,FALSE,FALSE,None,An aqua baseball cap. Aqua Axolotyl Loyalty reward.
-FALSE,Cosmetic,,Head,Bandana,,,Common,,250,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A red bandana around the head. Think Rambo.
-FALSE,Cosmetic,,Head,Beret,,,Common,,250,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A black beret with a small red puff on the top. [Found you!]
-FALSE,Cosmetic,,Head,Big Mouth,,,Common,,250,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,"[You like boasting, don't you?]"
-FALSE,Cosmetic,,Head,Big Nose,,,Common,,250,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,[Warning: Try not to sneeze.]
-FALSE,Cosmetic,,Head,Blindfold,,,Common,,250,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,[Fifty shades of complete darkness]
+FALSE,Cosmetic,,Head,Bandana,,,Common,,25,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A red bandana around the head. Think Rambo.
+FALSE,Cosmetic,,Head,Beret,,,Common,,25,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A black beret with a small red puff on the top. [Found you!]
+FALSE,Cosmetic,,Head,Big Mouth,,,Common,,25,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,"[You like boasting, don't you?]"
+FALSE,Cosmetic,,Head,Big Nose,,,Common,,25,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,[Warning: Try not to sneeze.]
+FALSE,Cosmetic,,Head,Blindfold,,,Common,,25,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,[Fifty shades of complete darkness]
 FALSE,Cosmetic,,Head,Blue Cap,,,Common,,---,---, --- ,No Currency,achievement,FALSE,FALSE,FALSE,None,A bluebaseball cap. Blue Bat Loyalty reward.
-FALSE,Cosmetic,,Head,Braid,,,Common,,250,50, $ 1.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,Two long braids coil down the head and shoulders. [Bonding activity bonding.]
-FALSE,Cosmetic,,Head,Bun,,,Common,,250,50, $ 1.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,A bun of hair on the back of your head. [Now i'm hungry.]
-FALSE,Cosmetic,,Head,Curly,,,Common,,250,50, $ 1.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,A circular bob of curly hair. [The other two stooges couldn't make it.]
+TRUE,Cosmetic,wardrobe_hair_braid,Head,Braid,wardrobe_hair_braid.name,wardrobe_hair_braid.desc,Common,,25,50, $ 1.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,Two long braids coil down the head and shoulders. [Bonding activity bonding.]
+TRUE,Cosmetic,wardrobe_hair_bun,Head,Bun,wardrobe_hair_bun.name,wardrobe_hair_bun.desc,Common,,25,50, $ 1.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,A bun of hair on the back of your head. [Now i'm hungry.]
+TRUE,Cosmetic,wardrobe_hair_curly,Head,Curly,wardrobe_hair_curly.name,wardrobe_hair_curly.desc,Common,,25,50, $ 1.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,A circular bob of curly hair. [The other two stooges couldn't make it.]
 FALSE,Cosmetic,,Head,Cyan Cap,,,Common,,---,---, --- ,No Currency,achievement,FALSE,FALSE,FALSE,None,A cyan baseball cap. Cyan Creeper Loyalty reward.
-FALSE,Cosmetic,,Head,Disguise,,,Common,,250,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,"Classic glasses, nose and moustached disguise. Groucho Marx. [Who are you?]"
-FALSE,Cosmetic,,Head,Elder,,,Common,,250,50, $ 1.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,"A long, thin, white mustache and beard that extends to your character's belly. [Dr. Fu Manchu?]"
-FALSE,Cosmetic,,Head,Full Beard,,,Common,,250,50, $ 1.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,A full beard and mustache. [Also called 'The Lumberjack.']
-FALSE,Cosmetic,,Head,Goatee,,,Common,,250,50, $ 1.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,A goatee. [No relation to actual goats.]
-FALSE,Cosmetic,,Head,Goggles,,,Common,,250,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,[Perfect for mischief goblin welding!]
+FALSE,Cosmetic,,Head,Disguise,,,Common,,25,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,"Classic glasses, nose and moustached disguise. Groucho Marx. [Who are you?]"
+TRUE,Cosmetic,wardrobe_hair_elder,Head,Elder,wardrobe_hair_elder.name,wardrobe_hair_elder.desc,Common,,25,50, $ 1.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,"A long, thin, white mustache and beard that extends to your character's belly. [Dr. Fu Manchu?]"
+TRUE,Cosmetic,wardrobe_hair_full_beard,Head,Full Beard,wardrobe_hair_full_beard.name,wardrobe_hair_full_beard.desc,Common,,25,50, $ 1.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,A full beard and mustache. [Also called 'The Lumberjack.']
+TRUE,Cosmetic,wardrobe_hair_goatee,Head,Goatee,wardrobe_hair_goatee.name,wardrobe_hair_goatee.desc,Common,,25,50, $ 1.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,A goatee. [No relation to actual goats.]
+FALSE,Cosmetic,,Head,Goggles,,,Common,,25,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,[Perfect for mischief goblin welding!]
 FALSE,Cosmetic,,Head,Green Cap,,,Common,,---,---, --- ,No Currency,achievement,FALSE,FALSE,FALSE,None,A green baseball cap. Green Guardian Loyalty reward.
 FALSE,Cosmetic,,Head,Lime Cap,,,Common,,---,---, --- ,No Currency,achievement,FALSE,FALSE,FALSE,None,A lime baseball cap. Lime Llama Loyalty reward.
-FALSE,Cosmetic,,Head,Long Sleek Hair,,,Common,,250,50, $ 1.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,"Hair that starts at the back of your head and reaches the top of your bum. [98, 99, 100 brushes!]"
-FALSE,Cosmetic,,Head,Magician,,,Common,,250,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,A black magician's hat with a red stripe across the brim.
-FALSE,Cosmetic,,Head,Mobster,,,Common,,250,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A black fedora like that a gangster might wear. [Buy the hat. Or else!]
-FALSE,Cosmetic,,Head,Monocle,,,Common,,250,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,"[Monopoize the world, good sir!]"
-FALSE,Cosmetic,,Head,Mutton Chops,,,Common,,250,50, $ 1.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,A beard that comes from the sides of the head to just before the chin on both sides. [Mutton!? I was excited for a minute...]
-FALSE,Cosmetic,,Head,Nerdy,,,Common,,250,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,"[According to my calculations, this is the nerdiest cosmetic out there.]"
-FALSE,Cosmetic,,Head,Night Mask,,,Common,,250,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,[Zzz]
+TRUE,Cosmetic,wardrobe_hair_long_sleek_hair,Head,Long Sleek Hair,wardrobe_hair_long_sleek_hair.name,wardrobe_hair_long_sleek_hair.desc,Common,,25,50, $ 1.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,"Hair that starts at the back of your head and reaches the top of your bum. [98, 99, 100 brushes!]"
+FALSE,Cosmetic,,Head,Magician,,,Common,,25,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,A black magician's hat with a red stripe across the brim.
+FALSE,Cosmetic,,Head,Mobster,,,Common,,25,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A black fedora like that a gangster might wear. [Buy the hat. Or else!]
+FALSE,Cosmetic,,Head,Monocle,,,Common,,25,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,"[Monopoize the world, good sir!]"
+TRUE,Cosmetic,wardrobe_hair_mutton_chops,Head,Mutton Chops,wardrobe_hair_mutton_chops.name,wardrobe_hair_mutton_chops.desc,Common,,25,50, $ 1.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,A beard that comes from the sides of the head to just before the chin on both sides. [Mutton!? I was excited for a minute...]
+FALSE,Cosmetic,,Head,Nerdy,,,Common,,25,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,"[According to my calculations, this is the nerdiest cosmetic out there.]"
+FALSE,Cosmetic,,Head,Night Mask,,,Common,,25,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,[Zzz]
 FALSE,Cosmetic,,Head,Orange Cap,,,Common,,---,---, --- ,No Currency,achievement,FALSE,FALSE,FALSE,None,An orange baseball cap. Orange Ocelot Loyalty Reward
 FALSE,Cosmetic,,Head,Pink Cap,,,Common,,---,---, --- ,No Currency,achievement,FALSE,FALSE,FALSE,None,A pink baseball cap. Pink Parrot Loyalty reward.
-FALSE,Cosmetic,,Head,Ponytail,,,Common,,250,50, $ 1.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,A ponytail comes from the back of your head. [I was expecting a pony. I feel betrayed.]
-FALSE,Cosmetic,,Head,Pop Star,,,Common,,250,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,[How do you even see through this?]
-FALSE,Cosmetic,,Head,Potters,,,Common,,250,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,[Yerr a wizard Stevie!]
+TRUE,Cosmetic,wardrobe_hair_ponytail,Head,Ponytail,wardrobe_hair_ponytail.name,wardrobe_hair_ponytail.desc,Common,,25,50, $ 1.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,A ponytail comes from the back of your head. [I was expecting a pony. I feel betrayed.]
+FALSE,Cosmetic,,Head,Pop Star,,,Common,,25,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,[How do you even see through this?]
+FALSE,Cosmetic,,Head,Potters,,,Common,,25,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,[Yerr a wizard Stevie!]
 FALSE,Cosmetic,,Head,Purple Cap,,,Common,,---,---, --- ,No Currency,achievement,FALSE,FALSE,FALSE,None,A purple baseball cap. Purple Panda Loyalty reward.
 FALSE,Cosmetic,,Head,Red Cap,,,Common,,---,---, --- ,No Currency,achievement,FALSE,FALSE,FALSE,None,A red baseball cap. Red Rabbit Loyalty reward.
-FALSE,Cosmetic,,Head,Ushanka,,,Common,,250,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,"A brown, furry hat that covers the sides of the head. [Excellent for cold weather.]"
-FALSE,Cosmetic,,Head,Wave,,,Common,,250,50, $ 1.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,Shoulder lenght hair that curls up at its ends. [Smile and...]
+FALSE,Cosmetic,,Head,Ushanka,,,Common,,25,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,"A brown, furry hat that covers the sides of the head. [Excellent for cold weather.]"
+FALSE,Cosmetic,,Head,Wave,,,Common,,25,50, $ 1.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,Shoulder lenght hair that curls up at its ends. [Smile and...]
 FALSE,Cosmetic,,Head,Yellow Cap,,,Common,,---,---, --- ,No Currency,achievement,FALSE,FALSE,FALSE,None,A yellow baseball cap. Yellow Yak Loyalty Reward.
-FALSE,Cosmetic,,Head,Trucker Hat,,,Common,,250,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,"Reads ""I <3 MCC."" [Look at my Trucker Hat.]"
-FALSE,Cosmetic,,Head,Afro,,,Uncommon,,375,75, $ 1.50 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,My hair A large black mass of curly hair that extends above and around the head without covering the face. (May include a comb on top) [Surprisingly easy to maintain.]
-FALSE,Cosmetic,,Head,Amish,,,Uncommon,,375,75, $ 1.50 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,A beard that comes from the sides of the head through the chin and around the neck. [Technology not included.]
-FALSE,Cosmetic,wardrobe_head_anime,Head,Anime,,,Uncommon,,375,75, $ 1.50 ,---,barberShop,FALSE,FALSE,TRUE,Complete,Embrace your inner sayyin. [I found the protagonist.]
-FALSE,Cosmetic,,Head,Bangs,,,Uncommon,,375,75, $ 1.50 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,Long hair goth girl haircut that covers the forehead. [Why are we still here? Just to suffer?]
-FALSE,Cosmetic,,Head,Big Ears,,,Uncommon,,375,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,[Dumbo?]
-FALSE,Cosmetic,,Head,Big Eyes,,,Uncommon,,375,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,[Eye spy with my big I.]
-FALSE,Cosmetic,,Head,Bob,,,Uncommon,,375,75, $ 1.50 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,A short bob with bangs. [Also called the Robert.]
-FALSE,Cosmetic,,Head,Cornrows,,,Uncommon,,375,75, $ 1.50 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,"The hair is braided very close to the scalp, using an underhand, upward motion to make a continuous, raised row. [Please don't harvest.]"
-FALSE,Cosmetic,,Head,Dad,,,Uncommon,,375,75, $ 1.50 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,"A balding scalp with some moustache to go with it. [Are ya winning, son?]"
-FALSE,Cosmetic,,Head,Detective,,,Uncommon,,375,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A cheshire cap like a certain Holmes might wear. [Someone stole the detective's hat! But he's on the case!]
-FALSE,Cosmetic,,Head,Diva,,,Uncommon,,375,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A large elegant ladies hat. [I said only green candies!]
-FALSE,Cosmetic,,Head,Dreadlocks,,,Uncommon,,375,75, $ 1.50 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,Long braids of hair that flow around the entire head except the face. [Now with 20% more dread!]
-FALSE,Cosmetic,,Head,Duct Taped,,,Uncommon,,375,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,Two pieces of gray tape that cover your mouth in an X formation. [...]
-FALSE,Cosmetic,,Head,Elvis,,,Uncommon,,375,75, $ 1.50 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,A jiggily curl of hair that points in front of and above the head. Look to The King of Rock n Roll. [Thank you very much.]
-FALSE,Cosmetic,,Head,Emo,,,Uncommon,,375,75, $ 1.50 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,Hair that covers one side of the face leaving the other exposed. [I'm just a kid.]
-FALSE,Cosmetic,,Head,Fade,,,Uncommon,,375,75, $ 1.50 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,Casual hairstyle that fades down the sides of the head. [3 panels and it's gone.]
-FALSE,Cosmetic,,Head,Graduate,,,Uncommon,,375,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,None,"A black, square hat with a golden tassal to one side. [Highschool is out!]"
-FALSE,Cosmetic,,Head,Handlebar Moustache,,,Uncommon,,375,75, $ 1.50 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,"A twisted mustache that goes off on both sides of the face. [Necessary for villains, ringleaders, and bike-riders.]"
-FALSE,Cosmetic,,Head,Hogan,,,Uncommon,,375,75, $ 1.50 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,"A square mustache that frame the mouth. [Fear no man, no beast or evil, brother]"
-FALSE,Cosmetic,,Head,Mohawk,,,Uncommon,,375,75, $ 1.50 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,A thin rectangle of hair that goes down the center and back of the player's head. [Behold: The Hawk!]
-FALSE,Cosmetic,,Head,Monk,,,Uncommon,,375,75, $ 1.50 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,A bowl cut with a hole on the scalp. [Om]
-FALSE,Cosmetic,,Head,Palm Tree,,,Uncommon,,375,75, $ 1.50 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,"A tree-like shape made out of your hair, resting on the top of your scalp. [Coconuts not included. Unless...!]"
-FALSE,Cosmetic,,Head,Pigtails,,,Uncommon,,375,75, $ 1.50 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,Two ties of hair on either side of the head. [Such a cutie!]
-FALSE,Cosmetic,,Head,Pilot's Hat,,,Uncommon,,375,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,None,[Ready to fly?]
-FALSE,Cosmetic,,Head,Prince Charming,,,Uncommon,,375,75, $ 1.50 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,"Pristine shoulder height hair that is curled behind the ears together with some bangs that frame the face. [For the last time, you can't go around kissing sleeping women!]"
-FALSE,Cosmetic,,Head,Purdy,,,Uncommon,,375,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,[Pretty Funky]
-FALSE,Cosmetic,,Head,Rat Tail,,,Uncommon,,375,75, $ 1.50 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,A small tail that goes over your neck. [Dedicated to a rat who believed that anyone can cook.]
-FALSE,Cosmetic,,Head,Soul Patch,,,Uncommon,,375,75, $ 1.50 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,A think strap stuck to the chin. [Soul not necessary.]
-FALSE,Cosmetic,,Head,Sun Shades,,,Uncommon,,375,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,"[Sun's out, Guns out!]"
-FALSE,Cosmetic,wardrobe_head_tv,Head,TV Head,,,Uncommon,,375,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,A Television set placed upon your head. Reminds me of something from a comic...
-FALSE,Cosmetic,,Head,Viking Beard Braids,,,Uncommon,,375,75, $ 1.50 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,A long beard with braids inside it. [Hinga Dinga Durgen]
-FALSE,Cosmetic,,Head,Wizard Beard,,,Uncommon,,375,75, $ 1.50 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,A full white beard that ends in a fine point at the sternum. [8d6!? Count me in!]
-FALSE,Cosmetic,,Head,Archer,,,Rare,,975,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,[Robbin' Hood?]
-FALSE,Cosmetic,,Head,Barbarian,,,Rare,,975,150, $ 3.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,Long hair leading into two braids that rest over the shoulders. [YAAAAAARGH!]
-FALSE,Cosmetic,,Head,Basic,,,Rare,,975,150, $ 3.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,[The hairstyle without the style.]
+FALSE,Cosmetic,,Head,Trucker Hat,,,Common,,25,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,"Reads ""I <3 MCC."" [Look at my Trucker Hat.]"
+TRUE,Cosmetic,wardrobe_hair_afro,Head,Afro,wardrobe_hair_afro.name,wardrobe_hair_afro.desc,Uncommon,,40,75, $ 1.50 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,My hair A large black mass of curly hair that extends above and around the head without covering the face. (May include a comb on top) [Surprisingly easy to maintain.]
+TRUE,Cosmetic,wardrobe_hair_amish,Head,Amish,wardrobe_hair_amish.name,wardrobe_hair_amish.desc,Uncommon,,40,75, $ 1.50 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,A beard that comes from the sides of the head through the chin and around the neck. [Technology not included.]
+TRUE,Cosmetic,wardrobe_head_anime,Head,Anime,wardrobe_head_anime.name,wardrobe_head_anime.desc,Uncommon,,40,75, $ 1.50 ,---,barberShop,FALSE,FALSE,TRUE,Complete,Embrace your inner sayyin. [I found the protagonist.]
+TRUE,Cosmetic,wardrobe_hair_bangs,Head,Bangs,wardrobe_hair_bangs.name,wardrobe_hair_bangs.desc,Uncommon,,40,75, $ 1.50 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,Long hair goth girl haircut that covers the forehead. [Why are we still here? Just to suffer?]
+FALSE,Cosmetic,,Head,Big Ears,,,Uncommon,,40,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,[Dumbo?]
+FALSE,Cosmetic,,Head,Big Eyes,,,Uncommon,,40,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,[Eye spy with my big I.]
+TRUE,Cosmetic,wardrobe_hair_bob,Head,Bob,wardrobe_hair_bob.name,wardrobe_hair_bob.desc,Uncommon,,40,75, $ 1.50 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,A short bob with bangs. [Also called the Robert.]
+TRUE,Cosmetic,wardrobe_hair_cornrows,Head,Cornrows,wardrobe_hair_cornrows.name,wardrobe_hair_cornrows.desc,Uncommon,,40,75, $ 1.50 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,"The hair is braided very close to the scalp, using an underhand, upward motion to make a continuous, raised row. [Please don't harvest.]"
+TRUE,Cosmetic,wardrobe_hair_dad,Head,Dad,wardrobe_hair_dad.name,wardrobe_hair_dad.desc,Uncommon,,40,75, $ 1.50 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,"A balding scalp with some moustache to go with it. [Are ya winning, son?]"
+FALSE,Cosmetic,,Head,Detective,,,Uncommon,,40,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A cheshire cap like a certain Holmes might wear. [Someone stole the detective's hat! But he's on the case!]
+FALSE,Cosmetic,,Head,Diva,,,Uncommon,,40,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A large elegant ladies hat. [I said only green candies!]
+TRUE,Cosmetic,wardrobe_hair_dreadlocks,Head,Dreadlocks,wardrobe_hair_dreadlocks.name,wardrobe_hair_dreadlocks.desc,Uncommon,,40,75, $ 1.50 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,Long braids of hair that flow around the entire head except the face. [Now with 20% more dread!]
+FALSE,Cosmetic,,Head,Duct Taped,,,Uncommon,,40,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,Two pieces of gray tape that cover your mouth in an X formation. [...]
+TRUE,Cosmetic,wardrobe_hair_elvis,Head,Elvis,wardrobe_hair_elvis.name,wardrobe_hair_elvis.desc,Uncommon,,40,75, $ 1.50 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,A jiggily curl of hair that points in front of and above the head. Look to The King of Rock n Roll. [Thank you very much.]
+TRUE,Cosmetic,wardrobe_hair_emo,Head,Emo,wardrobe_hair_emo.name,wardrobe_hair_emo.desc,Uncommon,,40,75, $ 1.50 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,Hair that covers one side of the face leaving the other exposed. [I'm just a kid.]
+TRUE,Cosmetic,wardrobe_hair_fade,Head,Fade,wardrobe_hair_fade.name,wardrobe_hair_fade.desc,Uncommon,,40,75, $ 1.50 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,Casual hairstyle that fades down the sides of the head. [3 panels and it's gone.]
+FALSE,Cosmetic,,Head,Graduate,,,Uncommon,,40,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,None,"A black, square hat with a golden tassal to one side. [Highschool is out!]"
+TRUE,Cosmetic,wardrobe_hair_handlebar,Head,Handlebar Moustache,wardrobe_hair_handlebar.name,wardrobe_hair_handlebar.desc,Uncommon,,40,75, $ 1.50 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,"A twisted mustache that goes off on both sides of the face. [Necessary for villains, ringleaders, and bike-riders.]"
+TRUE,Cosmetic,wardrobe_hair_hogan,Head,Hogan,wardrobe_hair_hogan.name,wardrobe_hair_hogan.desc,Uncommon,,40,75, $ 1.50 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,"A square mustache that frame the mouth. [Fear no man, no beast or evil, brother]"
+TRUE,Cosmetic,wardrobe_hair_mohawk,Head,Mohawk,wardrobe_hair_mohawk.name,wardrobe_hair_mohawk.desc,Uncommon,,40,75, $ 1.50 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,A thin rectangle of hair that goes down the center and back of the player's head. [Behold: The Hawk!]
+TRUE,Cosmetic,wardrobe_hair_monk,Head,Monk,wardrobe_hair_monk.name,wardrobe_hair_monk.desc,Uncommon,,40,75, $ 1.50 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,A bowl cut with a hole on the scalp. [Om]
+TRUE,Cosmetic,wardrobe_hair_palm_tree,Head,Palm Tree,wardrobe_hair_palm_tree.name,wardrobe_hair_palm_tree.desc,Uncommon,,40,75, $ 1.50 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,"A tree-like shape made out of your hair, resting on the top of your scalp. [Coconuts not included. Unless...!]"
+TRUE,Cosmetic,wardrobe_hair_pigtails,Head,Pigtails,wardrobe_hair_pigtails.name,wardrobe_hair_pigtails.desc,Uncommon,,40,75, $ 1.50 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,Two ties of hair on either side of the head. [Such a cutie!]
+FALSE,Cosmetic,,Head,Pilot's Hat,,,Uncommon,,40,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,None,[Ready to fly?]
+TRUE,Cosmetic,wardrobe_hair_prince_charming,Head,Prince Charming,wardrobe_hair_prince_charming.name,wardrobe_hair_prince_charming.desc,Uncommon,,40,75, $ 1.50 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,"Pristine shoulder height hair that is curled behind the ears together with some bangs that frame the face. [For the last time, you can't go around kissing sleeping women!]"
+FALSE,Cosmetic,,Head,Purdy,,,Uncommon,,40,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,[Pretty Funky]
+TRUE,Cosmetic,wardrobe_hair_rat_tail,Head,Rat Tail,wardrobe_hair_rat_tail.name,wardrobe_hair_rat_tail.desc,Uncommon,,40,75, $ 1.50 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,A small tail that goes over your neck. [Dedicated to a rat who believed that anyone can cook.]
+TRUE,Cosmetic,wardrobe_hair_soul_patch,Head,Soul Patch,wardrobe_hair_soul_patch.name,wardrobe_hair_soul_patch.desc,Uncommon,,40,75, $ 1.50 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,A think strap stuck to the chin. [Soul not necessary.]
+FALSE,Cosmetic,,Head,Sun Shades,,,Uncommon,,40,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,"[Sun's out, Guns out!]"
+TRUE,Cosmetic,wardrobe_head_tv,Head,TV Head,wardrobe_head_tv.name,wardrobe_head_tv.desc,Uncommon,,40,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,A Television set placed upon your head. Reminds me of something from a comic...
+TRUE,Cosmetic,wardrobe_hair_viking_beard,Head,Viking Beard Braids,wardrobe_hair_viking_beard.name,wardrobe_hair_viking_beard.desc,Uncommon,,40,75, $ 1.50 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,A long beard with braids inside it. [Hinga Dinga Durgen]
+TRUE,Cosmetic,wardrobe_hair_wizard_beard,Head,Wizard Beard,wardrobe_hair_wizard_beard.name,wardrobe_hair_wizard_beard.desc,Uncommon,,40,75, $ 1.50 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,A full white beard that ends in a fine point at the sternum. [8d6!? Count me in!]
+FALSE,Cosmetic,,Head,Archer,,,Rare,,100,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,[Robbin' Hood?]
+TRUE,Cosmetic,wardrobe_hair_barbarian,Head,Barbarian,wardrobe_hair_barbarian.name,wardrobe_hair_barbarian.desc,Rare,,100,150, $ 3.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,Long hair leading into two braids that rest over the shoulders. [YAAAAAARGH!]
+TRUE,Cosmetic,wardrobe_hair_basic,Head,Basic,wardrobe_hair_basic.name,wardrobe_hair_basic.desc,Rare,,100,150, $ 3.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,[The hairstyle without the style.]
 FALSE,Cosmetic,,Head,Bat Ears,,,Rare,,---,---, --- ,No Currency,achievement,FALSE,FALSE,FALSE,None,A set of giant blue bat ears. Blue Bat Loyalty reward.
-FALSE,Cosmetic,,Head,Beetle,,,Rare,,975,150, $ 3.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,Iconic 60s bowlcut rocker trim. [Fear and Love.]
+TRUE,Cosmetic,wardrobe_hair_beetle,Head,Beetle,wardrobe_hair_beetle.name,wardrobe_hair_beetle.desc,Rare,,100,150, $ 3.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,Iconic 60s bowlcut rocker trim. [Fear and Love.]
 FALSE,Cosmetic,,Head,Cat Ears & Whiskers,,,Rare,,---,---, --- ,No Currency,achievement,FALSE,FALSE,FALSE,None,Twin cat ears sprout from your head. [Nya!] Orange Ocelot Loyalty Reward
 FALSE,Cosmetic,,Head,Cattle Horns,,,Rare,,---,---, --- ,No Currency,achievement,FALSE,FALSE,FALSE,None,Twin yellow yak horns sprout from your head. Yellow Yak Loyalty Reward.
-FALSE,Cosmetic,,Head,Chef,,,Rare,,975,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,[Cook some cookies]
+FALSE,Cosmetic,,Head,Chef,,,Rare,,100,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,[Cook some cookies]
 FALSE,Cosmetic,,Head,Crown of Feathers,,,Rare,,---,---, --- ,No Currency,achievement,FALSE,FALSE,FALSE,None,A pink rink of feathers surrounds your head. Pink Parrot Loyalty reward.
 FALSE,Cosmetic,,Head,Dynamite Strap,,,Rare,,---,---, --- ,No Currency,achievement,FALSE,FALSE,FALSE,None,"A head lamp like what old miners would wear; but rather than a candle, there i a lit stick of dynamite on your head! Cyan Creeper Loyalty reward."
 FALSE,Cosmetic,,Head,Ear Antennas,,,Rare,,---,---, --- ,No Currency,achievement,FALSE,FALSE,FALSE,None,Aqua ferns sprout from your head. Aqua Axolotyl Loyalty reward.
 FALSE,Cosmetic,,Head,Fish Tail,,,Rare,,---,---, --- ,No Currency,achievement,FALSE,FALSE,FALSE,None,"A green fish is stuck to your head! Its tail points behind you, and its mouth swallows the back of your head. Green Guardian Loyalty reward."
-FALSE,Cosmetic,,Head,Free Spirit,,,Rare,,975,150, $ 3.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,"Bushy curly hair (disney brave) [If ye had the chance to change yer fate, would ye?]"
-FALSE,Cosmetic,,Head,Fruit Basket,,,Rare,,975,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,[I get fruit! You get fruit! Everyone gets some fruit!]
-FALSE,Cosmetic,,Head,High Top,,,Rare,,975,150, $ 3.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,A tall boxy haircut that adds some extra height. [You got a haircut and wound up with this!?]
-FALSE,Cosmetic,,Head,Hipster,,,Rare,,975,150, $ 3.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,A man bun in combination with a full beard. [This haircut was cool before it was popular.]
-FALSE,Cosmetic,,Head,Homeless,,,Rare,,975,150, $ 3.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,A messy and dirty beard and haircut. [It's a lifestyle.]
-FALSE,Cosmetic,,Head,Judge,,,Rare,,975,150, $ 3.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,[Do you yield?!]
+TRUE,Cosmetic,wardrobe_hair_free_spirit,Head,Free Spirit,wardrobe_hair_free_spirit.name,wardrobe_hair_free_spirit.desc,Rare,,100,150, $ 3.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,"Bushy curly hair (disney brave) [If ye had the chance to change yer fate, would ye?]"
+FALSE,Cosmetic,,Head,Fruit Basket,,,Rare,,100,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,[I get fruit! You get fruit! Everyone gets some fruit!]
+TRUE,Cosmetic,wardrobe_hair_high_top,Head,High Top,wardrobe_hair_high_top.name,wardrobe_hair_high_top.desc,Rare,,100,150, $ 3.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,A tall boxy haircut that adds some extra height. [You got a haircut and wound up with this!?]
+TRUE,Cosmetic,wardrobe_hair_hipster,Head,Hipster,wardrobe_hair_hipster.name,wardrobe_hair_hipster.desc,Rare,,100,150, $ 3.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,A man bun in combination with a full beard. [This haircut was cool before it was popular.]
+TRUE,Cosmetic,wardrobe_hair_homeless,Head,Homeless,wardrobe_hair_homeless.name,wardrobe_hair_homeless.desc,Rare,,100,150, $ 3.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,A messy and dirty beard and haircut. [It's a lifestyle.]
+TRUE,Cosmetic,wardrobe_hair_judge,Head,Judge,wardrobe_hair_judge.name,wardrobe_hair_judge.desc,Rare,,100,150, $ 3.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,[Do you yield?!]
 FALSE,Cosmetic,,Head,Neck Fur,,,Rare,,---,---, --- ,No Currency,achievement,FALSE,FALSE,FALSE,None,Green fur around the player's neck area. Lime Llama Loyalty reward.
-FALSE,Cosmetic,,Head,Pirate,,,Rare,,975,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,[Arrrr!]
+FALSE,Cosmetic,,Head,Pirate,,,Rare,,100,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,[Arrrr!]
 FALSE,Cosmetic,,Head,Rabbit Ears & Whiskers,,,Rare,,---,---, --- ,No Currency,achievement,FALSE,FALSE,FALSE,None,Twin red rabbit ears sprout from your head. Red Rabbit Loyalty reward.
-FALSE,Cosmetic,,Head,Ranger,,,Rare,,975,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A brown cowboy hat. [Yeehaw]
+FALSE,Cosmetic,,Head,Ranger,,,Rare,,100,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A brown cowboy hat. [Yeehaw]
 FALSE,Cosmetic,,Head,Samurai Helmet,,,Rare,,---,---, --- ,No Currency,achievement,FALSE,FALSE,FALSE,None,A woven basket helmet with purple panda ears sticking out of the top. Purple Panda Loyalty reward.
-FALSE,Cosmetic,,Head,Schrute,,,Rare,,975,150, $ 3.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,[Identity theft is not a joke!]
-FALSE,Cosmetic,,Head,Sombrero,,,Rare,,975,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A whide-brimmed straw hat with multiple tassals. [Mariachi flashbacks intensify.]
-FALSE,Cosmetic,,Head,Sultan,,,Rare,,975,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A massive turban covered with gems. [Kingdom sold seperately]
-FALSE,Cosmetic,,Head,Sunbrella,,,Rare,,975,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,An umbrella hat that protects the wearer from sun and rain!
-FALSE,Cosmetic,,Head,Twin Bun,,,Rare,,975,150, $ 3.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,Twin Bun hairstyle. [Now i'm twice as hungry!]
-FALSE,Cosmetic,,Head,Vanity,,,Rare,,975,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,It makes your head look bigger. [Well you think you look great. And that's all that really matters.]
-FALSE,Cosmetic,,Head,Wednesday,,,Rare,,975,150, $ 3.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,Mischievous with dark intent. Think Wednesday Addams. [Feeling pulled in a new direction? I think you like it.]
-FALSE,Cosmetic,,Head,Deathwing,,,Rare,,975,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A metalic jaw bolted to the sides of your cheeks! Look at 'Deathwing' from World of Warcraft. [My hatred burns through the cavernous deeps.]
+TRUE,Cosmetic,wardrobe_hair_schrute,Head,Schrute,wardrobe_hair_schrute.name,wardrobe_hair_schrute.desc,Rare,,100,150, $ 3.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,[Identity theft is not a joke!]
+FALSE,Cosmetic,,Head,Sombrero,,,Rare,,100,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A whide-brimmed straw hat with multiple tassals. [Mariachi flashbacks intensify.]
+FALSE,Cosmetic,,Head,Sultan,,,Rare,,100,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A massive turban covered with gems. [Kingdom sold seperately]
+FALSE,Cosmetic,,Head,Sunbrella,,,Rare,,100,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,An umbrella hat that protects the wearer from sun and rain!
+TRUE,Cosmetic,wardrobe_hair_twin_bun,Head,Twin Bun,wardrobe_hair_twin_bun.name,wardrobe_hair_twin_bun.desc,Rare,,100,150, $ 3.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,Twin Bun hairstyle. [Now i'm twice as hungry!]
+FALSE,Cosmetic,,Head,Vanity,,,Rare,,100,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,It makes your head look bigger. [Well you think you look great. And that's all that really matters.]
+TRUE,Cosmetic,wardrobe_hair_wednesday,Head,Wednesday,wardrobe_hair_wednesday.name,wardrobe_hair_wednesday.desc,Rare,,100,150, $ 3.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,Mischievous with dark intent. Think Wednesday Addams. [Feeling pulled in a new direction? I think you like it.]
+FALSE,Cosmetic,,Head,Deathwing,,,Rare,,100,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A metalic jaw bolted to the sides of your cheeks! Look at 'Deathwing' from World of Warcraft. [My hatred burns through the cavernous deeps.]
 FALSE,Cosmetic,,Head,Axolotl Helmet,,,Epic,,---,---, --- ,No Currency,achievement,FALSE,FALSE,FALSE,None,"Looks exactly like the Aqua Axolotls logo, but a 3-dimensional helmet. Aqua Axolotyl Loyalty reward."
 FALSE,Cosmetic,,Head,Bat Helmet,,,Epic,,---,---, --- ,No Currency,achievement,FALSE,FALSE,FALSE,None,"Looks exactly like the Blue Bats logo, but a 3-dimensional helmet. Blue Bat Loyalty reward."
-FALSE,Cosmetic,,Head,Beehive,,,Epic,,"2,250",300, $ 6.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,The column haircut. [Preferred to reference as the B-52 Strategic Bomber cut]
-FALSE,Cosmetic,,Head,Caveman,,,Epic,,"2,250",300, $ 6.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,Massive long hair with a massive long beard. [Unga bunga]
+TRUE,Cosmetic,wardrobe_hair_beehive,Head,Beehive,wardrobe_hair_beehive.name,wardrobe_hair_beehive.desc,Epic,,225,300, $ 6.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,The column haircut. [Preferred to reference as the B-52 Strategic Bomber cut]
+FALSE,Cosmetic,,Head,Caveman,,,Epic,,225,300, $ 6.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,Massive long hair with a massive long beard. [Unga bunga]
 FALSE,Cosmetic,,Head,Creeper Helmet,,,Epic,,---,---, --- ,No Currency,achievement,FALSE,FALSE,FALSE,None,"Looks exactly like the Cyan Creepers logo, but a 3-dimensional helmet. Cyan Creeper Loyalty reward."
-FALSE,Cosmetic,,Head,Dimmsdale,,,Epic,,"2,250",300, $ 6.00 ,,accessoryStore,TRUE,TRUE,FALSE,None,"An incredibly tall pearly white cowboy hat. [I'm Neal Noxite, owner of the Noxite Vox-Noxesium.]"
+FALSE,Cosmetic,,Head,Dimmsdale,,,Epic,,225,300, $ 6.00 ,,accessoryStore,TRUE,TRUE,FALSE,None,"An incredibly tall pearly white cowboy hat. [I'm Neal Noxite, owner of the Noxite Vox-Noxesium.]"
 FALSE,Cosmetic,,Head,Guardian Helmet,,,Epic,,---,---, --- ,No Currency,achievement,FALSE,FALSE,FALSE,None,"Looks exactly like the Green Guardians logo, but a 3-dimensional helmet. Green Guardian Loyalty reward."
 FALSE,Cosmetic,,Head,Llama Helmet,,,Epic,,---,---, --- ,No Currency,achievement,FALSE,FALSE,FALSE,None,"Looks exactly like the Lime Llamas logo, but a 3-dimensional helmet. Lime Llama Loyalty reward."
-FALSE,Cosmetic,,Head,Mr. Stealyogirl,,,Epic,,"2,250",300, $ 6.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,The pidgeotto haircut. [Imma be straight up.]
+FALSE,Cosmetic,,Head,Mr. Stealyogirl,,,Epic,,225,300, $ 6.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,The pidgeotto haircut. [Imma be straight up.]
 FALSE,Cosmetic,,Head,Ocelot Helmet,,,Epic,,---,---, --- ,No Currency,achievement,FALSE,FALSE,FALSE,None,"Looks exactly like the Orange Ocelot logo, but a 3-dimensional helmet. Orange Ocelot Loyalty Reward"
 FALSE,Cosmetic,,Head,Panda Helmet,,,Epic,,---,---, --- ,No Currency,achievement,FALSE,FALSE,FALSE,None,"Looks exactly like the Purple Pandas logo, but a 3-dimensional helmet. Purple Panda Loyalty reward."
 FALSE,Cosmetic,,Head,Parrot Helmet,,,Epic,,---,---, --- ,No Currency,achievement,FALSE,FALSE,FALSE,None,"Looks exactly like the Pink Parrots logo, but a 3-dimensional helmet. Pink Parrot Loyalty reward."
-FALSE,Cosmetic,,Head,Princess,,,Epic,,"2,250",300, $ 6.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,"Ram Hair (princess leia). [Help me, EpicLandlord. You're our only hope!]"
-FALSE,Cosmetic,,Head,Professor,,,Epic,,"2,250",300, $ 6.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,"Messy scientist hair with thick mustache. [When you have a doctorate, your mom gives you permission to have any kind of hairstyle.]"
+TRUE,Cosmetic,wardrobe_hair_princess,Head,Princess,wardrobe_hair_princess.name,wardrobe_hair_princess.desc,Epic,,225,300, $ 6.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,"Ram Hair (princess leia). [Help me, EpicLandlord. You're our only hope!]"
+TRUE,Cosmetic,wardrobe_hair_professor,Head,Professor,wardrobe_hair_professor.name,wardrobe_hair_professor.desc,Epic,,225,300, $ 6.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,"Messy scientist hair with thick mustache. [When you have a doctorate, your mom gives you permission to have any kind of hairstyle.]"
 FALSE,Cosmetic,,Head,Rabbit Helmet,,,Epic,,---,---, --- ,No Currency,achievement,FALSE,FALSE,FALSE,None,"Looks exactly like the Red Rabbit logo, but a 3-dimensional helmet. Red Rabbit Loyalty reward."
-FALSE,Cosmetic,,Head,Soft Rocker,,,Epic,,"2,250",300, $ 6.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,Long flowing hair with a confident stache and beard. [Born to soothe.]
-FALSE,Cosmetic,,Head,Spikes,,,Epic,,"2,250",300, $ 6.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,[Anarchy!]
-FALSE,Cosmetic,,Head,VR,,,Epic,,"2,250",300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A VR headset strapped to your head.
+TRUE,Cosmetic,wardrobe_hair_soft_rocker,Head,Soft Rocker,wardrobe_hair_soft_rocker.name,wardrobe_hair_soft_rocker.desc,Epic,,225,300, $ 6.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,Long flowing hair with a confident stache and beard. [Born to soothe.]
+TRUE,Cosmetic,wardrobe_hair_spikes,Head,Spikes,wardrobe_hair_spikes.name,wardrobe_hair_spikes.desc,Epic,,225,300, $ 6.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,[Anarchy!]
+FALSE,Cosmetic,,Head,VR,,,Epic,,225,300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A VR headset strapped to your head.
 FALSE,Cosmetic,,Head,Yak Helmet,,,Epic,,---,---, --- ,No Currency,achievement,FALSE,FALSE,FALSE,None,"Looks exactly like the Yellow Yak logo, but a 3-dimensional helmet. Yellow Yak Loyalty Reward."
-FALSE,Cosmetic,,Head,Cthulu,,,Epic,,"2,250",300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A mass of tentacles spewing from the player's head. Maybe bat ears on the side of the head.
+FALSE,Cosmetic,,Head,Cthulu,,,Epic,,225,300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A mass of tentacles spewing from the player's head. Maybe bat ears on the side of the head.
 FALSE,Cosmetic,,Head,Aqua Crown,,,Legendary,,---,---, --- ,No Currency,achievement,FALSE,FALSE,FALSE,None,
 FALSE,Cosmetic,,Head,Blue Crown,,,Legendary,,---,---, --- ,No Currency,achievement,FALSE,FALSE,FALSE,None,
 FALSE,Cosmetic,,Head,Cyan Crown,,,Legendary,,---,---, --- ,No Currency,achievement,FALSE,FALSE,FALSE,None,
-FALSE,Cosmetic,,Head,Fanciest Hat,,,Legendary,,"7,200",600, $ 12.00 ,,accessoryStore,TRUE,TRUE,FALSE,None,A purple wide-brim hat with an orange feather. [Perfection.]
+FALSE,Cosmetic,,Head,Fanciest Hat,,,Legendary,,720,600, $ 12.00 ,,accessoryStore,TRUE,TRUE,FALSE,None,A purple wide-brim hat with an orange feather. [Perfection.]
 FALSE,Cosmetic,,Head,Green Crown,,,Legendary,,---,---, --- ,No Currency,achievement,FALSE,FALSE,FALSE,None,
 FALSE,Cosmetic,,Head,Lime Crown,,,Legendary,,---,---, --- ,No Currency,achievement,FALSE,FALSE,FALSE,None,
-FALSE,Cosmetic,,Head,Napoleon,,,Legendary,,"7,200",600, $ 12.00 ,,accessoryStore,TRUE,TRUE,FALSE,None,French army general hat like that of Napoleon.
-FALSE,Cosmetic,,Head,Noxstache,,,Legendary,,"7,200",600, $ 12.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,An amazing piece of mustache resembling Noxite's. [Imitation is the sincerest form of flattery.]
+FALSE,Cosmetic,,Head,Napoleon,,,Legendary,,720,600, $ 12.00 ,,accessoryStore,TRUE,TRUE,FALSE,None,French army general hat like that of Napoleon.
+TRUE,Cosmetic,wardrobe_hair_noxstache,Head,Noxstache,wardrobe_hair_noxstache.name,wardrobe_hair_noxstache.desc,Legendary,,720,600, $ 12.00 ,---,barberShop,FALSE,FALSE,TRUE,In Progress,An amazing piece of mustache resembling Noxite's. [Imitation is the sincerest form of flattery.]
 FALSE,Cosmetic,,Head,Orange Crown,,,Legendary,,---,---, --- ,No Currency,achievement,FALSE,FALSE,FALSE,None,
 FALSE,Cosmetic,,Head,Pink Crown,,,Legendary,,---,---, --- ,No Currency,achievement,FALSE,FALSE,FALSE,None,
 FALSE,Cosmetic,,Head,Purple Crown,,,Legendary,,---,---, --- ,No Currency,achievement,FALSE,FALSE,FALSE,None,
