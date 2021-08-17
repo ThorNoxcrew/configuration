@@ -10,14 +10,14 @@
             "selectedPreset": "debug",
             "presets": {
                 "debug": [
-                    "gliding",
                     "mansion",
-                    "courtyard",
+                    "sawmill",
+                    "bakery",
                     "minigolf",
-                    "gliding",
-                    "gliding",
-                    "gliding",
-                    "gliding"
+                    "minigolf",
+                    "minigolf",
+                    "minigolf",
+                    "minigolf"
                 ],
                 "test": [
                     "gliding",
