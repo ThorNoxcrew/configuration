@@ -10,7 +10,7 @@
             "selectedPreset": "debug",
             "presets": {
                 "debug": [
-                    "mansion",
+                    "jungletemple",
                     "sawmill",
                     "bakery",
                     "minigolf",
