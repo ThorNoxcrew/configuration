@@ -17,7 +17,6 @@ mccScript {
     rotation(75.0, 0.0)
     lookClosePerPlayer(6)
     cooldown(1.seconds)
-    aboveName("translatable.text.here")
 
     interactBehavior { npc, player ->
       withContext(Dispatchers.Minecraft) {
@@ -25,6 +24,7 @@ mccScript {
       }
     }
 
+    aboveName("island.npc.shop.gadgets")
     type("shop")
   }
 }
