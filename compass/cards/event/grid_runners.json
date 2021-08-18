@@ -10,14 +10,14 @@
             "selectedPreset": "debug",
             "presets": {
                 "debug": [
+                    "prison",
+                    "prison",
+                    "prison",
+                    "prison",
                     "jungletemple",
                     "sawmill",
                     "bakery",
-                    "minigolf",
-                    "courtyard",
-                    "mansion",
-                    "gliding",
-                    "bakery"
+                    "minigolf"
                 ],
                 "test": [
                     "gliding",
