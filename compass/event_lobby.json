@@ -1,8 +1,8 @@
 {
     "input": {
+        "type": "build_server",
         "server": "event",
-        "name": "event_lobby",
-        "worldName": "hub"
+        "name": "hub"
     },
     "sections": {
         "event_lobby": [
@@ -25,7 +25,10 @@
                         "strategy": "ALLOW",
                         "entries": ["Phase"]
                     },
-                    "limit": "120..120"
+                    "limit": {
+                        "min": 120,
+                        "max": 120
+                    }
                 },
                 "spectator_spawnpoint": {
                     "type": "single",
@@ -34,7 +37,9 @@
                         "strategy": "ALLOW",
                         "entries": ["Phase"]
                     },
-                    "limit": "3.."
+                    "limit": {
+                        "min": 3
+                    }
                 },
                 "dome.dial.piston": {
                     "type": "single",
@@ -47,7 +52,9 @@
                         "strategy": "ALLOW",
                         "entries": ["Segment"]
                     },
-                    "limit": "8..",
+                    "limit": {
+                        "min": 8
+                    },
                     "offset": [0, -1, 0]
                 },
                 "dome.dial.segment.game_icon": {
@@ -57,7 +64,10 @@
                         "strategy": "ALLOW",
                         "entries": ["Segment"]
                     },
-                    "limit": "8..8",
+                    "limit": {
+                        "min": 8,
+                        "max": 8
+                    },
                     "offset": [0, 3, 0]
                 },
                 "dome.dial.segment.vote_display": {
@@ -67,7 +77,10 @@
                         "strategy": "ALLOW",
                         "entries": ["Segment"]
                     },
-                    "limit": "8..8"
+                    "limit": {
+                        "min": 8,
+                        "max": 8
+                    }
                 },
                 "dome.dial.segment.piston": {
                     "type": "single",
@@ -81,6 +94,10 @@
         },
         {
             "type": "empty_region_padding"
+        },
+        {
+            "type": "rename_pipeline",
+            "name": "event_lobby"
         }
     ]
 }

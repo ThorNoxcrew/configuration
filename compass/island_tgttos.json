@@ -1,5 +1,6 @@
 {
     "input": {
+        "type": "build_server",
         "server": "island",
         "name": "island_tgttos"
     },
@@ -50,24 +51,33 @@
                 "spawnpoints": {
                     "type": "grouped",
                     "block": "mcc:markers.player_spawnpoints",
-                    "limit": "40..40"
+                    "limit": {
+                        "min": 40,
+                        "max": 40
+                    }
                 },
                 "spectator_spawnpoint": {
                     "type": "single",
                     "block": "mcc:markers.spectator_spawnpoint",
-                    "limit": "1.."
+                    "limit": {
+                        "min": 1
+                    }
                 },
                 "chicken_spawn_area": {
                     "type": "area",
                     "min": "mcc:markers.tgttos.chicken_spawn_area.min",
                     "max": "mcc:markers.tgttos.chicken_spawn_area.max",
-                    "limit": "1.."
+                    "limit": {
+                        "min": 1
+                    }
                 },
                 "spawn_barriers": {
                     "type": "area",
                     "min": "mcc:markers.spawn_barriers.min",
                     "max": "mcc:markers.spawn_barriers.max",
-                    "limit": "1.."
+                    "limit": {
+                        "min": 1
+                    }
                 },
                 "spawn_area": {
                     "type": "area",

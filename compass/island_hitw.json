@@ -1,5 +1,6 @@
 {
     "input": {
+        "type": "build_server",
         "server": "island",
         "name": "island_hitw"
     },
@@ -23,23 +24,33 @@
                 "spawnpoints": {
                     "type": "grouped",
                     "block": "mcc:markers.player_spawnpoints",
-                    "limit": "40..40"
+                    "limit": {
+                        "min": 40,
+                        "max": 40
+                    }
                 },
                 "spectator_spawnpoint": {
                     "type": "single",
                     "block": "mcc:markers.spectator_spawnpoint",
-                    "limit": "1.."
+                    "limit": {
+                        "min": 1
+                    }
                 },
                 "spawn_barriers": {
                     "type": "area",
                     "min": "mcc:markers.spawn_barriers.min",
                     "max": "mcc:markers.spawn_barriers.max",
-                    "limit": "1.."
+                    "limit": {
+                        "min": 1
+                    }
                 },
                 "wall_spawn": {
                     "type": "single",
                     "block": "mcc:markers.hitw.wall_spawns",
-                    "limit": "4..4",
+                    "limit": {
+                        "min": 4,
+                        "max": 4
+                    },
                     "signs": {
                         "strategy": "ALLOW",
                         "entries": ["Direction"]
@@ -49,13 +60,19 @@
                     "type": "area",
                     "min": "mcc:markers.hitw.wall_crossing.min",
                     "max": "mcc:markers.hitw.wall_crossing.max",
-                    "limit": "1..1"
+                    "limit": {
+                        "min": 1,
+                        "max": 1
+                    }
                 },
                 "platform": {
                     "type": "area",
                     "min": "mcc:markers.hitw.platform.min",
                     "max": "mcc:markers.hitw.platform.max",
-                    "limit": "1..1"
+                    "limit": {
+                        "min": 1,
+                        "max": 1
+                    }
                 }
             }
         },
@@ -74,7 +91,10 @@
                         "strategy": "ALLOW",
                         "entries": ["Step"]
                     },
-                    "limit": "3..3"
+                    "limit": {
+                        "min": 3,
+                        "max": 3
+                    }
                 },
                 "walls": {
                     "type": "area",
@@ -156,7 +176,7 @@
             "type": "lighting_updater"
         },
         {
-            "type": "split_per_section",
+            "type": "split_world_per_section",
             "filter": {
                 "strategy": "DENY",
                 "entries": ["ref_walls", "podium_area"]

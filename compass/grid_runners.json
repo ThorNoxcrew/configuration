@@ -1,5 +1,6 @@
 {
     "input": {
+        "type": "build_server",
         "name": "grid_runners"
     },
     "sections": {
@@ -25,23 +26,33 @@
                 "spawnpoints": {
                     "type": "grouped",
                     "block": "mcc:markers.player_spawnpoints",
-                    "limit": "..40"
+                    "limit": {
+                        "real_min": 40,
+                        "max": 40
+                    }
                 },
                 "spectator_spawnpoint": {
                     "type": "single",
                     "block": "mcc:markers.spectator_spawnpoint",
-                    "limit": "1.."
+                    "limit": {
+                        "min": 1
+                    }
                 },
                 "spawn_barriers": {
                     "type": "area",
                     "min": "mcc:markers.spawn_barriers.min",
                     "max": "mcc:markers.spawn_barriers.max",
-                    "limit": "1.."
+                    "limit": {
+                        "min": 1
+                    }
                 },
                 "paste_anchors": {
                     "type": "single",
                     "block": "mcc:markers.grid_runners.paste_anchor.normal",
-                    "limit": "32..32",
+                    "limit": {
+                        "min": 32,
+                        "max": 32
+                    },
                     "signs": {
                         "strategy": "ALLOW",
                         "entries": ["Room"]
@@ -50,7 +61,10 @@
                 "mirror_paste_anchors": {
                     "type": "single",
                     "block": "mcc:markers.grid_runners.paste_anchor.mirrored",
-                    "limit": "32..32",
+                    "limit": {
+                        "min": 32,
+                        "max": 32
+                    },
                     "signs": {
                         "strategy": "ALLOW",
                         "entries": ["Room"]
@@ -59,7 +73,10 @@
                 "edge_paste_anchors": {
                     "type": "single",
                     "block": "mcc:markers.grid_runners.paste_anchor.normal.edge",
-                    "limit": "8..8",
+                    "limit": {
+                        "min": 8,
+                        "max": 8
+                    },
                     "signs": {
                         "strategy": "ALLOW",
                         "entries": ["Room"]
@@ -68,7 +85,10 @@
                 "mirror_edge_paste_anchors": {
                     "type": "single",
                     "block": "mcc:markers.grid_runners.paste_anchor.mirrored.edge",
-                    "limit": "8..8",
+                    "limit": {
+                        "min": 8,
+                        "max": 8
+                    },
                     "signs": {
                         "strategy": "ALLOW",
                         "entries": ["Room"]
@@ -91,7 +111,9 @@
                         "strategy": "ALLOW",
                         "entries": ["Room"]
                     },
-                    "limit": "1.."
+                    "limit": {
+                        "min": 1
+                    }
                 },
                 "room_walls": {
                     "type": "area",
@@ -101,7 +123,9 @@
                         "strategy": "ALLOW",
                         "entries": ["Room"]
                     },
-                    "limit": "1.."
+                    "limit": {
+                        "min": 1
+                    }
                 }
             }
         },
@@ -153,22 +177,30 @@
                         "strategy": "ALLOW",
                         "entries": ["Amount"]
                     },
-                    "limit": "1.."
+                    "limit": {
+                        "min": 1
+                    }
                 },
                 "entry_door.in": {
                     "type": "single",
                     "block": "mcc:markers.grid_runners.entry_door.in",
-                    "limit": "1.."
+                    "limit": {
+                        "min": 1
+                    }
                 },
                 "entry_door.out": {
                     "type": "single",
                     "block": "mcc:markers.grid_runners.entry_door.out",
-                    "limit": "1.."
+                    "limit": {
+                        "min": 1
+                    }
                 },
                 "exit_door": {
                     "type": "single",
                     "block": "mcc:markers.grid_runners.exit_door",
-                    "limit": "1.."
+                    "limit": {
+                        "min": 1
+                    }
                 }
             },
             "specificScanTargets": {
@@ -176,21 +208,27 @@
                     "input": {
                         "type": "single",
                         "block": "mcc:markers.grid_runners.redstone_signal.input",
-                        "limit": "1.."
+                        "limit": {
+                            "min": 1
+                        }
                     }
                 },
                 "light_lamps": {
                     "lamp": {
                         "type": "single",
                         "block": "mcc:markers.grid_runners.light_lamps.lamp",
-                        "limit": "1.."
+                        "limit": {
+                            "min": 1
+                        }
                     }
                 },
                 "find_key": {
                     "key": {
                         "type": "single",
                         "block": "mcc:markers.grid_runners.find_key.key",
-                        "limit": "1.."
+                        "limit": {
+                            "min": 1
+                        }
                     }
                 },
                 "replicate": {
@@ -202,7 +240,9 @@
                             "strategy": "ALLOW",
                             "entries": ["Id"]
                         },
-                        "limit": "1.."
+                        "limit": {
+                            "min": 1
+                        }
                     },
                     "plot": {
                         "type": "area",
@@ -212,7 +252,9 @@
                             "strategy": "ALLOW",
                             "entries": ["Id"]
                         },
-                        "limit": "1.."
+                        "limit": {
+                            "min": 1
+                        }
                     },
                     "source": {
                         "type": "area",

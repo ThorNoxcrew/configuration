@@ -1,5 +1,6 @@
 {
     "input": {
+        "type": "build_server",
         "name": "ace_race"
     },
     "unused_sections": {
@@ -22,18 +23,26 @@
                 "spawnpoints": {
                     "type": "grouped",
                     "block": "mcc:markers.player_spawnpoints",
-                    "limit": "40..40"
+                    "limit": {
+                        "min": 40,
+                        "max": 40
+                    }
                 },
                 "spectator_spawnpoint": {
                     "type": "single",
                     "block": "mcc:markers.spectator_spawnpoint",
-                    "limit": "1..1"
+                    "limit": {
+                        "min": 1,
+                        "max": 1
+                    }
                 },
                 "spawn_barriers": {
                     "type": "area",
                     "min": "mcc:markers.spawn_barriers.min",
                     "max": "mcc:markers.spawn_barriers.max",
-                    "limit": "1..",
+                    "limit": {
+                        "min": 1
+                    },
                     "signs": {
                         "strategy": "ALLOW",
                         "entries": ["Block"]
@@ -51,7 +60,10 @@
                         "respawn_point": {
                             "type": "single",
                             "block": "mcc:markers.ace_race.respawn_point",
-                            "limit": "..1"
+                            "limit": {
+                                "min": 0,
+                                "max": 1
+                            }
                         }
                     }
                 },
@@ -67,7 +79,10 @@
                         "respawn_point": {
                             "type": "single",
                             "block": "mcc:markers.ace_race.respawn_point",
-                            "limit": "..1"
+                            "limit": {
+                                "min": 0,
+                                "max": 1
+                            }
                         }
                     }
                 },
@@ -107,7 +122,7 @@
             "type": "lighting_updater"
         },
         {
-            "type": "split_per_section"
+            "type": "split_world_per_section"
         },
         {
             "type": "empty_region_padding"

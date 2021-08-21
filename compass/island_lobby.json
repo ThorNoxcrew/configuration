@@ -1,8 +1,8 @@
 {
     "input": {
+        "type": "build_server",
         "server": "island",
-        "name": "island_lobby",
-        "worldName": "lobby"
+        "name": "lobby"
     },
     "sections": {
         "island_lobby": [
@@ -19,7 +19,9 @@
                 "spawnpoints": {
                     "type": "single",
                     "block": "mcc:markers.player_spawnpoints",
-                    "limit": "1.."
+                    "limit": {
+                        "min": 1
+                    }
                 },
                 "server_portal": {
                     "type": "area",
@@ -37,6 +39,10 @@
         },
         {
             "type": "empty_region_padding"
+        },
+        {
+            "type": "rename_pipeline",
+            "name": "island_lobby"
         }
     ]
 }

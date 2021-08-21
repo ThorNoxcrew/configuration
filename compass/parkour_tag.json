@@ -1,5 +1,6 @@
 {
     "input": {
+        "type": "build_server",
         "name": "parkour_tag"
     },
     "sections": {
@@ -11,20 +12,28 @@
             "targets": {
                 "anchor": {
                     "type": "single",
-                    "block": "mcc:markers.parkour_tag.anchor",
-                    "limit": "3.."
+                    "limit": {
+                        "min": 3
+                    },
+                    "block": "mcc:markers.parkour_tag.anchor"
                 },
                 "hub_hat_area": {
                     "type": "area",
                     "min": "mcc:markers.parkour_tag.hub_hat.min",
                     "max": "mcc:markers.parkour_tag.hub_hat.max",
-                    "limit": "1..1"
+                    "limit": {
+                        "min": 1,
+                        "max": 1
+                    }
                 },
                 "match_hat_area": {
                     "type": "area",
                     "min": "mcc:markers.parkour_tag.match_hat.min",
                     "max": "mcc:markers.parkour_tag.match_hat.max",
-                    "limit": "1..1"
+                    "limit": {
+                        "min": 1,
+                        "max": 1
+                    }
                 },
                 "game_area": {
                     "type": "area",
@@ -39,7 +48,7 @@
         },
         {
             "type": "parkour_tag_assembler",
-            "referenceSections": {
+            "filter": {
                 "strategy": "ALLOW",
                 "entries": ["reference"]
             },
@@ -66,12 +75,18 @@
                 "runner_spawnpoints": {
                     "type": "single",
                     "block": "mcc:markers.parkour_tag.runner_spawnpoints",
-                    "limit": "3..3"
+                    "limit": {
+                        "min": 3,
+                        "max": 3
+                    }
                 },
                 "hunter_spawnpoints": {
                     "type": "single",
                     "block": "mcc:markers.parkour_tag.hunter_spawnpoint",
-                    "limit": "1..1"
+                    "limit": {
+                        "min": 1,
+                        "max": 1
+                    }
                 }
             }
         },
@@ -85,27 +100,41 @@
                 "waiting_spawnpoints_home": {
                     "type": "single",
                     "block": "mcc:markers.parkour_tag.lounge_spawnpoints.home",
-                    "limit": "4..4"
+                    "limit": {
+                        "min": 4,
+                        "max": 4
+                    }
                 },
                 "waiting_spawnpoints_away": {
                     "type": "single",
                     "block": "mcc:markers.parkour_tag.lounge_spawnpoints.away",
-                    "limit": "4..4"
+                    "limit": {
+                        "min": 4,
+                        "max": 4
+                    }
                 },
                 "selected_hunter_spawnpoint_home": {
                     "type": "single",
                     "block": "mcc:markers.parkour_tag.selected_hunter_spawnpoint.home",
-                    "limit": "1..1"
+                    "limit": {
+                        "min": 1,
+                        "max": 1
+                    }
                 },
                 "selected_hunter_spawnpoint_away": {
                     "type": "single",
                     "block": "mcc:markers.parkour_tag.selected_hunter_spawnpoint.away",
-                    "limit": "1..1"
+                    "limit": {
+                        "min": 1,
+                        "max": 1
+                    }
                 },
                 "spectator_spawnpoint": {
                     "type": "single",
                     "block": "mcc:markers.spectator_spawnpoint",
-                    "limit": "1.."
+                    "limit": {
+                        "min": 1
+                    }
                 }
             }
         },
@@ -119,12 +148,17 @@
                 "hub_spawnpoints": {
                     "type": "grouped",
                     "block": "mcc:markers.player_spawnpoints",
-                    "limit": "40..40"
+                    "limit": {
+                        "min": 40,
+                        "max": 40
+                    }
                 },
                 "hub_spectator_spawnpoint": {
                     "type": "single",
                     "block": "mcc:markers.spectator_spawnpoint",
-                    "limit": "1.."
+                    "limit": {
+                        "min": 1
+                    }
                 }
             }
         },
@@ -137,7 +171,7 @@
                 "strategy": "ALLOW",
                 "entries": ["game"]
             },
-            "duplicates": 17
+            "amount": 18
         },
         {
             "type": "empty_region_padding"
