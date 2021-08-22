@@ -17,18 +17,19 @@ mccScript {
     rotation(180.0, 0.0)
     lookClosePerPlayer(6)
     cooldown(1.seconds)
-    
+
     interactBehavior { npc, player ->
       withContext(Dispatchers.Minecraft) {
         ShopGui(CurrencyType.NON_PREMIUM, "musicStore", player).open(player)
       }
     }
-    
+
     proximityBubbleChat(
         listOf(
             i18n.translatable("island.npc.springsteen.dialogue1")),
         30.seconds)
-	
+
+  belowName("island.npc.shop.music")
 	type("shop")
   }
 }
