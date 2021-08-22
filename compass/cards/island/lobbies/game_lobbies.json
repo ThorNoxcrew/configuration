@@ -2,7 +2,7 @@
     "processors": [
         {
             "type": "add_world",
-            "world": "island/general/game_lobby"
+            "world": "island/general/game_lobbies"
         },
         {
             "type": "add_world",
@@ -13,7 +13,8 @@
             "type": "lighting_updater"
         },
         {
-            "type": "split_world_per_section"
+            "type": "split_per_section",
+            "sections": ["~ref_*"]
         },
         {
             "type": "empty_region_padding"
