@@ -24,6 +24,7 @@ mccScript {
       }
     }
 
+    belowName("island.npc.shop.accessory")
     type("shop")
   }
 }

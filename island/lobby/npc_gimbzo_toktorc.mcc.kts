@@ -24,7 +24,7 @@ mccScript {
       }
     }
 
-    aboveName("island.npc.shop.gadgets")
+    belowName("island.npc.shop.gadgets")
     type("shop")
   }
 }
