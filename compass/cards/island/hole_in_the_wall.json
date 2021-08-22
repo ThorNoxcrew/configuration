@@ -1,20 +1,18 @@
 {
-  "processors": [
-    {
-      "type": "add_world",
-      "world": "island/games/hole_in_the_wall"
-    },
-    {
-      "type": "lighting_updater"
-    },
-    {
-      "type": "split_per_section",
-      "sections": [
-        "~ref_*"
-      ]
-    },
-    {
-      "type": "empty_region_padding"
-    }
-  ]
+    "processors": [
+        {
+            "type": "add_world",
+            "world": "island/games/hole_in_the_wall"
+        },
+        {
+            "type": "lighting_updater"
+        },
+        {
+            "type": "split_per_section",
+            "sections": ["~ref_*"]
+        },
+        {
+            "type": "empty_region_padding"
+        }
+    ]
 }
