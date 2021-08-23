@@ -20,15 +20,6 @@ mccScript {
     // Set the direction the NPC is facing when spawned, use decimals for this
     rotation(-180.0, -4.0)
 
-
-    // Bubble chat, randomly selecting one from the list every 4 seconds
-    proximityBubbleChat(
-        listOf(
-            i18n.translatable("island.npc.jacklumberdo.dialogue1"),
-            i18n.translatable("island.npc.jacklumberdo.dialogue2"),
-            i18n.translatable("island.npc.jacklumberdo.dialogue3")),
-        45.seconds)
-
     type("ambient")
   }
 }
