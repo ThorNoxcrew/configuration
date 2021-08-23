@@ -32,6 +32,9 @@ mccScript {
     patrol(pointList)
 
     helmet("mcc:island_cosmetics.hair.viking_beard")
+    //chestplate("diamond_chestplate")
+    //leggings("minecraft:diamont_leggings")
+    //boots("item here")
     mainHand("minecraft:potato{Enchantments:[{id:binding_curse,lvl:1}]}")
     offHand("diamond_axe{Enchantments:[{id:knockback,lvl:2}]}")
 
