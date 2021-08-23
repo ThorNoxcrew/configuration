@@ -31,7 +31,7 @@ mccScript {
     // Set the NPC to patrol the points, with Catmull Interpolation
     patrol(pointList)
 
-    helmet("mcc:island_cosmetics.hair.afro")
+    helmet("mcc:island_cosmetics.hair.viking_beard")
     mainHand("minecraft:potato{Enchantments:[{id:binding_curse,lvl:1}]}")
     offHand("diamond_axe{Enchantments:[{id:knockback,lvl:2}]}")
 
