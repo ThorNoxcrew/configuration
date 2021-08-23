@@ -31,6 +31,10 @@ mccScript {
     // Set the NPC to patrol the points, with Catmull Interpolation
     patrol(pointList)
 
+    helmet("mcc:island_cosmetics.hair.afro")
+    mainHand("minecraft:potato{Enchantments:[{id:binding_curse,lvl:1}]}")
+    offHand("diamond_axe{Enchantments:[{id:knockback,lvl:2}]}")
+
     // Bubble chat, randomly selecting one from the list every 4 seconds
     proximityBubbleChat(
         listOf(
