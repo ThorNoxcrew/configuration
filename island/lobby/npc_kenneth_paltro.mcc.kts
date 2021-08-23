@@ -18,13 +18,7 @@ mccScript {
     lookClosePerPlayer(6)
     cooldown(1.seconds)
 
-    interactBehavior { npc, player ->
-      withContext(Dispatchers.Minecraft) {
-        ShopGui(CurrencyType.NON_PREMIUM, "gadgetStore", player).open(player)
-      }
-    }
-
-    belowName("island.npc.shop.gadgets")
-    type("shop")
+    belowName("island.npc.ambient.kenneth_paltro")
+    type("ambient")
   }
 }
