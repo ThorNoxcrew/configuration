@@ -32,9 +32,6 @@ mccScript {
     pointList += Transform(300.5, 34.5, 442.5)
     pointList += Transform(324.5, 33.5, 439.5)
     pointList += Transform(324.5, 31.5, 409.5)
-    pointList += Transform(339.5, 31.5, 406.5)
-    pointList += Transform(350.0, 31.5, 410.0)
-    pointList += Transform(347.5, 35.5, 519.5)
 
     patrol(pointList)
 
