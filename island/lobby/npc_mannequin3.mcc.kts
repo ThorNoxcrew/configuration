@@ -11,6 +11,8 @@ mccScript {
   playerNPC(
       // The spawn position of the NPC, must use decimals
       absoluteVec(336.5, 35.0, 464.5),
+      // Translation key for name or untranslatable text
+      "",
       // The texture provided from https://mineskin.org/
       "ewogICJ0aW1lc3RhbXAiIDogMTYxMjc5ODY5ODIyNCwKICAicHJvZmlsZUlkIiA6ICJkZGVkNTZlMWVmOGI0MGZlOGFkMTYyOTIwZjdhZWNkYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEaXNjb3JkQXBwIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ4ZDE0ZjBjNjgxZTEzYTJhYjc0M2Q1YTE2YjAxMjk2YTc1YWFlYmQyNWJkMjQ1ZDU4NjI5ZTNiOTBjZWU0NTgiCiAgICB9CiAgfQp9",
       // The testure signature provided from https://mineskin.org/
