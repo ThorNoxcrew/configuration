@@ -1,5 +1,6 @@
 import com.noxcrew.mcc.commons.base.i18n.I18n
 import com.noxcrew.mcc.commons.base.inject
+import java.util.LinkedList
 
 mccScript {
   val i18n: I18n by inject()
