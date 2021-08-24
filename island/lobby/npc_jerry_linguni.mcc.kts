@@ -17,9 +17,14 @@ mccScript {
     rotation(-90.0, 0.0)
 
     val pointList = LinkedList<Transform>()
-    pointList += Transform(310.5, 43.0, 495.5)
-    pointList += Transform(310.5, 43.0, 502.5)
+    pointList += Transform(309.5, 43.0, 495.5)
+    pointList += Transform(309.5, 43.0, 502.5)
     pointList += Transform(300.5, 43.0, 502.5)
+    pointList += Transform(300.5, 43.0, 506.5)
+    pointList += Transform(312.0, 36.0, 505.0)
+    pointList += Transform(312.5, 36.0, 494.5)
+    pointList += Transform(298.5, 36.0, 495.5)
+    pointList += Transform(299.5, 36.0, 502.5)
 
     patrol(pointList)
 
