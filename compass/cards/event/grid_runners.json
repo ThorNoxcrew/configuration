@@ -11,8 +11,8 @@
             "presets": {
                 "debug": [
                     "jungle_temple",
-                    "saw_mill",
                     "bakery",
+                    "saw_mill",
                     "wild_west",
                     "kitchen",
                     "golf",
