@@ -37,7 +37,7 @@ mccScript {
       Title.title(
           customGlyphProvider["mcc:gui.black_box_1"].toComponent(NamedTextColor.WHITE),
           Component.empty(),
-          Title.Times.of(Duration.ZERO, Duration.ofSeconds(1), Duration.ofSeconds(1))))
+          Title.Times.of(Duration.ZERO, Duration.ofSeconds(1), Duration.ZERO)))
 
   withContext(Dispatchers.Minecraft) {
     cameraPathManager.start(player, cameraPath)
