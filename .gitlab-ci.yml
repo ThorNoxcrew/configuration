@@ -41,7 +41,7 @@ pyhocon:
 
 compile_scripts:
     stage: compile
-    image: git.noxcrew.com:5050/noxcrew/online-devops/mcc-script-cli:main-87a01962a603fbb728a015c9c04797449a2ce950
+    image: harbor.services.noxcrew.online/tools/mcc-script-cli:main-4c0f26a7ccdb7424955172e7b369ab874c410798
     script:
         - ./.gitlab/tools/compile-scripts.sh
     cache:
@@ -50,7 +50,7 @@ compile_scripts:
               - compiled/
 
 .upload_consul:
-    image: git.noxcrew.com:5050/noxcrew/online-devops/fs2consulkv:main-22e40148e044eb3b3c96cab51c06d1d7c940d392
+    image: harbor.services.noxcrew.online/tools/fs2consulkv:main-9d0bbda8300b942a14d42a5166ef9d7973a5cc9d
     tags: [docker]
     # https://gitlab.com/gitlab-org/gitlab-runner/-/issues/27524
     cache:
