@@ -40,7 +40,7 @@ mccScript {
     offHand("diamond_axe{Enchantments:[{id:knockback,lvl:2}]}")
 
     // Bubble chat, randomly selecting one from the list every 4 seconds
-    proximityBubbleChat(
+    proximityChat(
         listOf(
             i18n.translatable("island.npc.jacklumberdo.dialogue1"),
             i18n.translatable("island.npc.jacklumberdo.dialogue2"),

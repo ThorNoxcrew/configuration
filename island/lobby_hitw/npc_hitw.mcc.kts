@@ -19,7 +19,7 @@ mccScript {
 
     interactBehavior { npc, player -> player.sendToAny("hole-in-the-wall", "island") }
 
-    proximityBubbleChat(
+    proximityChat(
         listOf(
             i18n.translatable("island.npcs.hitwlobby.joinhitw.dialogue1")),
         20.seconds)

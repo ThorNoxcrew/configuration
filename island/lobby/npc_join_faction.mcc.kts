@@ -18,7 +18,7 @@ mccScript {
       withContext(Dispatchers.Minecraft) { player.performCommand("faction join") }
     }
 
-    proximityBubbleChat(
+    proximityChat(
         listOf(
             i18n.translatable("island.npc.joinfaction.dialogue1"),
             i18n.translatable("island.npc.joinfaction.dialogue2")),

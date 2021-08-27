@@ -24,7 +24,7 @@ mccScript {
       }
     }
 
-    proximityBubbleChat(
+    proximityChat(
         listOf(
             i18n.translatable("island.npc.springsteen.dialogue1")),
         30.seconds)
