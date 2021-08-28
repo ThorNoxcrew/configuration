@@ -93,7 +93,7 @@ upload_consul_dev:
 
 upload_consul_prod:
     stage: deploy
-    extends: [.kube_env_dev, .upload_consul]
+    extends: [.kube_env_prod, .upload_consul]
     only:
         - main
         - master
