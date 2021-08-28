@@ -87,6 +87,9 @@ compile_scripts:
 upload_consul_dev:
     stage: deploy
     extends: [.kube_env_dev, .upload_consul]
+    except:
+        - main
+        - master
 
 upload_consul_prod:
     stage: deploy
