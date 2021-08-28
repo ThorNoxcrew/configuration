@@ -77,9 +77,21 @@ compile_scripts:
         kubernetes:
             namespace: ops
 
+.kube_env_prod:
+    extends: .upload_consul
+    environment:
+        name: production-fs2consulkv
+        kubernetes:
+            namespace: ops
+
 upload_consul_dev:
     stage: deploy
     extends: [.kube_env_dev, .upload_consul]
+
+upload_consul_prod:
+    stage: deploy
+    extends: [.kube_env_dev, .upload_consul]
+
 # upload_consul_ptr:
 #     stage: deploy
 #     extends: [.kube_env_ptr, .upload_consul]
