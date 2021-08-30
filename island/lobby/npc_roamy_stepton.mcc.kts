@@ -35,6 +35,8 @@ mccScript {
 
     patrol(pointList)
 
+    helmet("mcc:island_cosmetics.hair.noxstache")
+
     type("ambient")
   }
 }

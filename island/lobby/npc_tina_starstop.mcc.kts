@@ -18,7 +18,11 @@ mccScript {
     lookClosePerPlayer(6)
     cooldown(1.seconds)
 
+    helmet("mcc:island_cosmetics.hair.pigtails")
+    offHand("mcc:island_cosmetics.accessory.stick")
+
     belowName("island.npc.ambient.tina_starstop")
+
     type("ambient")
   }
 }
