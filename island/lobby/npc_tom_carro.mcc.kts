@@ -18,7 +18,7 @@ mccScript {
     lookClosePerPlayer(3)
     cooldown(1.seconds)
 
-    helmet("mcc:island_cosmetics.hair.goggles")
+    helmet("mcc:island_cosmetics.hat.goggles")
     offHand("mcc:island_cosmetics.accessory.pipe_wrench")
 
     interactBehavior { npc, player ->
