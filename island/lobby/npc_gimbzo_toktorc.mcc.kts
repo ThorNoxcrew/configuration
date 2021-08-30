@@ -24,7 +24,11 @@ mccScript {
       }
     }
 
+    helmet("mcc:island_cosmetics.hair.professor")
+    offHand("mcc:island_cosmetics.accessory.pipe_wrench")
+
     belowName("island.npc.shop.gadgets")
+
     type("shop")
   }
 }

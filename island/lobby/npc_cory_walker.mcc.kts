@@ -24,6 +24,8 @@ mccScript {
 
     patrol(pointList)
 
+    helmet("mcc:island_cosmetics.hair.full_beard")
+
     type("ambient")
   }
 }
