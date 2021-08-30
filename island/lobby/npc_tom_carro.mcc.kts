@@ -18,17 +18,16 @@ mccScript {
     lookClosePerPlayer(3)
     cooldown(1.seconds)
 
+    helmet("mcc:island_cosmetics.hair.goggles")
+    offHand("mcc:island_cosmetics.accessory.pipe_wrench")
+
     interactBehavior { npc, player ->
       withContext(Dispatchers.Minecraft) {
         ShopGui(CurrencyType.NON_PREMIUM, "gadgetStore", player).open(player)
       }
     }
 
-    helmet("mcc:island_cosmetics.hair.goggles")
-    offHand("mcc:island_cosmetics.accessory.pipe_wrench")
-
     belowName("island.npc.shop.blueprint")
-
     type("shop")
   }
 }
