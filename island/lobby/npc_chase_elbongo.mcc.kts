@@ -24,7 +24,10 @@ mccScript {
       }
     }
 
+    helmet("mcc:island_cosmetics.hair.fade")
+
     belowName("island.npc.milestone")
+
     type("milestone")
   }
 }

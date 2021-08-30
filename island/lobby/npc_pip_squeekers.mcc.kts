@@ -24,7 +24,10 @@ mccScript {
       }
     }
 
+    helmet("mcc:island_cosmetics.hair.hipster")
+
     belowName("island.npc.shop.coffee")
+
     type("shop")
   }
 }

@@ -18,7 +18,11 @@ mccScript {
     lookClosePerPlayer(6)
     cooldown(1.seconds)
 
+    helmet("mcc:island_cosmetics.hair.prince_charming")
+    offHand("mcc:island_cosmetics.accessory.trash_can_lid")
+
     belowName("island.npc.quest.material")
+
     type("questgiver")
   }
 }

@@ -24,7 +24,10 @@ mccScript {
       }
     }
 
+    helmet("mcc:island_cosmetics.hair.braid")
+
     belowName("island.npc.shop.material")
+
     type("shop")
   }
 }

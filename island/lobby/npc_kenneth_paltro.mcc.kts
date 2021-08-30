@@ -18,7 +18,10 @@ mccScript {
     lookClosePerPlayer(6)
     cooldown(1.seconds)
 
+    helmet("mcc:island_cosmetics.hair.mutton_chops")
+
     belowName("island.npc.ambient.kenneth_paltro")
+
     type("ambient")
   }
 }

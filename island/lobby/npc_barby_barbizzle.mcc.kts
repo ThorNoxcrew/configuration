@@ -24,7 +24,10 @@ mccScript {
       }
     }
 
+    helmet("mcc:island_cosmetics.hair.vintage")
+
     belowName("island.npc.shop.barber")
+
     type("shop")
   }
 }

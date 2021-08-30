@@ -35,7 +35,10 @@ mccScript {
       }
     }
 
+    helmet("mcc:island_cosmetics.hair.ponytail")
+
     belowName("island.npc.shop.coffee")
+
     type("shop")
   }
 }

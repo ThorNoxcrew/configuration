@@ -18,7 +18,10 @@ mccScript {
     lookClosePerPlayer(6)
     cooldown(1.seconds)
 
+    helmet("mcc:island_cosmetics.hair.handlebar")
+
     belowName("island.npc.ambient.rick_stiffter")
+
     type("ambient")
   }
 }
