@@ -12,14 +12,11 @@ mccScript {
   playerNPC(
       absoluteVec(337.5, 34.0, 494.5),
       "Tom Carro",
-      "ewogICJ0aW1lc3RhbXAiIDogMTYyNDYyNjM3MzU0MiwKICAicHJvZmlsZUlkIiA6ICJkMGFkNThjOTNiMzY0ZjgyOWRjZWEzMTAzMzE5MTgyMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJfU2FwcGhpcmVfTHVuYV8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2Q5ZTUxZWIxZjYzOTlhMGEwZjdhNWM1NzBjMGNiOGJiYTA5ZTZkOTkyZTE5MDc2MjZmNTEzOWFjMjI1OWI0OSIKICAgIH0KICB9Cn0=",
-      "DZXQKz5UFg25SpT4IkR6i0T2BoYre9mDe46CuBuqjvIrG6eYE+PYrRbZKTv0p8dW4wms9c2KNSt1QIjWDWLqoK61EJBFQ43Nui/ds9U+d58xTk/VImoIYFdtfFzNEddMhP2jc91LSlShzi9K93gPpZShH/FsCwr1CVJtA6qAT5mC+iRM3n5bXAkkW3CXM55GbY5BDv9oHlPXh2J+FPKCvvg6u50ZBOdGTsr4EvfMn51gCX/k5LqudR7J77PtaNvyhCLjkr/FT0fAgSLeyFtLBursDmhbpNe1ZdVpVhLuQI7Tp6URGv1SyZxmW54zgWfJe61bgeS7Cm/53q3nWJ9RdcVIsO3d9t/BRQ3DhjPE8WEEQKB5gmvwqlBO5d7bL4Ggm1KlAvk/dfkV+DTMNCeA5cSqS23bHvA3qQeXASrXRltQ6/nM1uUQ/KCUXABJ2fOfGgH30amgHFutEI+tSxNU6+kvqECBqrWz0vVQAdyvyNERRd2V1e0ZILPBlp1yCNKoz6qG3BVGumeuGUzrwnXxMnJtfNGpyJ7W7/P1ojHZPy7a2nuiaKpzFPB6/WYSyKG1jxstDeEl+CHNuxOS5S912wYPuXbZPyMJtdrgheYcdi0gTHUlvoMakSThyCf2sTbnaxNnYJuRclCvIfGhJdujvwmh9/ZwJo2LSdBZJJwuGHI=") {
+      "ewogICJ0aW1lc3RhbXAiIDogMTYyMjUzNTc3OTI0MywKICAicHJvZmlsZUlkIiA6ICIzOTg5OGFiODFmMjU0NmQxOGIyY2ExMTE1MDRkZGU1MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNeVV1aWRJcyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xMWEyNjQ2M2FlYTk5OWZlOGMzY2ZjNWYyMjEyNTE1MzNlYjNmZmM3YmFhZGJkNTIzYWJjYTY4YzI2NjkyOTAyIgogICAgfQogIH0KfQ==",
+      "GDdIX9b+Fx4qdmUXrSloguTm4bGyJhV0c1xPsWl157bFLcqnUCZapHZYZdq9CNB6fY9gZw+yBDmmJ3Oh8L2rR1mqI5MbgRlxxiC+juEN0N/NqGHpSy7TeTPMP6/12fvz4WBnJoDN9GIJPt5EfWsBr9D5qy8zsDknMGQ/k6PGCjEo+gQwxFnHMFQlVsvJh5wbt1zDy5nmvcBCbZ2SYWQk6LRTVWmfnir/RXCSMVNER61yDMezchc1mIk5dipgxmKL41wR0Ue7v+lNHNCXV/XWD3hj8/Jt9lwmmUg7mHAtjVVtw5mm/Gk27jHkO4TidjYej+NBG9eC8bj0hKo1P5t4oh36gDShwfTiujf4Fn2AfPnUD7xd+J2D1hOMUV9CrK7LIgniT8+5ZntyRrjgewPih9FWRotCZ7dLmmjqy08rP0wLTERYjOkdKxiruyQFA6Dl7wk1ncQxGxCnCoSlfmsMmO5w+3BeJy87rSjjlg19/bYjsbZCPuLJeE+sCM32HvOzGEGiA1kpPI7OBFha9mF3uuzcUEHDcsEhQcQXccmEvjzYAvXFiTYEFf+QkFI4lCHcOE+UFZLoei8IyhvqkSpebzAAUxzjns4cFRMecp9lnc1yP/S0tdUWuvSB2N/a2cc6R4EQVzKu0SSQvhhQRcizslBkXr6F/m7IbEXuoNaXzUQ=") {
     rotation(75.0, 0.0)
     lookClosePerPlayer(3)
     cooldown(1.seconds)
-
-    helmet("mcc:island_cosmetics.hat.goggles")
-    offHand("mcc:island_cosmetics.accessory.pipe_wrench")
 
     interactBehavior { npc, player ->
       withContext(Dispatchers.Minecraft) {
@@ -27,7 +24,10 @@ mccScript {
       }
     }
 
+    offHand("mcc:island_cosmetics.accessory.pipe_wrench")
+
     belowName("island.npc.shop.blueprint")
+
     type("shop")
   }
 }
