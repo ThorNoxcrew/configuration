@@ -67,7 +67,7 @@ TRUE,Furniture,mcc:island_furniture.seating.folding_chair.yellow,Seating,Folding
 ,Furniture,,Bed,Sleeping Bag,,,Lying,Floor,None,Common,,,,25,50, $ 1.00 ,---,,,,TRUE,In Progress,A shaky bunk with wooden legs.
 ,Furniture,,Prop,Small Hanging Plant,,,None,Ceiling,None,Common,,,,25,50, $ 1.00 ,---,,,,TRUE,None,Potted plant suspended from rope.
 ,Furniture,,Surface,Small Oak Table,,,,,,Common,,,,25,50, $ 1.00 ,,,,,,,
-,Furniture,,Surface,Small Table,,,None,Floor,On Top of This,Common,,,,25,50, $ 1.00 ,---,,,,TRUE,None,Wooden coffee table with some damage including a broken panel.
+,Furniture,,Surface,Basic Small Table,,,None,Floor,On Top of This,Common,,,,25,50, $ 1.00 ,---,,,,TRUE,None,Wooden coffee table with some damage including a broken panel.
 ,Furniture,,Prop,Small Vase,,,Toggle,Floor/Surface,This on Top,Common,,,,25,50, $ 1.00 ,---,,,,TRUE,None,Round vase with an opening in the top. Toggle puts flowers in it.
 ,Furniture,,Prop,Standing Lamp,,,Toggle,Floor,This on Top,Common,,,,25,50, $ 1.00 ,---,,,,TRUE,None,Standing lamp with a semicircular lampshade. Can be turned on / off.
 ,Furniture,,Prop,Table Lamp,,,Toggle,Floor/Surface,This on Top,Common,,,,25,50, $ 1.00 ,---,,,,TRUE,None,A table lamp that can toggle on / off. Shade is rectangular in shape.
@@ -319,8 +319,8 @@ TRUE,Furniture,mcc:island_furniture.seating.square_ottoman.red,Seating,Square Ot
 TRUE,Furniture,mcc:island_furniture.seating.square_ottoman.white,Seating,Square Ottoman (White),island_furniture.seating.square_ottoman.name,island_furniture.seating.square_ottoman.desc,Seat,Floor,Recursive Stack,Uncommon,Yes,,,25,50, $ 1.00 ,---,furnitureStore,TRUE,,,Complete,
 TRUE,Furniture,mcc:island_furniture.seating.square_ottoman.yellow,Seating,Square Ottoman (Yellow),island_furniture.seating.square_ottoman.name,island_furniture.seating.square_ottoman.desc,Seat,Floor,Recursive Stack,Uncommon,Yes,,,25,50, $ 1.00 ,---,furnitureStore,TRUE,,,Complete,
 ,Furniture,,Prop,Alarm Clock,,,Toggle,Floor/Surface,This on Top,Uncommon,,,,63,125, $ 2.50 ,---,,,,TRUE,None,An analog clock with two bells. Interacting with the clock causes it to start or stop ringing.
-,Furniture,,Surface,Basic Desk,,,None,Wall,On Top of This,Uncommon,,,,63,125, $ 2.50 ,---,,TRUE,TRUE,,None,Floating Shelf with support brackets. Can hold 1-2 items.
-,Furniture,,Surface,Basic Dining Table,,,,,,Uncommon,,,,63,125, $ 2.50 ,,,,,,,
+,Furniture,,Surface,Basic Desk,,,None,Floor,On Top of This,Uncommon,,,,63,125, $ 2.50 ,---,,TRUE,TRUE,,None,Floating Shelf with support brackets. Can hold 1-2 items.
+,Furniture,,Surface,Basic Dining Table,,,,Floor,,Uncommon,,,,63,125, $ 2.50 ,,,,,,,
 ,Furniture,,Surface,Basic Dressing Table,,,None,Floor,On Top of This,Uncommon,,,,63,125, $ 2.50 ,---,,,,TRUE,None,Solid wood coffee table
 ,Furniture,,Surface,Basic Fireplace,,,,,,Uncommon,,,,63,125, $ 2.50 ,,,,,,,
 ,Furniture,,Prop,Basic Kitchen Sink,,,Toggle,Floor,None,Uncommon,,,,63,125, $ 2.50 ,---,,,,TRUE,None,Sink with two separate sections and drains.
@@ -389,10 +389,10 @@ TRUE,Furniture,mcc:island_furniture.seating.square_ottoman.yellow,Seating,Square
 ,,2x3,Window,,2x3.name,2x3.desc,,,,,,,,0,,  ,,,,,,,
 TRUE,Furniture,mcc:island_furniture.prop_garden.gnome,Prop,Gnome,island_furniture.prop_garden.gnome.name,island_furniture.prop_garden.gnome.desc,None,Floor/Surface,Recursive Stack,Uncommon,No,,,63,125, $ 2.50 ,---,furnitureStore,TRUE,TRUE,,Complete,
 TRUE,Furniture,mcc:island_furniture.prop_garden.gnome_fishing,Prop,Fishing Gnome,island_furniture.prop_garden.gnome_fishing.name,island_furniture.prop_garden.gnome_fishing.desc,None,Floor/Surface,Recursive Stack,Rare,No,,,195,300, $ 6.00 ,---,furnitureStore,TRUE,TRUE,,Complete,
-,,,,,,,,,,,,,,0,,  ,,,,,,,
-,,,,,,,,,,,,,,0,,  ,,,,,,,
-,,,,,,,,,,,,,,0,,  ,,,,,,,
-,,,,,,,,,,,,,,0,,  ,,,,,,,
+TRUE,Furniture,mcc:island_furniture.prop_garden.gnome.red,Prop,Gnome (Red),island_furniture.prop_garden.gnome.name,island_furniture.prop_garden.gnome.desc,None,Floor/Surface,Recursive Stack,Uncommon,No,,,63,125, $ 2.50 ,---,furnitureStore,TRUE,TRUE,,Complete,
+TRUE,Furniture,mcc:island_furniture.prop_garden.gnome_fishing.white,Prop,Fishing Gnome (White),island_furniture.prop_garden.gnome_fishing.name,island_furniture.prop_garden.gnome_fishing.desc,None,Floor/Surface,Recursive Stack,Rare,No,,,195,300, $ 6.00 ,---,furnitureStore,TRUE,TRUE,,Complete,
+TRUE,Furniture,mcc:island_furniture.prop_garden.gnome.blue,Prop,Gnome (Blue),island_furniture.prop_garden.gnome.name,island_furniture.prop_garden.gnome.desc,None,Floor/Surface,Recursive Stack,Uncommon,No,,,63,125, $ 2.50 ,---,furnitureStore,TRUE,TRUE,,Complete,
+TRUE,Furniture,mcc:island_furniture.prop_garden.gnome_fishing.green,Prop,Fishing Gnome (Green),island_furniture.prop_garden.gnome_fishing.name,island_furniture.prop_garden.gnome_fishing.desc,None,Floor/Surface,Recursive Stack,Rare,No,,,195,300, $ 6.00 ,---,furnitureStore,TRUE,TRUE,,Complete,
 ,,,,,,,,,,,,,,0,,  ,,,,,,,
 ,,,,,,,,,,,,,,0,,  ,,,,,,,
 ,,,,,,,,,,,,,,0,,  ,,,,,,,
