@@ -1,0 +1,14 @@
+{
+    "processors": [
+        {
+            "type": "add_world",
+            "world": "island/games/tgttos"
+        },
+        {
+            "type": "lighting_updater"
+        },
+        {
+            "type": "empty_region_padding"
+        }
+    ]
+}
