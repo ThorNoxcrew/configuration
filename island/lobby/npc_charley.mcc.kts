@@ -1,18 +1,17 @@
 import com.noxcrew.mcc.commons.base.i18n.I18n
 import com.noxcrew.mcc.commons.base.inject
-import java.util.LinkedList
 
 mccScript {
   val i18n: I18n by inject()
 
   playerNPC(
-      absoluteVec(350.5, 35.5, 518.5),
-      "Cori Walker",
-      "ewogICJ0aW1lc3RhbXAiIDogMTYyODgzNzc2NTgzMCwKICAicHJvZmlsZUlkIiA6ICJmNThkZWJkNTlmNTA0MjIyOGY2MDIyMjExZDRjMTQwYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJ1bnZlbnRpdmV0YWxlbnQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmExODZhZTc2YTkxMTMxNzg3N2VmZjc2NDUxMmIyZmRlZjIyMGZlNzY3ODI3YTBkMmYwMzdhZmIxODhiMmE3MyIKICAgIH0KICB9Cn0=",
-      "prggWnIyNoDsIOa3dFu6aLAb9PLCJcoJv2vybbucI92DvNvMht2KUyUzGjHm+I3d7ypLQUK/kt1NXEELdPAAdU+3hsX2q3mfgZH7D/uJOWVB39QlXixpp5YmzGdAfPTGyA+KTnfHb0tvbpJ2wjFyxzhdqOm8++bMhqzj21bdTmyUSDxhKivCvYLtzn+h7wxynBXs5jawNURhWtbptMbAiyzvAKQPMYbSzTEExy0QX7YWT21zs+tdoQ4buBeHTh443ZOPtnmk8abL0Ea1DYNBaaEHeAJyezrXJhq6WNwlijI/UJJ/2rkpM1vavCq4rYL8kNJZ5JtS9sGkP58umahduZCMvmqQifBYzeGxdE07A1n+9MC7ez+kQA+GF5x/ZgkvfX6Js/KXQIVw6G+nvhrouJPPF9G3HuL+UbSvaODHI1odnQGYmzSEJVscV/lVED2tkON3pQTK0OJz4g9IFDxdTA0LVxUBtH7/H1YyEfqluJJraRQnV3iSLTAWl5q3vQu4Ik8Y/10OHNHBhDHPiHxHnCK3oeEafevxN5LhTLrOvJDvXlGs2DLqm3bkIk5QEs+GbLvdcihD9Gr99LHVtOEYZf83dspLRRX9V9RQfzhRwP2ZenzAHwcqMnTN9RN6Wq8o/MJ7wpNjFyblWmSQgjOPmy10HN4h2uCOt5/pgcEi/e8=") {
-    rotation(75.0, 0.0)
-
+      absoluteVec(257.0, 72.0, 703.0),
+      "Charley",
+      "ewogICJ0aW1lc3RhbXAiIDogMTU4Nzc4MDcyODM5OSwKICAicHJvZmlsZUlkIiA6ICI0ZDcwNDg2ZjUwOTI0ZDMzODZiYmZjOWMxMmJhYjRhZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJzaXJGYWJpb3pzY2hlIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ5ODVlMTE5ZDJjZGFjYWIxYzI2YmY3MWEwNjVkOTdiOTk1YTMzYjg2Mzg4OWE0NzJkZDI2ZDdjOWEyZjI1OSIKICAgIH0KICB9Cn0=",
+      "uCPY708HKVTRklPd0jhWJWlCX8caCQLqvMTXZeQ1Cw81M/Se5NT6/3O+qMG8B51ukB9il2lRcaQDmX0QeWbH86RZ0/JANXlZjqX6MzQ/clgVT55H15G7h0cUMRbHdgu1qvLbGIpZecHCfw4PR0kODFdv2Ldieak2RZtQElkehUL8sZsnwFiGwoyJ83sDMlgckegOPiDcf/Jh9VZPgXkbsV94b3ubN+NuJBBbRcXd7Uf7Cdz+PmK9dlXQm/Ut1ZHJa9eV/oCfkt42yUwcfcWCSuDxn05+Cvc/Ih1WC++gKMSMp0oQ6jh5byAioRoRNUXJVGbUIONN9w0VJQJJzlBY/Hc+Kj4CRHTyVbAWdN5hBJY3BBebZUtYriJPtVNyhH940H2VwQ7MvYqNn8OxbjnC+guFaXhi/q8s1nfoL4w33zUUEwjtGE00ZsjhxSZy9ey+zwwSfamzqRAcErA0l1TpBfsSnVp82bP1n8QyIFl9O28OxG+Zh7qPy6kwExjFKDnIYdDd1xRWtWUdokHgnOpZJ95lZW83Ar0xjBazwGV+KEj9T7lzcWrDm7TgFAsdtxKxiVkdzaHb5thcPXHcUjZbMhIH9NNI2Fna3/VJVIs9upW/MVQ1NahNU930R1csW0ZRfegOaNqmDN7Te0nD+qPTBphb6cvyS8n77TysKlTTBpc=") {
+      
     val pointList = LinkedList<Transform>()
+    pointList += Transform(257.0, 72.0, 703.0)
     pointList += Transform(271.3, 66.0, 697.5)
     pointList += Transform(279.8, 61.5, 691.5)
     pointList += Transform(286.5, 61.0, 691.5)
@@ -38,6 +37,7 @@ mccScript {
     pointList += Transform(286.5, 61.0, 691.5)
     pointList += Transform(279.8, 61.5, 691.5)
     pointList += Transform(271.3, 66.0, 697.5)
+    pointList += Transform(257.0, 72.0, 703.0)
 
     patrol(pointList)
 
