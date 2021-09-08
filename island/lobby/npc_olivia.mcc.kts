@@ -4,6 +4,7 @@ import com.noxcrew.mcc.commons.base.inject
 mccScript {
   val i18n: I18n by inject()
 
+//Central overlooker by belltower.
   playerNPC(
       absoluteVec(324.4, 52.0, 523.0),
       "Olivia",

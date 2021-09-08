@@ -4,6 +4,7 @@ import com.noxcrew.mcc.commons.base.inject
 mccScript {
   val i18n: I18n by inject()
 
+//Store worker on front right of island.
   playerNPC(
       absoluteVec(372.0, 36.0, 435.5),
       "Francine",

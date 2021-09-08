@@ -4,6 +4,7 @@ import com.noxcrew.mcc.commons.base.inject
 mccScript {
   val i18n: I18n by inject()
 
+//Overlooker of central hub area on right.
   playerNPC(
       absoluteVec(363.0, 38.0, 526.4),
       "Mysterious Ninja",

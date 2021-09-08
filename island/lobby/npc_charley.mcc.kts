@@ -4,6 +4,7 @@ import com.noxcrew.mcc.commons.base.inject
 mccScript {
   val i18n: I18n by inject()
 
+//Runs between Yellow Yak house and lighthouse.
   playerNPC(
       absoluteVec(257.0, 72.0, 703.0),
       "Charley",

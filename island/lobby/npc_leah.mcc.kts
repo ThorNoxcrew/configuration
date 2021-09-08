@@ -4,6 +4,7 @@ import com.noxcrew.mcc.commons.base.inject
 mccScript {
   val i18n: I18n by inject()
 
+//Grid runner on beach runs laps.
   playerNPC(
       absoluteVec(428.9, 27.0, 666.5),
       "Leah",

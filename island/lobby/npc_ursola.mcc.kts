@@ -4,6 +4,7 @@ import com.noxcrew.mcc.commons.base.inject
 mccScript {
   val i18n: I18n by inject()
 
+//Woman looking at clock in center main hub.
   playerNPC(
       absoluteVec(310.5, 39.5, 544.3),
       "Ursola",
