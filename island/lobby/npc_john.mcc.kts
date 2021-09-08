@@ -4,7 +4,7 @@ import com.noxcrew.mcc.commons.base.inject
 mccScript {
   val i18n: I18n by inject()
 
-//Stands in front of mic at outdoor concert on right.
+//Stands on corner in shop district
   playerNPC(
       absoluteVec(294.5, 37.0, 489.6),
       "John",
