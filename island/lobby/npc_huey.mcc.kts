@@ -4,6 +4,7 @@ import com.noxcrew.mcc.commons.base.inject
 mccScript {
   val i18n: I18n by inject()
 
+//Inside Auctionhouse 1st bottom floor near back.
   playerNPC(
       absoluteVec(308.0, 30.0, 461.6),
       "Huey",

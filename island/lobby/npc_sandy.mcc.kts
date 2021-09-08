@@ -4,6 +4,7 @@ import com.noxcrew.mcc.commons.base.inject
 mccScript {
   val i18n: I18n by inject()
 
+//Diner drummer.
   playerNPC(
       absoluteVec(310.2, 33.0, 395.9),
       "Sandy",

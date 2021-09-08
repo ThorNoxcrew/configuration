@@ -4,6 +4,8 @@ import com.noxcrew.mcc.commons.base.inject
 mccScript {
   val i18n: I18n by inject()
 
+//Football guy outside diner. Talks to other footballer.
+
   playerNPC(
       absoluteVec(340.9, 32.0, 402.5),
       "Edward",

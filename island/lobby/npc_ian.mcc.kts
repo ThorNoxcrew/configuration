@@ -4,6 +4,7 @@ import com.noxcrew.mcc.commons.base.inject
 mccScript {
   val i18n: I18n by inject()
 
+//Man on top floor of accessory store
   playerNPC(
       absoluteVec(331.7, 39.0, 460.1),
       "Ian",

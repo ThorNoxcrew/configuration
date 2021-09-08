@@ -4,6 +4,7 @@ import com.noxcrew.mcc.commons.base.inject
 mccScript {
   val i18n: I18n by inject()
 
+//Outside Red Rabbits hut.
   playerNPC(
       absoluteVec(247.5, 43.0, 472.5),
       "Aaron",

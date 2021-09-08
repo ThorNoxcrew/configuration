@@ -4,6 +4,7 @@ import com.noxcrew.mcc.commons.base.inject
 mccScript {
   val i18n: I18n by inject()
 
+//NPC just outside the bank. Uses Adam's skin.
   playerNPC(
       absoluteVec(304.1, 36.0, 431.8),
       "Adam",

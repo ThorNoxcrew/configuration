@@ -4,6 +4,7 @@ import com.noxcrew.mcc.commons.base.inject
 mccScript {
   val i18n: I18n by inject()
 
+//Near diner stares at grafitti.
   playerNPC(
       absoluteVec(308.0, 33.0, 402.6),
       "Vi",
