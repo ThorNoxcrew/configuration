@@ -1,7 +1,7 @@
 import com.noxcrew.mcc.commons.base.i18n.I18n
 import com.noxcrew.mcc.commons.base.inject
 import com.noxcrew.mcc.commons.base.text.text
-import com.noxcrew.mcc.commons.server.config.injectModuleConfig
+import com.noxcrew.mcc.commons.server.config.injectConfig
 import com.noxcrew.mcc.commons.server.game.modifier.ModifierTitles
 import com.noxcrew.mcc.commons.server.i18n.sendMessage
 import com.noxcrew.mcc.commons.server.i18n.translateLines
@@ -23,7 +23,7 @@ mccScript {
   val cameraPathManager: CameraPathManager by inject()
   val container = data["container"] as Container
 
-  val config: CameraPathConfig by container.injectModuleConfig()
+  val config: CameraPathConfig by container.injectConfig()
   val cameraPath = CameraPath.fromConfig(config)
   val modifierTitles: ModifierTitles by container.injectModule()
 
