@@ -7,9 +7,20 @@
         {
             "comment": "Custom assembler to create the Grid Runners arena and paste in all selected rooms.",
             "type": "grid_runners_assembler",
-            "selectedPreset": "debug",
+            "selectedPreset": "mcc17",
             "presets": {
-                "debug": [
+                "mcc16": [
+                    "jungle_temple",
+                    "bakery",
+                    "saw_mill",
+                    "wild_west",
+                    "kitchen",
+                    "golf",
+                    "factory_tower",
+                    "prison",
+                    "conveyors"
+                ],
+                "mcc17": [
                     "jungle_temple",
                     "bakery",
                     "saw_mill",
