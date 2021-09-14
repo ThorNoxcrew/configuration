@@ -21,14 +21,14 @@
                     "conveyors"
                 ],
                 "mcc17": [
-                    "kitchen",
-                    "city_canal_key",
-                    "sewer_crossing",
                     "city_targets",
                     "park_chicken_key",
                     "bakery",
                     "city_lamps",
                     "art_gallery",
+                    "kitchen",
+                    "city_canal_key",
+                    "sewer_crossing",
                     "weave"
                 ]
             }
