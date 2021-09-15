@@ -6,10 +6,13 @@ mkdir -p /tmp/configuration-ktlint
 cp -R * /tmp/configuration-ktlint
 
 ktlint **/+(*.mcc.kts|*.kts|*.kt) # Run once for errors
-ktlint -F /tmp/configuration-ktlint/**/+(*.mcc.kts|*.kts|*.kt) # Format file afterwards
+
+cd /tmp/configuration-ktlint # KtLint does not support absolute path in globs:
+
+ktlint -F **/+(*.mcc.kts|*.kts|*.kt) # Format file afterwards
 
 echo "Comparing repository with Kotlin formatted one"
-DIFF=$(diff -ru --color=always -x '.*' . /tmp/configuration-ktlint)
+DIFF=$(diff -ru --color=always -x '.*' $CI_PROJECT_DIR /tmp/configuration-ktlint)
 
 echo "$DIFF"
 
