@@ -5,7 +5,8 @@ rm -rf /tmp/configuration-ktlint || true
 mkdir -p /tmp/configuration-ktlint
 cp -R * /tmp/configuration-ktlint
 
-ktlint **/*
+ktlint **/+(*.mcc.kts|*.kts|*.kt) # Run once for errors
+ktlint -F /tmp/configuration-ktlint/**/+(*.mcc.kts|*.kts|*.kt) # Format file afterwards
 
 echo "Comparing repository with Kotlin formatted one"
 DIFF=$(diff -ru --color=always -x '.*' . /tmp/configuration-ktlint)
