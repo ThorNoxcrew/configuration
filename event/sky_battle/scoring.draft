@@ -1,0 +1,193 @@
+# EXAMPLE
+constant = {
+    outlive = 20
+    elimination = 50
+    victory = 50
+}
+
+variable = {
+    fixed = {
+        outlive = {
+            "1..5" = 20
+            "6..9" = 40
+        }
+        team_placement = {
+            "1..2" = 50
+            "3..4" = 60
+        }
+    }
+    linear = {
+        outlive = {
+            base = 500
+            decrement = 25
+        }
+        elimination = {
+            base = 600
+            decrement = 45
+            // the minimum value to use if base - decrement * (index - 1) has become negative
+            min = 0
+            // the amount of times + 1 decrement can be removed
+            limit = 4
+        }
+    }
+}
+
+#SBA
+constant = {
+    outlive = 10
+    elimination = 20
+    victory = 50
+}
+
+variable = {
+    fixed = {
+        team_placement = {
+            "1" = 50
+            "2" = 40
+            "3" = 30
+            "4" = 20
+        }
+    }
+}
+
+#SG
+constant = {
+    outlive = 4
+}
+
+variable = {
+    fixed = {
+        elimination = {
+            "..149" = 70
+            "150..299" = 55
+            "300..449" = 45
+            "450.." = 30
+        }
+        survival = {
+            "150" = 20
+            "300" = 20
+            "450" = 20
+        }
+    }
+    linear = {
+        team_placement = {
+            base = 425
+            decrement = 25
+        }
+    }
+}
+
+# HITW
+constant = {
+    outlive = 4
+}
+
+variable = {
+    fixed = {
+        placement = {
+            "1" = 100
+            "2" = 70
+            "3" = 30
+        }
+    }
+}
+
+# GR
+constant = {
+    fastest_room_time = 50
+}
+
+variable = {
+    linear = {
+        team_placement = {
+            base = 500
+            decrement = 50
+        }
+    }
+}
+
+# SOT
+// none, it's all custom.
+
+# BM
+variable = {
+    fixed = {
+        build_completed = {
+            "1..5" = 50
+            "6..10" = 40
+        }
+    }
+}
+
+# AR
+variable = {
+    linear = {
+        placement = {
+            base = 500
+            decrement = 50
+        }
+    }
+    fixed = {
+        placement_bonus = {
+            "1..5" = 500
+            "6..9" = 400
+            "10..20" = 20
+        }
+    }
+}
+
+# TGTTOS
+variable = {
+    linear = {
+        placement = {
+            base = 500
+            decrement = 50
+        }
+        team_placement = {
+            base = 50
+            decrement = 4
+            limit = 4
+        }
+    }
+    fixed = {
+        placement_bonus = {
+            "1" = 100
+            "2" = 70
+            "3" = 30
+            "4" = 10
+        }
+    }
+}
+
+# BB
+constant = {
+    elimination = 50
+    team_victory = 200
+}
+
+# PT
+constant = {
+    hunter_victory = 100
+    runner_victory = 50
+    team_victory = 120
+}
+
+variable = {
+    fixed = {
+        elimination = {
+            "..9" = 70
+            "10..19" = 55
+            "20..29" = 45
+            "30..39" = 30
+            "40..49" = 20
+            "50.." = 10
+        }
+        survival = {
+            "10" = 5
+            "20" = 5
+            "30" = 5
+            "40" = 5
+            "50" = 5
+        }
+    }
+}
