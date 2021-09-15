@@ -17,16 +17,16 @@ prettier:
     script:
         - ./.gitlab/tools/prettier.sh
 
-ktfmt:
+ktlint:
     stage: lint
-    image: adoptopenjdk/openjdk11:debian-slim
+    image: kkopper/ktlint:0.42.1
     only:
         changes:
             - "**/*.kts"
             - "**/*.kt"
             - "**/*.mcc.kts"
     script:
-        - ./.gitlab/tools/ktfmt.sh
+        - ./.gitlab/tools/ktlint.sh
 
 pyhocon:
     stage: lint
