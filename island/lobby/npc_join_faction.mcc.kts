@@ -5,7 +5,7 @@ import kotlin.time.seconds
 mccScript {
     val i18n: I18n by inject()
 
-//Important NPC that allows players to select or change their faction.
+// Important NPC that allows players to select or change their faction.
     playerNPC(
         absoluteVec(391.5, 34.0, 549.5),
         "Isaac",

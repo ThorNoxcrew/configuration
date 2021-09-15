@@ -4,7 +4,7 @@ import com.noxcrew.mcc.commons.base.inject
 mccScript {
     val i18n: I18n by inject()
 
-//NPC using one of Thor's skins standing by the docs looking out at the water.
+// NPC using one of Thor's skins standing by the docs looking out at the water.
     playerNPC(
         absoluteVec(413.0, 32.0, 453.5),
         "Tor",
