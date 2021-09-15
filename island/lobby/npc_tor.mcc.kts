@@ -2,7 +2,7 @@ import com.noxcrew.mcc.commons.base.i18n.I18n
 import com.noxcrew.mcc.commons.base.inject
 
 mccScript {
-      val i18n: I18n by inject()
+    val i18n: I18n by inject()
 
 //NPC using one of Thor's skins standing by the docs looking out at the water.
     playerNPC(
