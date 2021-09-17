@@ -2,20 +2,23 @@ import com.noxcrew.mcc.commons.base.i18n.I18n
 import com.noxcrew.mcc.commons.base.inject
 
 mccScript {
-  val i18n: I18n by inject()
+    val i18n: I18n by inject()
 
-  playerNPC(
-      absoluteVec(389.5, 34.0, 570.5),
-      "<glyph=mcc:icon.emojis.sweat_smile> Joey Fresh",
-      "ewogICJ0aW1lc3RhbXAiIDogMTYyMzI4NDAwMzUwNCwKICAicHJvZmlsZUlkIiA6ICI1NjY3NWIyMjMyZjA0ZWUwODkxNzllOWM5MjA2Y2ZlOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVJbmRyYSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hZjA3ZjI5YjU0MGE0YWNiNDI5Y2JjMzU0YWZjMDg0ZTJkYjQ5MzhjNTAxMTU5MjhmNjlkNjI0NzNlMmJmZGQ5IgogICAgfQogIH0KfQ==",
-      "TTp9HzBr7FZx20T5kB2melQ14vRB98yuY9d4/hfQecfDvBipqnc+UOoZ2Y6LNodVTVxlpTpyG3DPUNf6YKIQtgoZl5tGEVQTXPaWQiHdvWoWu0fbYL6sjESflpfg43N2tpoKWv5nmIsAO/VVMpTPIw1s8X67HNxEE6H/RyxOsDzwfXJKXnCSTv+Z9/jP5lDpalUwkJL170nWyVC8/92RnGQZSIgOV+motAY6+21H855esp3vvU/XE8ZgT8mQyvzhDOtrnoeRiW+aOmwUqsz5BkbMJrzJ4AG7TCoaHSboSav7HoS42CmsDSruw6zxFHHrsHx7/2GTu/fvepS6g/BzCbDji8p9dyiLzYoeAm+Vp3/qogoxjrYJPcjEWCRG4f0ZDI8wq1GbOGEb2oQ+KTnOVfPQaDbHb4IB3UgBaoTEGCFlzBwr51JHDG0WOhC0EGV0hva/Pdvp3ECZkD0Znl8juvYi5KTzRouJTbMtMcfIDSdltbVBtmZ7WmvAW0tUypfeA6V85jeCK16zN9MKSDJ27XUo8IxbGgDH0NN5Xj09f44Dz7yZVOgQ0PsKGMnHp7JoSLN2KbGcJ5cd54ivva+PNibLYg0NBUx4UMLtFQknS4NPZRCb24VBkzonc6v04SedrE8O1D5X4KgHNE8ypcXTv/Cy++x9x/OIuR+PjOSqA/Y=") {
-    roaming(absoluteVec(393.5, 34.0, 567.5), absoluteVec(386.5, 34.0, 573.5))
-    
-    proximityChat(
-        listOf(
-            i18n.translatable("island.npc.joeyfresh.dialogue1")),
-        30.seconds)
+    playerNPC(
+        absoluteVec(389.5, 34.0, 570.5),
+        "<glyph=mcc:icon.emojis.sweat_smile> Joey Fresh",
+        "ewogICJ0aW1lc3RhbXAiIDogMTYzMDU5NDk5OTgzMCwKICAicHJvZmlsZUlkIiA6ICI0ZTMwZjUwZTdiYWU0M2YzYWZkMmE3NDUyY2ViZTI5YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJfdG9tYXRvel8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjIzMjRjMGEyYjgyNjU2NmFlOTJiNmJkN2M5MjQ1NDc2MGU1NTBiOTM2OGQ3ZjRkZDYwN2MzYTBhYmNmMWI0OSIKICAgIH0KICB9Cn0=",
+        "XZVUbdjexn8UxA1U3lyPwricttYR5bhmBOj/D2DHi8fkLO7uBwyhXPeXmKHD2aKDTnUfo2ltz9/OEBOk8fYGIqjUesLHQ5UPuwmCcLW2YTvBHaKAUj5RHfiLXaQ9GE2s+TSVFt1xy0MfBlNmPI0a/tNaaHanwHQU+6zaaBJKeMEwgPGBVQQwbns4ANJhvrAHHtrbnSKRwrnpZnvo2AMCjNDeiZoeksHubOrlC/0YqCg/aheUoF3e/2iaKhJJmAtARFJJ9907944K6SObjTaYGHOvRBpkLcIz1GFGLbskaHr0WGK44jfmcWyFGlU2fUp9zxAVMCGyZSj176bMAtf5DIVvcNMmFyvxwqmzSPeqRIn+je8KR9M0JRofqlNM8o9dZG+ivVKh3uRz3n+0bNvETLqrjXfa4wON8BXBt3/b4MABkWBSh+Ut3WR1APbcmDQ0AOOwNICLKG4uzOPi95ZOwNii76Xyo5DGj1s69l6ixYVPcdfWX6ps7NiKU35UJx6HLOC76hQA8GEfY92ZVvALak3C4Rz4T3kefvXkWKa84AUFEx6JaMPSQWiGn/T2p+EZT3XI1DJ6wq94l2c4lWbfzNBwoHHgwM2ienK2MX0JUXtzpna83vu0vBf/QY8MLYhgfwi7fLQVpKrAhM6pPKs3DK18BQc34hJGo189T/qFlDA="
+    ) {
+        roaming(absoluteVec(393.5, 34.0, 567.5), absoluteVec(386.5, 34.0, 573.5))
 
-    type("ambient")
-  }
+        proximityChat(
+            listOf(
+                i18n.translatable("island.npc.joeyfresh.dialogue1")
+            ),
+            30.seconds
+        )
+
+        type("ambient")
+    }
 }

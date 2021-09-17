@@ -6,25 +6,26 @@ import com.noxcrew.mcc.island.server.shop.ShopGui
 import kotlin.time.seconds
 
 mccScript {
-  val i18n: I18n by inject()
-  val shopManager: ShopManager by inject()
+    val i18n: I18n by inject()
+    val shopManager: ShopManager by inject()
 
-  playerNPC(
-      absoluteVec(363.0, 34.0, 502.0),
-      "Pretty Uppy Lady",
-      "ewogICJ0aW1lc3RhbXAiIDogMTYyODYyODg5ODAzNCwKICAicHJvZmlsZUlkIiA6ICI5MzJlN2QxNGI1YmU0NjQyOTIwYWQ5MDEyZGExMTQ0MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJqaW1teTIwMTgwMTMwIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzJmZDlhZmY3ZDA5MGFmZjdiMjhlNTBjMjlhZjhkNmQzNjJkMzRlZDM3MjU2ZjcxNjI3ODA5MzM3NTI4Mjg2OCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
-      "vMZWO1ZgmDgLk1+aA0m4eWvh/kdpG6snyrYDB5K1QUc9bW3fA5rb+iha6DRrq1tEBlhEID+X8F1mWjNCL19Cwbsmy1371zVj1dIyD0VDTE3FzCUiScFEFXe0HgNyxse5/A3Dh6Q1J3poQ7IPdWm2zDr9cNxYqdIHeu2uK7YOt2jEt9aUyL8FyOj7Hzw8t1gmPXRWhQtIQh4ViJ48/szvbWbDmvE9qK22N4taAfU1RCG9BPBe1DLp/wA2qQ6OGM6tNdK8yPTkSiTb7wYMRS3xwum8VmTZjS9R5NRW+FBYkcCW4PZjSd7Mr4qeF+au996BiwZUI6iPAgnoYDcIWChDG4TMH06Y6WOI3Jaoc/Z3BTPKOpAPB2ybEyHo3kj7Nf3hcYX5+u6QJjwYn3NNYyO2vh0rxEG9s2wxn+W5u+l/xVfuVPbbzd5RahGRvIrlKPrWdIPMbIFqx/A1aWmSH/9EyHPv1tMqavaMdiBM5aoOZ8VpIDpmXxzFgw7CiXCt43NnIJtsIaJhpuJIbnhk224P9ArBgUIXKrc48nNkyCpm+tOqK0WrduZYq7kM1A300HSSuQrQLBox3Jegoa98Irxt/2DclhIEza2ZDRmETGHvgXSrsRVEPSLKq+s/S1XTHkXg4Efo4wVsvhFGa4oqbAfQ4QgAbZBkcgNhk/i3ipDXmHg=") {
-    rotation(75.0, 0.0)
-    lookClosePerPlayer(6)
-    cooldown(1.seconds)
+    playerNPC(
+        absoluteVec(363.0, 34.0, 502.0),
+        "Pretty Uppy Lady",
+        "ewogICJ0aW1lc3RhbXAiIDogMTYxMjQwMzc0Mjc1MCwKICAicHJvZmlsZUlkIiA6ICIxOTI1MjFiNGVmZGI0MjVjODkzMWYwMmE4NDk2ZTExYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTZXJpYWxpemFibGUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODMyNGU3MjQyZTM3NjkzMTE2MzVjOTdhM2Q4ZWJhNjZlMzE3ZDY2Mjg0NDAwNDcxZWQ5Yjk2NWQyZDg3MmJjYSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+        "JHP9bHq4Imtr1HFgHCFVYYyWHAMOWh2760TUUJPwy1n+Lua+ad7ghuoFfgeqJYVNWVGyl+M0v6S4EHjIojDI+N3OgIf2izO9dVzT6bB2bor70DBAyHjaPZjpDsSPZZaTY2I/62QmS3DQGrKlRTvHeP5u1YU+sUbpa2cq+Qi0HUPmYRh2DVr0cy1Ra69HhsJtQitWsbXfItJ60OBAumn9FIsylXCk16UPNO+RZaq8ZfqEbjsmYOLaR31Zz7XZhXjpbelH86wLIMug3MJsFnIPru0pqRHJYO8Xc1cxCM2w3S6+ZS0s5oP+99oYEjANvMSmtjpcsa8wZWNKSEjHdoMUcFkw6Ln7cXGunrBC8AT87rE7+CPKj6jRdRCMf2jD4gFmNBpFQmqBfi+M/ngXbqByAc6O/cr9erJm4ApQAWf0f0ZXTwkwIrrHDUttaq3byaECQ3Rvg3J2ykktpch14vJ79kMXUnUVsLQ9nZ+8/IzKxDe0wAQK7S0nS0OtOkAuHSGt/34YYoECGpkl6fh4d7J0ke18+7Hy4OgVnstJuinlF65Mdfs5w8K8WIeEbrIiy05nfa/dEJq8KmOmpckMbKsMUmP0Hsqytb5GlEYHayQ+HRjPaD1n3lIWrhuBn6rsU7+diyCYR02ynAdnfwSUsFNBSguihX92DyZ6kyVcgIenRzY="
+    ) {
+        rotation(75.0, 0.0)
+        lookClosePerPlayer(6)
+        cooldown(1.seconds)
 
-    interactBehavior { npc, player ->
-      withContext(Dispatchers.Minecraft) {
-        ShopGui(CurrencyType.NON_PREMIUM, "barberShop", player).open(player)
-      }
+        interactBehavior { npc, player ->
+            withContext(Dispatchers.Minecraft) {
+                ShopGui(CurrencyType.NON_PREMIUM, "barberShop", player).open(player)
+            }
+        }
+
+        belowName("island.npc.shop.barber")
+        type("shop")
     }
-
-    belowName("island.npc.shop.barber")
-    type("shop")
-  }
 }

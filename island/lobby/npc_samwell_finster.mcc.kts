@@ -1,25 +1,24 @@
-import com.noxcrew.mcc.commons.base.currency.CurrencyType
+
 import com.noxcrew.mcc.commons.base.i18n.I18n
 import com.noxcrew.mcc.commons.base.inject
 import com.noxcrew.mcc.island.base.shop.ShopManager
-import com.noxcrew.mcc.island.server.shop.ShopGui
-import kotlin.time.seconds
 
 mccScript {
-  val i18n: I18n by inject()
-  val shopManager: ShopManager by inject()
+    val i18n: I18n by inject()
+    val shopManager: ShopManager by inject()
 
-  playerNPC(
-      absoluteVec(323.5, 35.0, 501.5),
-      "Samwell Finster",
-      "ewogICJ0aW1lc3RhbXAiIDogMTYyNjM1NTM4NzMxNCwKICAicHJvZmlsZUlkIiA6ICI1NjY3NWIyMjMyZjA0ZWUwODkxNzllOWM5MjA2Y2ZlOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVJbmRyYSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jYzcyZDkzODVkMWI1Yzc0YzJlYzQzMTY2ODAzNDk3YTMzOGVmNDJkNzc0YWZiZWYyN2MyNjA0NDY3ZWJjNDkyIgogICAgfQogIH0KfQ==",
-      "cA0Fw6L53emVybo/RcklQ7DGbmOtiQZviJ44xQX/0nfOV+qGnIjJMNrjoNDAaXm4NwyKh/FM+qDct/ogDwuWVb+iKBSmlVzqBSUal9osQ8/X0DD+ZoIi6iwGHSoxX6J+NSjLuDwZ05TeCdVzfOyM11/3LSLnXEaB2TRSopj/rfXAFzEnWelbzHgVTm1tiLT/DZ0G8R7B6LxT+Rv8Ub7Kqs9yaobrvZtOYCaaFVWqjSh+62tckxo8yMIlQVhn9M/k5mqh+ptQjNrA0PGscWNxHNzBr+2mo90my49gPdNb9+aDRCcXD6urPx3nc+zTMHpR96PR2O/lNcY6B1isbm8FaPsSRQ8yNvuMczttN+znaBOyMKe3e20CWXYREZAXbWVKagPTKUaDQ7c3MhsO+lgumfDkBndTyN/Id/oWVjOm5HiiOUU7WYOJzHO7uf7aNNJdUuIv/ak9glJprrDmgK9Z/8aEDs+NPIlyZDYQLal9Ru34gXcxG7ny7xQWRyE2GSgebv0gfCHC3oLlnMDrx3Bzo17od7I578+aXgPIpHByfxviX/LJzkhBZIWrSQ5Z4KWUC5l4wawDPsmjhAyCxdD80wES1sO4DpbapaCfICBGcXL0CkBIEm1NGa0PHes3xJ/kZqI4tocVkEM5S8EfFD4eMUqb8mYLolE2jbH7IhEfSWY=") {
-    rotation(-90.0, -20.0)
+    playerNPC(
+        absoluteVec(323.5, 35.0, 501.5),
+        "Samwell Finster",
+        "ewogICJ0aW1lc3RhbXAiIDogMTYzMDU5NjI5MDMzMiwKICAicHJvZmlsZUlkIiA6ICI0ZWQ4MjMzNzFhMmU0YmI3YTVlYWJmY2ZmZGE4NDk1NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJGaXJlYnlyZDg4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzMzZDJjNjk1YmNhM2Q0MmMyOTVjNzQ0ZTI4NTIxMjBkZTNlOGM0MmJjYzY3ZjllYzBkNGQ2YjFiMWJmN2M2MGIiCiAgICB9CiAgfQp9",
+        "DYpZ8ytEcgfeS3eJAc6miYGs/4uPKQWqHaRVTb0y0SlNxhT5/uLL3/WFm6TGF4zU0x1PXvp2QU85l6k21AMWnTeyhWwC9vNRvtNCePy7YI0SqneunkGcHgFJIhghbE62iAUqEGhWfDkAtUp1Dt8/YXwZrziZ9grVlmOmZyfFjXPH8AlaNU2CUn+B2fNwRMOet+R4m/nGHdjpj3FROgW/fNHEnQWOS8TjtwZBoDhS7ygI2XhRhPUj5Dc5vs8uLT2M6rZnM9GAHuPgL6H6na0Ki+BoxG21k1lHgd+r3iP8htHMme/XsmmMbC70E5jo0N/qDi/Lfvysn46BExHcLx7C58QZ+dIOEkSDczRCfZHOHgTuqEviy3arqahUJaAOjQBNz2Xf0GeWq6pmzpk6znJvGKCuABg0VuGRN3xk6Osi9vGgBpFZipPCsCg/438QEJXQrZF5md0Ump4WjYZPmcTA3oHeVEWG1OUju4dxoZaNX9ZNizYVygQhii1eBnW5ZAieVBz9JNsAOwCdn4IGbnUdKlk+RzZK9LlWs+VUbSeVGjCIw7DznQtCCgQVaib7yBMHWhFxa3CAmK/uLkIGmtj83gJJACJFJQ+4S5agXYrGEmPZFHjGCqsUKs6nYQRCSO3OQmhgalUXVpNo8VXJQjq3mFaghTixGa61H5roe6X1hqk="
+    ) {
+        rotation(-90.0, -20.0)
 
-    helmet("mcc:island_cosmetics.hair.hogan")
+        helmet("mcc:island_cosmetics.hair.hogan")
 
-    belowName("island.npc.ambient.samwell_finster")
+        belowName("island.npc.ambient.samwell_finster")
 
-    type("ambient")
-  }
+        type("ambient")
+    }
 }

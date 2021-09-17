@@ -6,30 +6,33 @@ import com.noxcrew.mcc.island.server.shop.ShopGui
 import kotlin.time.seconds
 
 mccScript {
-  val i18n: I18n by inject()
-  val shopManager: ShopManager by inject()
+    val i18n: I18n by inject()
+    val shopManager: ShopManager by inject()
 
-  playerNPC(
-      absoluteVec(358.5, 32.0, 448.0),
-      "Springsteen",
-      "ewogICJ0aW1lc3RhbXAiIDogMTYyNTE3NDk3MTk5MCwKICAicHJvZmlsZUlkIiA6ICIzOTg5OGFiODFmMjU0NmQxOGIyY2ExMTE1MDRkZGU1MCIsCiAgInByb2ZpbGVOYW1lIiA6ICIzOTg5OGFiODFmMjU0NmQxIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M3MzY5YzYzYTlhZTZkYzMyZTAzNTI0NzBjYTAzMTY5NDRlZWIwOWE5MDExODFmZjRkMjk3MTAyZjc3ZmRjMjIiCiAgICB9CiAgfQp9",
-      "bvTGICxy3xQjnJSDZaD9veK4Ucet6z5sqWuSWN9bmfxPSXj3Oxy4OGgmyYrDTcvRUe9Y74uw7X4tFy8EV/i7PQ1FAwHN1KxWu2EbIzDmfeNdxpuBZGkGVPKeev43n1hIG8862Ii8z/ZLZSZWu8ItD7ZtbkoqhclE3pLsLYcldhNtiMDBd1/Z9bJJrmrQBM+LJJWYCnEmGoy3JldJoxdq0P3vh2Z9c+fU6HiyKgwSKZPSbQcM7/X3IyNd6crdYceO7uinHQ4CI9spBppMse2OMH5BAf+aUGjGXqH8nJNrEEPiDv9gtutRQLJq9b6SrpLlD5o4ERKdj43I6GwacwCY1Phnm43KI0GkKJCUR4zkbqPMu1zHvNciO9CYF6VvZcBJZHJfDq15u2y50OGkEdzRvqfPBynAIg5vpOa64/caWzMu3sZ+atEREJpYR5pICoDV09ml70p7GmMhN/yhTIupjD4vSMhQjrV6rMYR13vP2GXGYxCOu9Bzl0b7SsTVPMdNRRtK5pfwa5u80Fg68W1f58JvCpqSGyvVbb1icFcGvudDDC5N1DydMvtenQmHsQCSFi3O+LiaW57zjd6oXUE/M+Unt1taavkJN4UkOkhvR21kwKVLCP0cbyVoM+Zguxv2s4wwfHJpcdgW1QjSp4KyaGz0cY6S4/xXJK5JuzZ3BSs=") {
-    rotation(180.0, 0.0)
-    lookClosePerPlayer(6)
-    cooldown(1.seconds)
+    playerNPC(
+        absoluteVec(358.5, 32.0, 448.0),
+        "Springsteen",
+        "ewogICJ0aW1lc3RhbXAiIDogMTYxMzI1OTgxNzUwNCwKICAicHJvZmlsZUlkIiA6ICJkZTE0MGFmM2NmMjM0ZmM0OTJiZTE3M2Y2NjA3MzViYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTUlRlYW0iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMThlYTRhZTA5Y2JiNWQ1YTczMmVlMTc1OTU2MTQ0NWFmYmZkYzczMjg1YTE1ZGZhZTdmMTdiMTM3YmU2ZmZiNCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+        "EvDtY9q5SUBayg9SwqjgmnEHm2tDBMpMxVpP5jR07L2/s6OY0o6KOtj6UwLg7OAUIRRUabLeGVtbcDb/090M47qgzuMhtTIRkSDhkl8rqolXKoD9SfByB3DHsbDcWCeJKQtYCLm1X/6nvcg6eb/p0jz/TJSmUUlUxocyp1WHIzNsRZ4O0HfJrpsfHsRNfhM/NnfBGtsIkEaQ1/bA2+olFiwjV/MNUikQdpW+MmQveozE7e3OLVgrtDVY+kIcMSWhM9yEdc7ha3MTm8+OxYBVwBjzcODG4HtvXwwl42Zckce/dGGBbJ7qE553r5LCMBNIZVt66Ez3k9qyAL0wVOG+WZmmfDYBSW44lFZ5r2XdY4uaA0N1xu+LyB2fa4m1n3n8dRKQHnss5TRr2OsGlVpo9ufVO39ra2TeGMarmuXI942ZwNQCakQB72N0cJnAC6xRB/aF9LwhBLVBA8o2oDmYygyOWtAXgyFr0kNwSum4xv5si9ROs6qOWwyieK+mknmz1BwHQBbKbHuAG1FGWnwfPwQHOi/Ru7ftAg8WkQNbfAk5XkUbSXxLckIxE1uVPLz9tMuKcFCledNufuuzPShEOqjjhKJJVn2qV7/tGJ9XZmwWQbNan2fCbKFjk3WvikfWu8SYUgN1ja8kSqu7vaoz+bai4V/FJNmoqjGVIbkamKw="
+    ) {
+        rotation(180.0, 0.0)
+        lookClosePerPlayer(6)
+        cooldown(1.seconds)
 
-    interactBehavior { npc, player ->
-      withContext(Dispatchers.Minecraft) {
-        ShopGui(CurrencyType.NON_PREMIUM, "musicStore", player).open(player)
-      }
+        interactBehavior { npc, player ->
+            withContext(Dispatchers.Minecraft) {
+                ShopGui(CurrencyType.NON_PREMIUM, "musicStore", player).open(player)
+            }
+        }
+
+        proximityChat(
+            listOf(
+                i18n.translatable("island.npc.springsteen.dialogue1")
+            ),
+            30.seconds
+        )
+
+        belowName("island.npc.shop.music")
+        type("shop")
     }
-
-    proximityChat(
-        listOf(
-            i18n.translatable("island.npc.springsteen.dialogue1")),
-        30.seconds)
-
-  belowName("island.npc.shop.music")
-	type("shop")
-  }
 }

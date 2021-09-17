@@ -17,16 +17,16 @@ prettier:
     script:
         - ./.gitlab/tools/prettier.sh
 
-ktfmt:
+ktlint:
     stage: lint
-    image: adoptopenjdk/openjdk11:debian-slim
+    image: kkopper/ktlint:0.42.1
     only:
         changes:
             - "**/*.kts"
             - "**/*.kt"
             - "**/*.mcc.kts"
     script:
-        - ./.gitlab/tools/ktfmt.sh
+        - ./.gitlab/tools/ktlint.sh
 
 pyhocon:
     stage: lint
@@ -41,7 +41,7 @@ pyhocon:
 
 compile_scripts:
     stage: compile
-    image: harbor.services.noxcrew.online/tools/mcc-script-cli:feature-npc-improvments-20dbf465c1b102387b97a87a109992d16a6b3a8d
+    image: harbor.services.noxcrew.online/tools/mcc-script-cli:main-20429a46e13b53096fe53158792d6b6b7d7ff5b1
     script:
         - ./.gitlab/tools/compile-scripts.sh
     cache:
