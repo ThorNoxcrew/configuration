@@ -30,6 +30,17 @@
                     "city_canal_key",
                     "sewer_crossing",
                     "weave"
+                ],
+                "mccrising": [
+                    "jungle_temple",
+                    "city_statue",
+                    "art_gallery",
+                    "wild_west",
+                    "city_lamps",
+                    "golf",
+                    "city_canal_key",
+                    "prison",
+                    "weave"
                 ]
             }
         },
