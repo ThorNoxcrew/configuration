@@ -1,22 +1,19 @@
 Active,System,Item ID,Category,Item Name,Name Translation,Description Translation,Use Type,Place Type,Stack,Rarity,Dye-able?,Set,Icon ID,Coin Price,Premium Price,Dollar Price,Override,Source,In Daily,In Weekly,In Static,Status,Description
-,Furniture,mcc:furniture.bed.floor_mattress,Bed,Floor Mattress,furniture.bed.floor_mattress.name,furniture.bed.floor_mattress.desc,Lying,Floor,None,Common,,,,25,50, $ 1.00 ,---,,,,TRUE,In Progress,A rickety mattress with fluff and springs sticking out of it.
-,Furniture,,Bed,Single Bed,,,Lying,Floor,None,Common,,,,25,50, $ 1.00 ,---,,,,,,
-,Furniture,,Bed,Single Oak Bed,,,Lying,Floor,None,Common,,,,25,50, $ 1.00 ,---,,,,TRUE,In Progress,An empty bed panel. No mattress.
-,Furniture,,Bed,Single Panel Bed,,,Lying,Floor,None,Common,,,,25,50, $ 1.00 ,---,,,,,,
-,Furniture,,Bed,Single Pipe Bed,,,Lying,Floor,None,Common,,,,25,50, $ 1.00 ,---,,,,,,
-,Furniture,,Bed,Sleeping Bag,,,Lying,Floor,None,Common,,,,25,50, $ 1.00 ,---,,,,TRUE,In Progress,A shaky bunk with wooden legs.
-,Furniture,,Bed,Canopy Bed,,,Lying,Floor,None,Epic,,,,450,600, $ 12.00 ,---,,TRUE,TRUE,,In Progress,A bed with an ornate canopy over the top.
+TRUE,Furniture,mcc:island_furniture.beds.basic_double_bed,Bed,Basic Double Bed,island_furniture.beds.basic_double_bed.name,island_furniture.beds.basic_double_bed.desc,Lying,Floor,Recursive Stack,Common,Yes,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
+TRUE,Furniture,mcc:island_furniture.beds.basic_single_bed,Bed,Basic Single Bed,island_furniture.beds.basic_single_bed.name,island_furniture.beds.basic_single_bed.desc,Lying,Floor,Recursive Stack,Common,Yes,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
+TRUE,Furniture,mcc:island_furniture.beds.bunk_bed,Bed,Bunk Bed,island_furniture.beds.bunk_bed.name,island_furniture.beds.bunk_bed.desc,Lying,Floor,This on Top,Uncommon,Yes,,,63,125, $ 2.50 ,---,furnitureStore,,,TRUE,Complete,
+,Furniture,,Bed,Canopy Bed,,,Lying,Floor,None,Epic,,,,450,600, $ 12.00 ,---,,,,,,
+TRUE,Furniture,mcc:island_furniture.beds.floor_mattress,Bed,Floor Mattress,island_furniture.beds.floor_mattress.name,island_furniture.beds.floor_mattress.desc,Lying,Floor,Recursive Stack,Common,Yes,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
+TRUE,Furniture,mcc:island_furniture.beds.oak_bunk_bed,Bed,Oak Bunk Bed,island_furniture.beds.oak_bunk_bed.name,island_furniture.beds.oak_bunk_bed.desc,Lying,Floor,This on Top,Rare,Yes,,,195,300, $ 6.00 ,---,furnitureStore,,,TRUE,Complete,
 ,Furniture,,Bed,Oak Canopy Bed,,,Lying,Floor,None,Epic,,,,450,600, $ 12.00 ,---,,,,,,
+TRUE,Furniture,mcc:island_furniture.beds.oak_double_bed,Bed,Oak Double Bed,island_furniture.beds.oak_double_bed.name,island_furniture.beds.oak_double_bed.desc,Lying,Floor,Recursive Stack,Uncommon,Yes,,,63,125, $ 2.50 ,---,furnitureStore,,,TRUE,Complete,
+TRUE,Furniture,mcc:island_furniture.beds.oak_single_bed,Bed,Oak Single Bed,island_furniture.beds.oak_single_bed.name,island_furniture.beds.oak_single_bed.desc,Lying,Floor,Recursive Stack,Uncommon,Yes,,,63,125, $ 2.50 ,---,furnitureStore,,,TRUE,Complete,
+TRUE,Furniture,mcc:island_furniture.beds.panel_double_bed,Bed,Panel Double Bed,island_furniture.beds.panel_double_bed.name,island_furniture.beds.panel_double_bed.desc,Lying,Floor,Recursive Stack,Common,Yes,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
+TRUE,Furniture,mcc:island_furniture.beds.panel_single_bed,Bed,Panel Single Bed,island_furniture.beds.panel_single_bed.name,island_furniture.beds.panel_single_bed.desc,Lying,Floor,Recursive Stack,Common,Yes,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
+TRUE,Furniture,mcc:island_furniture.beds.pipe_double_bed,Bed,Pipe Double Bed,island_furniture.beds.pipe_double_bed.name,island_furniture.beds.pipe_double_bed.desc,Lying,Floor,Recursive Stack,Common,Yes,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
+TRUE,Furniture,mcc:island_furniture.beds.pipe_single_bed,Bed,Pipe Single Bed,island_furniture.beds.pipe_single_bed.name,island_furniture.beds.pipe_single_bed.desc,Lying,Floor,Recursive Stack,Common,Yes,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
+TRUE,Furniture,mcc:island_furniture.beds.sleeping_bag,Bed,Sleeping Bag,island_furniture.beds.sleeping_bag.name,island_furniture.beds.sleeping_bag.desc,Lying,Floor,This on Top,Uncommon,Yes,,,63,125, $ 2.50 ,---,furnitureStore,,,TRUE,Complete,
 ,Furniture,,Bed,Velvet Double Bed,,,Lying,Floor,None,Epic,,,,450,600, $ 12.00 ,---,,,,,,
-,Furniture,,Bed,Bunk Bed,,,Lying,Floor,None,Rare,,,,195,300, $ 6.00 ,---,,,,,,
-,Furniture,,Bed,King Bed,,,Lying,Floor,None,Rare,,,,195,300, $ 6.00 ,---,,,,TRUE,In Progress,A nice-looking king-sized bed.
-,Furniture,,Bed,Oak Bunk Bed,,,Lying,Floor,None,Rare,,,,195,300, $ 6.00 ,---,,,,TRUE,In Progress,"Standard bed with a second bed on top it. If possible, allow 2 players to occupy the bed: one on-top and one below."
-,Furniture,,Bed,Oak King Bed,,,Lying,Floor,None,Rare,,,,195,300, $ 6.00 ,---,,,,,,
-,Furniture,,Bed,Double Bed,,,Lying,Floor,None,Uncommon,,,,63,125, $ 2.50 ,---,,,,,,
-,Furniture,,Bed,Double Oak Bed,,,Lying,Floor,None,Uncommon,,,,63,125, $ 2.50 ,---,,,,,,
-,Furniture,,Bed,Double Panel Bed,,,Lying,Floor,None,Uncommon,,,,63,125, $ 2.50 ,---,,,,TRUE,In Progress,Standard bed. Nothing special. But not too shabby.
-,Furniture,,Bed,Double Pipe Bed,,,Lying,Floor,None,Uncommon,,,,63,125, $ 2.50 ,---,,,,,,
-,Furniture,,Door,,,,Toggle,Floor,None,Rare,,,,111,170, $ 3.40 ,---,,,,TRUE,None,Clear but slightly blue-tinted shower cubicle. Rectangular. Door can be opened to enter the cubicle.
 ,Furniture,,Door,Birch Door,,,,,,,,,,0,,  ,,,,,,,
 ,Furniture,,Door,Closet Doors,,,,,,,,,,0,,  ,,,,,,,
 ,Furniture,,Door,Double,,,,,,,,,,0,,  ,,,,,,,
@@ -32,198 +29,199 @@ Active,System,Item ID,Category,Item Name,Name Translation,Description Translatio
 ,,regular,Door,,regular.name,regular.desc,,,,,,,,0,,  ,,,,,,,
 ,,pocket,Door,,pocket.name,pocket.desc,,,,,,,,0,,  ,,,,,,,
 ,,garage,Door,,garage.name,garage.desc,,,,,,,,0,,  ,,,,,,,
-TRUE,Furniture,mcc:island_furniture.wall_art.poster_piano,Poster,Piano Poster,island_furniture.wall_art.poster_piano.name,island_furniture.wall_art.poster_piano.desc,None,Wall,None,Common,No,,,13,25, $ 0.50 ,---,musicStore,TRUE,TRUE,,Complete,
-TRUE,Furniture,mcc:island_furniture.wall_art.poster_dung_beetles,Poster,The Dung Beetles Poster,island_furniture.wall_art.poster_dung_beetles.name,island_furniture.wall_art.poster_dung_beetles.desc,None,Wall,None,Common,No,,,13,25, $ 0.50 ,---,musicStore,TRUE,TRUE,,Complete,
-,Furniture,,Poster,Island Poster,,,None,Wall,None,Common,,,,13,25, $ 0.50 ,---,,,,TRUE,None,Wall poster depicting a long shot of MCC Island.
-TRUE,Furniture,mcc:island_furniture.wall_art.poster_champions_calling,Poster,Champion Calling Poster,island_furniture.wall_art.poster_champions_calling.name,island_furniture.wall_art.poster_champions_calling.desc,None,Wall,None,Epic,No,,,188,250, $ 5.00 ,---,furnitureStore,TRUE,TRUE,,Complete,
-TRUE,Furniture,mcc:island_furniture.wall_art.poster_star_fowl,Poster,Star Fowl Poster,island_furniture.wall_art.poster_star_fowl.name,island_furniture.wall_art.poster_star_fowl.desc,None,Wall,None,Epic,No,,,188,250, $ 5.00 ,---,furnitureStore,TRUE,TRUE,,Complete,
-,Furniture,,Poster,Noxite Wants YOU!' Poster,,,None,Wall,None,Epic,,,,188,250, $ 5.00 ,---,,TRUE,TRUE,,None,Poster with Noxite pointing outward similarly to old American recruiting propaganda.
-TRUE,Furniture,mcc:island_furniture.wall_art.poster_spotlight,Poster,Into The Spotlight' Poster,island_furniture.wall_art.poster_spotlight.name,island_furniture.wall_art.poster_spotlight.desc,None,Wall,None,Rare,No,,,65,100, $ 2.00 ,---,furnitureStore,TRUE,TRUE,,Complete,
-,Furniture,,Poster,HITW Poster,,,None,Wall,None,Rare,,,,65,100, $ 2.00 ,---,,TRUE,TRUE,,None,Poster showing the art for Hole in the Wall.
-,Furniture,,Poster,Noxcrew Poster,,,None,Wall,None,Rare,,,,65,100, $ 2.00 ,---,,,,TRUE,None,Poster depicting the founding members of Noxcrew.
-TRUE,Furniture,mcc:island_furniture.wall_art.poster_wicked_lick,Poster,Wicked Lick Tour Poster,island_furniture.wall_art.poster_wicked_lick.name,island_furniture.wall_art.poster_wicked_lick.desc,None,Wall,None,Uncommon,No,,,25,50, $ 1.00 ,---,furnitureStore,TRUE,TRUE,,Complete,
-,Furniture,,Poster,Champion Poster,,,None,Wall,None,Uncommon,,,,25,50, $ 1.00 ,---,,,,TRUE,None,Poster with a gold cup depicted.
-,Furniture,,Poster,Mascot Poster,,,None,Wall,None,Uncommon,,,,25,50, $ 1.00 ,---,,,,TRUE,None,Poster with the MCC Zombie riding his chicken.
 ,Furniture,,Poster,Burgers But Fast Poster,,,None,Wall,None,,,,,0,,  ,,,,,,,
+TRUE,Furniture,mcc:island_furniture.wall_art.poster_champions_calling,Poster,Champion Calling Poster,island_furniture.wall_art.poster_champions_calling.name,island_furniture.wall_art.poster_champions_calling.desc,None,Wall,None,Epic,No,,,188,250, $ 5.00 ,---,furnitureStore,TRUE,TRUE,,Complete,
+,Furniture,,Poster,Champion Poster,,,None,Wall,None,Uncommon,,,,25,50, $ 1.00 ,---,,,,TRUE,None,Poster with a gold cup depicted.
+TRUE,Furniture,mcc:island_furniture.set_game_room.eight_ball_framed_print,Poster,Eight-Ball Framed Print,island_furniture.set_game_room.eight_ball_framed_print.name,island_furniture.set_game_room.eight_ball_framed_print.desc,None,Wall,None,Rare,No,set_game_room,,65,100, $ 2.00 ,---,special,,,,Complete,
+,Furniture,,Poster,HITW Poster,,,None,Wall,None,Rare,,,,65,100, $ 2.00 ,---,,TRUE,TRUE,,None,Poster showing the art for Hole in the Wall.
+TRUE,Furniture,mcc:island_furniture.wall_art.poster_spotlight,Poster,Into The Spotlight' Poster,island_furniture.wall_art.poster_spotlight.name,island_furniture.wall_art.poster_spotlight.desc,None,Wall,None,Rare,No,,,65,100, $ 2.00 ,---,furnitureStore,TRUE,TRUE,,Complete,
+,Furniture,,Poster,Island Poster,,,None,Wall,None,Common,,,,13,25, $ 0.50 ,---,,,,TRUE,None,Wall poster depicting a long shot of MCC Island.
+,Furniture,,Poster,Mascot Poster,,,None,Wall,None,Uncommon,,,,25,50, $ 1.00 ,---,,,,TRUE,None,Poster with the MCC Zombie riding his chicken.
+,Furniture,,Poster,Noxcrew Poster,,,None,Wall,None,Rare,,,,65,100, $ 2.00 ,---,,,,TRUE,None,Poster depicting the founding members of Noxcrew.
+,Furniture,,Poster,Noxite Wants YOU!' Poster,,,None,Wall,None,Epic,,,,188,250, $ 5.00 ,---,,TRUE,TRUE,,None,Poster with Noxite pointing outward similarly to old American recruiting propaganda.
+TRUE,Furniture,mcc:island_furniture.wall_art.poster_piano,Poster,Piano Poster,island_furniture.wall_art.poster_piano.name,island_furniture.wall_art.poster_piano.desc,None,Wall,None,Common,No,,,13,25, $ 0.50 ,---,musicStore,TRUE,TRUE,,Complete,
 ,Furniture,,Poster,SOT Poster,,,None,Wall,None,,,,,0,,  ,,,,,,,
+TRUE,Furniture,mcc:island_furniture.wall_art.poster_star_fowl,Poster,Star Fowl Poster,island_furniture.wall_art.poster_star_fowl.name,island_furniture.wall_art.poster_star_fowl.desc,None,Wall,None,Epic,No,,,188,250, $ 5.00 ,---,furnitureStore,TRUE,TRUE,,Complete,
+TRUE,Furniture,mcc:island_furniture.wall_art.poster_dung_beetles,Poster,The Dung Beetles Poster,island_furniture.wall_art.poster_dung_beetles.name,island_furniture.wall_art.poster_dung_beetles.desc,None,Wall,None,Common,No,,,13,25, $ 0.50 ,---,musicStore,TRUE,TRUE,,Complete,
+TRUE,Furniture,mcc:island_furniture.wall_art.poster_wicked_lick,Poster,Wicked Lick Tour Poster,island_furniture.wall_art.poster_wicked_lick.name,island_furniture.wall_art.poster_wicked_lick.desc,None,Wall,None,Uncommon,No,,,25,50, $ 1.00 ,---,furnitureStore,TRUE,TRUE,,Complete,
+TRUE,Furniture,mcc:island_furniture.music.acoustic_guitar,Prop,Acoustic Guitar,island_furniture.music.acoustic_guitar.name,island_furniture.music.acoustic_guitar.desc,Animation,Floor/Surface,,Rare,Yes,Music,,195,300, $ 6.00 ,---,musicStore,,,TRUE,Complete,
+,Furniture,,Prop,Alarm Clock,,,Toggle,Floor/Surface,This on Top,Uncommon,,,,63,125, $ 2.50 ,---,,,,TRUE,None,An analog clock with two bells. Interacting with the clock causes it to start or stop ringing.
 TRUE,Furniture,mcc:island_furniture.music.amplifier,Prop,Amplifier,island_furniture.music.amplifier.name,island_furniture.music.amplifier.desc,None,Floor/Surface,,Common,No,Music,,25,50, $ 1.00 ,---,musicStore,,,TRUE,Complete,
+,Furniture,,Prop,Basic Bathroom Sink,,,Toggle,Floor/Surface,None,Common,,,,25,50, $ 1.00 ,---,,,,TRUE,None,Freestanding sink.
+,Furniture,,Prop,Basic Fridge,,,,,,,,,,0,,  ,,,,,,,
+,Furniture,,Prop,Basic Kitchen Sink,,,Toggle,Floor,None,Uncommon,,,,63,125, $ 2.50 ,---,,,,TRUE,None,Sink with two separate sections and drains.
+,Furniture,,Prop,Basic Oven,,,,,,,,,,0,,  ,,,,,,,
+,Furniture,,Prop,Basic Toilet,,,Seat,Floor,On Top of This,Uncommon,,,,63,125, $ 2.50 ,---,,,,TRUE,None,"Plain white toilet with the seat down. When activated, it opens and flushes."
+,Furniture,,Prop,Bathtub,,,Seat,Floor,None,Uncommon,,,,63,125, $ 2.50 ,---,,,,TRUE,None,Clear white bathtub.
+TRUE,Furniture,mcc:island_furniture.music.bongos,Prop,Bongos,island_furniture.music.bongos.name,island_furniture.music.bongos.desc,Animation,Floor/Surface,,Uncommon,No,Music,,63,125, $ 2.50 ,---,musicStore,,,TRUE,Complete,
+,Furniture,,Prop,Ceiling Fan,,,Toggle,Ceiling,None,Epic,,,,450,600, $ 12.00 ,---,,,,TRUE,None,"Large, multi-armed fan. Toggles slow, fast, and off."
+,Furniture,,Prop,Ceiling Lamp,,,,,,,,,,0,,  ,,,,,,,
+TRUE,Furniture,mcc:island_furniture.music.classical_acoustic_guitar,Prop,Classical Acoustic Guitar,island_furniture.music.classical_acoustic_guitar.name,island_furniture.music.classical_acoustic_guitar.desc,Animation,Floor/Surface,,Rare,No,Music,,195,300, $ 6.00 ,---,musicStore,,,TRUE,Complete,
+,Furniture,,Prop,Clothing Iron,,,Animation,Floor/Surface,On Top of This,Rare,,,,195,300, $ 6.00 ,---,,,,TRUE,None,"A grey-black clothing iron. When used, flips down and moves back and forth across its surface, briefly ironing it."
+,Furniture,,Prop,Coat Rack,,,None,Floor,None,Uncommon,,,,63,125, $ 2.50 ,---,,,,TRUE,None,A wooden coat rack.
+,Furniture,,Prop,Cookie Jar,,,Toggle,Floor/Surface,This on Top,Rare,,,,195,300, $ 6.00 ,---,,TRUE,TRUE,,None,A clear jar filled with delicious-looking cookies. Toggle opens or closes the jar.
+TRUE,Furniture,mcc:island_furniture.set_game_room.dartboard,Prop,Dartboard,island_furniture.set_game_room.dartboard.name,island_furniture.set_game_room.dartboard.desc,None,Wall,None,Uncommon,No,set_game_room,,63,125, $ 2.50 ,---,special,,,,Complete,
+,Furniture,,Prop,Desk Fan,,,Toggle,Floor/Surface,This on Top,Rare,,,,195,300, $ 6.00 ,---,,TRUE,TRUE,,None,"A desk fan. Can be toggled on / off. When on, it moves left-to-right."
+,Furniture,,Prop,Desk Lamp,,,Toggle,Floor/Surface,This on Top,Common,,,,25,50, $ 1.00 ,---,,,,TRUE,None,A table lamp that can toggle on / off. Shade is conical in shape.
+,Furniture,,Prop,Digital Alarm Clock,,,,,,,,,,0,,  ,,,,,,,
+,Furniture,,Prop,Dishwasher,,,Toggle,Floor,On Top of This,Rare,,,,195,300, $ 6.00 ,---,,TRUE,TRUE,,None,"Grey dishwasher. Can be toggled open / closed. When open, it reveals several plates and dishes inside."
+TRUE,Furniture,mcc:island_furniture.music.dj_turntable,Prop,DJ Turntable,island_furniture.music.dj_turntable.name,island_furniture.music.dj_turntable.desc,Toggle,Floor/Surface,,Uncommon,No,Music,,63,125, $ 2.50 ,---,musicStore,,,TRUE,Complete,
+TRUE,Furniture,mcc:island_furniture.music.drum_kit,Prop,Drum Kit,island_furniture.music.drum_kit.name,island_furniture.music.drum_kit.desc,Animation,Floor,,Rare,Yes,Music,,195,300, $ 6.00 ,---,musicStore,,,TRUE,Complete,
+TRUE,Furniture,mcc:island_furniture.music.electric_guitar,Prop,Electric Guitar,island_furniture.music.electric_guitar.name,island_furniture.music.electric_guitar.desc,Animation,Floor/Surface,,Rare,Yes,Music,,195,300, $ 6.00 ,---,musicStore,,,TRUE,Complete,
+,Furniture,,Prop,Fancy Coat Rack,,,None,Floor,None,Rare,,,,195,300, $ 6.00 ,---,,,,TRUE,None,A fancy-looking coat rack with ornate arms.
+,Furniture,,Prop,Fancy Table Lamp,,,Toggle,Floor/Surface,This on Top,Uncommon,,,,63,125, $ 2.50 ,---,,,,TRUE,None,Diamond-shaped table lamp that can toggle on / off. Shade is like a rhombus in shape.
+TRUE,Furniture,mcc:island_furniture.props.gnome_fishing,Prop,Fishing Gnome,island_furniture.props.gnome_fishing.name,island_furniture.props.gnome_fishing.desc,None,Floor/Surface,Recursive Stack,Rare,No,,,195,300, $ 6.00 ,---,furnitureStore,TRUE,TRUE,,Complete,
+,Furniture,,Prop,Floral Vase,,,Toggle,Floor/Surface,This on Top,Uncommon,,,,63,125, $ 2.50 ,---,,,,TRUE,None,White vase with a floral pattern. Toggle puts flowers in it.
+,Furniture,,Prop,Full Mirror Dressing Table,,,None,Floor,On Top of This,Rare,,,,195,300, $ 6.00 ,---,,,,TRUE,None,A dressing table with a full rectangular mirror for the player to look at themselves.
+,Furniture,,Prop,Gamer PC Setup,,,Toggle,Floor/Surface,This on Top,Epic,,,,450,600, $ 12.00 ,---,,TRUE,TRUE,,None,Chromatic keyboard and mouse with a nice PC. Can be toggled on to show Minecraft playing on the computer.
+,Furniture,,Prop,Gamer PC Tower,,,None,Floor/Surface,This on Top,Rare,,,,195,300, $ 6.00 ,---,,TRUE,TRUE,,None,Chromatic and very nice-looking PC Tower.
+TRUE,Furniture,mcc:island_furniture.props.gnome,Prop,Gnome,island_furniture.props.gnome.name,island_furniture.props.gnome.desc,None,Floor/Surface,Recursive Stack,Uncommon,No,,,63,125, $ 2.50 ,---,furnitureStore,TRUE,TRUE,,Complete,
+TRUE,Furniture,mcc:island_furniture.music.golden_record,Prop,Golden Record,island_furniture.music.golden_record.name,island_furniture.music.golden_record.desc,None,Wall,,Epic,No,Music,,450,600, $ 12.00 ,---,musicStore,,,TRUE,Complete,
+TRUE,Furniture,mcc:island_furniture.music.grand_piano,Prop,Grand Piano,island_furniture.music.grand_piano.name,island_furniture.music.grand_piano.desc,Animation,Floor,,Epic,No,Music,,450,600, $ 12.00 ,---,musicStore,,,TRUE,Complete,
+,Furniture,,Prop,Hanging Bulb,,,,,,,,,,0,,  ,,,,,,,
+,Furniture,,Prop,Hanging Plant,,,None,Ceiling,None,Uncommon,,,,63,125, $ 2.50 ,---,,,,TRUE,None,Collection of leaves and vines suspended from rope.
+TRUE,Furniture,mcc:island_furniture.music.harp,Prop,Harp,island_furniture.music.harp.name,island_furniture.music.harp.desc,Animation,Floor,,Epic,No,Music,,450,600, $ 12.00 ,---,musicStore,,,TRUE,Complete,
+TRUE,Furniture,mcc:island_furniture.music.keyboard,Prop,Keyboard,island_furniture.music.keyboard.name,island_furniture.music.keyboard.desc,Animation,Floor/Surface,,Uncommon,Yes,Music,,63,125, $ 2.50 ,---,musicStore,,,TRUE,Complete,
+TRUE,Furniture,mcc:island_furniture.music.keyboard_with_stand,Prop,Keyboard with Stand,island_furniture.music.keyboard_with_stand.name,island_furniture.music.keyboard_with_stand.desc,Animation,Floor,,Rare,Yes,Music,,195,300, $ 6.00 ,---,musicStore,,,TRUE,Complete,
+,Furniture,,Prop,Large Book Stack,,,,,,,,,,0,,  ,,,,,,,
+,Furniture,,Prop,Large Flat Screen TV,,,Toggle,Floor/Surface,None,Epic,,,,450,600, $ 12.00 ,---,,,,TRUE,None,"Large tv. When toggled, can be turned on, flip through several channels (animated gifs), and turned off."
+,Furniture,,Prop,Large Hanging Plant,,,None,Ceiling,None,Rare,,,,195,300, $ 6.00 ,---,,TRUE,TRUE,,None,Massive cordion of flowers and leaves hanging from ropes.
+,Furniture,,Prop,Large Potted Cactus,,,Toggle,Floor/Surface,This on Top,Epic,,,,450,600, $ 12.00 ,---,,TRUE,TRUE,,None,Normal-looking vase. Toggle causes it to shatter into pieces or put itself back together.
 TRUE,Furniture,mcc:island_furniture.music.large_speaker,Prop,Large Speaker,island_furniture.music.large_speaker.name,island_furniture.music.large_speaker.desc,None,Floor/Surface,,Common,No,Music,,25,50, $ 1.00 ,---,musicStore,,,TRUE,Complete,
 TRUE,Furniture,mcc:island_furniture.music.large_woodgrain_speaker,Prop,Large Woodgrain Speaker,island_furniture.music.large_woodgrain_speaker.name,island_furniture.music.large_woodgrain_speaker.desc,None,Floor/Surface,,Common,No,Music,,25,50, $ 1.00 ,---,musicStore,,,TRUE,Complete,
 TRUE,Furniture,mcc:island_furniture.music.launchpad,Prop,Launchpad,island_furniture.music.launchpad.name,island_furniture.music.launchpad.desc,None,Floor,,Common,No,Music,,25,50, $ 1.00 ,---,musicStore,,,TRUE,Complete,
-TRUE,Furniture,mcc:island_furniture.music.microphone,Prop,Microphone,island_furniture.music.microphone.name,island_furniture.music.microphone.desc,None,Floor/Surface,,Common,No,Music,,25,50, $ 1.00 ,---,musicStore,,,TRUE,Complete,
-TRUE,Furniture,mcc:island_furniture.music.small_speaker,Prop,Small Speaker,island_furniture.music.small_speaker.name,island_furniture.music.small_speaker.desc,None,Floor/Surface,,Common,No,Music,,25,50, $ 1.00 ,---,musicStore,,,TRUE,Complete,
-TRUE,Furniture,mcc:island_furniture.music.small_woodgrain_speaker,Prop,Small Woodgrain Speaker,island_furniture.music.small_woodgrain_speaker.name,island_furniture.music.small_woodgrain_speaker.desc,None,Floor/Surface,,Common,No,Music,,25,50, $ 1.00 ,---,musicStore,,,TRUE,Complete,
-TRUE,Furniture,mcc:island_furniture.music.tape_machine,Prop,Tape Machine,island_furniture.music.tape_machine.name,island_furniture.music.tape_machine.desc,None,Floor/Surface,,Common,No,Music,,25,50, $ 1.00 ,---,musicStore,,,TRUE,Complete,
-,Furniture,,Prop,Basic Bathroom Sink,,,Toggle,Floor/Surface,None,Common,,,,25,50, $ 1.00 ,---,,,,TRUE,None,Freestanding sink.
-,Furniture,,Prop,Desk Lamp,,,Toggle,Floor/Surface,This on Top,Common,,,,25,50, $ 1.00 ,---,,,,TRUE,None,A table lamp that can toggle on / off. Shade is conical in shape.
-,Furniture,,Prop,Noxcrew Games Console,,,None,Floor/Surface,This on Top,Common,,,,25,50, $ 1.00 ,---,,TRUE,TRUE,,None,An N64-like gaming device with the Noxcrew logo on it.
-,Furniture,,Prop,Piece of Paper,,,None,Floor/Surface,This on Top,Common,,,,25,50, $ 1.00 ,---,,,,TRUE,None,A single sheet of paper.
-,Furniture,,Prop,Pile of Clothes,,,None,Floor/Surface,This on Top,Common,,,,25,50, $ 1.00 ,---,,,,TRUE,None,"Small collection of shirts, pants, and socks."
-,Furniture,,Prop,Pot of Pens,,,None,Floor/Surface,This on Top,Common,,,,25,50, $ 1.00 ,---,,,,TRUE,None,Wire cup full of various colors of pens.
-,Furniture,,Prop,Potted Monstera,,,None,Floor/Surface,This on Top,Common,,,,25,50, $ 1.00 ,---,,,,TRUE,None,Growing plant in a pot. Maybe some flowers.
-,Furniture,,Prop,Potted Rubber Plant,,,None,Floor/Surface,This on Top,Common,,,,25,50, $ 1.00 ,---,,,,TRUE,None,Small plant in a clay pot.
-,Furniture,,Prop,Rectangular Mirror,,,None,Floor,None,Common,,,,25,50, $ 1.00 ,---,,TRUE,TRUE,,None,"Large, Rectangular Mirror"
-,Furniture,,Prop,Shower Mat,,,None,Floor/Surface,None,Common,,,,25,50, $ 1.00 ,---,,TRUE,TRUE,,None,Fuzzy white mat placeable on the floor.
-,Furniture,,Prop,Small Hanging Plant,,,None,Ceiling,None,Common,,,,25,50, $ 1.00 ,---,,,,TRUE,None,Potted plant suspended from rope.
-,Furniture,,Prop,Small Vase,,,Toggle,Floor/Surface,This on Top,Common,,,,25,50, $ 1.00 ,---,,,,TRUE,None,Round vase with an opening in the top. Toggle puts flowers in it.
-,Furniture,,Prop,Standing Lamp,,,Toggle,Floor,This on Top,Common,,,,25,50, $ 1.00 ,---,,,,TRUE,None,Standing lamp with a semicircular lampshade. Can be turned on / off.
-,Furniture,,Prop,Table Lamp,,,Toggle,Floor/Surface,This on Top,Common,,,,25,50, $ 1.00 ,---,,,,TRUE,None,A table lamp that can toggle on / off. Shade is rectangular in shape.
-,Furniture,,Prop,Tall Vase,,,None,Floor/Surface,This on Top,Common,,,,25,50, $ 1.00 ,---,,,,TRUE,None,Ovular base taller than wide. Toggle puts flowers in it.
-,Furniture,,Prop,Towel Rack,,,None,Floor,None,Common,,,,25,50, $ 1.00 ,---,,,,TRUE,None,Empty wall rack meant for towels. Can place 1 item on it.
-,Furniture,,Prop,Wooden Tub,,,Seat,Floor,None,Common,,,,25,50, $ 1.00 ,---,,,,TRUE,None,Wooden tub like this: https://www.google.com/url?sa=i&url=https%3A%2F%2Fshop.rhtubs.com%2Fteak-oval-tub-p%2F4x3x3tkoval.htm&psig=AOvVaw0Gll_olt0Y1RNDJvfsrfm2&ust=1624635725826000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCLDZiu3NsPECFQAAAAAdAAAAABAD
-TRUE,Furniture,mcc:island_furniture.music.golden_record,Prop,Golden Record,island_furniture.music.golden_record.name,island_furniture.music.golden_record.desc,None,Wall,,Epic,No,Music,,450,600, $ 12.00 ,---,musicStore,,,TRUE,Complete,
-TRUE,Furniture,mcc:island_furniture.music.grand_piano,Prop,Grand Piano,island_furniture.music.grand_piano.name,island_furniture.music.grand_piano.desc,Animation,Floor,,Epic,No,Music,,450,600, $ 12.00 ,---,musicStore,,,TRUE,Complete,
-TRUE,Furniture,mcc:island_furniture.music.harp,Prop,Harp,island_furniture.music.harp.name,island_furniture.music.harp.desc,Animation,Floor,,Epic,No,Music,,450,600, $ 12.00 ,---,musicStore,,,TRUE,Complete,
-,Furniture,,Prop,Ceiling Fan,,,Toggle,Ceiling,None,Epic,,,,450,600, $ 12.00 ,---,,,,TRUE,None,"Large, multi-armed fan. Toggles slow, fast, and off."
-,Furniture,,Prop,Gamer PC Setup,,,Toggle,Floor/Surface,This on Top,Epic,,,,450,600, $ 12.00 ,---,,TRUE,TRUE,,None,Chromatic keyboard and mouse with a nice PC. Can be toggled on to show Minecraft playing on the computer.
-,Furniture,,Prop,Large Flat Screen TV,,,Toggle,Floor/Surface,None,Epic,,,,450,600, $ 12.00 ,---,,,,TRUE,None,"Large tv. When toggled, can be turned on, flip through several channels (animated gifs), and turned off."
-,Furniture,,Prop,Large Potted Cactus,,,Toggle,Floor/Surface,This on Top,Epic,,,,450,600, $ 12.00 ,---,,TRUE,TRUE,,None,Normal-looking vase. Toggle causes it to shatter into pieces or put itself back together.
-,Furniture,,Prop,Miniature Decision Dome,,,Toggle,Floor,None,Epic,,,,450,600, $ 12.00 ,---,,TRUE,TRUE,,None,Solid Gold toilet. Lid can be opened or closed.
-,Furniture,,Prop,Woodstove,,,Toggle,Floor,None,Epic,,,,450,600, $ 12.00 ,---,,,,TRUE,None,"Black woodstove with a chute. Can be opened, lit, closed, opened, and extinguished."
-TRUE,Furniture,mcc:island_furniture.music.classical_acoustic_guitar,Prop,Classical Acoustic Guitar,island_furniture.music.classical_acoustic_guitar.name,island_furniture.music.classical_acoustic_guitar.desc,Animation,Floor/Surface,,Rare,No,Music,,195,300, $ 6.00 ,---,musicStore,,,TRUE,Complete,
-TRUE,Furniture,mcc:island_furniture.music.saxophone,Prop,Saxophone,island_furniture.music.saxophone.name,island_furniture.music.saxophone.desc,Animation,Floor/Surface,,Rare,No,Music,,195,300, $ 6.00 ,---,musicStore,,,TRUE,Complete,
-TRUE,Furniture,mcc:island_furniture.music.trumpet,Prop,Trumpet,island_furniture.music.trumpet.name,island_furniture.music.trumpet.desc,Animation,Floor/Surface,,Rare,No,Music,,195,300, $ 6.00 ,---,musicStore,,,TRUE,Complete,
-TRUE,Furniture,mcc:island_furniture.music.violin,Prop,Violin,island_furniture.music.violin.name,island_furniture.music.violin.desc,Animation,Floor/Surface,,Rare,No,Music,,195,300, $ 6.00 ,---,musicStore,,,TRUE,Complete,
-TRUE,Furniture,mcc:island_furniture.music.acoustic_guitar,Prop,Acoustic Guitar,island_furniture.music.acoustic_guitar.name,island_furniture.music.acoustic_guitar.desc,Animation,Floor/Surface,,Rare,Yes,Music,,195,300, $ 6.00 ,---,musicStore,,,TRUE,Complete,
-TRUE,Furniture,mcc:island_furniture.music.drum_kit,Prop,Drum Kit,island_furniture.music.drum_kit.name,island_furniture.music.drum_kit.desc,Animation,Floor,,Rare,Yes,Music,,195,300, $ 6.00 ,---,musicStore,,,TRUE,Complete,
-TRUE,Furniture,mcc:island_furniture.music.electric_guitar,Prop,Electric Guitar,island_furniture.music.electric_guitar.name,island_furniture.music.electric_guitar.desc,Animation,Floor/Surface,,Rare,Yes,Music,,195,300, $ 6.00 ,---,musicStore,,,TRUE,Complete,
-TRUE,Furniture,mcc:island_furniture.music.keyboard_with_stand,Prop,Keyboard with Stand,island_furniture.music.keyboard_with_stand.name,island_furniture.music.keyboard_with_stand.desc,Animation,Floor,,Rare,Yes,Music,,195,300, $ 6.00 ,---,musicStore,,,TRUE,Complete,
-,Furniture,,Prop,Clothing Iron,,,Animation,Floor/Surface,On Top of This,Rare,,,,195,300, $ 6.00 ,---,,,,TRUE,None,"A grey-black clothing iron. When used, flips down and moves back and forth across its surface, briefly ironing it."
-,Furniture,,Prop,Cookie Jar,,,Toggle,Floor/Surface,This on Top,Rare,,,,195,300, $ 6.00 ,---,,TRUE,TRUE,,None,A clear jar filled with delicious-looking cookies. Toggle opens or closes the jar.
-,Furniture,,Prop,Desk Fan,,,Toggle,Floor/Surface,This on Top,Rare,,,,195,300, $ 6.00 ,---,,TRUE,TRUE,,None,"A desk fan. Can be toggled on / off. When on, it moves left-to-right."
-,Furniture,,Prop,Dishwasher,,,Toggle,Floor,On Top of This,Rare,,,,195,300, $ 6.00 ,---,,TRUE,TRUE,,None,"Grey dishwasher. Can be toggled open / closed. When open, it reveals several plates and dishes inside."
-,Furniture,,Prop,Fancy Coat Rack,,,None,Floor,None,Rare,,,,195,300, $ 6.00 ,---,,,,TRUE,None,A fancy-looking coat rack with ornate arms.
-,Furniture,,Prop,Full Mirror Dressing Table,,,None,Floor,On Top of This,Rare,,,,195,300, $ 6.00 ,---,,,,TRUE,None,A dressing table with a full rectangular mirror for the player to look at themselves.
-,Furniture,,Prop,Gamer PC Tower,,,None,Floor/Surface,This on Top,Rare,,,,195,300, $ 6.00 ,---,,TRUE,TRUE,,None,Chromatic and very nice-looking PC Tower.
-,Furniture,,Prop,Large Hanging Plant,,,None,Ceiling,None,Rare,,,,195,300, $ 6.00 ,---,,TRUE,TRUE,,None,Massive cordion of flowers and leaves hanging from ropes.
-,Furniture,,Prop,Oscillating Fan,,,Toggle,Floor/Surface,None,Rare,,,,195,300, $ 6.00 ,---,,TRUE,TRUE,,None,"Large fan that stands upright on atall base. When toggled on, the fan moves left-to-right."
-,Furniture,,Prop,PC Setup,,,Toggle,Floor/Surface,This on Top,Rare,,,,195,300, $ 6.00 ,---,,,,TRUE,None,"A monitor, keyboard, and mouse together. Old-fashioned and nothing special. Can be toggled on to show 'Pong' playing on the computer."
-,Furniture,,Prop,Pile of Firewood,,,Toggle,Floor,This on Top,Rare,,,,195,300, $ 6.00 ,---,,TRUE,TRUE,,None,A pile of wood. Interacting with it sets it on fire (like a campfire).
-,Furniture,,Prop,Rock Fireplace,,,Toggle,Floor,None,Rare,,,,195,300, $ 6.00 ,---,,,,TRUE,None,Stone / Rock fireplace. Fire can be toggled on / off.
-,Furniture,,Prop,Rotary Phone,,,Animation,Floor/Surface,This on Top,Rare,,,,195,300, $ 6.00 ,---,,,,TRUE,None,"A pale green rotary phone. When used, the rotary winds up briefly."
-,Furniture,,Prop,Small Flatscreen TV,,,Toggle,Floor/Surface,This on Top,Rare,,,,195,300, $ 6.00 ,---,,,,TRUE,None,"Small tube TV. Can be toggled on / off. When on, displays static."
-,Furniture,,Prop,Washing Machine,,,Toggle,Floor,On Top of This,Rare,,,,195,300, $ 6.00 ,---,,TRUE,TRUE,,None,"Medium white mashing machine. When toggled, it will rock back and forth as though it's turned on and full of clothes."
-TRUE,Furniture,mcc:island_furniture.music.bongos,Prop,Bongos,island_furniture.music.bongos.name,island_furniture.music.bongos.desc,Animation,Floor/Surface,,Uncommon,No,Music,,63,125, $ 2.50 ,---,musicStore,,,TRUE,Complete,
-TRUE,Furniture,mcc:island_furniture.music.dj_turntable,Prop,DJ Turntable,island_furniture.music.dj_turntable.name,island_furniture.music.dj_turntable.desc,Toggle,Floor/Surface,,Uncommon,No,Music,,63,125, $ 2.50 ,---,musicStore,,,TRUE,Complete,
-TRUE,Furniture,mcc:island_furniture.music.microphone_with_boom_stand,Prop,Microphone with Boom Stand,island_furniture.music.microphone_with_boom_stand.name,island_furniture.music.microphone_with_boom_stand.desc,None,Floor/Surface,,Uncommon,No,Music,,63,125, $ 2.50 ,---,musicStore,,,TRUE,Complete,
-TRUE,Furniture,mcc:island_furniture.music.mixing_console,Prop,Mixing Console,island_furniture.music.mixing_console.name,island_furniture.music.mixing_console.desc,Toggle,Floor/Surface,,Uncommon,No,Music,,63,125, $ 2.50 ,---,musicStore,,,TRUE,Complete,
-TRUE,Furniture,mcc:island_furniture.music.record_rack,Prop,Record Rack,island_furniture.music.record_rack.name,island_furniture.music.record_rack.desc,None,Floor/Surface,,Uncommon,No,Music,,63,125, $ 2.50 ,---,musicStore,,,TRUE,Complete,
-TRUE,Furniture,mcc:island_furniture.music.turntable,Prop,Turntable,island_furniture.music.turntable.name,island_furniture.music.turntable.desc,Toggle,Floor/Surface,,Uncommon,No,Music,,63,125, $ 2.50 ,---,musicStore,,,TRUE,Complete,
-TRUE,Furniture,mcc:island_furniture.music.keyboard,Prop,Keyboard,island_furniture.music.keyboard.name,island_furniture.music.keyboard.desc,Animation,Floor/Surface,,Uncommon,Yes,Music,,63,125, $ 2.50 ,---,musicStore,,,TRUE,Complete,
-TRUE,Furniture,mcc:island_furniture.music.portable_turntable,Prop,Portable Turntable,island_furniture.music.portable_turntable.name,island_furniture.music.portable_turntable.desc,Animation,Floor/Surface,,Uncommon,Yes,Music,,63,125, $ 2.50 ,---,musicStore,,,TRUE,Complete,
-,Furniture,,Prop,Alarm Clock,,,Toggle,Floor/Surface,This on Top,Uncommon,,,,63,125, $ 2.50 ,---,,,,TRUE,None,An analog clock with two bells. Interacting with the clock causes it to start or stop ringing.
-,Furniture,,Prop,Basic Kitchen Sink,,,Toggle,Floor,None,Uncommon,,,,63,125, $ 2.50 ,---,,,,TRUE,None,Sink with two separate sections and drains.
-,Furniture,,Prop,Basic Toilet,,,Seat,Floor,On Top of This,Uncommon,,,,63,125, $ 2.50 ,---,,,,TRUE,None,"Plain white toilet with the seat down. When activated, it opens and flushes."
-,Furniture,,Prop,Bathtub,,,Seat,Floor,None,Uncommon,,,,63,125, $ 2.50 ,---,,,,TRUE,None,Clear white bathtub.
-,Furniture,,Prop,Coat Rack,,,None,Floor,None,Uncommon,,,,63,125, $ 2.50 ,---,,,,TRUE,None,A wooden coat rack.
-,Furniture,,Prop,Fancy Table Lamp,,,Toggle,Floor/Surface,This on Top,Uncommon,,,,63,125, $ 2.50 ,---,,,,TRUE,None,Diamond-shaped table lamp that can toggle on / off. Shade is like a rhombus in shape.
-,Furniture,,Prop,Floral Vase,,,Toggle,Floor/Surface,This on Top,Uncommon,,,,63,125, $ 2.50 ,---,,,,TRUE,None,White vase with a floral pattern. Toggle puts flowers in it.
-,Furniture,,Prop,Hanging Plant,,,None,Ceiling,None,Uncommon,,,,63,125, $ 2.50 ,---,,,,TRUE,None,Collection of leaves and vines suspended from rope.
-,Furniture,,Prop,PC Tower,,,None,Floor/Surface,This on Top,Uncommon,,,,63,125, $ 2.50 ,---,,,,TRUE,None,"Standard PC Tower. Nothing fancy, and a little old."
-,Furniture,,Prop,Standard Fridge,,,Toggle,Floor,On Top of This,Uncommon,,,,63,125, $ 2.50 ,---,,,,TRUE,None,A plain white refrigerator. Can be opened and closed to reveal some food inside!
-,Furniture,,Prop,Tall Paper Standing Lamp,,,Toggle,Floor,This on Top,Uncommon,,,,63,125, $ 2.50 ,---,,,,TRUE,None,Lamp where rectangular paper stretches from bottom to top on all sides. Can be turned on / off.
-,Furniture,,Prop,Vintage Standing Lamp,,,Toggle,Floor,This on Top,Uncommon,,,,63,125, $ 2.50 ,---,,,,TRUE,None,"Standing lamp with a fancy, conical lampshade. Can be turned on / off."
-,Furniture,,Prop,Basic Fridge,,,,,,,,,,0,,  ,,,,,,,
-,Furniture,,Prop,Basic Oven,,,,,,,,,,0,,  ,,,,,,,
-,Furniture,,Prop,Ceiling Lamp,,,,,,,,,,0,,  ,,,,,,,
-,Furniture,,Prop,Digital Alarm Clock,,,,,,,,,,0,,  ,,,,,,,
-,Furniture,,Prop,Hanging Bulb,,,,,,,,,,0,,  ,,,,,,,
-,Furniture,,Prop,Large Book Stack,,,,,,,,,,0,,  ,,,,,,,
 ,Furniture,,Prop,Mascot Figurine,,,,,,,,,,0,,  ,,,,,,,
 ,Furniture,,Prop,Mascot Statue,,,,,,,,,,0,,  ,,,,,,,
+TRUE,Furniture,mcc:island_furniture.music.microphone,Prop,Microphone,island_furniture.music.microphone.name,island_furniture.music.microphone.desc,None,Floor/Surface,,Common,No,Music,,25,50, $ 1.00 ,---,musicStore,,,TRUE,Complete,
+TRUE,Furniture,mcc:island_furniture.music.microphone_with_boom_stand,Prop,Microphone with Boom Stand,island_furniture.music.microphone_with_boom_stand.name,island_furniture.music.microphone_with_boom_stand.desc,None,Floor/Surface,,Uncommon,No,Music,,63,125, $ 2.50 ,---,musicStore,,,TRUE,Complete,
+,Furniture,,Prop,Miniature Decision Dome,,,Toggle,Floor,None,Epic,,,,450,600, $ 12.00 ,---,,TRUE,TRUE,,None,Solid Gold toilet. Lid can be opened or closed.
+TRUE,Furniture,mcc:island_furniture.music.mixing_console,Prop,Mixing Console,island_furniture.music.mixing_console.name,island_furniture.music.mixing_console.desc,Toggle,Floor/Surface,,Uncommon,No,Music,,63,125, $ 2.50 ,---,musicStore,,,TRUE,Complete,
+,Furniture,,Prop,Noxcrew Games Console,,,None,Floor/Surface,This on Top,Common,,,,25,50, $ 1.00 ,---,,TRUE,TRUE,,None,An N64-like gaming device with the Noxcrew logo on it.
 ,Furniture,,Prop,Old Television,,,,,,,,,,0,,  ,,,,,,,
 ,Furniture,,Prop,Open Book,,,,,,,,,,0,,  ,,,,,,,
+,Furniture,,Prop,Oscillating Fan,,,Toggle,Floor/Surface,None,Rare,,,,195,300, $ 6.00 ,---,,TRUE,TRUE,,None,"Large fan that stands upright on atall base. When toggled on, the fan moves left-to-right."
 ,Furniture,,Prop,Oven Vent,,,,,,,,,,0,,  ,,,,,,,
+,Furniture,,Prop,PC Setup,,,Toggle,Floor/Surface,This on Top,Rare,,,,195,300, $ 6.00 ,---,,,,TRUE,None,"A monitor, keyboard, and mouse together. Old-fashioned and nothing special. Can be toggled on to show 'Pong' playing on the computer."
+,Furniture,,Prop,PC Tower,,,None,Floor/Surface,This on Top,Uncommon,,,,63,125, $ 2.50 ,---,,,,TRUE,None,"Standard PC Tower. Nothing fancy, and a little old."
+,Furniture,,Prop,Piece of Paper,,,None,Floor/Surface,This on Top,Common,,,,25,50, $ 1.00 ,---,,,,TRUE,None,A single sheet of paper.
+,Furniture,,Prop,Pile of Clothes,,,None,Floor/Surface,This on Top,Common,,,,25,50, $ 1.00 ,---,,,,TRUE,None,"Small collection of shirts, pants, and socks."
+,Furniture,,Prop,Pile of Firewood,,,Toggle,Floor,This on Top,Rare,,,,195,300, $ 6.00 ,---,,TRUE,TRUE,,None,A pile of wood. Interacting with it sets it on fire (like a campfire).
+TRUE,Furniture,mcc:island_furniture.set_game_room.ping_pong_paddle,Prop,Ping-Pong Paddle,island_furniture.set_game_room.ping_pong_paddle.name,island_furniture.set_game_room.ping_pong_paddle.desc,None,Floor/Surface,This on Top,Common,No,set_game_room,,25,50, $ 1.00 ,---,special,,,,Complete,
+TRUE,Furniture,mcc:island_furniture.set_game_room.pool_cue,Prop,Pool Cue,island_furniture.set_game_room.pool_cue.name,island_furniture.set_game_room.pool_cue.desc,None,Floor/Surface,None,Common,No,set_game_room,,25,50, $ 1.00 ,---,special,,,,Complete,
+TRUE,Furniture,mcc:island_furniture.set_game_room.pool_cue_rack,Prop,Pool Cue Rack,island_furniture.set_game_room.pool_cue_rack.name,island_furniture.set_game_room.pool_cue_rack.desc,None,Floor,None,Uncommon,No,set_game_room,,63,125, $ 2.50 ,---,special,,,,Complete,
+TRUE,Furniture,mcc:island_furniture.music.portable_turntable,Prop,Portable Turntable,island_furniture.music.portable_turntable.name,island_furniture.music.portable_turntable.desc,Animation,Floor/Surface,,Uncommon,Yes,Music,,63,125, $ 2.50 ,---,musicStore,,,TRUE,Complete,
+,Furniture,,Prop,Pot of Pens,,,None,Floor/Surface,This on Top,Common,,,,25,50, $ 1.00 ,---,,,,TRUE,None,Wire cup full of various colors of pens.
 ,Furniture,,Prop,Potted Geranium,,,,,,,,,,0,,  ,,,,,,,
 ,Furniture,,Prop,Potted Lilac Plant,,,,,,,,,,0,,  ,,,,,,,
+,Furniture,,Prop,Potted Monstera,,,None,Floor/Surface,This on Top,Common,,,,25,50, $ 1.00 ,---,,,,TRUE,None,Growing plant in a pot. Maybe some flowers.
+,Furniture,,Prop,Potted Rubber Plant,,,None,Floor/Surface,This on Top,Common,,,,25,50, $ 1.00 ,---,,,,TRUE,None,Small plant in a clay pot.
+TRUE,Furniture,mcc:island_furniture.music.record_rack,Prop,Record Rack,island_furniture.music.record_rack.name,island_furniture.music.record_rack.desc,None,Floor/Surface,,Uncommon,No,Music,,63,125, $ 2.50 ,---,musicStore,,,TRUE,Complete,
+,Furniture,,Prop,Rectangular Mirror,,,None,Floor,None,Common,,,,25,50, $ 1.00 ,---,,TRUE,TRUE,,None,"Large, Rectangular Mirror"
+,Furniture,,Prop,Rock Fireplace,,,Toggle,Floor,None,Rare,,,,195,300, $ 6.00 ,---,,,,TRUE,None,Stone / Rock fireplace. Fire can be toggled on / off.
+,Furniture,,Prop,Rotary Phone,,,Animation,Floor/Surface,This on Top,Rare,,,,195,300, $ 6.00 ,---,,,,TRUE,None,"A pale green rotary phone. When used, the rotary winds up briefly."
+TRUE,Furniture,mcc:island_furniture.music.saxophone,Prop,Saxophone,island_furniture.music.saxophone.name,island_furniture.music.saxophone.desc,Animation,Floor/Surface,,Rare,No,Music,,195,300, $ 6.00 ,---,musicStore,,,TRUE,Complete,
+,Furniture,,Prop,Shower Mat,,,None,Floor/Surface,None,Common,,,,25,50, $ 1.00 ,---,,TRUE,TRUE,,None,Fuzzy white mat placeable on the floor.
 ,Furniture,,Prop,Small Book Stack,,,,,,,,,,0,,  ,,,,,,,
+,Furniture,,Prop,Small Flatscreen TV,,,Toggle,Floor/Surface,This on Top,Rare,,,,195,300, $ 6.00 ,---,,,,TRUE,None,"Small tube TV. Can be toggled on / off. When on, displays static."
+,Furniture,,Prop,Small Hanging Plant,,,None,Ceiling,None,Common,,,,25,50, $ 1.00 ,---,,,,TRUE,None,Potted plant suspended from rope.
+TRUE,Furniture,mcc:island_furniture.music.small_speaker,Prop,Small Speaker,island_furniture.music.small_speaker.name,island_furniture.music.small_speaker.desc,None,Floor/Surface,,Common,No,Music,,25,50, $ 1.00 ,---,musicStore,,,TRUE,Complete,
+,Furniture,,Prop,Small Vase,,,Toggle,Floor/Surface,This on Top,Common,,,,25,50, $ 1.00 ,---,,,,TRUE,None,Round vase with an opening in the top. Toggle puts flowers in it.
+TRUE,Furniture,mcc:island_furniture.music.small_woodgrain_speaker,Prop,Small Woodgrain Speaker,island_furniture.music.small_woodgrain_speaker.name,island_furniture.music.small_woodgrain_speaker.desc,None,Floor/Surface,,Common,No,Music,,25,50, $ 1.00 ,---,musicStore,,,TRUE,Complete,
 ,Furniture,,Prop,Stack of Paper,,,,,,,,,,0,,  ,,,,,,,
+,Furniture,,Prop,Standard Fridge,,,Toggle,Floor,On Top of This,Uncommon,,,,63,125, $ 2.50 ,---,,,,TRUE,None,A plain white refrigerator. Can be opened and closed to reveal some food inside!
+,Furniture,,Prop,Standing Lamp,,,Toggle,Floor,This on Top,Common,,,,25,50, $ 1.00 ,---,,,,TRUE,None,Standing lamp with a semicircular lampshade. Can be turned on / off.
 ,Furniture,,Prop,String Lights,,,,,,,,,,0,,  ,,,,,,,
-TRUE,Furniture,mcc:island_furniture.props.gnome,Prop,Gnome,island_furniture.props.gnome.name,island_furniture.props.gnome.desc,None,Floor/Surface,Recursive Stack,Uncommon,No,,,63,125, $ 2.50 ,---,furnitureStore,TRUE,TRUE,,Complete,
-TRUE,Furniture,mcc:island_furniture.props.gnome_fishing,Prop,Fishing Gnome,island_furniture.props.gnome_fishing.name,island_furniture.props.gnome_fishing.desc,None,Floor/Surface,Recursive Stack,Rare,No,,,195,300, $ 6.00 ,---,furnitureStore,TRUE,TRUE,,Complete,
-TRUE,Furniture,mcc:island_furniture.seating.oak_chair,Seating,Oak Chair,island_furniture.seating.oak_chair.name,island_furniture.seating.oak_chair.desc,Seat,Floor,Recursive Stack,Common,No,,,13,25, $ 0.50 ,---,furnitureStore,,,TRUE,Complete,
-TRUE,Furniture,mcc:island_furniture.seating.oak_stool,Seating,Oak Stool,island_furniture.seating.oak_stool.name,island_furniture.seating.oak_stool.desc,Seat,Floor,Recursive Stack,Common,No,,,13,25, $ 0.50 ,---,furnitureStore,,,TRUE,Complete,
+,Furniture,,Prop,Table Lamp,,,Toggle,Floor/Surface,This on Top,Common,,,,25,50, $ 1.00 ,---,,,,TRUE,None,A table lamp that can toggle on / off. Shade is rectangular in shape.
+,Furniture,,Prop,Tall Paper Standing Lamp,,,Toggle,Floor,This on Top,Uncommon,,,,63,125, $ 2.50 ,---,,,,TRUE,None,Lamp where rectangular paper stretches from bottom to top on all sides. Can be turned on / off.
+,Furniture,,Prop,Tall Vase,,,None,Floor/Surface,This on Top,Common,,,,25,50, $ 1.00 ,---,,,,TRUE,None,Ovular base taller than wide. Toggle puts flowers in it.
+TRUE,Furniture,mcc:island_furniture.music.tape_machine,Prop,Tape Machine,island_furniture.music.tape_machine.name,island_furniture.music.tape_machine.desc,None,Floor/Surface,,Common,No,Music,,25,50, $ 1.00 ,---,musicStore,,,TRUE,Complete,
+,Furniture,,Prop,Towel Rack,,,None,Floor,None,Common,,,,25,50, $ 1.00 ,---,,,,TRUE,None,Empty wall rack meant for towels. Can place 1 item on it.
+TRUE,Furniture,mcc:island_furniture.music.trumpet,Prop,Trumpet,island_furniture.music.trumpet.name,island_furniture.music.trumpet.desc,Animation,Floor/Surface,,Rare,No,Music,,195,300, $ 6.00 ,---,musicStore,,,TRUE,Complete,
+TRUE,Furniture,mcc:island_furniture.music.turntable,Prop,Turntable,island_furniture.music.turntable.name,island_furniture.music.turntable.desc,Toggle,Floor/Surface,,Uncommon,No,Music,,63,125, $ 2.50 ,---,musicStore,,,TRUE,Complete,
+,Furniture,,Prop,Vintage Standing Lamp,,,Toggle,Floor,This on Top,Uncommon,,,,63,125, $ 2.50 ,---,,,,TRUE,None,"Standing lamp with a fancy, conical lampshade. Can be turned on / off."
+TRUE,Furniture,mcc:island_furniture.music.violin,Prop,Violin,island_furniture.music.violin.name,island_furniture.music.violin.desc,Animation,Floor/Surface,,Rare,No,Music,,195,300, $ 6.00 ,---,musicStore,,,TRUE,Complete,
+,Furniture,,Prop,Washing Machine,,,Toggle,Floor,On Top of This,Rare,,,,195,300, $ 6.00 ,---,,TRUE,TRUE,,None,"Medium white mashing machine. When toggled, it will rock back and forth as though it's turned on and full of clothes."
+,Furniture,,Prop,Wooden Tub,,,Seat,Floor,None,Common,,,,25,50, $ 1.00 ,---,,,,TRUE,None,Wooden tub like this: https://www.google.com/url?sa=i&url=https%3A%2F%2Fshop.rhtubs.com%2Fteak-oval-tub-p%2F4x3x3tkoval.htm&psig=AOvVaw0Gll_olt0Y1RNDJvfsrfm2&ust=1624635725826000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCLDZiu3NsPECFQAAAAAdAAAAABAD
+,Furniture,,Prop,Woodstove,,,Toggle,Floor,None,Epic,,,,450,600, $ 12.00 ,---,,,,TRUE,None,"Black woodstove with a chute. Can be opened, lit, closed, opened, and extinguished."
+TRUE,Furniture,mcc:island_furniture.set_game_room.barstool,Seating,Bar Stool,island_furniture.set_game_room.barstool.name,island_furniture.set_game_room.barstool.desc,Seat,Floor,Recursive Stack,Common,No,set_game_room,,13,25, $ 0.50 ,---,special,,,,Complete,
 TRUE,Furniture,mcc:island_furniture.seating.basic_armchair,Seating,Basic Armchair,island_furniture.seating.basic_armchair.name,island_furniture.seating.basic_armchair.desc,Seat,Floor,Recursive Stack,Common,Yes,,,13,25, $ 0.50 ,---,furnitureStore,,,TRUE,Complete,
-TRUE,Furniture,mcc:island_furniture.seating.folding_chair,Seating,Folding Chair,island_furniture.seating.folding_chair.name,island_furniture.seating.folding_chair.desc,Seat,Floor,Recursive Stack,Common,Yes,,,13,25, $ 0.50 ,---,furnitureStore,,,TRUE,Complete,
-TRUE,Furniture,mcc:island_furniture.seating.gaming_chair,Seating,Gaming Chair,island_furniture.seating.gaming_chair.name,island_furniture.seating.gaming_chair.desc,Seat,Floor,Recursive Stack,Epic,Yes,,,188,250, $ 5.00 ,---,furnitureStore,TRUE,TRUE,,Complete,
-TRUE,Furniture,mcc:island_furniture.seating.recliner,Seating,Recliner,island_furniture.seating.recliner.name,island_furniture.seating.recliner.desc,Seat,Floor,Recursive Stack,Epic,Yes,,,188,250, $ 5.00 ,---,furnitureStore,TRUE,TRUE,,Complete,
-TRUE,Furniture,mcc:island_furniture.seating.ornate_patio_chair,Seating,Ornate Patio Chair,island_furniture.seating.ornate_patio_chair.name,island_furniture.seating.ornate_patio_chair.desc,Seat,Floor,Recursive Stack,Rare,No,,,65,100, $ 2.00 ,---,furnitureStore,TRUE,TRUE,,Complete,
-TRUE,Furniture,mcc:island_furniture.seating.button_armchair,Seating,Button Armchair,island_furniture.seating.button_armchair.name,island_furniture.seating.button_armchair.desc,Seat,Floor,Recursive Stack,Rare,Yes,,,65,100, $ 2.00 ,---,furnitureStore,TRUE,TRUE,,Complete,
-TRUE,Furniture,mcc:island_furniture.seating.deck_chair,Seating,Deck Chair,island_furniture.seating.deck_chair.name,island_furniture.seating.deck_chair.desc,Seat,Floor,Recursive Stack,Rare,Yes,,,65,100, $ 2.00 ,---,furnitureStore,,,TRUE,Complete,
-TRUE,Furniture,mcc:island_furniture.seating.l_shaped_couch,Seating,L-Shaped Couch,island_furniture.seating.l_shaped_couch.name,island_furniture.seating.l_shaped_couch.desc,Seat,Floor,Recursive Stack,Rare,Yes,,,65,100, $ 2.00 ,---,furnitureStore,,,TRUE,Complete,
-TRUE,Furniture,mcc:island_furniture.seating.rectangular_ottoman,Seating,Rectangular Ottoman,island_furniture.seating.rectangular_ottoman.name,island_furniture.seating.rectangular_ottoman.desc,Seat,Floor,Recursive Stack,Rare,Yes,,,65,100, $ 2.00 ,---,furnitureStore,TRUE,TRUE,,Complete,
-TRUE,Furniture,mcc:island_furniture.seating.rocking_chair,Seating,Rocking Chair,island_furniture.seating.rocking_chair.name,island_furniture.seating.rocking_chair.desc,Seat,Floor,Recursive Stack,Uncommon,No,,,25,50, $ 1.00 ,---,furnitureStore,TRUE,TRUE,,Complete,
-TRUE,Furniture,mcc:island_furniture.seating.woven_chair,Seating,Woven Chair,island_furniture.seating.woven_chair.name,island_furniture.seating.woven_chair.desc,Seat,Floor,Recursive Stack,Uncommon,No,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
 TRUE,Furniture,mcc:island_furniture.seating.basic_couch,Seating,Basic Couch,island_furniture.seating.basic_couch.name,island_furniture.seating.basic_couch.desc,Seat,Floor,Recursive Stack,Uncommon,Yes,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
 TRUE,Furniture,mcc:island_furniture.seating.basic_office_chair,Seating,Basic Office Chair,island_furniture.seating.basic_office_chair.name,island_furniture.seating.basic_office_chair.desc,Seat,Floor,Recursive Stack,Uncommon,Yes,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
+TRUE,Furniture,mcc:island_furniture.seating.button_armchair,Seating,Button Armchair,island_furniture.seating.button_armchair.name,island_furniture.seating.button_armchair.desc,Seat,Floor,Recursive Stack,Rare,Yes,,,65,100, $ 2.00 ,---,furnitureStore,TRUE,TRUE,,Complete,
+TRUE,Furniture,mcc:island_furniture.seating.deck_chair,Seating,Deck Chair,island_furniture.seating.deck_chair.name,island_furniture.seating.deck_chair.desc,Seat,Floor,Recursive Stack,Rare,Yes,,,65,100, $ 2.00 ,---,furnitureStore,,,TRUE,Complete,
+TRUE,Furniture,mcc:island_furniture.seating.folding_chair,Seating,Folding Chair,island_furniture.seating.folding_chair.name,island_furniture.seating.folding_chair.desc,Seat,Floor,Recursive Stack,Common,Yes,,,13,25, $ 0.50 ,---,furnitureStore,,,TRUE,Complete,
+TRUE,Furniture,mcc:island_furniture.seating.gaming_chair,Seating,Gaming Chair,island_furniture.seating.gaming_chair.name,island_furniture.seating.gaming_chair.desc,Seat,Floor,Recursive Stack,Epic,Yes,,,188,250, $ 5.00 ,---,furnitureStore,TRUE,TRUE,,Complete,
+TRUE,Furniture,mcc:island_furniture.seating.l_shaped_couch,Seating,L-Shaped Couch,island_furniture.seating.l_shaped_couch.name,island_furniture.seating.l_shaped_couch.desc,Seat,Floor,Recursive Stack,Rare,Yes,,,65,100, $ 2.00 ,---,furnitureStore,,,TRUE,Complete,
 TRUE,Furniture,mcc:island_furniture.seating.mesh_office_chair,Seating,Mesh Office Chair,island_furniture.seating.mesh_office_chair.name,island_furniture.seating.mesh_office_chair.desc,Seat,Floor,Recursive Stack,Uncommon,Yes,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
+TRUE,Furniture,mcc:island_furniture.seating.oak_chair,Seating,Oak Chair,island_furniture.seating.oak_chair.name,island_furniture.seating.oak_chair.desc,Seat,Floor,Recursive Stack,Common,No,,,13,25, $ 0.50 ,---,furnitureStore,,,TRUE,Complete,
 TRUE,Furniture,mcc:island_furniture.seating.oak_dining_chair,Seating,Oak Dining Chair,island_furniture.seating.oak_dining_chair.name,island_furniture.seating.oak_dining_chair.desc,Seat,Floor,Recursive Stack,Uncommon,Yes,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
+TRUE,Furniture,mcc:island_furniture.seating.oak_stool,Seating,Oak Stool,island_furniture.seating.oak_stool.name,island_furniture.seating.oak_stool.desc,Seat,Floor,Recursive Stack,Common,No,,,13,25, $ 0.50 ,---,furnitureStore,,,TRUE,Complete,
+TRUE,Furniture,mcc:island_furniture.seating.ornate_patio_chair,Seating,Ornate Patio Chair,island_furniture.seating.ornate_patio_chair.name,island_furniture.seating.ornate_patio_chair.desc,Seat,Floor,Recursive Stack,Rare,No,,,65,100, $ 2.00 ,---,furnitureStore,TRUE,TRUE,,Complete,
+TRUE,Furniture,mcc:island_furniture.seating.recliner,Seating,Recliner,island_furniture.seating.recliner.name,island_furniture.seating.recliner.desc,Seat,Floor,Recursive Stack,Epic,Yes,,,188,250, $ 5.00 ,---,furnitureStore,TRUE,TRUE,,Complete,
+TRUE,Furniture,mcc:island_furniture.seating.rectangular_ottoman,Seating,Rectangular Ottoman,island_furniture.seating.rectangular_ottoman.name,island_furniture.seating.rectangular_ottoman.desc,Seat,Floor,Recursive Stack,Rare,Yes,,,65,100, $ 2.00 ,---,furnitureStore,TRUE,TRUE,,Complete,
+TRUE,Furniture,mcc:island_furniture.seating.rocking_chair,Seating,Rocking Chair,island_furniture.seating.rocking_chair.name,island_furniture.seating.rocking_chair.desc,Seat,Floor,Recursive Stack,Uncommon,No,,,25,50, $ 1.00 ,---,furnitureStore,TRUE,TRUE,,Complete,
 TRUE,Furniture,mcc:island_furniture.seating.square_ottoman,Seating,Square Ottoman,island_furniture.seating.square_ottoman.name,island_furniture.seating.square_ottoman.desc,Seat,Floor,Recursive Stack,Uncommon,Yes,,,25,50, $ 1.00 ,---,furnitureStore,TRUE,,,Complete,
-TRUE,Furniture,mcc:island_furniture.surfaces.basic_display_cabinet,Surface,Basic Display Cabinet,island_furniture.surfaces.basic_display_cabinet.name,island_furniture.surfaces.basic_display_cabinet.desc,,Floor,,Common,,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
-TRUE,Furniture,mcc:island_furniture.surfaces.wide_bookshelf,Surface,Wide Bookshelf,island_furniture.surfaces.wide_bookshelf.name,island_furniture.surfaces.wide_bookshelf.desc,,Floor,,Common,,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
-TRUE,Furniture,mcc:island_furniture.surfaces.thin_bookshelf,Surface,Thin Bookshelf,island_furniture.surfaces.thin_bookshelf.name,island_furniture.surfaces.thin_bookshelf.desc,,Floor,,Common,,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
-TRUE,Furniture,mcc:island_furniture.surfaces.basic_dressing_table,Surface,Basic Dressing Table,island_furniture.surfaces.basic_dressing_table.name,island_furniture.surfaces.basic_dressing_table.desc,,Floor,,Common,,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
-TRUE,Furniture,mcc:island_furniture.surfaces.basic_countertop_sink,Surface,Basic Countertop,island_furniture.surfaces.basic_countertop_sink.name,island_furniture.surfaces.basic_countertop_sink.desc,,Floor,,Common,,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
-TRUE,Furniture,mcc:island_furniture.surfaces.short_bookshelf,Surface,Short Bookshelf,island_furniture.surfaces.short_bookshelf.name,island_furniture.surfaces.short_bookshelf.desc,,Floor,,Common,,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
-TRUE,Furniture,mcc:island_furniture.surfaces.wide_glass_display_cabinet,Surface,Glass Display Cabinet (Wide),island_furniture.surfaces.wide_glass_display_cabinet.name,island_furniture.surfaces.wide_glass_display_cabinet.desc,,Floor,,Common,,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
-TRUE,Furniture,mcc:island_furniture.surfaces.thin_glass_display_cabinet,Surface,Glass Display Cabinet (Thin),island_furniture.surfaces.thin_glass_display_cabinet.name,island_furniture.surfaces.thin_glass_display_cabinet.desc,,Floor,,Common,,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
-TRUE,Furniture,mcc:island_furniture.surfaces.basic_fireplace,Surface,Basic Fireplace,island_furniture.surfaces.basic_fireplace.name,island_furniture.surfaces.basic_fireplace.desc,,Floor,,Common,,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
-TRUE,Furniture,mcc:island_furniture.surfaces.basic_large_desk,Surface,Basic Large Desk,island_furniture.surfaces.basic_large_desk.name,island_furniture.surfaces.basic_large_desk.desc,,Floor,,Common,,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
-TRUE,Furniture,mcc:island_furniture.surfaces.glass_coffee_table,Surface,Glass Coffee Table,island_furniture.surfaces.glass_coffee_table.name,island_furniture.surfaces.glass_coffee_table.desc,,Floor,,Common,,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
-TRUE,Furniture,mcc:island_furniture.surfaces.garage_shelves,Surface,Garage Shelves,island_furniture.surfaces.garage_shelves.name,island_furniture.surfaces.garage_shelves.desc,,Floor,,Common,,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
-TRUE,Furniture,mcc:island_furniture.surfaces.basic_wardrobe,Surface,Basic Wardrobe,island_furniture.surfaces.basic_wardrobe.name,island_furniture.surfaces.basic_wardrobe.desc,,Floor,,Common,,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
-TRUE,Furniture,mcc:island_furniture.surfaces.basic_desk,Surface,Basic Desk,island_furniture.surfaces.basic_desk.name,island_furniture.surfaces.basic_desk.desc,,Floor,,Common,,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
-TRUE,Furniture,mcc:island_furniture.surfaces.basic_small_table,Surface,Basic Small Table,island_furniture.surfaces.basic_small_table.name,island_furniture.surfaces.basic_small_table.desc,,Floor,,Common,,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
-TRUE,Furniture,mcc:island_furniture.surfaces.basic_dining_table,Surface,Basic Dining Table,island_furniture.surfaces.basic_dining_table.name,island_furniture.surfaces.basic_dining_table.desc,,Floor,,Common,,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
-TRUE,Furniture,mcc:island_furniture.surfaces.basic_large_table,Surface,Basic Large Table,island_furniture.surfaces.basic_large_table.name,island_furniture.surfaces.basic_large_table.desc,,Floor,,Common,,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
-TRUE,Furniture,mcc:island_furniture.surfaces.basic_countertop_vertical,Surface,Basic Countertop (Vertical),island_furniture.surfaces.basic_countertop_vertical.name,island_furniture.surfaces.basic_countertop_vertical.desc,,Floor,,Common,,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
+TRUE,Furniture,mcc:island_furniture.seating.woven_chair,Seating,Woven Chair,island_furniture.seating.woven_chair.name,island_furniture.seating.woven_chair.desc,Seat,Floor,Recursive Stack,Uncommon,No,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
+TRUE,Furniture,mcc:island_furniture.surfaces.basic_bedside_table,Surface,Basic Bedside Table,island_furniture.surfaces.basic_bedside_table.name,island_furniture.surfaces.basic_bedside_table.desc,,Floor,,Uncommon,,,,63,125, $ 2.50 ,---,furnitureStore,,,TRUE,Complete,
 TRUE,Furniture,mcc:island_furniture.surfaces.basic_cabinet,Surface,Basic Cabinet,island_furniture.surfaces.basic_cabinet.name,island_furniture.surfaces.basic_cabinet.desc,,Wall,,Common,,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
+TRUE,Furniture,mcc:island_furniture.surfaces.basic_cabinet_corner,Surface,Basic Cabinet (Corner),island_furniture.surfaces.basic_cabinet_corner.name,island_furniture.surfaces.basic_cabinet_corner.desc,,Wall,,Common,,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
+TRUE,Furniture,mcc:island_furniture.surfaces.basic_countertop_sink,Surface,Basic Countertop,island_furniture.surfaces.basic_countertop_sink.name,island_furniture.surfaces.basic_countertop_sink.desc,,Floor,,Common,,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
+TRUE,Furniture,mcc:island_furniture.surfaces.basic_countertop_block,Surface,Basic Countertop (Block),island_furniture.surfaces.basic_countertop_block.name,island_furniture.surfaces.basic_countertop_block.desc,,Floor,,Common,,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
 TRUE,Furniture,mcc:island_furniture.surfaces.basic_countertop_corner,Surface,Basic Countertop (Corner),island_furniture.surfaces.basic_countertop_corner.name,island_furniture.surfaces.basic_countertop_corner.desc,,Floor,,Common,,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
 TRUE,Furniture,mcc:island_furniture.surfaces.basic_countertop_horizontal,Surface,Basic Countertop (Horizontal),island_furniture.surfaces.basic_countertop_horizontal.name,island_furniture.surfaces.basic_countertop_horizontal.desc,,Floor,,Common,,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
-TRUE,Furniture,mcc:island_furniture.surfaces.basic_cabinet_corner,Surface,Basic Cabinet (Corner),island_furniture.surfaces.basic_cabinet_corner.name,island_furniture.surfaces.basic_cabinet_corner.desc,,Wall,,Common,,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
-TRUE,Furniture,mcc:island_furniture.surfaces.basic_countertop_block,Surface,Basic Countertop (Block),island_furniture.surfaces.basic_countertop_block.name,island_furniture.surfaces.basic_countertop_block.desc,,Floor,,Common,,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
-TRUE,Furniture,mcc:island_furniture.surfaces.floating_shelf,Surface,Floating Shelf,island_furniture.surfaces.floating_shelf.name,island_furniture.surfaces.floating_shelf.desc,,Wall,,Common,,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
+TRUE,Furniture,mcc:island_furniture.surfaces.basic_countertop_vertical,Surface,Basic Countertop (Vertical),island_furniture.surfaces.basic_countertop_vertical.name,island_furniture.surfaces.basic_countertop_vertical.desc,,Floor,,Common,,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
+TRUE,Furniture,mcc:island_furniture.surfaces.basic_countertop_oven,Surface,Basic Countertop Oven,island_furniture.surfaces.basic_countertop_oven.name,island_furniture.surfaces.basic_countertop_oven.desc,,Floor,,Uncommon,,,,63,125, $ 2.50 ,---,furnitureStore,,,TRUE,Complete,
+TRUE,Furniture,mcc:island_furniture.surfaces.basic_desk,Surface,Basic Desk,island_furniture.surfaces.basic_desk.name,island_furniture.surfaces.basic_desk.desc,,Floor,,Common,,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
+TRUE,Furniture,mcc:island_furniture.surfaces.basic_dining_table,Surface,Basic Dining Table,island_furniture.surfaces.basic_dining_table.name,island_furniture.surfaces.basic_dining_table.desc,,Floor,,Common,,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
+TRUE,Furniture,mcc:island_furniture.surfaces.basic_display_cabinet,Surface,Basic Display Cabinet,island_furniture.surfaces.basic_display_cabinet.name,island_furniture.surfaces.basic_display_cabinet.desc,,Floor,,Common,,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
+TRUE,Furniture,mcc:island_furniture.surfaces.basic_dressing_table,Surface,Basic Dressing Table,island_furniture.surfaces.basic_dressing_table.name,island_furniture.surfaces.basic_dressing_table.desc,,Floor,,Common,,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
+TRUE,Furniture,mcc:island_furniture.surfaces.basic_fireplace,Surface,Basic Fireplace,island_furniture.surfaces.basic_fireplace.name,island_furniture.surfaces.basic_fireplace.desc,,Floor,,Common,,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
+TRUE,Furniture,mcc:island_furniture.surfaces.basic_large_desk,Surface,Basic Large Desk,island_furniture.surfaces.basic_large_desk.name,island_furniture.surfaces.basic_large_desk.desc,,Floor,,Common,,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
+TRUE,Furniture,mcc:island_furniture.surfaces.basic_large_table,Surface,Basic Large Table,island_furniture.surfaces.basic_large_table.name,island_furniture.surfaces.basic_large_table.desc,,Floor,,Common,,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
+TRUE,Furniture,mcc:island_furniture.surfaces.basic_small_table,Surface,Basic Small Table,island_furniture.surfaces.basic_small_table.name,island_furniture.surfaces.basic_small_table.desc,,Floor,,Common,,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
+TRUE,Furniture,mcc:island_furniture.surfaces.basic_wardrobe,Surface,Basic Wardrobe,island_furniture.surfaces.basic_wardrobe.name,island_furniture.surfaces.basic_wardrobe.desc,,Floor,,Common,,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
 TRUE,Furniture,mcc:island_furniture.surfaces.brick_fireplace,Surface,Brick Fireplace,island_furniture.surfaces.brick_fireplace.name,island_furniture.surfaces.brick_fireplace.desc,,Floor,,Rare,,,,195,300, $ 6.00 ,---,furnitureStore,,,TRUE,Complete,
+TRUE,Furniture,mcc:island_furniture.surfaces.floating_shelf,Surface,Floating Shelf,island_furniture.surfaces.floating_shelf.name,island_furniture.surfaces.floating_shelf.desc,,Wall,,Common,,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
+TRUE,Furniture,mcc:island_furniture.set_game_room.foosball_table,Surface,Foosball Table,island_furniture.set_game_room.foosball_table.name,island_furniture.set_game_room.foosball_table.desc,Animation,Floor,None,Epic,No,set_game_room,,450,600, $ 12.00 ,---,special,,,,Complete,
+TRUE,Furniture,mcc:island_furniture.surfaces.garage_shelves,Surface,Garage Shelves,island_furniture.surfaces.garage_shelves.name,island_furniture.surfaces.garage_shelves.desc,,Floor,,Common,,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
+TRUE,Furniture,mcc:island_furniture.surfaces.glass_coffee_table,Surface,Glass Coffee Table,island_furniture.surfaces.glass_coffee_table.name,island_furniture.surfaces.glass_coffee_table.desc,,Floor,,Common,,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
+TRUE,Furniture,mcc:island_furniture.surfaces.thin_glass_display_cabinet,Surface,Glass Display Cabinet (Thin),island_furniture.surfaces.thin_glass_display_cabinet.name,island_furniture.surfaces.thin_glass_display_cabinet.desc,,Floor,,Common,,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
+TRUE,Furniture,mcc:island_furniture.surfaces.wide_glass_display_cabinet,Surface,Glass Display Cabinet (Wide),island_furniture.surfaces.wide_glass_display_cabinet.name,island_furniture.surfaces.wide_glass_display_cabinet.desc,,Floor,,Common,,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
 TRUE,Furniture,mcc:island_furniture.surfaces.large_oak_table,Surface,Large Oak Table,island_furniture.surfaces.large_oak_table.name,island_furniture.surfaces.large_oak_table.desc,,Floor,,Uncommon,,,,63,125, $ 2.50 ,---,furnitureStore,,,TRUE,Complete,
 TRUE,Furniture,mcc:island_furniture.surfaces.oak_bedside_table,Surface,Oak Bedside Table,island_furniture.surfaces.oak_bedside_table.name,island_furniture.surfaces.oak_bedside_table.desc,,Floor,,Uncommon,,,,63,125, $ 2.50 ,---,furnitureStore,,,TRUE,Complete,
 TRUE,Furniture,mcc:island_furniture.surfaces.oak_desk,Surface,Oak Desk,island_furniture.surfaces.oak_desk.name,island_furniture.surfaces.oak_desk.desc,,Floor,,Uncommon,,,,63,125, $ 2.50 ,---,furnitureStore,,,TRUE,Complete,
 TRUE,Furniture,mcc:island_furniture.surfaces.oak_dining_table,Surface,Oak Dining Table,island_furniture.surfaces.oak_dining_table.name,island_furniture.surfaces.oak_dining_table.desc,,Floor,,Uncommon,,,,63,125, $ 2.50 ,---,furnitureStore,,,TRUE,Complete,
 TRUE,Furniture,mcc:island_furniture.surfaces.oak_display_cabinet,Surface,Oak Display Cabinet,island_furniture.surfaces.oak_display_cabinet.name,island_furniture.surfaces.oak_display_cabinet.desc,,Floor,,Uncommon,,,,63,125, $ 2.50 ,---,furnitureStore,,,TRUE,Complete,
+TRUE,Furniture,mcc:island_furniture.surfaces.oak_dressing_table,Surface,Oak Dressing Table,island_furniture.surfaces.oak_dressing_table.name,island_furniture.surfaces.oak_dressing_table.desc,,Floor,,Uncommon,,,,63,125, $ 2.50 ,---,furnitureStore,,,TRUE,Complete,
 TRUE,Furniture,mcc:island_furniture.surfaces.oak_shelf,Surface,Oak Shelf,island_furniture.surfaces.oak_shelf.name,island_furniture.surfaces.oak_shelf.desc,,Wall,,Uncommon,,,,63,125, $ 2.50 ,---,furnitureStore,,,TRUE,Complete,
 TRUE,Furniture,mcc:island_furniture.surfaces.oak_wardrobe,Surface,Oak Wardrobe,island_furniture.surfaces.oak_wardrobe.name,island_furniture.surfaces.oak_wardrobe.desc,,Floor,,Uncommon,,,,63,125, $ 2.50 ,---,furnitureStore,,,TRUE,Complete,
 TRUE,Furniture,mcc:island_furniture.surfaces.ornate_patio_table,Surface,Ornate Pato Table,island_furniture.surfaces.ornate_patio_table.name,island_furniture.surfaces.ornate_patio_table.desc,,Floor,,Uncommon,,,,63,125, $ 2.50 ,---,furnitureStore,,,TRUE,Complete,
+TRUE,Furniture,mcc:island_furniture.set_game_room.ping_pong_table,Surface,Ping-Pong Table,island_furniture.set_game_room.ping_pong_table.name,island_furniture.set_game_room.ping_pong_table.desc,None,Floor,On Top of This,Epic,No,set_game_room,,450,600, $ 12.00 ,---,special,,,,Complete,
+TRUE,Furniture,mcc:island_furniture.set_game_room.pool_table,Surface,Pool Table,island_furniture.set_game_room.pool_table.name,island_furniture.set_game_room.pool_table.desc,Animation,Floor,On Top of This,Epic,No,set_game_room,,450,600, $ 12.00 ,---,special,,,,Complete,
+TRUE,Furniture,mcc:island_furniture.surfaces.short_bookshelf,Surface,Short Bookshelf,island_furniture.surfaces.short_bookshelf.name,island_furniture.surfaces.short_bookshelf.desc,,Floor,,Common,,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
 TRUE,Furniture,mcc:island_furniture.surfaces.small_oak_table,Surface,Small Oak Table,island_furniture.surfaces.small_oak_table.name,island_furniture.surfaces.small_oak_table.desc,,Floor,,Uncommon,,,,63,125, $ 2.50 ,---,furnitureStore,,,TRUE,Complete,
+TRUE,Furniture,mcc:island_furniture.surfaces.thin_bookshelf,Surface,Thin Bookshelf,island_furniture.surfaces.thin_bookshelf.name,island_furniture.surfaces.thin_bookshelf.desc,,Floor,,Common,,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
 TRUE,Furniture,mcc:island_furniture.surfaces.thin_oak_bookshelf,Surface,Thin Oak Bookshelf,island_furniture.surfaces.thin_oak_bookshelf.name,island_furniture.surfaces.thin_oak_bookshelf.desc,,Floor,,Uncommon,,,,63,125, $ 2.50 ,---,furnitureStore,,,TRUE,Complete,
+TRUE,Furniture,mcc:island_furniture.surfaces.wide_bookshelf,Surface,Wide Bookshelf,island_furniture.surfaces.wide_bookshelf.name,island_furniture.surfaces.wide_bookshelf.desc,,Floor,,Common,,,,25,50, $ 1.00 ,---,furnitureStore,,,TRUE,Complete,
 TRUE,Furniture,mcc:island_furniture.surfaces.wide_oak_bookshelf,Surface,Wide Oak Bookshelf,island_furniture.surfaces.wide_oak_bookshelf.name,island_furniture.surfaces.wide_oak_bookshelf.desc,,Floor,,Uncommon,,,,63,125, $ 2.50 ,---,furnitureStore,,,TRUE,Complete,
 ,,1x1,Window,,1x1.name,1x1.desc,,,,,,,,0,,  ,,,,,,,
 ,,1x2,Window,,1x2.name,1x2.desc,,,,,,,,0,,  ,,,,,,,
 ,,1x3,Window,,1x3.name,1x3.desc,,,,,,,,0,,  ,,,,,,,
 ,,2x2,Window,,2x2.name,2x2.desc,,,,,,,,0,,  ,,,,,,,
 ,,2x3,Window,,2x3.name,2x3.desc,,,,,,,,0,,  ,,,,,,,
-TRUE,Furniture,mcc:island_furniture.surfaces.basic_countertop_oven,Surface,Basic Countertop Oven,island_furniture.surfaces.basic_countertop_oven.name,island_furniture.surfaces.basic_countertop_oven.desc,,Floor,,Uncommon,,,,63,125, $ 2.50 ,---,furnitureStore,,,TRUE,Complete,
-TRUE,Furniture,mcc:island_furniture.surfaces.oak_dressing_table,Surface,Oak Dressing Table,island_furniture.surfaces.oak_dressing_table.name,island_furniture.surfaces.oak_dressing_table.desc,,Floor,,Uncommon,,,,63,125, $ 2.50 ,---,furnitureStore,,,TRUE,Complete,
-TRUE,Furniture,mcc:island_furniture.surfaces.basic_bedside_table,Surface,Basic Bedside Table,island_furniture.surfaces.basic_bedside_table.name,island_furniture.surfaces.basic_bedside_table.desc,,Floor,,Uncommon,,,,63,125, $ 2.50 ,---,furnitureStore,,,TRUE,Complete,
-,,,,,,,,,,,,,,0,,  ,,,,,,,
-,,,,,,,,,,,,,,0,,  ,,,,,,,
-,,,,,,,,,,,,,,0,,  ,,,,,,,
-,,,,,,,,,,,,,,0,,  ,,,,,,,
-,,,,,,,,,,,,,,0,,  ,,,,,,,
-,,,,,,,,,,,,,,0,,  ,,,,,,,
-,,,,,,,,,,,,,,0,,  ,,,,,,,
-,,,,,,,,,,,,,,0,,  ,,,,,,,
-,,,,,,,,,,,,,,0,,  ,,,,,,,
-,,,,,,,,,,,,,,0,,  ,,,,,,,
-,,,,,,,,,,,,,,0,,  ,,,,,,,
-,,,,,,,,,,,,,,0,,  ,,,,,,,
-,,,,,,,,,,,,,,0,,  ,,,,,,,
-,,,,,,,,,,,,,,0,,  ,,,,,,,
-,,,,,,,,,,,,,,0,,  ,,,,,,,
-,,,,,,,,,,,,,,0,,  ,,,,,,,
-,,,,,,,,,,,,,,0,,  ,,,,,,,
-,,,,,,,,,,,,,,0,,  ,,,,,,,
-,,,,,,,,,,,,,,0,,  ,,,,,,,
-,,,,,,,,,,,,,,0,,  ,,,,,,,
-,,,,,,,,,,,,,,0,,  ,,,,,,,
+,Furniture,,,,,,,,,,,,,0,,  ,---,,,,,,
+,Furniture,,,,,,,,,,,,,0,,  ,---,,,,,,
+,Furniture,,,,,,,,,,,,,0,,  ,---,,,,,,
+,Furniture,,,,,,,,,,,,,0,,  ,---,,,,,,
+,Furniture,,,,,,,,,,,,,0,,  ,---,,,,,,
+,Furniture,,,,,,,,,,,,,0,,  ,---,,,,,,
+,Furniture,,,,,,,,,,,,,0,,  ,---,,,,,,
+,Furniture,,,,,,,,,,,,,0,,  ,---,,,,,,
+,Furniture,,,,,,,,,,,,,0,,  ,---,,,,,,
+,Furniture,,,,,,,,,,,,,0,,  ,---,,,,,,
+,Furniture,,,,,,,,,,,,,0,,  ,---,,,,,,
+,Furniture,,,,,,,,,,,,,0,,  ,---,,,,,,
+,Furniture,,,,,,,,,,,,,0,,  ,---,,,,,None,Clear but slightly blue-tinted shower cubicle. Rectangular. Door can be opened to enter the cubicle.
 ,,,,,,,,,,,,,,0,,  ,,,,,,,
 ,,,,,,,,,,,,,,0,,  ,,,,,,,
 ,,,,,,,,,,,,,,0,,  ,,,,,,,
