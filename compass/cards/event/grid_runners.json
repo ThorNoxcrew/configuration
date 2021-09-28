@@ -32,6 +32,7 @@
                     "weave"
                 ],
                 "mccrising": [
+                    "prison",
                     "jungle_temple",
                     "city_statue",
                     "art_gallery",
@@ -39,7 +40,6 @@
                     "city_lamps",
                     "golf",
                     "city_canal_key",
-                    "prison",
                     "weave"
                 ]
             }
