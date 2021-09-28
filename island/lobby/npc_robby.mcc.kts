@@ -12,7 +12,6 @@ mccScript {
         "l6nOluUDAtFn7rz9XkWAH+JwEli+h4v5dScjPfsAXyJ7h3BUoajaDBvGiRmk4PYqoPfyXwtVnKvpzoYVzeGQrWeyE7HhtLH8dGcoZfkJqo9bJSALrQsxz25V08mKsgAvk33riwE/fvMr8QfGZHo2EswuRN8pexw+RlTF9pMsyR6FpffH3Uh6eZysmeofj8ZVWE2Sreu6tKKHpFN0S5j8TcjWJfdKWVPmutLM+ZLn5qiRHqz75vBZ1A4xPFI3lk4Ou+TrDtuSnrvUZHaIHVjKBv+51l2AtnJej47IECwti1ocn4Sv5sxrSs4zebXyqMLGoTMsqagFYX+IAKbBTpKzGapHiBZV9K2RDbEV3rrb+pNaOF0CaCY2gdVjIU2np3aQ4fpuYUSXnWxlVIccx244I39h2giu7BYpC2LTMXBXO96+KZST7mVokr69ndVnk0N/Y+pVnd6oyUGlNdOlp+KQM8hnnoCeafmiaZ7KCyM0vRF6DaIT0tLFzoGq4bh+kppwVIpGDugPCtXmW6ksnFmcq99z/8i9Sv/EpNuZQYRaxwUV/1Tk3f7u4q9RkNNdLA53QmR/Y80caXv02jNX3zZHe1WTxmw3QQ+Rzf+xFeBsJCJerUMmwZ07VXkjGcbWC44EsOJ0EYzrhLmtnNpEmp0d1nEu8iO4Mx2/0GdStzQp85A="
     ) {
         rotation(20.5, 0.0)
-        
         mainHand("minecraft:stone_sword")
         offHand("minecraft:shield")
 
