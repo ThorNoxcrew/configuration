@@ -4,7 +4,7 @@ import com.noxcrew.mcc.commons.base.inject
 mccScript {
     val i18n: I18n by inject()
 
-// Knight outside of Lime Llamas house on a rock dueling the Dragon, Salt
+// Knight outside of Lime Llamas house. Duels the dragon Salt.
     playerNPC(
         absoluteVec(162.0, 79.0, 666.8),
         "Brave Sir Robby",
