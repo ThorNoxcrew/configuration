@@ -1,15 +1,11 @@
 import com.noxcrew.mcc.commons.base.i18n.I18n
 import com.noxcrew.mcc.commons.base.inject
 import com.noxcrew.mcc.commons.base.text.text
-import com.noxcrew.mcc.commons.server.config.injectConfig
 import com.noxcrew.mcc.commons.server.game.modifier.ModifierTitles
 import com.noxcrew.mcc.commons.server.i18n.sendMessage
 import com.noxcrew.mcc.commons.server.i18n.translateLines
 import com.noxcrew.mcc.commons.server.module.container.Container
 import com.noxcrew.mcc.commons.server.module.container.injectModule
-import com.noxcrew.mcc.commons.server.path.camera.CameraPath
-import com.noxcrew.mcc.commons.server.path.camera.CameraPathConfig
-import com.noxcrew.mcc.commons.server.path.camera.CameraPathManager
 import com.noxcrew.mcc.commons.server.sound.SoundConfig
 import com.noxcrew.mcc.commons.server.text.font.CustomGlyphProvider
 import net.kyori.adventure.text.Component
@@ -20,11 +16,7 @@ import org.bukkit.entity.Player
 import java.time.Duration
 
 mccScript {
-    val cameraPathManager: CameraPathManager by inject()
     val container = data["container"] as Container
-
-    val config: CameraPathConfig by container.injectConfig()
-    val cameraPath = CameraPath.fromConfig(config)
     val modifierTitles: ModifierTitles by container.injectModule()
 
     val i18n: I18n by inject()
@@ -42,8 +34,6 @@ mccScript {
     )
 
     withContext(Dispatchers.Minecraft) {
-        cameraPathManager.start(player, cameraPath)
-
         delay(1000)
 
         SoundConfig("mcc:games.global.gameentry").play(player)
