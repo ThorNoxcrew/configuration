@@ -1,7 +1,6 @@
 import com.noxcrew.mcc.commons.base.i18n.I18n
 import com.noxcrew.mcc.commons.base.inject
 import com.noxcrew.mcc.commons.base.text.text
-import com.noxcrew.mcc.commons.server.game.modifier.ModifierTitles
 import com.noxcrew.mcc.commons.server.i18n.sendMessage
 import com.noxcrew.mcc.commons.server.i18n.translateLines
 import com.noxcrew.mcc.commons.server.module.container.Container
@@ -17,7 +16,6 @@ import java.time.Duration
 
 mccScript {
     val container = data["container"] as Container
-    val modifierTitles: ModifierTitles by container.injectModule()
 
     val i18n: I18n by inject()
 
@@ -53,11 +51,9 @@ mccScript {
     }
 
     delay(3000)
-    withContext(Dispatchers.Minecraft) { modifierTitles.showToPlayer(player) }
 
     for (line in player.translateLines("island.games.tutorial.hitw")) {
         player.sendMessage(line)
-        delay(3000)
     }
 
     // Send standby text
