@@ -51,7 +51,6 @@ mccScript {
     }
 
     delay(3000)
-    withContext(Dispatchers.Minecraft) { modifierTitles.showToPlayer(player) }
 
     for (line in player.translateLines("island.games.tutorial.hitw")) {
         player.sendMessage(line)
