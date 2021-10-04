@@ -30,18 +30,18 @@ TRUE,Cosmetic,accessory_pipe_wrench,Accessory,Pipe Wrench,accessory_pipe_wrench.
 TRUE,Cosmetic,accessory_stick,Accessory,Stick,accessory_stick.name,accessory_stick.desc,Common,mcc:island_cosmetics.accessory.stick,25,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,A long branch with leaves still attached
 TRUE,Cosmetic,accessory_trash_can_lid,Accessory,Trash Can Lid,accessory_trash_can_lid.name,accessory_trash_can_lid.desc,Common,mcc:island_cosmetics.accessory.trash_can_lid,25,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[I can do this all day]
 ,Cosmetic,,Accessory,Wand,,,Common,,25,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,Magic wand that mighe be used by a wizard (magic not included). Simple and wooden.
-,Cosmetic,,Hat,Fanciest Hat,,,Legendary,,720,600, $ 12.00 ,,accessoryStore,TRUE,TRUE,FALSE,None,A purple wide-brim hat with an orange feather. [Perfection.]
-,Cosmetic,,Hat,Napoleon,,,Legendary,,720,600, $ 12.00 ,,accessoryStore,TRUE,TRUE,FALSE,None,French army general hat like that of Napoleon.
+,Cosmetic,,Hat,Fanciest Hat,,,Legendary,,720,600, $ 12.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A purple wide-brim hat with an orange feather. [Perfection.]
+,Cosmetic,,Hat,Napoleon,,,Legendary,,720,600, $ 12.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,French army general hat like that of Napoleon.
 ,Cosmetic,,Hat,Cthulu,,,Epic,,225,300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A mass of tentacles spewing from the player's head. Maybe bat ears on the side of the head.
-,Cosmetic,,Hat,Dimmsdale,,,Epic,,225,300, $ 6.00 ,,accessoryStore,TRUE,TRUE,FALSE,None,"An incredibly tall pearly white cowboy hat. [I'm Neal Noxite, owner of the Noxite Vox-Noxesium.]"
-TRUE,Cosmetic,wardrobe_vr_headset,Hat,VR,wardrobe_vr_headset.name,wardrobe_vr_headset.desc,Epic,,225,300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[Enter a new reality]
+,Cosmetic,,Hat,Dimmsdale,,,Epic,,225,300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,"An incredibly tall pearly white cowboy hat. [I'm Neal Noxite, owner of the Noxite Vox-Noxesium.]"
+TRUE,Cosmetic,wardrobe_head_vr_headset,Hat,VR,wardrobe_head_vr_headset.name,wardrobe_head_vr_headset.desc,Epic,mcc:island_cosmetics.head.vr_headset,225,300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[Enter a new reality]
 ,Cosmetic,,Hat,Archer,,,Rare,,98,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,[Robbin' Hood?]
-TRUE,Cosmetic,wardrobe_chefs_hat,Hat,Chef's Hat,wardrobe_chefs_hat.name,wardrobe_chefs_hat.desc,Rare,mcc:island_cosmetics.head.chefs_hat,98,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,"[What's cookin, good lookin?]"
+TRUE,Cosmetic,wardrobe_head_chefs_hat,Hat,Chef's Hat,wardrobe_head_chefs_hat.name,wardrobe_head_chefs_hat.desc,Rare,mcc:island_cosmetics.head.chefs_hat,98,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,"[What's cookin, good lookin?]"
 ,Cosmetic,,Hat,Football Helmet,,,Rare,,98,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,Classic Football Helmet
 ,Cosmetic,,Hat,Fruit Basket,,,Rare,,98,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,[I get fruit! You get fruit! Everyone gets some fruit!]
 ,Cosmetic,,Hat,Night Vision,,,Rare,,98,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,"[Fisher, do you copy?]"
 ,Cosmetic,,Hat,Ranger,,,Rare,,98,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A brown cowboy hat. [Yeehaw]
-TRUE,Cosmetic,wardrobe_sombrero,Hat,Sombrero,wardrobe_sombrero.name,wardrobe_sombrero.desc,Rare,mcc:island_cosmetics.head.sombrero,98,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,A whide-brimmed straw hat with multiple tassals. [Mariachi flashbacks intensify.]
+TRUE,Cosmetic,wardrobe_head_sombrero,Hat,Sombrero,wardrobe_head_sombrero.name,wardrobe_head_sombrero.desc,Rare,mcc:island_cosmetics.head.sombrero,98,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,A whide-brimmed straw hat with multiple tassals. [Mariachi flashbacks intensify.]
 ,Cosmetic,,Hat,Sultan,,,Rare,,98,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A massive turban covered with gems. [Kingdom sold seperately]
 ,Cosmetic,,Hat,Sunbrella,,,Rare,,98,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,An umbrella hat that protects the wearer from sun and rain!
 ,Cosmetic,,Hat,Vanity,,,Rare,,98,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,It makes your head look bigger. [Well you think you look great. And that's all that really matters.]
@@ -49,7 +49,7 @@ TRUE,Cosmetic,wardrobe_sombrero,Hat,Sombrero,wardrobe_sombrero.name,wardrobe_som
 ,Cosmetic,,Hat,Big Eyes,,,Uncommon,,38,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,[Eye spy with my big I.]
 ,Cosmetic,,Hat,Detective,,,Uncommon,,38,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A cheshire cap like a certain Holmes might wear. [Someone stole the detective's hat! But he's on the case!]
 ,Cosmetic,,Hat,Frog Bucket Hat,,,Uncommon,,38,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,[Ribbit!]
-,Cosmetic,,Hat,Graduate,,,Uncommon,,38,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,None,"A black, square hat with a golden tassal to one side. [Highschool is out!]"
+TRUE,Cosmetic,wardrobe_head_graduate,Hat,Graduate,wardrobe_head_graduate.name,wardrobe_head_graduate.desc,Uncommon,mcc:island_cosmetics.head.graduate,38,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,None,"A black, square hat with a golden tassal to one side. [Highschool is out!]"
 ,Cosmetic,,Hat,Horned Viking Helmet,,,Uncommon,,38,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,None,[Not Historically Accurate]
 ,Cosmetic,,Hat,Pilot's Hat,,,Uncommon,,38,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,None,[Ready to fly?]
 ,Cosmetic,,Hat,Pirate,,,Uncommon,,38,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,[Arrrr!]

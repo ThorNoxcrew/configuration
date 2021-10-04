@@ -4,7 +4,7 @@ import com.noxcrew.mcc.commons.base.inject
 mccScript {
     val i18n: I18n by inject()
 
-// Woman roaming around cafe in back of main HUB. 
+// Woman roaming around cafe in back of main HUB.
     playerNPC(
         absoluteVec(378.0, 40.5, 657.0),
         "Poppy",
