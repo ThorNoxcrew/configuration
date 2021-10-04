@@ -4,7 +4,7 @@ import com.noxcrew.mcc.commons.base.inject
 mccScript {
     val i18n: I18n by inject()
 
-// Kid playing dinosaurs (yellow) with friends in far left hub area.
+// Woman roaming around cafe in back of main HUB. 
     playerNPC(
         absoluteVec(378.0, 40.5, 657.0),
         "Poppy",
