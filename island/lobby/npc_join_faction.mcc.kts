@@ -17,7 +17,7 @@ mccScript {
         cooldown(1.seconds)
 
         interactBehavior { npc, player ->
-            withContext(Dispatchers.Minecraft) { player.performCommand("faction join") }
+            withContext(Dispatchers.Minecraft) { player.performCommand("faction") }
         }
 
         proximityChat(
