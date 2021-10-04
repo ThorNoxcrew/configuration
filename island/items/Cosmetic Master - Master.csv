@@ -3,7 +3,7 @@ TRUE,Cosmetic,accessory_gauntlet_of_power,Accessory,Gauntlet of Power,accessory_
 ,Cosmetic,,Accessory,Fanciest Cane,,,Epic,,225,300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,Ornate walking stick with a jeweled tip.
 ,Cosmetic,,Accessory,Lantern,,,Epic,,225,300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A lantern dangles from your grip and shines light around the player.
 ,Cosmetic,,Accessory,Offhand Crown,,,Epic,,225,300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,Hold a shiny crown in your off-hand.
-,Cosmetic,,Accessory,Robot Arm,,,Epic,,225,300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A mechanical Robot Claw
+TRUE,Cosmetic,accessory_robot_arm,Accessory,Robot Arm,accessory_robot_arm.name,accessory_robot_arm.desc,Epic,mcc:island_cosmetics.accessory.robot_arm,225,300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,A mechanical Robot Claw
 ,Cosmetic,,Accessory,Tentacle Arm,,,Epic,,225,300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,Make your whole off-hand arm look like an animated octopus tentacle. Or that of some eldritch abomination.
 ,Cosmetic,,Accessory,Bear Paw,,,Rare,,98,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,Stick your hand in a giant bear's paw. The paw fits over your whole hand like a glove.
 ,Cosmetic,,Accessory,Coffee,,,Rare,,98,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,White mug filled with brown coffee. Steam occasionally wafts up from the cup.
@@ -11,7 +11,7 @@ TRUE,Cosmetic,accessory_gauntlet_of_power,Accessory,Gauntlet of Power,accessory_
 ,Cosmetic,,Accessory,Dice,,,Rare,,98,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,Giant six-sided die held in hand. Rotaes randomly when first equipped to show a different number.
 ,Cosmetic,,Accessory,Fancier Cane,,,Rare,,98,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,"Cane with a nice, non-rounded handle."
 ,Cosmetic,,Accessory,Money Bag,,,Rare,,98,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,Hold a sack of cash with a dollar sign emblazoned on the side. It hangs under your grip.
-,Cosmetic,,Accessory,Paintbrush,,,Rare,,98,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,[Paint the town red.]
+TRUE,Cosmetic,accessory_paintbrush,Accessory,Paintbrush,accessory_paintbrush.name,accessory_paintbrush.desc,Rare,mcc:island_cosmetics.accessory.paintbrush,98,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[Paint the town red.]
 ,Cosmetic,,Accessory,Bouquet,,,Uncommon,,38,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A collection of flowers including roses.
 ,Cosmetic,,Accessory,Cleaver,,,Uncommon,,38,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,None,Butcher's Cleaver as used by a butcher to carve meat.
 ,Cosmetic,,Accessory,Crowbar,,,Uncommon,,38,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,None,[Wake up and smell the ashes...]
@@ -34,14 +34,14 @@ TRUE,Cosmetic,accessory_trash_can_lid,Accessory,Trash Can Lid,accessory_trash_ca
 ,Cosmetic,,Hat,Napoleon,,,Legendary,,720,600, $ 12.00 ,,accessoryStore,TRUE,TRUE,FALSE,None,French army general hat like that of Napoleon.
 ,Cosmetic,,Hat,Cthulu,,,Epic,,225,300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A mass of tentacles spewing from the player's head. Maybe bat ears on the side of the head.
 ,Cosmetic,,Hat,Dimmsdale,,,Epic,,225,300, $ 6.00 ,,accessoryStore,TRUE,TRUE,FALSE,None,"An incredibly tall pearly white cowboy hat. [I'm Neal Noxite, owner of the Noxite Vox-Noxesium.]"
-,Cosmetic,,Hat,VR,,,Epic,,225,300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A VR headset strapped to your head.
+TRUE,Cosmetic,wardrobe_vr_headset,Hat,VR,wardrobe_vr_headset.name,wardrobe_vr_headset.desc,Epic,,225,300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[Enter a new reality]
 ,Cosmetic,,Hat,Archer,,,Rare,,98,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,[Robbin' Hood?]
-,Cosmetic,,Hat,Chef,,,Rare,,98,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,[Cook some cookies]
+TRUE,Cosmetic,wardrobe_chefs_hat,Hat,Chef's Hat,wardrobe_chefs_hat.name,wardrobe_chefs_hat.desc,Rare,mcc:island_cosmetics.head.chefs_hat,98,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,"[What's cookin, good lookin?]"
 ,Cosmetic,,Hat,Football Helmet,,,Rare,,98,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,Classic Football Helmet
 ,Cosmetic,,Hat,Fruit Basket,,,Rare,,98,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,[I get fruit! You get fruit! Everyone gets some fruit!]
 ,Cosmetic,,Hat,Night Vision,,,Rare,,98,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,"[Fisher, do you copy?]"
 ,Cosmetic,,Hat,Ranger,,,Rare,,98,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A brown cowboy hat. [Yeehaw]
-,Cosmetic,,Hat,Sombrero,,,Rare,,98,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A whide-brimmed straw hat with multiple tassals. [Mariachi flashbacks intensify.]
+TRUE,Cosmetic,wardrobe_sombrero,Hat,Sombrero,wardrobe_sombrero.name,wardrobe_sombrero.desc,Rare,mcc:island_cosmetics.head.sombrero,98,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,A whide-brimmed straw hat with multiple tassals. [Mariachi flashbacks intensify.]
 ,Cosmetic,,Hat,Sultan,,,Rare,,98,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A massive turban covered with gems. [Kingdom sold seperately]
 ,Cosmetic,,Hat,Sunbrella,,,Rare,,98,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,An umbrella hat that protects the wearer from sun and rain!
 ,Cosmetic,,Hat,Vanity,,,Rare,,98,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,It makes your head look bigger. [Well you think you look great. And that's all that really matters.]
@@ -67,6 +67,9 @@ TRUE,Cosmetic,wardrobe_head_goggles,Hat,Goggles,wardrobe_head_goggles.name,wardr
 ,Cosmetic,,Hat,Party Hat,,,Common,,25,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,[Party like it's 1999]
 ,Cosmetic,,Hat,Sun Hat,,,Common,,25,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,A long brimmed hat for the summer
 ,Cosmetic,,Hat,Traffic Cone,,,Common,,25,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,[I'm walkin' here]
+TRUE,Cosmetic,wardrobe_head_burger_head,Hat,Burger Head,wardrobe_head_burger_head,wardrobe_head_burger_head,Epic,mcc:island_cosmetics.head.burger_head,225,300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[Mmm.. Burger]
+TRUE,Cosmetic,wardrobe_head_mascot_bobblehead,Hat,Mascot Bobblehead,wardrobe_head_mascot_bobblehead,wardrobe_head_mascot_bobblehead,Legendary,mcc:island_cosmetics.head.mascot_bobblehead,720,600, $ 12.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[The Champion]
+TRUE,Cosmetic,wardrobe_head_chicken_head,Hat,Chicken Head,wardrobe_head_chicken_head,wardrobe_head_chicken_head,Rare,mcc:island_cosmetics.head.chicken_head,98,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[No longer headless!]
 ,Cosmetic,,Hat,Trucker Hat,,,Common,,25,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,"Reads ""I <3 MCC."" [Look at my Trucker Hat.]"
 ,Cosmetic,,Hat,Ushanka,,,Common,,25,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,"A brown, furry hat that covers the sides of the head. [Excellent for cold weather.]"
 ,Cosmetic,,Accessory,Complimentary Beverage,,,Special,,---,---, --- ,No Currency,achievement,FALSE,FALSE,FALSE,In Progress,An icee-cup filled with a frosted beverage. Given with one of the Welcome Bundles.
