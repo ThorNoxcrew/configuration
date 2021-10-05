@@ -8,7 +8,7 @@
             "type": "lighting_updater"
         },
         {
-            "type": "split_world_per_section"
+            "type": "split_per_section"
         },
         {
             "type": "duplicate_sections",
