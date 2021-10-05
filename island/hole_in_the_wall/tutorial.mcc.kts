@@ -55,7 +55,4 @@ mccScript {
     for (line in player.translateLines("island.games.tutorial.hitw")) {
         player.sendMessage(line)
     }
-
-    // Send standby text
-    player.sendMessage(i18n.translatable("island.games.tutorial.standby"))
 }
