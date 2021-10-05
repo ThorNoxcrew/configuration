@@ -1,0 +1,26 @@
+{
+    "processors": [
+        {
+            "type": "add_world",
+            "world": "event/battle_box"
+        },
+        {
+            "type": "battle_box_assembler"
+        },
+        {
+            "type": "remove_sections",
+            "sections": ["ref_maps"]
+        },
+        {
+            "type": "lighting_updater"
+        },
+        {
+            "type": "duplicate_sections",
+            "sections": ["match"],
+            "duplicates": 8
+        },
+        {
+            "type": "empty_region_padding"
+        }
+    ]
+}
