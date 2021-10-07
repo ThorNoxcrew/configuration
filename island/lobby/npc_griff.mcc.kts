@@ -14,7 +14,7 @@ mccScript {
 
         val pointList = LinkedList<Transform>()
         pointList += Transform(313.0, 43.0, 424.5)
-        pointList += Transform(313.0, 43.0, 414.5)
+        pointList += Transform(312.5, 43.0, 415.0)
         pointList += Transform(304.0, 43.0, 414.5)
 
         patrol(pointList)
