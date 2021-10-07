@@ -50,7 +50,7 @@ compile_scripts:
               - compiled/
 
 .upload_consul:
-    image: harbor.services.noxcrew.online/tools/fs2consulkv:develop-f42ad206311364881606a66270e52db07976c884
+    image: harbor.services.noxcrew.online/tools/fs2consulkv:main-407e04d9cab6f272db856d3705d6f2fc0d9525de
     tags: [docker]
     # https://gitlab.com/gitlab-org/gitlab-runner/-/issues/27524
     cache:
