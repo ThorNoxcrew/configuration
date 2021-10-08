@@ -1,11 +1,13 @@
 #!/bin/bash
+
 shopt -s extglob nullglob globstar
-FILES=( **/*.py )
+FILES=( **/*.conf )
 INVALID_FILES=()
 PIDS=()
+EXIT=""
 
 test_hocon() {
-  pyhocon -i $1
+  pyhocon -i $1 > /dev/null
 }
 
 for f in "${FILES[@]}"; do
@@ -13,9 +15,9 @@ for f in "${FILES[@]}"; do
   PIDS+=( "${!}" )
 done
 
-for (( index=0; index < "${#FILEs[@]}"; ++index )); do
+for (( index=0; index < "${#FILES[@]}"; ++index )); do
   # Wait for first one job to complete
-  FILE="${FILEs[index]}"
+  FILE="${FILES[index]}"
   if wait "${PIDS[index]}"; then
     echo "${FILE} is valid HOCON"
   else
