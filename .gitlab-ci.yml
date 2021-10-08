@@ -2,6 +2,7 @@ stages:
     - lint
     - compile
     - deploy
+    - delete
 
 prettier:
     stage: lint
@@ -64,6 +65,7 @@ compile_scripts:
 
 .kube_env_dev:
     extends: .upload_consul
+    on_stop: delete_consul_dev
     environment:
         name: dev-fs2consulkv
         kubernetes:
@@ -71,6 +73,7 @@ compile_scripts:
 
 .kube_env_ptr:
     extends: .upload_consul
+    on_stop: delete_consul_ptr
     environment:
         name: ptr-fs2consulkv
         kubernetes:
@@ -78,6 +81,7 @@ compile_scripts:
 
 .kube_env_prod:
     extends: .upload_consul
+    on_stop: delete_consul_prod
     environment:
         name: production-fs2consulkv
         kubernetes:
@@ -96,6 +100,28 @@ upload_consul_prod:
     only:
         - main
         - master
+
+delete_consul_dev:
+    extends: [.kube_env_dev, .upload_consul]
+    stage: delete
+    when: manual
+    variables:
+        GIT_STRATEGY: none
+    environment:
+        action: stop
+    script:
+        - ./.gitlab/tools/consul-wrapper.py consul kv delete -token="$CONSUL_ACL_TOKEN" configuration/"$CI_COMMIT_BRANCH" -recurse
+
+delete_consul_prod:
+    extends: [.kube_env_prod, .upload_consul]
+    stage: delete
+    when: manual
+    variables:
+        GIT_STRATEGY: none
+    environment:
+        action: stop
+    script:
+        - ./.gitlab/tools/consul-wrapper.py consul kv delete -token="$CONSUL_ACL_TOKEN" configuration/"$CI_COMMIT_BRANCH" -recurse
 
 # upload_consul_ptr:
 #     stage: deploy
