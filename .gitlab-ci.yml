@@ -75,7 +75,6 @@ compile_scripts:
     extends: .upload_consul
     environment:
         name: ptr-fs2consulkv
-        on_stop: delete_consul_ptr
         kubernetes:
             namespace: ops
 
@@ -83,7 +82,6 @@ compile_scripts:
     extends: .upload_consul
     environment:
         name: production-fs2consulkv
-        on_stop: delete_consul_prod
         kubernetes:
             namespace: ops
 
@@ -114,7 +112,8 @@ delete_consul_dev:
         - ./.gitlab/tools/consul-wrapper.py consul kv delete -token="$CONSUL_ACL_TOKEN" configuration/"$CI_COMMIT_BRANCH" -recurse
     except:
       - main
-      - master  
+      - master
+      - develop
 
 # upload_consul_ptr:
 #     stage: deploy
