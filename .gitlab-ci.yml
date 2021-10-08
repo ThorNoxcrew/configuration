@@ -65,25 +65,25 @@ compile_scripts:
 
 .kube_env_dev:
     extends: .upload_consul
-    on_stop: delete_consul_dev
     environment:
         name: dev-fs2consulkv
+        on_stop: delete_consul_dev
         kubernetes:
             namespace: ops
 
 .kube_env_ptr:
     extends: .upload_consul
-    on_stop: delete_consul_ptr
     environment:
         name: ptr-fs2consulkv
+        on_stop: delete_consul_ptr
         kubernetes:
             namespace: ops
 
 .kube_env_prod:
     extends: .upload_consul
-    on_stop: delete_consul_prod
     environment:
         name: production-fs2consulkv
+        on_stop: delete_consul_prod
         kubernetes:
             namespace: ops
 
