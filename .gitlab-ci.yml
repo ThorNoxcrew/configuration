@@ -92,6 +92,13 @@ upload_consul_dev:
         - main
         - master
 
+#upload_consul_ptr:
+#    stage: deploy
+#    extends: [.kube_env_ptr, .upload_consul]
+#    only:
+#        - main
+#        - master
+
 upload_consul_prod:
     stage: deploy
     extends: [.kube_env_prod, .upload_consul]
@@ -114,7 +121,3 @@ delete_consul_dev:
       - main
       - master
       - develop
-
-# upload_consul_ptr:
-#     stage: deploy
-#     extends: [.kube_env_ptr, .upload_consul]
