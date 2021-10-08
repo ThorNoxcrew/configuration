@@ -109,7 +109,7 @@ delete_consul_dev:
     environment:
         action: stop
     script:
-        - ./.gitlab/tools/consul-wrapper.py consul kv delete -token="$CONSUL_ACL_TOKEN" configuration/"$CI_COMMIT_BRANCH" -recurse
+        - ./.gitlab/tools/consul-wrapper.py consul kv delete -token="$CONSUL_ACL_TOKEN" -recurse configuration/"$CI_COMMIT_BRANCH"
     except:
       - main
       - master
