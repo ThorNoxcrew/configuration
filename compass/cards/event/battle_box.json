@@ -17,7 +17,7 @@
         {
             "type": "duplicate_sections",
             "sections": ["match"],
-            "duplicates": 8
+            "duplicates": 4
         },
         {
             "type": "empty_region_padding"
