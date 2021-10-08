@@ -29,6 +29,10 @@ if proxy.returncode != None or not socket_open:
     print("[wrapper] Failed to start consul wrapper...")
     exit(1)
 
-subprocess.call(" ".join(sys.argv[1:]), env=os.environ, shell=True)
+wrapped_cmd = subprocess.Popen(" ".join(sys.argv[1:]), env=os.environ, shell=True)
+wrapped_cmd_streamdata = wrapped_cmd.communicate()[0]
+wrapped_cmd_rc = wrapped_cmd.returncode
+print("Wrapped command returned code {}".format(wrapped_cmd_rc))
 proxy.send_signal(signal.SIGINT)
 proxy.communicate()
+sys.exit(wrapped_cmd_rc)
