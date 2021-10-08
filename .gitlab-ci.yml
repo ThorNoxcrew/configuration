@@ -1,11 +1,10 @@
 stages:
-    - lint
-    - compile
+    - prepare
     - deploy
     - delete
 
 prettier:
-    stage: lint
+    stage: prepare
     image: node:lts-buster
     only:
         changes:
@@ -19,7 +18,7 @@ prettier:
         - ./.gitlab/tools/prettier.sh
 
 ktlint:
-    stage: lint
+    stage: prepare
     image: kkopper/ktlint:0.42.1
     only:
         changes:
@@ -30,7 +29,7 @@ ktlint:
         - ./.gitlab/tools/ktlint.sh
 
 pyhocon:
-    stage: lint
+    stage: prepare
     image: python:3.9-alpine
     only:
         changes:
@@ -41,7 +40,7 @@ pyhocon:
         - ./.gitlab/tools/pyhocon.sh
 
 compile_scripts:
-    stage: compile
+    stage: prepare
     image: harbor.services.noxcrew.online/tools/mcc-script-cli:main-20429a46e13b53096fe53158792d6b6b7d7ff5b1
     script:
         - ./.gitlab/tools/compile-scripts.sh
