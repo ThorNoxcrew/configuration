@@ -1,13 +1,26 @@
 #!/bin/bash
 shopt -s extglob nullglob globstar
-INVALID_HOCON=()
+FILES=( **/*.py )
+INVALID_FILES=()
+PIDS=()
 
-for f in **/*.conf; do
-  if pyhocon -i $f > /dev/null; then
-    echo "$f is valid HOCON"
+test_hocon() {
+  pyhocon -i $1
+}
+
+for f in "${FILES[@]}"; do
+  test_hocon $f &
+  PIDS+=( "${!}" )
+done
+
+for (( index=0; index < "${#FILEs[@]}"; ++index )); do
+  # Wait for first one job to complete
+  FILE="${FILEs[index]}"
+  if wait "${PIDS[index]}"; then
+    echo "${FILE} is valid HOCON"
   else
-    echo "$f is invalid HOCON"
-    INVALID_HOCON+=("$f")
+    echo "${FILE} is invalid HOCON"
+    INVALID_FILES+=("${FILE}")
     EXIT=true
   fi
 done
@@ -16,7 +29,7 @@ echo ""
 
 if [ "$EXIT" = "true" ]; then
   echo "The following HOCON files are invalid:"
-  for f in "${INVALID_HOCON[@]}"; do
+  for f in "${INVALID_FILES[@]}"; do
     echo $f
   done
   exit 1
