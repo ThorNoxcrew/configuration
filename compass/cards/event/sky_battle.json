@@ -11,10 +11,6 @@
             "type": "split_per_section"
         },
         {
-            "type": "duplicate_sections",
-            "duplicates": 2
-        },
-        {
             "type": "empty_region_padding"
         }
     ]
