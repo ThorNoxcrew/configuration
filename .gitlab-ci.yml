@@ -45,19 +45,19 @@ compile_scripts:
     script:
         - ./.gitlab/tools/compile-scripts.sh
     cache:
-        - key: "$CI_COMMIT_BRANCH"
-          paths:
-              - compiled/
+      key: "$CI_COMMIT_BRANCH"
+      paths:
+          - compiled/
 
 .upload_consul:
     image: harbor.services.noxcrew.online/tools/fs2consulkv:main-407e04d9cab6f272db856d3705d6f2fc0d9525de
     tags: [docker]
     # https://gitlab.com/gitlab-org/gitlab-runner/-/issues/27524
     cache:
-        policy: pull
-        key: "$CI_COMMIT_BRANCH"
-        paths:
-            - compiled/
+      policy: pull
+      key: "$CI_COMMIT_BRANCH"
+      paths:
+          - compiled/
     script:
         - ./.gitlab/tools/compress-csv.sh
         - ./.gitlab/tools/consul-wrapper.py fs2consulkv --fs-kv-path . --consul-url http://localhost:8500 --consul-acl-token "$CONSUL_ACL_TOKEN" --consul-kv-root "configuration/$CI_COMMIT_BRANCH" --sync
