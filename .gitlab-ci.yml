@@ -59,11 +59,11 @@ compile_scripts:
       paths:
           - compiled/
     script:
+        - ls -la compiled
         - ./.gitlab/tools/compress-csv.sh
         - ./.gitlab/tools/consul-wrapper.py fs2consulkv --fs-kv-path . --consul-url http://localhost:8500 --consul-acl-token "$CONSUL_ACL_TOKEN" --consul-kv-root "configuration/$CI_COMMIT_BRANCH" --sync
 
 .kube_env_dev:
-    extends: .upload_consul
     environment:
         name: dev-fs2consulkv
         on_stop: delete_consul_dev
@@ -71,14 +71,12 @@ compile_scripts:
             namespace: ops
 
 .kube_env_ptr:
-    extends: .upload_consul
     environment:
         name: ptr-fs2consulkv
         kubernetes:
             namespace: ops
 
 .kube_env_prod:
-    extends: .upload_consul
     environment:
         name: production-fs2consulkv
         kubernetes:
