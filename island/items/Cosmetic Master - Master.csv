@@ -34,14 +34,14 @@ TRUE,Cosmetic,accessory_trash_can_lid,Accessory,Trash Can Lid,accessory_trash_ca
 ,Cosmetic,,Hat,Napoleon,,,Legendary,,720,600, $ 12.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,French army general hat like that of Napoleon.
 ,Cosmetic,,Hat,Cthulu,,,Epic,,225,300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A mass of tentacles spewing from the player's head. Maybe bat ears on the side of the head.
 ,Cosmetic,,Hat,Dimmsdale,,,Epic,,225,300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,"An incredibly tall pearly white cowboy hat. [I'm Neal Noxite, owner of the Noxite Vox-Noxesium.]"
-TRUE,Cosmetic,wardrobe_head_vr_headset,Hat,VR,wardrobe_head_vr_headset.name,wardrobe_head_vr_headset.desc,Epic,mcc:island_cosmetics.head.vr_headset,225,300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[Enter a new reality]
+TRUE,Cosmetic,wardrobe_hat_vr_headset,Hat,VR,wardrobe_hat_vr_headset.name,wardrobe_hat_vr_headset.desc,Epic,mcc:island_cosmetics.head.vr_headset,225,300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[Enter a new reality]
 ,Cosmetic,,Hat,Archer,,,Rare,,98,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,[Robbin' Hood?]
-TRUE,Cosmetic,wardrobe_head_chefs_hat,Hat,Chef's Hat,wardrobe_head_chefs_hat.name,wardrobe_head_chefs_hat.desc,Rare,mcc:island_cosmetics.head.chefs_hat,98,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,"[What's cookin, good lookin?]"
+TRUE,Cosmetic,wardrobe_hat_chefs_hat,Hat,Chef's Hat,wardrobe_hat_chefs_hat.name,wardrobe_hat_chefs_hat.desc,Rare,mcc:island_cosmetics.head.chefs_hat,98,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,"[What's cookin, good lookin?]"
 ,Cosmetic,,Hat,Football Helmet,,,Rare,,98,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,Classic Football Helmet
 ,Cosmetic,,Hat,Fruit Basket,,,Rare,,98,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,[I get fruit! You get fruit! Everyone gets some fruit!]
 ,Cosmetic,,Hat,Night Vision,,,Rare,,98,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,"[Fisher, do you copy?]"
 ,Cosmetic,,Hat,Ranger,,,Rare,,98,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A brown cowboy hat. [Yeehaw]
-TRUE,Cosmetic,wardrobe_head_sombrero,Hat,Sombrero,wardrobe_head_sombrero.name,wardrobe_head_sombrero.desc,Rare,mcc:island_cosmetics.head.sombrero,98,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,A whide-brimmed straw hat with multiple tassals. [Mariachi flashbacks intensify.]
+TRUE,Cosmetic,wardrobe_hat_sombrero,Hat,Sombrero,wardrobe_hat_sombrero.name,wardrobe_hat_sombrero.desc,Rare,mcc:island_cosmetics.head.sombrero,98,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,A whide-brimmed straw hat with multiple tassals. [Mariachi flashbacks intensify.]
 ,Cosmetic,,Hat,Sultan,,,Rare,,98,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A massive turban covered with gems. [Kingdom sold seperately]
 ,Cosmetic,,Hat,Sunbrella,,,Rare,,98,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,An umbrella hat that protects the wearer from sun and rain!
 ,Cosmetic,,Hat,Vanity,,,Rare,,98,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,It makes your head look bigger. [Well you think you look great. And that's all that really matters.]
@@ -49,17 +49,17 @@ TRUE,Cosmetic,wardrobe_head_sombrero,Hat,Sombrero,wardrobe_head_sombrero.name,wa
 ,Cosmetic,,Hat,Big Eyes,,,Uncommon,,38,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,[Eye spy with my big I.]
 ,Cosmetic,,Hat,Detective,,,Uncommon,,38,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A cheshire cap like a certain Holmes might wear. [Someone stole the detective's hat! But he's on the case!]
 ,Cosmetic,,Hat,Frog Bucket Hat,,,Uncommon,,38,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,[Ribbit!]
-TRUE,Cosmetic,wardrobe_head_graduate,Hat,Graduate,wardrobe_head_graduate.name,wardrobe_head_graduate.desc,Uncommon,mcc:island_cosmetics.head.graduate,38,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,None,"A black, square hat with a golden tassal to one side. [Highschool is out!]"
+TRUE,Cosmetic,wardrobe_hat_graduate,Hat,Graduate,wardrobe_hat_graduate.name,wardrobe_hat_graduate.desc,Uncommon,mcc:island_cosmetics.head.graduate,38,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,None,"A black, square hat with a golden tassal to one side. [Highschool is out!]"
 ,Cosmetic,,Hat,Horned Viking Helmet,,,Uncommon,,38,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,None,[Not Historically Accurate]
 ,Cosmetic,,Hat,Pilot's Hat,,,Uncommon,,38,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,None,[Ready to fly?]
 ,Cosmetic,,Hat,Pirate,,,Uncommon,,38,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,[Arrrr!]
 ,Cosmetic,,Hat,Sun Shades,,,Uncommon,,38,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,"[Sun's out, Guns out!]"
-TRUE,Cosmetic,wardrobe_head_tv,Hat,TV Head,wardrobe_head_tv.name,wardrobe_head_tv.desc,Uncommon,mcc:island_cosmetics.head.tv_head,38,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,A Television set placed upon your head. [Reminds me of something from a comic...]
+TRUE,Cosmetic,wardrobe_hat_tv,Hat,TV Head,wardrobe_hat_tv.name,wardrobe_hat_tv.desc,Uncommon,mcc:island_cosmetics.head.tv_head,38,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,A Television set placed upon your head. [Reminds me of something from a comic...]
 ,Cosmetic,,Hat,Bandana,,,Common,,25,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A red bandana around the head. Think Rambo.
 ,Cosmetic,,Hat,Beret,,,Common,,25,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A black beret with a small red puff on the top. [Found you!]
 ,Cosmetic,,Hat,Blindfold,,,Common,,25,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,[Fifty shades of complete darkness]
 ,Cosmetic,,Hat,Disguise,,,Common,,25,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,"Classic glasses, nose and moustached disguise. Groucho Marx. [Who are you?]"
-TRUE,Cosmetic,wardrobe_head_goggles,Hat,Goggles,wardrobe_head_goggles.name,wardrobe_head_goggles.desc,Common,mcc:island_cosmetics.head.goggles,25,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[Perfect for mischief goblin welding!]
+TRUE,Cosmetic,wardrobe_hat_goggles,Hat,Goggles,wardrobe_hat_goggles.name,wardrobe_hat_goggles.desc,Common,mcc:island_cosmetics.head.goggles,25,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[Perfect for mischief goblin welding!]
 ,Cosmetic,,Hat,Headphones,,,Common,,25,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,Basic Headphones
 ,Cosmetic,,Hat,Magician,,,Common,,25,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,A black magician's hat with a red stripe across the brim.
 ,Cosmetic,,Hat,Mobster,,,Common,,25,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A black fedora like that a gangster might wear. [Buy the hat. Or else!]
@@ -67,9 +67,9 @@ TRUE,Cosmetic,wardrobe_head_goggles,Hat,Goggles,wardrobe_head_goggles.name,wardr
 ,Cosmetic,,Hat,Party Hat,,,Common,,25,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,[Party like it's 1999]
 ,Cosmetic,,Hat,Sun Hat,,,Common,,25,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,A long brimmed hat for the summer
 ,Cosmetic,,Hat,Traffic Cone,,,Common,,25,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,[I'm walkin' here]
-TRUE,Cosmetic,wardrobe_head_burger_head,Hat,Burger Head,wardrobe_head_burger_head,wardrobe_head_burger_head,Epic,mcc:island_cosmetics.head.burger_head,225,300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[Mmm.. Burger]
-TRUE,Cosmetic,wardrobe_head_mascot_bobblehead,Hat,Mascot Bobblehead,wardrobe_head_mascot_bobblehead,wardrobe_head_mascot_bobblehead,Legendary,mcc:island_cosmetics.head.mascot_bobblehead,720,600, $ 12.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[The Champion]
-TRUE,Cosmetic,wardrobe_head_chicken_head,Hat,Chicken Head,wardrobe_head_chicken_head,wardrobe_head_chicken_head,Rare,mcc:island_cosmetics.head.chicken_head,98,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[No longer headless!]
+TRUE,Cosmetic,wardrobe_hat_burger_head,Hat,Burger Head,wardrobe_head_burger_head,wardrobe_head_burger_head,Epic,mcc:island_cosmetics.head.burger_head,225,300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[Mmm.. Burger]
+TRUE,Cosmetic,wardrobe_hat_mascot_bobblehead,Hat,Mascot Bobblehead,wardrobe_head_mascot_bobblehead,wardrobe_head_mascot_bobblehead,Legendary,mcc:island_cosmetics.head.mascot_bobblehead,720,600, $ 12.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[The Champion]
+TRUE,Cosmetic,wardrobe_hat_chicken_head,Hat,Chicken Head,wardrobe_head_chicken_head,wardrobe_head_chicken_head,Rare,mcc:island_cosmetics.head.chicken_head,98,150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[No longer headless!]
 ,Cosmetic,,Hat,Trucker Hat,,,Common,,25,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,"Reads ""I <3 MCC."" [Look at my Trucker Hat.]"
 ,Cosmetic,,Hat,Ushanka,,,Common,,25,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,"A brown, furry hat that covers the sides of the head. [Excellent for cold weather.]"
 ,Cosmetic,,Accessory,Complimentary Beverage,,,Special,,---,---, --- ,No Currency,achievement,FALSE,FALSE,FALSE,In Progress,An icee-cup filled with a frosted beverage. Given with one of the Welcome Bundles.
@@ -149,7 +149,7 @@ TRUE,Cosmetic,wardrobe_hair_twin_bun,Hair,Twin Bun,wardrobe_hair_twin_bun.name,w
 TRUE,Cosmetic,wardrobe_hair_wednesday,Hair,Wednesday,wardrobe_hair_wednesday.name,wardrobe_hair_wednesday.desc,Rare,mcc:island_cosmetics.hair.wednesday,0,,  ,---,barberShop,FALSE,FALSE,TRUE,Complete,Mischievous with dark intent. Think Wednesday Addams. [Feeling pulled in a new direction? I think you like it.]
 TRUE,Cosmetic,wardrobe_hair_afro,Hair,Afro,wardrobe_hair_afro.name,wardrobe_hair_afro.desc,Uncommon,mcc:island_cosmetics.hair.afro,0,,  ,---,barberShop,FALSE,FALSE,TRUE,Complete,My hair A large black mass of curly hair that extends above and around the head without covering the face. (May include a comb on top) [Surprisingly easy to maintain.]
 TRUE,Cosmetic,wardrobe_hair_amish,Hair,Amish,wardrobe_hair_amish.name,wardrobe_hair_amish.desc,Uncommon,mcc:island_cosmetics.hair.amish,0,,  ,---,barberShop,FALSE,FALSE,TRUE,Complete,A beard that comes from the sides of the head through the chin and around the neck. [Technology not included.]
-TRUE,Cosmetic,wardrobe_head_anime,Hair,Anime,wardrobe_head_anime.name,wardrobe_head_anime.desc,Uncommon,mcc:island_cosmetics.hair.anime,0,,  ,---,barberShop,FALSE,FALSE,TRUE,Complete,Embrace your inner sayyin. [I found the protagonist.]
+TRUE,Cosmetic,wardrobe_hair_anime,Hair,Anime,wardrobe_hair_anime.name,wardrobe_hair_anime.desc,Uncommon,mcc:island_cosmetics.hair.anime,0,,  ,---,barberShop,FALSE,FALSE,TRUE,Complete,Embrace your inner sayyin. [I found the protagonist.]
 TRUE,Cosmetic,wardrobe_hair_bangs,Hair,Bangs,wardrobe_hair_bangs.name,wardrobe_hair_bangs.desc,Uncommon,mcc:island_cosmetics.hair.bangs,0,,  ,---,barberShop,FALSE,FALSE,TRUE,Complete,Long hair goth girl haircut that covers the forehead. [Why are we still here? Just to suffer?]
 TRUE,Cosmetic,wardrobe_hair_bob,Hair,Bob,wardrobe_hair_bob.name,wardrobe_hair_bob.desc,Uncommon,mcc:island_cosmetics.hair.bob,0,,  ,---,barberShop,FALSE,FALSE,TRUE,Complete,A short bob with bangs. [Also called the Robert.]
 TRUE,Cosmetic,wardrobe_hair_cornrows,Hair,Cornrows,wardrobe_hair_cornrows.name,wardrobe_hair_cornrows.desc,Uncommon,mcc:island_cosmetics.hair.cornrows,0,,  ,---,barberShop,FALSE,FALSE,TRUE,Complete,"The hair is braided very close to the scalp, using an underhand, upward motion to make a continuous, raised row. [Please don't harvest.]"
@@ -245,11 +245,8 @@ FALSE,,,Consumable,Jumpo Juice,,,Common,,0,, --- ,Coin Only,special,FALSE,FALSE,
 FALSE,,,Consumable,MC Mocca,,,Common,,0,, --- ,Coin Only,special,FALSE,FALSE,TRUE,None,Transform your character to look like a random Noxcrew Developer for 10 minutes.
 FALSE,,,Consumable,Melonade,,,Common,,0,, --- ,Coin Only,special,FALSE,FALSE,TRUE,None,Gives you a melon item trail in the HUB for 2 minutes.
 FALSE,,,Consumable,Red Block,,,Common,,0,, --- ,Coin Only,special,FALSE,FALSE,TRUE,None,Gives you (elytra) wings in the HUB for 10 minutes.
-FALSE,,,Hat,UFO,,,,,0,,  ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,
 FALSE,,,Consumable,Slurpee,,,,,0,,  ,---,special,FALSE,FALSE,FALSE,In Progress,[Slurp!]
 FALSE,,,Consumable,Burger,,,,,0,,  ,---,special,FALSE,FALSE,FALSE,In Progress,"[""Enjoy your Burger, but fast!"" -V]"
-FALSE,,,Hat,MCC Bobblehead,,,,,0,,  ,---,mccMerchStore,FALSE,FALSE,TRUE,In Progress,
-FALSE,,,Hat,Chicken Head,,,,,0,,  ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,
 FALSE,,,,,,,,,0,,  ,,,FALSE,FALSE,FALSE,,
 FALSE,,,,,,,,,0,,  ,,,FALSE,FALSE,FALSE,,
 FALSE,,,,,,,,,0,,  ,,,FALSE,FALSE,FALSE,,
