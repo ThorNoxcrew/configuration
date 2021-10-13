@@ -41,7 +41,7 @@ ktlint:
 
 compile_scripts:
     stage: prepare
-    image: harbor.services.noxcrew.online/tools/mcc-script-cli:main-20429a46e13b53096fe53158792d6b6b7d7ff5b1
+    image: harbor.services.noxcrew.online/tools/mcc-script-cli:latest
     script:
         - ./.gitlab/tools/compile-scripts.sh
     artifacts:
@@ -50,7 +50,7 @@ compile_scripts:
             - compiled/
 
 .upload_consul:
-    image: harbor.services.noxcrew.online/tools/fs2consulkv:main-407e04d9cab6f272db856d3705d6f2fc0d9525de
+    image: harbor.services.noxcrew.online/tools/fs2consulkv:latest
     tags: [docker]
     # https://gitlab.com/gitlab-org/gitlab-runner/-/issues/27524
     script:
@@ -100,7 +100,7 @@ upload_consul_prod:
 delete_consul_dev:
     extends: .kube_env_dev
     dependencies: []
-    image: harbor.services.noxcrew.online/tools/fs2consulkv:main-407e04d9cab6f272db856d3705d6f2fc0d9525de
+    image: harbor.services.noxcrew.online/tools/fs2consulkv:latest
     stage: delete
     when: manual
     variables:
