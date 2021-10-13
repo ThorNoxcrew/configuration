@@ -41,7 +41,7 @@ ktlint:
 
 compile_scripts:
     stage: prepare
-    image: harbor.services.noxcrew.online/tools/mcc-script-cli:latest
+    image: harbor.services.noxcrew.online/mcc/mcc-script-cli:latest
     script:
         - ./.gitlab/tools/compile-scripts.sh
     artifacts:
