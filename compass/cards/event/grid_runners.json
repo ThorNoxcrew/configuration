@@ -7,7 +7,7 @@
         {
             "comment": "Custom assembler to create the Grid Runners arena and paste in all selected rooms.",
             "type": "grid_runners_assembler",
-            "selectedPreset": "mccrising",
+            "selectedPreset": "mcc18",
             "presets": {
                 "mcc16": [
                     "jungle_temple",
