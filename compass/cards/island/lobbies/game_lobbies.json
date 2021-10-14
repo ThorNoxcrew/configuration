@@ -10,6 +10,10 @@
             "sections": ["ref_furniture"]
         },
         {
+            "type": "split_per_section",
+            "sections": ["~ref_*"]
+        },
+        {
             "type": "lighting_updater"
         },
         {
