@@ -1,0 +1,8 @@
+{
+    "id": 3355139,
+    "components": [{
+        "type": "currency",
+        "currencyType": "PREMIUM",
+        "amount": 500
+    }]
+}
