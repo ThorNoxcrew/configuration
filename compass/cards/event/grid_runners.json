@@ -41,6 +41,17 @@
                     "city_canal_key",
                     "prison",
                     "weave"
+                ],
+                "mcc18": [
+                    "bakery",
+                    "colour_bridge_lamps",
+                    "jungle_temple",
+                    "shoot_eyes",
+                    "stone_pyramid_key",
+                    "brew_potions",
+                    "factory_tower",
+                    "pumpkin_carve",
+                    "conveyors"
                 ]
             }
         },
