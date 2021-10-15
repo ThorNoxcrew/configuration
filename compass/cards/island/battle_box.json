@@ -5,7 +5,8 @@
             "world": "island/games/battle_box"
         },
         {
-            "type": "battle_box_assembler"
+            "type": "battle_box_assembler",
+            "variant": "ISLAND"
         },
         {
             "type": "remove_sections",

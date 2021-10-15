@@ -5,7 +5,8 @@
             "world": "event/battle_box"
         },
         {
-            "type": "battle_box_assembler"
+            "type": "battle_box_assembler",
+            "variant": "EVENT"
         },
         {
             "type": "remove_sections",
