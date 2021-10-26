@@ -26,6 +26,7 @@ mccScript {
                 i18n.translatable("island.npc.linguiniClosed.dialogue2")
             ),
             30.seconds
+        )
 
         /* interactBehavior { npc, player ->
             withContext(Dispatchers.Minecraft) {
