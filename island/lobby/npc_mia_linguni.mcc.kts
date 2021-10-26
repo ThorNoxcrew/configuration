@@ -19,7 +19,6 @@ mccScript {
         lookClosePerPlayer(6)
         cooldown(1.seconds)
 
-
         proximityChat(
             listOf(
                 i18n.translatable("island.npc.linguiniClosed.dialogue1"),

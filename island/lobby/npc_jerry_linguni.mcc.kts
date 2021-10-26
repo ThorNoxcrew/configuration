@@ -16,7 +16,6 @@ mccScript {
     ) {
         rotation(90.0, 0.0)
 
-
         proximityChat(
             listOf(
                 i18n.translatable("island.npc.linguiniClosed.dialogue4"),
