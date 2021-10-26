@@ -18,7 +18,7 @@ mccScript {
         rotation(-110.0, 0.0)
         lookClosePerPlayer(6)
         cooldown(1.seconds)
-
+/*
         interactBehavior { npc, player ->
             withContext(Dispatchers.Minecraft) {
                 ShopGui(CurrencyType.NON_PREMIUM, "furnitureStore", player).open(player)
@@ -27,5 +27,6 @@ mccScript {
 
         belowName("island.npc.shop.furniture")
         type("shop")
+*/
     }
 }
