@@ -19,6 +19,14 @@ mccScript {
         lookClosePerPlayer(6)
         cooldown(1.seconds)
 
+
+        proximityChat(
+            listOf(
+                i18n.translatable("island.npc.linguiniClosed.dialogue1"),
+                i18n.translatable("island.npc.linguiniClosed.dialogue2")
+            ),
+            30.seconds
+
         /* interactBehavior { npc, player ->
             withContext(Dispatchers.Minecraft) {
                 ShopGui(CurrencyType.NON_PREMIUM, "furnitureStore", player).open(player)

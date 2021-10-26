@@ -16,6 +16,14 @@ mccScript {
     ) {
         rotation(90.0, 0.0)
 
+
+        proximityChat(
+            listOf(
+                i18n.translatable("island.npc.linguiniClosed.dialogue4"),
+                i18n.translatable("island.npc.linguiniClosed.dialogue5")
+            ),
+            30.seconds
+
         /* interactBehavior { npc, player ->
             withContext(Dispatchers.Minecraft) {
                 ShopGui(CurrencyType.NON_PREMIUM, "furnitureStore", player).open(player)
