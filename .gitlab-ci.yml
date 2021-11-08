@@ -36,7 +36,7 @@ ktlint:
              - "**/*.conf"
      script:
          - pip install pyhocon==0.3.58
-         - ./.gitlab/tools/parse-hocon.py
+         - python gitlab/tools/parse-hocon.py
 
 compile_scripts:
     stage: prepare
