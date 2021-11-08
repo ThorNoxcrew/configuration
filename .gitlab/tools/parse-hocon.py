@@ -35,7 +35,7 @@ def main():
         handlers=[InterceptHandler()], level=logging.getLevelName("INFO")
     )
 
-    logger.info("Parsing HOCON files...")
+    logger.info("Parsing HOCON file(s)...")
 
     dir = os.walk(os.getcwd())
     valid_count = 0
@@ -53,6 +53,13 @@ def main():
                     logger.error("Exception parsing HOCON file at {}: {}".format(os.path.join(r, file), str(sys.exc_info()[:2])))
 
     logger.info("{} valid, {} invalid".format(valid_count, invalid_count))
+
+    if invalid_count > 0:
+        logger.error("Invalid HOCON file(s) found")
+        sys.exit(1)
+    else:
+        logger.success("All HOCON file(s) are valid.")
+        sys.exit(0)
 
 if __name__ == "__main__":
     main()
