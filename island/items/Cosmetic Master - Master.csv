@@ -151,7 +151,7 @@ FALSE,Cosmetic,wardrobe_hair_cat_ears,Hair,Cat Ears,wardrobe_hair_cat_ears.name,
 ,Cosmetic,,Hat,Sun Hat,,,Common,,,375,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,A long brimmed hat for the summer
 ,Cosmetic,,Hat,Trucker Hat,,,Common,,,375,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,"Reads ""I <3 MCC."" [Look at my Trucker Hat.]"
 ,Cosmetic,,Hat,Ushanka,,,Common,,,375,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,"A brown, furry hat that covers the sides of the head. [Excellent for cold weather.]"
-TRUE,Cosmetic,wardrobe_hat_burger_head,Hat,Burger Head,wardrobe_head_burger_head.name,wardrobe_head_burger_head.desc,Epic,mcc:island_cosmetics.head.burger_head,,"3,375",300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[Mmm.. Burger]
+TRUE,Cosmetic,wardrobe_hat_burger_head,Hat,Burger Head,wardrobe_hat_burger_head.name,wardrobe_hat_burger_head.desc,Epic,mcc:island_cosmetics.head.burger_head,,"3,375",300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[Mmm.. Burger]
 ,Cosmetic,,Hat,Dimmsdale,,,Epic,,,"3,375",300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,"An incredibly tall pearly white cowboy hat. [I'm Neal Noxite, owner of the Noxite Vox-Noxesium.]"
 TRUE,Cosmetic,wardrobe_hat_vr_headset,Hat,VR,wardrobe_hat_vr_headset.name,wardrobe_hat_vr_headset.desc,Epic,mcc:island_cosmetics.head.vr_headset,,"3,375",300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[Enter a new reality]
 ,Cosmetic,,Hat,Napoleon,,,Legendary,,,"10,800",600, $ 12.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,French army general hat like that of Napoleon.
@@ -212,8 +212,8 @@ TRUE,Cosmetic,,Hat,Yellow Cap,,,Common,,Faction Mastery,---,---, --- ,No Currenc
 ,Cosmetic,,Hat,Samurai Helmet,,,Rare,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,A woven basket helmet with purple panda ears sticking out of the top. Purple Panda Loyalty reward.
 ,Cosmetic,,Hat,Flower Wreath,,,Special,,Faction Mastery,---,---, --- ,No Currency,bundle,FALSE,FALSE,FALSE,None,A wreath of hawaiian flowers draped around the player's neck. Pretty pinks and blues. Given with a Welcome Bundle.
 ,Cosmetic,,Hat,Yak Helmet,,,Epic,,,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,"Looks exactly like the Yellow Yak logo, but a 3-dimensional helmet. Yellow Yak Loyalty Reward."
-TRUE,Cosmetic,wardrobe_hat_chicken_head,Hat,Chicken Head,wardrobe_head_chicken_head.name,wardrobe_head_chicken_head.desc,Rare,mcc:island_cosmetics.head.chicken_head,Animal Instinct,"1,463",150, $ 3.00 ,---,bundle,TRUE,TRUE,FALSE,Complete,[No longer headless!]
-TRUE,Cosmetic,wardrobe_hat_mascot_bobblehead,Hat,Mascot Bobblehead,wardrobe_head_mascot_bobblehead.name,wardrobe_head_mascot_bobblehead.desc,Legendary,mcc:island_cosmetics.head.mascot_bobblehead,MC Championship,"10,800",600, $ 12.00 ,---,bundle,TRUE,TRUE,FALSE,Complete,[The Champion]
+TRUE,Cosmetic,wardrobe_hat_chicken_head,Hat,Chicken Head,wardrobe_hat_chicken_head.name,wardrobe_hat_chicken_head.desc,Rare,mcc:island_cosmetics.head.chicken_head,Animal Instinct,"1,463",150, $ 3.00 ,---,bundle,TRUE,TRUE,FALSE,Complete,[No longer headless!]
+TRUE,Cosmetic,wardrobe_hat_mascot_bobblehead,Hat,Mascot Bobblehead,wardrobe_hat_mascot_bobblehead.name,wardrobe_hat_mascot_bobblehead.desc,Legendary,mcc:island_cosmetics.head.mascot_bobblehead,MC Championship,"10,800",600, $ 12.00 ,---,bundle,TRUE,TRUE,FALSE,Complete,[The Champion]
 ,Cosmetic,,Hat,Disguise,,,Common,,,375,50, $ 1.00 ,---,shards,TRUE,TRUE,FALSE,In Progress,"Classic glasses, nose and moustached disguise. Groucho Marx. [Who are you?]"
 ,Cosmetic,,Hat,Traffic Cone,,,Common,,,375,50, $ 1.00 ,---,shards,TRUE,TRUE,FALSE,In Progress,[I'm walkin' here]
 ,Cosmetic,,Hat,Football Helmet,,,Rare,,,"1,463",150, $ 3.00 ,---,shards,TRUE,TRUE,FALSE,None,Classic Football Helmet. [10. 24. Hike!]
