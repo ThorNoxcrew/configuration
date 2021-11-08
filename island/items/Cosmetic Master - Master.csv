@@ -6,95 +6,86 @@ Active,System,Item ID,Category,Item Name,Name Translation,Description Translatio
 ,Cosmetic,,Accessory,Oven Mitt,,,Common,,,375,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,"[Ouch, too hot!]"
 TRUE,Cosmetic,accessory_paintbrush,Accessory,Paintbrush,accessory_paintbrush.name,accessory_paintbrush.desc,Rare,mcc:island_cosmetics.accessory.paintbrush,,"1,463",150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[Paint the town red.]
 ,Cosmetic,,Accessory,Cleaver,,,Uncommon,,,563,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,None,Butcher's Cleaver as used by a butcher to carve meat.
-,Cosmetic,,Hat,Fanciest Hat,,,Legendary,,Epiclandlord's Legendary Arsenal,"10,800",600, $ 12.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A purple wide-brim hat with an orange feather. [Perfection.]
-,Cosmetic,,Hat,Magician,,,Common,,Mineshafts and Magic,375,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,A black magician's hat with a red stripe across the brim.
-,Cosmetic,,Hat,Cthulu,,,Epic,,Spooktacular,"3,375",300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A mass of tentacles spewing from the player's head. Maybe bat ears on the side of the head.
-,Cosmetic,,Hat,Bandana,,,Common,,,375,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A red bandana around the head. Think Rambo.
-,Cosmetic,,Hat,Beret,,,Common,,,375,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A black beret with a small red puff on the top. [Found you!]
-,Cosmetic,,Hat,Blindfold,,,Common,,,375,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,[Fifty shades of complete darkness]
-,Cosmetic,,Hat,Mobster,,,Common,,,375,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A black fedora like that a gangster might wear. [Buy the hat. Or else!]
-,Cosmetic,,Hat,Monocle,,,Common,,,375,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,"[Monopoize the world, good sir!]"
-,Cosmetic,,Hat,Sun Hat,,,Common,,,375,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,A long brimmed hat for the summer
-,Cosmetic,,Hat,Trucker Hat,,,Common,,,375,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,"Reads ""I <3 MCC."" [Look at my Trucker Hat.]"
-,Cosmetic,,Hat,Ushanka,,,Common,,,375,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,"A brown, furry hat that covers the sides of the head. [Excellent for cold weather.]"
-TRUE,Cosmetic,wardrobe_hat_burger_head,Hat,Burger Head,wardrobe_head_burger_head,wardrobe_head_burger_head,Epic,mcc:island_cosmetics.head.burger_head,,"3,375",300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[Mmm.. Burger]
-,Cosmetic,,Hat,Dimmsdale,,,Epic,,,"3,375",300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,"An incredibly tall pearly white cowboy hat. [I'm Neal Noxite, owner of the Noxite Vox-Noxesium.]"
-TRUE,Cosmetic,wardrobe_hat_vr_headset,Hat,VR,wardrobe_hat_vr_headset.name,wardrobe_hat_vr_headset.desc,Epic,mcc:island_cosmetics.head.vr_headset,,"3,375",300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[Enter a new reality]
-,Cosmetic,,Hat,Napoleon,,,Legendary,,,"10,800",600, $ 12.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,French army general hat like that of Napoleon.
-TRUE,Cosmetic,,Hat,Archer,,,Rare,,,"1,463",150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,[Robbin' Hood?]
-TRUE,Cosmetic,wardrobe_hat_chefs_hat,Hat,Chef's Hat,wardrobe_hat_chefs_hat.name,wardrobe_hat_chefs_hat.desc,Rare,mcc:island_cosmetics.head.chefs_hat,,"1,463",150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,"[What's cookin, good lookin?]"
-,Cosmetic,,Hat,Fruit Basket,,,Rare,,,"1,463",150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,[I get fruit! You get fruit! Everyone gets some fruit!]
-,Cosmetic,,Hat,Ranger,,,Rare,,,"1,463",150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A brown cowboy hat. [Yeehaw]
-TRUE,Cosmetic,wardrobe_hat_sombrero,Hat,Sombrero,wardrobe_hat_sombrero.name,wardrobe_hat_sombrero.desc,Rare,mcc:island_cosmetics.head.sombrero,,"1,463",150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,A whide-brimmed straw hat with multiple tassals. [Mariachi flashbacks intensify.]
-,Cosmetic,,Hat,Sultan,,,Rare,,,"1,463",150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A massive turban covered with gems. [Kingdom sold seperately]
-,Cosmetic,,Hat,Sunbrella,,,Rare,,,"1,463",150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,An umbrella hat that protects the wearer from sun and rain!
-,Cosmetic,,Hat,Big Ears,,,Uncommon,,,563,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,[Dumbo?]
-,Cosmetic,,Hat,Big Eyes,,,Uncommon,,,563,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,[Eye spy with my big I.]
-,Cosmetic,,Hat,Detective,,,Uncommon,,,563,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A cheshire cap like a certain Holmes might wear. [Someone stole the detective's hat! But he's on the case!]
-,Cosmetic,,Hat,Frog Bucket Hat,,,Uncommon,,,563,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,[Ribbit!]
-TRUE,Cosmetic,wardrobe_hat_graduate,Hat,Graduate,wardrobe_hat_graduate.name,wardrobe_hat_graduate.desc,Uncommon,mcc:island_cosmetics.head.graduate,,563,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,None,"A black, square hat with a golden tassal to one side. [Highschool is out!]"
-,Cosmetic,,Hat,Pilot's Hat,,,Uncommon,,,563,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,None,[Ready to fly?]
-,Cosmetic,,Hat,Pirate,,,Uncommon,,,563,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,[Arrrr!]
-,Cosmetic,,Hat,Sun Shades,,,Uncommon,,,563,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,"[Sun's out, Guns out!]"
-TRUE,Cosmetic,wardrobe_hat_tv,Hat,TV Head,wardrobe_hat_tv.name,wardrobe_hat_tv.desc,Uncommon,mcc:island_cosmetics.head.tv_head,,563,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,A Television set placed upon your head. [Reminds me of something from a comic...]
 ,Cosmetic,,Accessory,Complimentary Beverage,,,Special,,,---,---, --- ,No Currency,bundle,FALSE,FALSE,FALSE,In Progress,An icee-cup filled with a frosted beverage. Given with one of the Welcome Bundles.
-,Cosmetic,,Hat,Aqua Cap,,,Common,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,An aqua baseball cap. Aqua Axolotyl Loyalty reward.
-,Cosmetic,,Hat,Blue Cap,,,Common,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,A bluebaseball cap. Blue Bat Loyalty reward.
-,Cosmetic,,Hat,Cyan Cap,,,Common,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,A cyan baseball cap. Cyan Creeper Loyalty reward.
-,Cosmetic,,Hat,Green Cap,,,Common,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,A green baseball cap. Green Guardian Loyalty reward.
-,Cosmetic,,Hat,Lime Cap,,,Common,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,A lime baseball cap. Lime Llama Loyalty reward.
-,Cosmetic,,Hat,Orange Cap,,,Common,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,An orange baseball cap. Orange Ocelot Loyalty Reward
-,Cosmetic,,Hat,Pink Cap,,,Common,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,A pink baseball cap. Pink Parrot Loyalty reward.
-,Cosmetic,,Hat,Purple Cap,,,Common,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,A purple baseball cap. Purple Panda Loyalty reward.
-,Cosmetic,,Hat,Red Cap,,,Common,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,A red baseball cap. Red Rabbit Loyalty reward.
-TRUE,Cosmetic,,Hat,Yellow Cap,,,Common,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,A yellow baseball cap. Yellow Yak Loyalty Reward.
-,Cosmetic,,Hat,Axolotl Helmet,,,Epic,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,"Looks exactly like the Aqua Axolotls logo, but a 3-dimensional helmet. Aqua Axolotyl Loyalty reward."
-,Cosmetic,,Hat,Bat Helmet,,,Epic,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,"Looks exactly like the Blue Bats logo, but a 3-dimensional helmet. Blue Bat Loyalty reward."
-,Cosmetic,,Hat,Creeper Helmet,,,Epic,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,"Looks exactly like the Cyan Creepers logo, but a 3-dimensional helmet. Cyan Creeper Loyalty reward."
-,Cosmetic,,Hat,Guardian Helmet,,,Epic,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,"Looks exactly like the Green Guardians logo, but a 3-dimensional helmet. Green Guardian Loyalty reward."
-,Cosmetic,,Hat,Llama Helmet,,,Epic,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,"Looks exactly like the Lime Llamas logo, but a 3-dimensional helmet. Lime Llama Loyalty reward."
-,Cosmetic,,Hat,Ocelot Helmet,,,Epic,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,"Looks exactly like the Orange Ocelot logo, but a 3-dimensional helmet. Orange Ocelot Loyalty Reward"
-,Cosmetic,,Hat,Panda Helmet,,,Epic,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,"Looks exactly like the Purple Pandas logo, but a 3-dimensional helmet. Purple Panda Loyalty reward."
-,Cosmetic,,Hat,Parrot Helmet,,,Epic,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,"Looks exactly like the Pink Parrots logo, but a 3-dimensional helmet. Pink Parrot Loyalty reward."
-,Cosmetic,,Hat,Rabbit Helmet,,,Epic,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,"Looks exactly like the Red Rabbit logo, but a 3-dimensional helmet. Red Rabbit Loyalty reward."
-,Cosmetic,,Hat,Aqua Crown,,,Legendary,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,
-,Cosmetic,,Hat,Blue Crown,,,Legendary,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,
-,Cosmetic,,Hat,Cyan Crown,,,Legendary,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,
-,Cosmetic,,Hat,Green Crown,,,Legendary,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,
-,Cosmetic,,Hat,Lime Crown,,,Legendary,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,
-,Cosmetic,,Hat,Orange Crown,,,Legendary,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,
-,Cosmetic,,Hat,Pink Crown,,,Legendary,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,
-,Cosmetic,,Hat,Purple Crown,,,Legendary,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,
-,Cosmetic,,Hat,Red Crown,,,Legendary,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,
-,Cosmetic,,Hat,Yellow Crown,,,Legendary,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,
-,Cosmetic,,Hat,Bat Ears,,,Rare,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,A set of giant blue bat ears. Blue Bat Loyalty reward.
-,Cosmetic,,Hat,Cat Ears & Whiskers,,,Rare,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,Twin cat ears sprout from your head. [Nya!] Orange Ocelot Loyalty Reward
-,Cosmetic,,Hat,Cattle Horns,,,Rare,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,Twin yellow yak horns sprout from your head. Yellow Yak Loyalty Reward.
-,Cosmetic,,Hat,Crown of Feathers,,,Rare,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,A pink rink of feathers surrounds your head. Pink Parrot Loyalty reward.
-,Cosmetic,,Hat,Dynamite Strap,,,Rare,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,"A head lamp like what old miners would wear; but rather than a candle, there i a lit stick of dynamite on your head! Cyan Creeper Loyalty reward."
-,Cosmetic,,Hat,Ear Antennas,,,Rare,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,Aqua ferns sprout from your head. Aqua Axolotyl Loyalty reward.
-,Cosmetic,,Hat,Fish Tail,,,Rare,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,"A green fish is stuck to your head! Its tail points behind you, and its mouth swallows the back of your head. Green Guardian Loyalty reward."
-,Cosmetic,,Hat,Neck Fur,,,Rare,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,Green fur around the player's neck area. Lime Llama Loyalty reward.
-,Cosmetic,,Hat,Rabbit Ears & Whiskers,,,Rare,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,Twin red rabbit ears sprout from your head. Red Rabbit Loyalty reward.
-,Cosmetic,,Hat,Samurai Helmet,,,Rare,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,A woven basket helmet with purple panda ears sticking out of the top. Purple Panda Loyalty reward.
-,Cosmetic,,Hat,Flower Wreath,,,Special,,Faction Mastery,---,---, --- ,No Currency,bundle,FALSE,FALSE,FALSE,None,A wreath of hawaiian flowers draped around the player's neck. Pretty pinks and blues. Given with a Welcome Bundle.
-,Cosmetic,,Hat,Yak Helmet,,,Epic,,,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,"Looks exactly like the Yellow Yak logo, but a 3-dimensional helmet. Yellow Yak Loyalty Reward."
-,Cosmetic,,Mount,Giant Chicken,,,Rare,,Animal Instinct,"2,925",300, $ 6.00 ,---,animalStore,TRUE,TRUE,FALSE,None,[It's a giant chicken!]
-,Cosmetic,,Mount,Long Horse,,,Rare,,Animal Instinct,"2,925",300, $ 6.00 ,---,animalStore,TRUE,TRUE,FALSE,None,A griaffe. [This isn't what I meant when I said 'golden steed.']
-,Cosmetic,,Mount,Tiger,,,Rare,,Animal Instinct,"2,925",300, $ 6.00 ,---,animalStore,TRUE,TRUE,FALSE,None,[A massive orange kitty!]
-,Cosmetic,,Mount,Wannabe Horse,,,Rare,,Animal Instinct,"2,925",300, $ 6.00 ,---,animalStore,TRUE,TRUE,FALSE,None,A donkey. [Fit for a king.]
-,Cosmetic,,Mount,Wheelbarrow,,,Legendary,,MC Championship,"16,200",900, $ 18.00 ,---,animalStore,TRUE,TRUE,FALSE,None,"A wheelbarrow for you to sit in, with a zombie pushing it. [Like a horse with a carrot, but you're the carrot.]"
-,Cosmetic,,Mount,Magical Carpet,,,Rare,,Mineshafts and Magic,"2,925",300, $ 6.00 ,---,animalStore,TRUE,TRUE,FALSE,None,An ornate carpet players can sit upon to ride. It floats in the air! [This blanket seems to have a will of his own.]
-,Cosmetic,,Mount,Unicorn,,,Rare,,Mineshafts and Magic,"2,925",300, $ 6.00 ,---,animalStore,TRUE,TRUE,FALSE,None,"A white horse with a golden horn which leaves a rainbow trail behind as it walks around. [I know it's a horse, but I can only see a cat...]"
-,Cosmetic,,Mount,Horsey Stick,,,Epic,,,"5,625",600, $ 12.00 ,---,animalStore,TRUE,TRUE,FALSE,None,A stuffed animal head attached at the end of a long wooden stick. [Coconuts not included.]
-,Cosmetic,,Mount,Police Scooter,,,Epic,,,"5,625",600, $ 12.00 ,---,animalStore,TRUE,TRUE,FALSE,None,[Hopefully nobody will notice that your badge is fake.]
-,Cosmetic,,Mount,Shopping Cart,,,Epic,,,"5,625",600, $ 12.00 ,---,animalStore,TRUE,TRUE,FALSE,None,[You better return this to buildmart you vandal!]
-,Cosmetic,,Mount,Unicycle,,,Epic,,,"5,625",600, $ 12.00 ,---,animalStore,TRUE,TRUE,FALSE,None,It's half a bicycle for twice the price. [Squeeky! Squeeky!]
-,Cosmetic,,Mount,Wheelchair,,,Epic,,,"5,625",600, $ 12.00 ,---,animalStore,TRUE,TRUE,FALSE,None,[And they said my broken legs were a disadvantage! Hah!]
-,Cosmetic,,Mount,Pogo Stick,,,Legendary,,,"16,200",900, $ 18.00 ,---,animalStore,TRUE,TRUE,FALSE,None,"[Need I say more? Bouncy, Bouncy, Bounce.]"
-,Cosmetic,,Mount,Swimming on Air,,,Legendary,,,"16,200",900, $ 18.00 ,---,animalStore,TRUE,TRUE,FALSE,None,Gives you the swimming on air animation when you are mounted.
-,Cosmetic,,Mount,Go Kart,,,Rare,,,"2,925",300, $ 6.00 ,---,animalStore,TRUE,TRUE,FALSE,None,A gokart that the player can ride around wherver they please. [Be wary of monochromatic shells.]
-,Cosmetic,,Mount,Hovercraft,,,Rare,,,"2,925",300, $ 6.00 ,---,animalStore,TRUE,TRUE,FALSE,None,A blue-white amphibious hovercraft with a black bottom. A large fan behind the player provides propulsion.
+,Cosmetic,,Accessory,Tentacle Arm,,,Epic,,Animal Instinct,"3,375",300, $ 6.00 ,---,bundle,TRUE,TRUE,FALSE,None,Make your whole off-hand arm look like an animated octopus tentacle. Or that of some eldritch abomination.
+,Cosmetic,,Accessory,Bear Paw,,,Rare,,Animal Instinct,"1,463",150, $ 3.00 ,---,bundle,TRUE,TRUE,FALSE,None,Stick your hand in a giant bear's paw. The paw fits over your whole hand like a glove.
+,Cosmetic,,Accessory,Crab Claw,,,Rare,,Animal Instinct,"1,463",150, $ 3.00 ,---,bundle,TRUE,TRUE,FALSE,None,Giant Crab claw replaces your off-hand. It covers your hand entirely.
+,Cosmetic,,Accessory,Offhand Crown,,,Epic,,MC Championship,"3,375",300, $ 6.00 ,---,bundle,TRUE,TRUE,FALSE,None,Hold a shiny crown in your off-hand.
+,Cosmetic,,Accessory,Bone,,,Common,,Spooktacular,375,50, $ 1.00 ,---,bundle,TRUE,TRUE,FALSE,None,[Fetch!]
+,Cosmetic,,Accessory,Coffee,,,Rare,,,"1,463",150, $ 3.00 ,---,bundle,TRUE,TRUE,FALSE,None,White mug filled with brown coffee. Steam occasionally wafts up from the cup.
+TRUE,Cosmetic,accessory_gauntlet_of_power,Accessory,Gauntlet of Power,accessory_gauntlet_of_power.name,accessory_gauntlet_of_power.desc,Legendary,mcc:island_cosmetics.accessory.gauntlet_of_power,Epiclandlord's Legendary Arsenal,"10,800",600, $ 12.00 ,---,shards,TRUE,TRUE,FALSE,Complete,[Aw Snap!]
+TRUE,Cosmetic,accessory_comically_large_spoon,Accessory,Comically Large Spoon,accessory_comically_large_spoon.name,accessory_comically_large_spoon.desc,Common,mcc:island_cosmetics.accessory.comically_large_spoon,,375,50, $ 1.00 ,---,shards,TRUE,TRUE,FALSE,Complete,"[It's a spoon, and it's comically large]"
+TRUE,Cosmetic,accessory_pipe_wrench,Accessory,Pipe Wrench,accessory_pipe_wrench.name,accessory_pipe_wrench.desc,Common,mcc:island_cosmetics.accessory.pipe_wrench,,375,50, $ 1.00 ,---,shards,TRUE,TRUE,FALSE,Complete,[Belonged to some Italian plumber]
+TRUE,Cosmetic,accessory_trash_can_lid,Accessory,Trash Can Lid,accessory_trash_can_lid.name,accessory_trash_can_lid.desc,Common,mcc:island_cosmetics.accessory.trash_can_lid,,375,50, $ 1.00 ,---,shards,TRUE,TRUE,FALSE,Complete,[I can do this all day]
+TRUE,Cosmetic,accessory_robot_arm,Accessory,Robot Arm,accessory_robot_arm.name,accessory_robot_arm.desc,Epic,mcc:island_cosmetics.accessory.robot_arm,,"3,375",300, $ 6.00 ,---,shards,TRUE,TRUE,FALSE,Complete,A mechanical Robot Claw
+,Cosmetic,,Accessory,Crowbar,,,Uncommon,,,563,75, $ 1.50 ,---,shards,TRUE,TRUE,FALSE,None,[Wake up and smell the ashes...]
+,Cosmetic,,Accessory,TV Remote,,,Uncommon,,,563,75, $ 1.50 ,---,shards,TRUE,TRUE,FALSE,None,[Now we're channel surfing!]
+,Cosmetic,,Accessory,Lantern,,,Epic,,Spooktacular,"3,375",300, $ 6.00 ,---,shards,TRUE,TRUE,FALSE,None,A lantern dangles from your grip and shines light around the player.
+,Cosmetic,,Accessory,Banana,,,Common,,,375,50, $ 1.00 ,---,shards,TRUE,TRUE,FALSE,None,A giant banana in your hand.
+TRUE,Cosmetic,accessory_cash_filled_briefcase,Accessory,Cash-Filled Briefcase,accessory_cash_filled_briefcase.name,accessory_cash_filled_briefcase.desc,Common,mcc:island_cosmetics.accessory.cash_filled_briefcase,,375,50, $ 1.00 ,---,shards,TRUE,TRUE,FALSE,Complete,[Take the money and run!]
+TRUE,Cosmetic,accessory_stick,Accessory,Stick,accessory_stick.name,accessory_stick.desc,Common,mcc:island_cosmetics.accessory.stick,,375,50, $ 1.00 ,---,shards,TRUE,TRUE,FALSE,Complete,A long branch with leaves still attached
+,Cosmetic,,Accessory,Wand,,,Common,,,375,50, $ 1.00 ,---,shards,TRUE,TRUE,FALSE,None,Magic wand that mighe be used by a wizard (magic not included). Simple and wooden.
+,Cosmetic,,Accessory,Fanciest Cane,,,Epic,,,"3,375",300, $ 6.00 ,---,shards,TRUE,TRUE,FALSE,None,Ornate walking stick with a jeweled tip.
+,Cosmetic,,Accessory,Fancier Cane,,,Rare,,,"1,463",150, $ 3.00 ,---,shards,TRUE,TRUE,FALSE,None,"Cane with a nice, non-rounded handle."
+,Cosmetic,,Accessory,Money Bag,,,Rare,,,"1,463",150, $ 3.00 ,---,shards,TRUE,TRUE,FALSE,None,Hold a sack of cash with a dollar sign emblazoned on the side. It hangs under your grip.
+,Cosmetic,,Accessory,Fancy Cane,,,Uncommon,,,563,75, $ 1.50 ,---,shards,TRUE,TRUE,FALSE,None,"Nice, polished wood cane with an elegant curve. Traditional old man cane."
+,Cosmetic,,Accessory,Megaphone,,,Uncommon,,,563,75, $ 1.50 ,---,shards,TRUE,TRUE,FALSE,None,A white megaphone with a red back and outline.
+,Cosmetic,,Accessory,Preppy Flag,,,Uncommon,,,563,75, $ 1.50 ,---,shards,TRUE,TRUE,FALSE,None,Small flag with 'MCC' written on it.
+TRUE,Cosmetic,,Augment,Thinking,,,Uncommon,,,"1,125",150, $ 3.00 ,---,bundle,TRUE,TRUE,FALSE,None,"After standing still for 3 seconds, a thought bubble slowly forms above your character. The bubble takes 3 seconds to fully form and lasts 3 seconds before it despawns and the process repeats."
+,Cosmetic,,Augment,Greensprout,,,Rare,,Garden Variety,"2,925",300, $ 6.00 ,---,particleStore,TRUE,TRUE,FALSE,None,"When sprinting, flowers spring up in your wake! (Similar to the player's sprinting in the game Okami)"
+,Cosmetic,,Augment,Rainbow Trail,,,Epic,,,"6,750",600, $ 12.00 ,---,particleStore,TRUE,TRUE,FALSE,None,"When sprinting, leave a bright rainbow trail incridibly similar to that of Nyan Cat"
+,Cosmetic,,Augment,Block of Ice,,,Legendary,,,"18,000","1,000", $ 20.00 ,---,particleStore,TRUE,TRUE,FALSE,None,"When stationary for more than 5 seconds, your space is occupied by ice blocks, making you look frozen solid. The blocks break the second you move from your spot."
+,Cosmetic,augment_concentrating,Augment,Concentrating,augment_concentrating.name,augment_concentrating.desc,Uncommon,,,"1,125",150, $ 3.00 ,---,particleStore,TRUE,TRUE,FALSE,Complete,"When crouching, the player collects energy from the air! (Enchanting table effect)"
+,Cosmetic,,Augment,Super Jump,,,Uncommon,,,"1,125",150, $ 3.00 ,---,particleStore,TRUE,TRUE,FALSE,In Progress,A small explosion occurrs at your feet whenever you jump
+,Cosmetic,,Augment,Cleaver,,,Epic,,,"6,750",600, $ 12.00 ,---,shards,TRUE,TRUE,FALSE,None,"Occasionally, your left click will cause a Cleave animation to play rather than a simple punch. (1/3 of the time)"
+,Cosmetic,,Augment,Off to the Races,,,Uncommon,,,"1,125",150, $ 3.00 ,---,shards,TRUE,TRUE,FALSE,In Progress,"When you start running, a cloud of dust spawns at your location as you blast off! This only appears when you start running and not as you continue running."
+TRUE,Cosmetic,,Augment,Shooting Star,,,Rare,,,"2,925",300, $ 6.00 ,---,shards,TRUE,TRUE,FALSE,None,"When falling 3 or more blocks, a red aura surrounds you making you look like a meteor falling from orbit! Wind resistance lines go around your feet to your head. Hitting the ground causes an explosion effect."
+TRUE,Cosmetic,aura_mcc_coin,Aura,MCC Coin,aura_mcc_coin.name,aura_mcc_coin.desc,Uncommon,,MC Championship,"1,125",200, $ 4.00 ,---,bundle,TRUE,TRUE,FALSE,In Progress,"Occasionally, MCC Coins float around the player and wink in-and-out of existence. [*These Coins do not affect final score.]"
+,Cosmetic,,Aura,Armor of Darkness,,,Uncommon,,Spooktacular,"1,125",200, $ 4.00 ,---,bundle,TRUE,TRUE,FALSE,In Progress,Black and grey shadows surround the player and dance around like an aura. Similar shadows faintly trail behind the player when moving.
+,Cosmetic,,Aura,Devil Wings,,,Epic,,,"5,063",800, $ 16.00 ,---,bundle,TRUE,TRUE,FALSE,None,Red Particles in the shape of Devil Wings on the back of the player
+,Cosmetic,,Aura,Angel Wings,,,Epic,,,"5,063",800, $ 16.00 ,---,particleStore,TRUE,TRUE,FALSE,None,White Particles in the shape of Angle Wings on the back of the player
+,Cosmetic,,Aura,Cuckoo,,,Epic,,,"5,063",800, $ 16.00 ,---,particleStore,TRUE,TRUE,FALSE,None,A yellow bird circles around the player's head.
+,Cosmetic,,Aura,Chicken,,,Rare,,,"2,925",400, $ 8.00 ,---,particleStore,TRUE,TRUE,FALSE,None,Feathers occasionally flutter around the player.
+TRUE,Cosmetic,aura_angry,Aura,Angry!,aura_angry.name,aura_angry.desc,Uncommon,,,"1,125",200, $ 4.00 ,---,particleStore,TRUE,TRUE,FALSE,In Progress,"Every few seconds, smoke billows out of the player's ears, and their head increases in size slightly. [Blow it out your ear!]"
+,Cosmetic,,Aura,Storm Cloud,,,Uncommon,,,"1,125",200, $ 4.00 ,---,particleStore,TRUE,TRUE,FALSE,In Progress,A White cloud on the top of the player with a lightning blot coming out. Rain particles fall from the cloud on the back as well.
+TRUE,Cosmetic,aura_tornado,Aura,Tornado,aura_tornado.name,aura_tornado.desc,Epic,,,"5,063",800, $ 16.00 ,---,shards,TRUE,TRUE,FALSE,In Progress,A spiral of air surrounds the player and lifts nearby blocks of earth into its vortex. [you're not in SMP anymore.]
+,Cosmetic,,Aura,Dizzy,,,Rare,,,"2,925",400, $ 8.00 ,---,shards,TRUE,TRUE,FALSE,None,Spirals and spell particles gently float over your head. Maybe you're drunk.
+FALSE,Cosmetic,,Aura,Beta,,,Legendary,,,---,---, --- ,No Currency,bundle,FALSE,FALSE,FALSE,None,"The greek letter 'Beta' fades out from you. As it does so, the letter gets larger and more transparant."
+FALSE,,,Consumable,Bada Bang Brew,,,Common,,,0,, --- ,Coin Only,special,FALSE,FALSE,TRUE,None,"Gain a 10% speed and jump height boost every second and begin flashing red. When the buff expires after 30 seconds, explode and die, knocking back all players in a small radius. Respawn at the docks."
+FALSE,,,Consumable,Chicken Cup,,,Common,,,0,, --- ,Coin Only,special,FALSE,FALSE,TRUE,None,Transform into a chicken for 1 minute. But why?
+FALSE,,,Consumable,Go-Go Juice,,,Common,,,0,, --- ,Coin Only,special,FALSE,FALSE,TRUE,None,Gain a 20% speed boost in the HUB for 10 minutes.
+FALSE,,,Consumable,Jumpo Juice,,,Common,,,0,, --- ,Coin Only,special,FALSE,FALSE,TRUE,None,Double block jump height in the HUB for 10 minutes.
+FALSE,,,Consumable,MC Mocca,,,Common,,,0,, --- ,Coin Only,special,FALSE,FALSE,TRUE,None,Transform your character to look like a random Noxcrew Developer for 10 minutes.
+FALSE,,,Consumable,Melonade,,,Common,,,0,, --- ,Coin Only,special,FALSE,FALSE,TRUE,None,Gives you a melon item trail in the HUB for 2 minutes.
+FALSE,,,Consumable,Red Block,,,Common,,,0,, --- ,Coin Only,special,FALSE,FALSE,TRUE,None,Gives you (elytra) wings in the HUB for 10 minutes.
+FALSE,,,Consumable,Burger,,,,,,0,,  ,---,special,FALSE,FALSE,FALSE,In Progress,"[""Enjoy your Burger, but fast!"" -V]"
+FALSE,,,Consumable,Slurpee,,,,,,0,,  ,---,special,FALSE,FALSE,FALSE,In Progress,[Slurp!]
+TRUE,Cosmetic,aqua,Emoji,Aqua,aqua.name,aqua.desc,Special,,Faction Mastery,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,Aqua Axolotyl Mascot
+TRUE,Cosmetic,blue,Emoji,Blue,blue.name,blue.desc,Special,,Faction Mastery,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,Blue Bat Mascot
+TRUE,Cosmetic,cyan,Emoji,Cyan,cyan.name,cyan.desc,Special,,Faction Mastery,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,Cyan Creeper Mascot
+TRUE,Cosmetic,green,Emoji,Green,green.name,green.desc,Special,,Faction Mastery,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,Green Guardian Mascot
+TRUE,Cosmetic,lime,Emoji,Lime,lime.name,lime.desc,Special,,Faction Mastery,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,Lime Llama Mascot
+TRUE,Cosmetic,orange,Emoji,Orange,orange.name,orange.desc,Special,,Faction Mastery,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,Orange Ocelot Mascot
+TRUE,Cosmetic,pink,Emoji,Pink,pink.name,pink.desc,Special,,Faction Mastery,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,Pink Parrot Mascot
+TRUE,Cosmetic,purple,Emoji,Purple,purple.name,purple.desc,Special,,Faction Mastery,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,Purple Panda Mascot
+TRUE,Cosmetic,red,Emoji,Red,red.name,red.desc,Special,,Faction Mastery,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,Red Rabbit Mascot
+TRUE,Cosmetic,yellow,Emoji,Yellow,yellow.name,yellow.desc,Special,,Faction Mastery,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,Yellow Yak Mascot
+TRUE,Cosmetic,mcc_angry,Emoji,MCC Angry,mcc_angry.name,mcc_angry.desc,Special,,MC Championship,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,Angry MCC Zombie
+TRUE,Cosmetic,mcc_smile,Emoji,MCC Smile,mcc_smile.name,mcc_smile.desc,Special,,MC Championship,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,Smiling MCC Zombie
+TRUE,Cosmetic,chicken,Emoji,Chicken,chicken.name,chicken.desc,Special,,,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,A Chicken
+TRUE,Cosmetic,clown,Emoji,Clown,clown.name,clown.desc,Special,,,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,A Clown
+TRUE,Cosmetic,flushed,Emoji,Flushed,flushed.name,flushed.desc,Special,,,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,Flushed Smiley
+TRUE,Cosmetic,imp,Emoji,Imp,imp.name,imp.desc,Special,,,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,Evil Smiley
+TRUE,Cosmetic,joy,Emoji,Joy,joy.name,joy.desc,Special,,,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,Crying happy Smiley
+TRUE,Cosmetic,laughing,Emoji,Laughing,laughing.name,laughing.desc,Special,,,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,Laughing Smiley
+TRUE,Cosmetic,scream,Emoji,Scream,scream.name,scream.desc,Special,,,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,Scared Smiley
+TRUE,Cosmetic,skull,Emoji,Skull,skull.name,skull.desc,Special,,,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,Skull
+TRUE,Cosmetic,smile,Emoji,Smile,smile.name,smile.desc,Special,,,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,Smiley
+TRUE,Cosmetic,sunglasses,Emoji,Sunglasses,sunglasses.name,sunglasses.desc,Special,,,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,Smiley with Sunglasses
+TRUE,Cosmetic,sweat_smile,Emoji,Sweat Smile,sweat_smile.name,sweat_smile.desc,Special,,,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,Sweating Smiley
+TRUE,Cosmetic,thumbs_down,Emoji,Thumbs Down,thumbs_down.name,thumbs_down.desc,Special,,,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,Thumbs Down
+TRUE,Cosmetic,thumbs_up,Emoji,Thumbs Up,thumbs_up.name,thumbs_up.desc,Special,,,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,Thumbs Up
+TRUE,Cosmetic,tongue_out,Emoji,Tongue Out,tongue_out.name,tongue_out.desc,Special,,,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,Smiley sticking its Ttongue out
 TRUE,Cosmetic,wardrobe_hair_braid,Hair,Braid,wardrobe_hair_braid.name,wardrobe_hair_braid.desc,Common,mcc:island_cosmetics.hair.braid,Hair,375,50, $ 1.00 ,---,barberShop,FALSE,FALSE,TRUE,Complete,Two long braids coil down the head and shoulders. [Bonding activity bonding.]
 TRUE,Cosmetic,wardrobe_hair_bun,Hair,Bun,wardrobe_hair_bun.name,wardrobe_hair_bun.desc,Common,mcc:island_cosmetics.hair.bun,Hair,375,50, $ 1.00 ,---,barberShop,FALSE,FALSE,TRUE,Complete,A bun of hair on the back of your head. [Now i'm hungry.]
 TRUE,Cosmetic,wardrobe_hair_curly,Hair,Curly,wardrobe_hair_curly.name,wardrobe_hair_curly.desc,Common,mcc:island_cosmetics.hair.curly,Hair,375,50, $ 1.00 ,---,barberShop,FALSE,FALSE,TRUE,Complete,A circular bob of curly hair. [The other two stooges couldn't make it.]
@@ -148,55 +139,108 @@ TRUE,Cosmetic,wardrobe_hair_rat_tail,Hair,Rat Tail,wardrobe_hair_rat_tail.name,w
 TRUE,Cosmetic,wardrobe_hair_soul_patch,Hair,Soul Patch,wardrobe_hair_soul_patch.name,wardrobe_hair_soul_patch.desc,Uncommon,mcc:island_cosmetics.hair.soul_patch,Hair,563,75, $ 1.50 ,---,barberShop,FALSE,FALSE,TRUE,Complete,A think strap stuck to the chin. [Soul not necessary.]
 TRUE,Cosmetic,wardrobe_hair_viking_beard,Hair,Viking Beard Braids,wardrobe_hair_viking_beard.name,wardrobe_hair_viking_beard.desc,Uncommon,mcc:island_cosmetics.hair.viking_beard,Hair,563,75, $ 1.50 ,---,barberShop,FALSE,FALSE,TRUE,Complete,A long beard with braids inside it. [Hinga Dinga Durgen]
 TRUE,Cosmetic,wardrobe_hair_wizard_beard,Hair,Wizard Beard,wardrobe_hair_wizard_beard.name,wardrobe_hair_wizard_beard.desc,Uncommon,mcc:island_cosmetics.hair.wizard_beard,Hair,563,75, $ 1.50 ,---,barberShop,FALSE,FALSE,TRUE,Complete,A full white beard that ends in a fine point at the sternum. [8d6!? Count me in!]
-,Cosmetic,,Accessory,Tentacle Arm,,,Epic,,Animal Instinct,"3,375",300, $ 6.00 ,---,bundle,TRUE,TRUE,FALSE,None,Make your whole off-hand arm look like an animated octopus tentacle. Or that of some eldritch abomination.
-,Cosmetic,,Accessory,Bear Paw,,,Rare,,Animal Instinct,"1,463",150, $ 3.00 ,---,bundle,TRUE,TRUE,FALSE,None,Stick your hand in a giant bear's paw. The paw fits over your whole hand like a glove.
-,Cosmetic,,Accessory,Crab Claw,,,Rare,,Animal Instinct,"1,463",150, $ 3.00 ,---,bundle,TRUE,TRUE,FALSE,None,Giant Crab claw replaces your off-hand. It covers your hand entirely.
-,Cosmetic,,Accessory,Offhand Crown,,,Epic,,MC Championship,"3,375",300, $ 6.00 ,---,bundle,TRUE,TRUE,FALSE,None,Hold a shiny crown in your off-hand.
-,Cosmetic,,Accessory,Bone,,,Common,,Spooktacular,375,50, $ 1.00 ,---,bundle,TRUE,TRUE,FALSE,None,[Fetch!]
-,Cosmetic,,Accessory,Coffee,,,Rare,,,"1,463",150, $ 3.00 ,---,bundle,TRUE,TRUE,FALSE,None,White mug filled with brown coffee. Steam occasionally wafts up from the cup.
-TRUE,Cosmetic,,Augment,Thinking,,,Uncommon,,,"1,125",150, $ 3.00 ,---,bundle,TRUE,TRUE,FALSE,None,"After standing still for 3 seconds, a thought bubble slowly forms above your character. The bubble takes 3 seconds to fully form and lasts 3 seconds before it despawns and the process repeats."
-TRUE,Cosmetic,aura_mcc_coin,Aura,MCC Coin,aura_mcc_coin.name,aura_mcc_coin.desc,Uncommon,,MC Championship,"1,125",200, $ 4.00 ,---,bundle,TRUE,TRUE,FALSE,In Progress,"Occasionally, MCC Coins float around the player and wink in-and-out of existence."
-,Cosmetic,,Aura,Armor of Darkness,,,Uncommon,,Spooktacular,"1,125",200, $ 4.00 ,---,bundle,TRUE,TRUE,FALSE,In Progress,Black and grey shadows surround the player and dance around like an aura. Similar shadows faintly trail behind the player when moving.
-,Cosmetic,,Aura,Devil Wings,,,Epic,,,"5,063",800, $ 16.00 ,---,bundle,TRUE,TRUE,FALSE,None,Red Particles in the shape of Devil Wings on the back of the player
-TRUE,Cosmetic,wardrobe_hat_chicken_head,Hat,Chicken Head,wardrobe_head_chicken_head,wardrobe_head_chicken_head,Rare,mcc:island_cosmetics.head.chicken_head,Animal Instinct,"1,463",150, $ 3.00 ,---,bundle,TRUE,TRUE,FALSE,Complete,[No longer headless!]
-TRUE,Cosmetic,wardrobe_hat_mascot_bobblehead,Hat,Mascot Bobblehead,wardrobe_head_mascot_bobblehead,wardrobe_head_mascot_bobblehead,Legendary,mcc:island_cosmetics.head.mascot_bobblehead,MC Championship,"10,800",600, $ 12.00 ,---,bundle,TRUE,TRUE,FALSE,Complete,[The Champion]
+FALSE,Cosmetic,wardrobe_hair_cat_ears,Hair,Cat Ears,wardrobe_hair_cat_ears.name,wardrobe_hair_cat_ears.desc,Epic,,,"3,375",300, $ 6.00 ,,,FALSE,FALSE,FALSE,,
+,Cosmetic,,Hat,Fanciest Hat,,,Legendary,,Epiclandlord's Legendary Arsenal,"10,800",600, $ 12.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A purple wide-brim hat with an orange feather. [Perfection.]
+,Cosmetic,,Hat,Magician,,,Common,,Mineshafts and Magic,375,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,A black magician's hat with a red stripe across the brim.
+,Cosmetic,,Hat,Cthulu,,,Epic,,Spooktacular,"3,375",300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A mass of tentacles spewing from the player's head. Maybe bat ears on the side of the head.
+,Cosmetic,,Hat,Bandana,,,Common,,,375,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A red bandana around the head. Think Rambo.
+,Cosmetic,,Hat,Beret,,,Common,,,375,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A black beret with a small red puff on the top. [Found you!]
+,Cosmetic,,Hat,Blindfold,,,Common,,,375,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,[Fifty shades of complete darkness]
+,Cosmetic,,Hat,Mobster,,,Common,,,375,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A black fedora like that a gangster might wear. [An offer you can't refuse]
+,Cosmetic,,Hat,Sun Visor,,,Common,,,375,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,[Watch out for the sun!]
+,Cosmetic,,Hat,Sun Hat,,,Common,,,375,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,A long brimmed hat for the summer
+,Cosmetic,,Hat,Trucker Hat,,,Common,,,375,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,"Reads ""I <3 MCC."" [Look at my Trucker Hat.]"
+,Cosmetic,,Hat,Ushanka,,,Common,,,375,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,"A brown, furry hat that covers the sides of the head. [Excellent for cold weather.]"
+TRUE,Cosmetic,wardrobe_hat_burger_head,Hat,Burger Head,wardrobe_head_burger_head.name,wardrobe_head_burger_head.desc,Epic,mcc:island_cosmetics.head.burger_head,,"3,375",300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[Mmm.. Burger]
+,Cosmetic,,Hat,Dimmsdale,,,Epic,,,"3,375",300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,"An incredibly tall pearly white cowboy hat. [I'm Neal Noxite, owner of the Noxite Vox-Noxesium.]"
+TRUE,Cosmetic,wardrobe_hat_vr_headset,Hat,VR,wardrobe_hat_vr_headset.name,wardrobe_hat_vr_headset.desc,Epic,mcc:island_cosmetics.head.vr_headset,,"3,375",300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[Enter a new reality]
+,Cosmetic,,Hat,Napoleon,,,Legendary,,,"10,800",600, $ 12.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,French army general hat like that of Napoleon.
+TRUE,Cosmetic,,Hat,Archer,,,Rare,,,"1,463",150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,[Robbin' Hood?]
+TRUE,Cosmetic,wardrobe_hat_chefs_hat,Hat,Chef's Hat,wardrobe_hat_chefs_hat.name,wardrobe_hat_chefs_hat.desc,Rare,mcc:island_cosmetics.head.chefs_hat,,"1,463",150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,"[What's cookin, good lookin?]"
+,Cosmetic,,Hat,Fruit Basket,,,Rare,,,"1,463",150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,[I get fruit! You get fruit! Everyone gets some fruit!]
+,Cosmetic,,Hat,Ranger,,,Rare,,,"1,463",150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A brown cowboy hat. [Yeehaw]
+TRUE,Cosmetic,wardrobe_hat_sombrero,Hat,Sombrero,wardrobe_hat_sombrero.name,wardrobe_hat_sombrero.desc,Rare,mcc:island_cosmetics.head.sombrero,,"1,463",150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,A whide-brimmed straw hat with multiple tassals. [Mariachi flashbacks intensify.]
+,Cosmetic,,Hat,Sultan,,,Rare,,,"1,463",150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A massive turban covered with gems. [Kingdom sold seperately]
+,Cosmetic,,Hat,Sunbrella,,,Rare,,,"1,463",150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,An umbrella hat that protects the wearer from sun and rain!
+,Cosmetic,,Hat,Big Ears,,,Uncommon,,,563,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,[Dumbo?]
+,Cosmetic,,Hat,Big Eyes,,,Uncommon,,,563,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,[Eye spy with my big I.]
+,Cosmetic,,Hat,Detective,,,Uncommon,,,563,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A cheshire cap like a certain Holmes might wear. [Someone stole the detective's hat! But he's on the case!]
+,Cosmetic,,Hat,Frog Bucket Hat,,,Uncommon,,,563,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,[Ribbit!]
+TRUE,Cosmetic,wardrobe_hat_graduate,Hat,Graduate,wardrobe_hat_graduate.name,wardrobe_hat_graduate.desc,Uncommon,mcc:island_cosmetics.head.graduate,,563,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,None,"A black, square hat with a golden tassal to one side. [Highschool is out!]"
+,Cosmetic,,Hat,Pilot's Hat,,,Uncommon,,,563,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,None,[Ready to fly?]
+,Cosmetic,,Hat,Pirate,,,Uncommon,,,563,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,[Arrrr!]
+,Cosmetic,,Hat,Sun Shades,,,Uncommon,,,563,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,"[Sun's out, Guns out!]"
+TRUE,Cosmetic,wardrobe_hat_tv,Hat,TV Head,wardrobe_hat_tv.name,wardrobe_hat_tv.desc,Uncommon,mcc:island_cosmetics.head.tv_head,,563,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,A Television set placed upon your head. [Reminds me of something from a comic...]
+,Cosmetic,,Hat,Aqua Cap,,,Common,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,An aqua baseball cap. Aqua Axolotyl Loyalty reward.
+,Cosmetic,,Hat,Blue Cap,,,Common,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,A bluebaseball cap. Blue Bat Loyalty reward.
+,Cosmetic,,Hat,Cyan Cap,,,Common,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,A cyan baseball cap. Cyan Creeper Loyalty reward.
+,Cosmetic,,Hat,Green Cap,,,Common,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,A green baseball cap. Green Guardian Loyalty reward.
+,Cosmetic,,Hat,Lime Cap,,,Common,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,A lime baseball cap. Lime Llama Loyalty reward.
+,Cosmetic,,Hat,Orange Cap,,,Common,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,An orange baseball cap. Orange Ocelot Loyalty Reward
+,Cosmetic,,Hat,Pink Cap,,,Common,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,A pink baseball cap. Pink Parrot Loyalty reward.
+,Cosmetic,,Hat,Purple Cap,,,Common,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,A purple baseball cap. Purple Panda Loyalty reward.
+,Cosmetic,,Hat,Red Cap,,,Common,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,A red baseball cap. Red Rabbit Loyalty reward.
+TRUE,Cosmetic,,Hat,Yellow Cap,,,Common,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,A yellow baseball cap. Yellow Yak Loyalty Reward.
+,Cosmetic,,Hat,Axolotl Helmet,,,Epic,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,"Looks exactly like the Aqua Axolotls logo, but a 3-dimensional helmet. Aqua Axolotyl Loyalty reward."
+,Cosmetic,,Hat,Bat Helmet,,,Epic,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,"Looks exactly like the Blue Bats logo, but a 3-dimensional helmet. Blue Bat Loyalty reward."
+,Cosmetic,,Hat,Creeper Helmet,,,Epic,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,"Looks exactly like the Cyan Creepers logo, but a 3-dimensional helmet. Cyan Creeper Loyalty reward."
+,Cosmetic,,Hat,Guardian Helmet,,,Epic,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,"Looks exactly like the Green Guardians logo, but a 3-dimensional helmet. Green Guardian Loyalty reward."
+,Cosmetic,,Hat,Llama Helmet,,,Epic,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,"Looks exactly like the Lime Llamas logo, but a 3-dimensional helmet. Lime Llama Loyalty reward."
+,Cosmetic,,Hat,Ocelot Helmet,,,Epic,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,"Looks exactly like the Orange Ocelot logo, but a 3-dimensional helmet. Orange Ocelot Loyalty Reward"
+,Cosmetic,,Hat,Panda Helmet,,,Epic,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,"Looks exactly like the Purple Pandas logo, but a 3-dimensional helmet. Purple Panda Loyalty reward."
+,Cosmetic,,Hat,Parrot Helmet,,,Epic,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,"Looks exactly like the Pink Parrots logo, but a 3-dimensional helmet. Pink Parrot Loyalty reward."
+,Cosmetic,,Hat,Rabbit Helmet,,,Epic,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,"Looks exactly like the Red Rabbit logo, but a 3-dimensional helmet. Red Rabbit Loyalty reward."
+,Cosmetic,,Hat,Aqua Crown,,,Legendary,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,
+,Cosmetic,,Hat,Blue Crown,,,Legendary,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,
+,Cosmetic,,Hat,Cyan Crown,,,Legendary,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,
+,Cosmetic,,Hat,Green Crown,,,Legendary,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,
+,Cosmetic,,Hat,Lime Crown,,,Legendary,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,
+,Cosmetic,,Hat,Orange Crown,,,Legendary,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,
+,Cosmetic,,Hat,Pink Crown,,,Legendary,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,
+,Cosmetic,,Hat,Purple Crown,,,Legendary,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,
+,Cosmetic,,Hat,Red Crown,,,Legendary,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,
+,Cosmetic,,Hat,Yellow Crown,,,Legendary,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,
+,Cosmetic,,Hat,Bat Ears,,,Rare,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,A set of giant blue bat ears. Blue Bat Loyalty reward.
+,Cosmetic,,Hat,Cat Ears & Whiskers,,,Rare,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,Twin cat ears sprout from your head. [Nya!] Orange Ocelot Loyalty Reward
+,Cosmetic,,Hat,Cattle Horns,,,Rare,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,Twin yellow yak horns sprout from your head. Yellow Yak Loyalty Reward.
+,Cosmetic,,Hat,Crown of Feathers,,,Rare,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,A pink rink of feathers surrounds your head. Pink Parrot Loyalty reward.
+,Cosmetic,,Hat,Dynamite Strap,,,Rare,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,"A head lamp like what old miners would wear; but rather than a candle, there i a lit stick of dynamite on your head! Cyan Creeper Loyalty reward."
+,Cosmetic,,Hat,Ear Antennas,,,Rare,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,Aqua ferns sprout from your head. Aqua Axolotyl Loyalty reward.
+,Cosmetic,,Hat,Fish Tail,,,Rare,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,"A green fish is stuck to your head! Its tail points behind you, and its mouth swallows the back of your head. Green Guardian Loyalty reward."
+,Cosmetic,,Hat,Neck Fur,,,Rare,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,Green fur around the player's neck area. Lime Llama Loyalty reward.
+,Cosmetic,,Hat,Rabbit Ears & Whiskers,,,Rare,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,Twin red rabbit ears sprout from your head. Red Rabbit Loyalty reward.
+,Cosmetic,,Hat,Samurai Helmet,,,Rare,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,A woven basket helmet with purple panda ears sticking out of the top. Purple Panda Loyalty reward.
+,Cosmetic,,Hat,Flower Wreath,,,Special,,Faction Mastery,---,---, --- ,No Currency,bundle,FALSE,FALSE,FALSE,None,A wreath of hawaiian flowers draped around the player's neck. Pretty pinks and blues. Given with a Welcome Bundle.
+,Cosmetic,,Hat,Yak Helmet,,,Epic,,,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,"Looks exactly like the Yellow Yak logo, but a 3-dimensional helmet. Yellow Yak Loyalty Reward."
+TRUE,Cosmetic,wardrobe_hat_chicken_head,Hat,Chicken Head,wardrobe_head_chicken_head.name,wardrobe_head_chicken_head.desc,Rare,mcc:island_cosmetics.head.chicken_head,Animal Instinct,"1,463",150, $ 3.00 ,---,bundle,TRUE,TRUE,FALSE,Complete,[No longer headless!]
+TRUE,Cosmetic,wardrobe_hat_mascot_bobblehead,Hat,Mascot Bobblehead,wardrobe_head_mascot_bobblehead.name,wardrobe_head_mascot_bobblehead.desc,Legendary,mcc:island_cosmetics.head.mascot_bobblehead,MC Championship,"10,800",600, $ 12.00 ,---,bundle,TRUE,TRUE,FALSE,Complete,[The Champion]
+,Cosmetic,,Hat,Disguise,,,Common,,,375,50, $ 1.00 ,---,shards,TRUE,TRUE,FALSE,In Progress,"Classic glasses, nose and moustached disguise. Groucho Marx. [Who are you?]"
+,Cosmetic,,Hat,Traffic Cone,,,Common,,,375,50, $ 1.00 ,---,shards,TRUE,TRUE,FALSE,In Progress,[I'm walkin' here]
+,Cosmetic,,Hat,Football Helmet,,,Rare,,,"1,463",150, $ 3.00 ,---,shards,TRUE,TRUE,FALSE,None,Classic Football Helmet. [10. 24. Hike!]
+,Cosmetic,,Hat,Night Vision,,,Rare,,,"1,463",150, $ 3.00 ,---,shards,TRUE,TRUE,FALSE,None,"[Fisher, do you copy?]"
+,Cosmetic,,Hat,Horned Viking Helmet,,,Uncommon,,,563,75, $ 1.50 ,---,shards,TRUE,TRUE,FALSE,None,[Not Historically Accurate]
+TRUE,Cosmetic,wardrobe_hat_goggles,Hat,Goggles,wardrobe_hat_goggles.name,wardrobe_hat_goggles.desc,Common,mcc:island_cosmetics.head.goggles,,375,50, $ 1.00 ,---,shards,TRUE,TRUE,FALSE,Complete,[Perfect for mischief goblin welding!]
+,Cosmetic,,Hat,Headphones,,,Common,,,375,50, $ 1.00 ,---,shards,TRUE,TRUE,FALSE,In Progress,Basic Headphones [Pump up the volume to your heart's content!]
+,Cosmetic,,Hat,Party Hat,,,Common,,,375,50, $ 1.00 ,---,shards,TRUE,TRUE,FALSE,In Progress,[Party like it's 1999]
+,Cosmetic,,Hat,Vanity,,,Rare,,,"1,463",150, $ 3.00 ,---,shards,TRUE,TRUE,FALSE,In Progress,It makes your head look bigger. [Well you think you look great. And that's all that really matters.]
+FALSE,Cosmetic,,Hat,Cool Dude Shades,,,Legendary,,,---,---, --- ,No Currency,bundle,FALSE,FALSE,FALSE,None,"A pair of very nice, very expensive, very exclusive shades. [Welcome to MCC Island, baby.]"
+,Cosmetic,,Mount,Giant Chicken,,,Rare,,Animal Instinct,"2,925",300, $ 6.00 ,---,animalStore,TRUE,TRUE,FALSE,None,[It's a giant chicken!]
+,Cosmetic,,Mount,Long Horse,,,Rare,,Animal Instinct,"2,925",300, $ 6.00 ,---,animalStore,TRUE,TRUE,FALSE,None,A griaffe. [This isn't what I meant when I said 'golden steed.']
+,Cosmetic,,Mount,Tiger,,,Rare,,Animal Instinct,"2,925",300, $ 6.00 ,---,animalStore,TRUE,TRUE,FALSE,None,[A massive orange kitty!]
+,Cosmetic,,Mount,Wannabe Horse,,,Rare,,Animal Instinct,"2,925",300, $ 6.00 ,---,animalStore,TRUE,TRUE,FALSE,None,A donkey. [Fit for a king.]
+,Cosmetic,,Mount,Wheelbarrow,,,Legendary,,MC Championship,"16,200",900, $ 18.00 ,---,animalStore,TRUE,TRUE,FALSE,None,"A wheelbarrow for you to sit in, with a zombie pushing it. [Like a horse with a carrot, but you're the carrot.]"
+,Cosmetic,,Mount,Magical Carpet,,,Rare,,Mineshafts and Magic,"2,925",300, $ 6.00 ,---,animalStore,TRUE,TRUE,FALSE,None,An ornate carpet players can sit upon to ride. It floats in the air! [This blanket seems to have a will of his own.]
+,Cosmetic,,Mount,Unicorn,,,Rare,,Mineshafts and Magic,"2,925",300, $ 6.00 ,---,animalStore,TRUE,TRUE,FALSE,None,"A white horse with a golden horn which leaves a rainbow trail behind as it walks around. [I know it's a horse, but I can only see a cat...]"
+,Cosmetic,,Mount,Horsey Stick,,,Epic,,,"5,625",600, $ 12.00 ,---,animalStore,TRUE,TRUE,FALSE,None,A stuffed animal head attached at the end of a long wooden stick. [Coconuts not included.]
+,Cosmetic,,Mount,Police Scooter,,,Epic,,,"5,625",600, $ 12.00 ,---,animalStore,TRUE,TRUE,FALSE,None,[Hopefully nobody will notice that your badge is fake.]
+,Cosmetic,,Mount,Shopping Cart,,,Epic,,,"5,625",600, $ 12.00 ,---,animalStore,TRUE,TRUE,FALSE,None,[You better return this to buildmart you vandal!]
+,Cosmetic,,Mount,Unicycle,,,Epic,,,"5,625",600, $ 12.00 ,---,animalStore,TRUE,TRUE,FALSE,None,It's half a bicycle for twice the price. [Squeeky! Squeeky!]
+,Cosmetic,,Mount,Wheelchair,,,Epic,,,"5,625",600, $ 12.00 ,---,animalStore,TRUE,TRUE,FALSE,None,[And they said my broken legs were a disadvantage! Hah!]
+,Cosmetic,,Mount,Pogo Stick,,,Legendary,,,"16,200",900, $ 18.00 ,---,animalStore,TRUE,TRUE,FALSE,None,"[Need I say more? Bouncy, Bouncy, Bounce.]"
+,Cosmetic,,Mount,Swimming on Air,,,Legendary,,,"16,200",900, $ 18.00 ,---,animalStore,TRUE,TRUE,FALSE,None,Gives you the swimming on air animation when you are mounted.
+,Cosmetic,,Mount,Go Kart,,,Rare,,,"2,925",300, $ 6.00 ,---,animalStore,TRUE,TRUE,FALSE,None,A gokart that the player can ride around wherver they please. [Be wary of monochromatic shells.]
+,Cosmetic,,Mount,Hovercraft,,,Rare,,,"2,925",300, $ 6.00 ,---,animalStore,TRUE,TRUE,FALSE,None,A blue-white amphibious hovercraft with a black bottom. A large fan behind the player provides propulsion.
 TRUE,Cosmetic,trail_mastermind,Trail,Mastermind,trail_mastermind.name,trail_mastermind.desc,Epic,,,"6,750",600, $ 12.00 ,---,bundle,TRUE,TRUE,FALSE,In Progress,"Floating text keeps appearing around the player with maths equations such as 1+1=, E=MC2 and 3.14159"
-TRUE,Cosmetic,aqua,Emoji,Aqua,aqua.name,aqua.desc,Special,,Faction Mastery,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,Aqua Axolotyl Mascot
-TRUE,Cosmetic,blue,Emoji,Blue,blue.name,blue.desc,Special,,Faction Mastery,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,Blue Bat Mascot
-TRUE,Cosmetic,cyan,Emoji,Cyan,cyan.name,cyan.desc,Special,,Faction Mastery,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,Cyan Creeper Mascot
-TRUE,Cosmetic,green,Emoji,Green,green.name,green.desc,Special,,Faction Mastery,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,Green Guardian Mascot
-TRUE,Cosmetic,lime,Emoji,Lime,lime.name,lime.desc,Special,,Faction Mastery,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,Lime Llama Mascot
-TRUE,Cosmetic,orange,Emoji,Orange,orange.name,orange.desc,Special,,Faction Mastery,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,Orange Ocelot Mascot
-TRUE,Cosmetic,pink,Emoji,Pink,pink.name,pink.desc,Special,,Faction Mastery,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,Pink Parrot Mascot
-TRUE,Cosmetic,purple,Emoji,Purple,purple.name,purple.desc,Special,,Faction Mastery,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,Purple Panda Mascot
-TRUE,Cosmetic,red,Emoji,Red,red.name,red.desc,Special,,Faction Mastery,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,Red Rabbit Mascot
-TRUE,Cosmetic,yellow,Emoji,Yellow,yellow.name,yellow.desc,Special,,Faction Mastery,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,Yellow Yak Mascot
-TRUE,Cosmetic,mcc_angry,Emoji,MCC Angry,mcc_angry.name,mcc_angry.desc,Special,,MC Championship,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,Angry MCC Zombie
-TRUE,Cosmetic,mcc_smile,Emoji,MCC Smile,mcc_smile.name,mcc_smile.desc,Special,,MC Championship,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,Smiling MCC Zombie
-TRUE,Cosmetic,chicken,Emoji,Chicken,chicken.name,chicken.desc,Special,,,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,A Chicken
-TRUE,Cosmetic,clown,Emoji,Clown,clown.name,clown.desc,Special,,,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,A Clown
-TRUE,Cosmetic,flushed,Emoji,Flushed,flushed.name,flushed.desc,Special,,,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,Flushed Smiley
-TRUE,Cosmetic,imp,Emoji,Imp,imp.name,imp.desc,Special,,,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,Evil Smiley
-TRUE,Cosmetic,joy,Emoji,Joy,joy.name,joy.desc,Special,,,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,Crying happy Smiley
-TRUE,Cosmetic,laughing,Emoji,Laughing,laughing.name,laughing.desc,Special,,,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,Laughing Smiley
-TRUE,Cosmetic,scream,Emoji,Scream,scream.name,scream.desc,Special,,,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,Scared Smiley
-TRUE,Cosmetic,skull,Emoji,Skull,skull.name,skull.desc,Special,,,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,Skull
-TRUE,Cosmetic,smile,Emoji,Smile,smile.name,smile.desc,Special,,,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,Smiley
-TRUE,Cosmetic,sunglasses,Emoji,Sunglasses,sunglasses.name,sunglasses.desc,Special,,,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,Smiley with Sunglasses
-TRUE,Cosmetic,sweat_smile,Emoji,Sweat Smile,sweat_smile.name,sweat_smile.desc,Special,,,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,Sweating Smiley
-TRUE,Cosmetic,thumbs_down,Emoji,Thumbs Down,thumbs_down.name,thumbs_down.desc,Special,,,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,Thumbs Down
-TRUE,Cosmetic,thumbs_up,Emoji,Thumbs Up,thumbs_up.name,thumbs_up.desc,Special,,,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,Thumbs Up
-TRUE,Cosmetic,tongue_out,Emoji,Tongue Out,tongue_out.name,tongue_out.desc,Special,,,---,---, --- ,No Currency,none,FALSE,FALSE,FALSE,Complete,Smiley sticking its Ttongue out
-,Cosmetic,,Augment,Greensprout,,,Rare,,Garden Variety,"2,925",300, $ 6.00 ,---,particleStore,TRUE,TRUE,FALSE,None,"When sprinting, flowers spring up in your wake! (Similar to the player's sprinting in the game Okami)"
-,Cosmetic,,Augment,Rainbow Trail,,,Epic,,,"6,750",600, $ 12.00 ,---,particleStore,TRUE,TRUE,FALSE,None,"When sprinting, leave a bright rainbow trail incridibly similar to that of Nyan Cat"
-,Cosmetic,,Augment,Block of Ice,,,Legendary,,,"18,000","1,000", $ 20.00 ,---,particleStore,TRUE,TRUE,FALSE,None,"When stationary for more than 5 seconds, your space is occupied by ice blocks, making you look frozen solid. The blocks break the second you move from your spot."
-,Cosmetic,augment_concentrating,Augment,Concentrating,augment_concentrating.name,augment_concentrating.desc,Uncommon,,,"1,125",150, $ 3.00 ,---,particleStore,TRUE,TRUE,FALSE,Complete,"When crouching, the player collects energy from the air! (Enchanting table effect)"
-,Cosmetic,,Augment,Super Jump,,,Uncommon,,,"1,125",150, $ 3.00 ,---,particleStore,TRUE,TRUE,FALSE,In Progress,A small explosion occurrs at your feet whenever you jump
-,Cosmetic,,Aura,Angel Wings,,,Epic,,,"5,063",800, $ 16.00 ,---,particleStore,TRUE,TRUE,FALSE,None,White Particles in the shape of Angle Wings on the back of the player
-,Cosmetic,,Aura,Cuckoo,,,Epic,,,"5,063",800, $ 16.00 ,---,particleStore,TRUE,TRUE,FALSE,None,A yellow bird circles around the player's head.
-,Cosmetic,,Aura,Chicken,,,Rare,,,"2,925",400, $ 8.00 ,---,particleStore,TRUE,TRUE,FALSE,None,Feathers occasionally flutter around the player.
-TRUE,Cosmetic,aura_angry,Aura,Angry!,aura_angry.name,aura_angry.desc,Uncommon,,,"1,125",200, $ 4.00 ,---,particleStore,TRUE,TRUE,FALSE,In Progress,"Every few seconds, smoke billows out of the player's ears, and their head increases in size slightly."
-,Cosmetic,,Aura,Storm Cloud,,,Uncommon,,,"1,125",200, $ 4.00 ,---,particleStore,TRUE,TRUE,FALSE,In Progress,A White cloud on the top of the player with a lightning blot coming out. Rain particles fall from the cloud on the back as well.
 TRUE,Cosmetic,trail_shredding_notes,Trail,Shredding Notes,trail_shredding_notes.name,trail_shredding_notes.desc,Epic,mcc:island_cosmetics.trails.shredding_notes,Music Appreciation,"6,750",600, $ 12.00 ,---,particleStore,TRUE,TRUE,FALSE,Complete,"Whenever you move, rock-n-roll style notes float behind your character and animate briefly. They also float in circles around your character."
 TRUE,Cosmetic,trail_sparkle,Trail,Sparkle,trail_sparkle.name,trail_sparkle.desc,Epic,mcc:island_cosmetics.trails.sparkle,,"6,750",600, $ 12.00 ,---,particleStore,TRUE,TRUE,FALSE,Complete,Small white sparks float from above your character to the ground around them. Remains in-place and around your character regardless of movement.
 ,Cosmetic,,Trail,Speedster,,,Legendary,,,"18,000","1,000", $ 20.00 ,---,particleStore,TRUE,TRUE,FALSE,None,"Whenever you move, a transparent copy of you is left behind for 1 second. This makes you look like you're moving super fast!"
@@ -205,51 +249,7 @@ TRUE,Cosmetic,trail_ember,Trail,Ember,trail_ember.name,trail_ember.desc,Rare,mcc
 TRUE,Cosmetic,trail_pixie_dust,Trail,Pixie Dust,trail_pixie_dust.name,trail_pixie_dust.desc,Uncommon,mcc:island_cosmetics.trails.pixie_dust,,"1,125",150, $ 3.00 ,---,particleStore,TRUE,TRUE,FALSE,Complete,Pink puffs of dragon breath trail behind you
 ,Cosmetic,,Trail,Rainbow,,,Uncommon,,,"1,125",150, $ 3.00 ,---,particleStore,TRUE,TRUE,FALSE,None,Multicolored light goes in your wake.
 ,Cosmetic,,Trail,Stink Lines,,,Uncommon,,,"1,125",150, $ 3.00 ,---,particleStore,TRUE,TRUE,FALSE,None,Small green/yellow lines hover slightly above your character when stationary.
-TRUE,Cosmetic,accessory_gauntlet_of_power,Accessory,Gauntlet of Power,accessory_gauntlet_of_power.name,accessory_gauntlet_of_power.desc,Legendary,mcc:island_cosmetics.accessory.gauntlet_of_power,Epiclandlord's Legendary Arsenal,"10,800",600, $ 12.00 ,---,shards,TRUE,TRUE,FALSE,Complete,[Aw Snap!]
-TRUE,Cosmetic,accessory_comically_large_spoon,Accessory,Comically Large Spoon,accessory_comically_large_spoon.name,accessory_comically_large_spoon.desc,Common,mcc:island_cosmetics.accessory.comically_large_spoon,,375,50, $ 1.00 ,---,shards,TRUE,TRUE,FALSE,Complete,"[It's a spoon, and it's comically large]"
-TRUE,Cosmetic,accessory_pipe_wrench,Accessory,Pipe Wrench,accessory_pipe_wrench.name,accessory_pipe_wrench.desc,Common,mcc:island_cosmetics.accessory.pipe_wrench,,375,50, $ 1.00 ,---,shards,TRUE,TRUE,FALSE,Complete,[Belonged to some Italian plumber]
-TRUE,Cosmetic,accessory_trash_can_lid,Accessory,Trash Can Lid,accessory_trash_can_lid.name,accessory_trash_can_lid.desc,Common,mcc:island_cosmetics.accessory.trash_can_lid,,375,50, $ 1.00 ,---,shards,TRUE,TRUE,FALSE,Complete,[I can do this all day]
-TRUE,Cosmetic,accessory_robot_arm,Accessory,Robot Arm,accessory_robot_arm.name,accessory_robot_arm.desc,Epic,mcc:island_cosmetics.accessory.robot_arm,,"3,375",300, $ 6.00 ,---,shards,TRUE,TRUE,FALSE,Complete,A mechanical Robot Claw
-,Cosmetic,,Accessory,Crowbar,,,Uncommon,,,563,75, $ 1.50 ,---,shards,TRUE,TRUE,FALSE,None,[Wake up and smell the ashes...]
-,Cosmetic,,Accessory,TV Remote,,,Uncommon,,,563,75, $ 1.50 ,---,shards,TRUE,TRUE,FALSE,None,[Now we're channel surfing!]
-,Cosmetic,,Accessory,Lantern,,,Epic,,Spooktacular,"3,375",300, $ 6.00 ,---,shards,TRUE,TRUE,FALSE,None,A lantern dangles from your grip and shines light around the player.
-,Cosmetic,,Accessory,Banana,,,Common,,,375,50, $ 1.00 ,---,shards,TRUE,TRUE,FALSE,None,A giant banana in your hand.
-TRUE,Cosmetic,accessory_cash_filled_briefcase,Accessory,Cash-Filled Briefcase,accessory_cash_filled_briefcase.name,accessory_cash_filled_briefcase.desc,Common,mcc:island_cosmetics.accessory.cash_filled_briefcase,,375,50, $ 1.00 ,---,shards,TRUE,TRUE,FALSE,Complete,[Take the money and run!]
-TRUE,Cosmetic,accessory_stick,Accessory,Stick,accessory_stick.name,accessory_stick.desc,Common,mcc:island_cosmetics.accessory.stick,,375,50, $ 1.00 ,---,shards,TRUE,TRUE,FALSE,Complete,A long branch with leaves still attached
-,Cosmetic,,Accessory,Wand,,,Common,,,375,50, $ 1.00 ,---,shards,TRUE,TRUE,FALSE,None,Magic wand that mighe be used by a wizard (magic not included). Simple and wooden.
-,Cosmetic,,Accessory,Fanciest Cane,,,Epic,,,"3,375",300, $ 6.00 ,---,shards,TRUE,TRUE,FALSE,None,Ornate walking stick with a jeweled tip.
-,Cosmetic,,Accessory,Fancier Cane,,,Rare,,,"1,463",150, $ 3.00 ,---,shards,TRUE,TRUE,FALSE,None,"Cane with a nice, non-rounded handle."
-,Cosmetic,,Accessory,Money Bag,,,Rare,,,"1,463",150, $ 3.00 ,---,shards,TRUE,TRUE,FALSE,None,Hold a sack of cash with a dollar sign emblazoned on the side. It hangs under your grip.
-,Cosmetic,,Accessory,Fancy Cane,,,Uncommon,,,563,75, $ 1.50 ,---,shards,TRUE,TRUE,FALSE,None,"Nice, polished wood cane with an elegant curve. Traditional old man cane."
-,Cosmetic,,Accessory,Megaphone,,,Uncommon,,,563,75, $ 1.50 ,---,shards,TRUE,TRUE,FALSE,None,A white megaphone with a red back and outline.
-,Cosmetic,,Accessory,Preppy Flag,,,Uncommon,,,563,75, $ 1.50 ,---,shards,TRUE,TRUE,FALSE,None,Small flag with 'MCC' written on it.
-,Cosmetic,,Augment,Cleaver,,,Epic,,,"6,750",600, $ 12.00 ,---,shards,TRUE,TRUE,FALSE,None,"Occasionally, your left click will cause a Cleave animation to play rather than a simple punch. (1/3 of the time)"
-,Cosmetic,,Augment,Off to the Races,,,Uncommon,,,"1,125",150, $ 3.00 ,---,shards,TRUE,TRUE,FALSE,In Progress,"When you start running, a cloud of dust spawns at your location as you blast off! This only appears when you start running and not as you continue running."
-TRUE,Cosmetic,,Augment,Shooting Star,,,Rare,,,"2,925",300, $ 6.00 ,---,shards,TRUE,TRUE,FALSE,None,"When falling 3 or more blocks, a red aura surrounds you making you look like a meteor falling from orbit! Wind resistance lines go around your feet to your head. Hitting the ground causes an explosion effect."
-TRUE,Cosmetic,aura_tornado,Aura,Tornado,aura_tornado.name,aura_tornado.desc,Epic,,,"5,063",800, $ 16.00 ,---,shards,TRUE,TRUE,FALSE,In Progress,A spiral of air surrounds the player and lifts nearby blocks of earth into its vortex.
-,Cosmetic,,Aura,Dizzy,,,Rare,,,"2,925",400, $ 8.00 ,---,shards,TRUE,TRUE,FALSE,None,Spirals and spell particles gently float over your head. Maybe you're drunk.
-,Cosmetic,,Hat,Disguise,,,Common,,,375,50, $ 1.00 ,---,shards,TRUE,TRUE,FALSE,In Progress,"Classic glasses, nose and moustached disguise. Groucho Marx. [Who are you?]"
-,Cosmetic,,Hat,Traffic Cone,,,Common,,,375,50, $ 1.00 ,---,shards,TRUE,TRUE,FALSE,In Progress,[I'm walkin' here]
-,Cosmetic,,Hat,Football Helmet,,,Rare,,,"1,463",150, $ 3.00 ,---,shards,TRUE,TRUE,FALSE,None,Classic Football Helmet
-,Cosmetic,,Hat,Night Vision,,,Rare,,,"1,463",150, $ 3.00 ,---,shards,TRUE,TRUE,FALSE,None,"[Fisher, do you copy?]"
-,Cosmetic,,Hat,Horned Viking Helmet,,,Uncommon,,,563,75, $ 1.50 ,---,shards,TRUE,TRUE,FALSE,None,[Not Historically Accurate]
-TRUE,Cosmetic,wardrobe_hat_goggles,Hat,Goggles,wardrobe_hat_goggles.name,wardrobe_hat_goggles.desc,Common,mcc:island_cosmetics.head.goggles,,375,50, $ 1.00 ,---,shards,TRUE,TRUE,FALSE,Complete,[Perfect for mischief goblin welding!]
-,Cosmetic,,Hat,Headphones,,,Common,,,375,50, $ 1.00 ,---,shards,TRUE,TRUE,FALSE,In Progress,Basic Headphones
-,Cosmetic,,Hat,Party Hat,,,Common,,,375,50, $ 1.00 ,---,shards,TRUE,TRUE,FALSE,In Progress,[Party like it's 1999]
-,Cosmetic,,Hat,Vanity,,,Rare,,,"1,463",150, $ 3.00 ,---,shards,TRUE,TRUE,FALSE,In Progress,It makes your head look bigger. [Well you think you look great. And that's all that really matters.]
 ,Cosmetic,trail_smoke_cloud,Trail,Smoke Cloud,trail_smoke_cloud.name,trail_smoke_cloud.desc,Rare,mcc:island_cosmetics.trails.smoke_cloud,,"2,925",300, $ 6.00 ,---,shards,TRUE,TRUE,FALSE,Complete,Small puffs of grey smoke sporatically follow your character when in motion.
-FALSE,,,Consumable,Bada Bang Brew,,,Common,,,0,, --- ,Coin Only,special,FALSE,FALSE,TRUE,None,"Gain a 10% speed and jump height boost every second and begin flashing red. When the buff expires after 30 seconds, explode and die, knocking back all players in a small radius. Respawn at the docks."
-FALSE,,,Consumable,Chicken Cup,,,Common,,,0,, --- ,Coin Only,special,FALSE,FALSE,TRUE,None,Transform into a chicken for 1 minute. But why?
-FALSE,,,Consumable,Go-Go Juice,,,Common,,,0,, --- ,Coin Only,special,FALSE,FALSE,TRUE,None,Gain a 20% speed boost in the HUB for 10 minutes.
-FALSE,,,Consumable,Jumpo Juice,,,Common,,,0,, --- ,Coin Only,special,FALSE,FALSE,TRUE,None,Double block jump height in the HUB for 10 minutes.
-FALSE,,,Consumable,MC Mocca,,,Common,,,0,, --- ,Coin Only,special,FALSE,FALSE,TRUE,None,Transform your character to look like a random Noxcrew Developer for 10 minutes.
-FALSE,,,Consumable,Melonade,,,Common,,,0,, --- ,Coin Only,special,FALSE,FALSE,TRUE,None,Gives you a melon item trail in the HUB for 2 minutes.
-FALSE,,,Consumable,Red Block,,,Common,,,0,, --- ,Coin Only,special,FALSE,FALSE,TRUE,None,Gives you (elytra) wings in the HUB for 10 minutes.
-FALSE,,,Consumable,Burger,,,,,,0,,  ,---,special,FALSE,FALSE,FALSE,In Progress,"[""Enjoy your Burger, but fast!"" -V]"
-FALSE,,,Consumable,Slurpee,,,,,,0,,  ,---,special,FALSE,FALSE,FALSE,In Progress,[Slurp!]
-FALSE,Cosmetic,wardrobe_hair_cat_ears,Hair,Cat Ears,wardrobe_hair_cat_ears.name,wardrobe_hair_cat_ears.desc,Epic,,,"3,375",300, $ 6.00 ,,,FALSE,FALSE,FALSE,,
-FALSE,Cosmetic,,Aura,Beta,,,Legendary,,,---,---, --- ,No Currency,bundle,FALSE,FALSE,FALSE,None,"The greek letter 'Beta' fades out from you. As it does so, the letter gets larger and more transparant."
-FALSE,Cosmetic,,Hat,Cool Dude Shades,,,Legendary,,,---,---, --- ,No Currency,bundle,FALSE,FALSE,FALSE,None,"A pair of very nice, very expensive, very exclusive shades. Welcome to MCC Island, baby."
 FALSE,,,,,,,,,,0,,  ,,,FALSE,FALSE,FALSE,,
 FALSE,,,,,,,,,,0,,  ,,,FALSE,FALSE,FALSE,,
 FALSE,,,,,,,,,,0,,  ,,,FALSE,FALSE,FALSE,,
