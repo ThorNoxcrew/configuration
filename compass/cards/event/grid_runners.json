@@ -7,7 +7,7 @@
         {
             "comment": "Custom assembler to create the Grid Runners arena and paste in all selected rooms.",
             "type": "grid_runners_assembler",
-            "selectedPreset": "mcc18",
+            "selectedPreset": "mccallstars",
             "presets": {
                 "mcc16": [
                     "jungle_temple",
@@ -52,6 +52,17 @@
                     "factory_tower_halloween",
                     "pumpkin_carve",
                     "conveyors"
+                ],
+                "mccallstars": [
+                    "wild_west",
+                    "art_gallery",
+                    "city_statue",
+                    "jungle_temple",
+                    "house_search",
+                    "golf",
+                    "redstone_juggling",
+                    "jungle_bridge_build",
+                    "weave"
                 ]
             }
         },
