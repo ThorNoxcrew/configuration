@@ -36,7 +36,7 @@ pyhocon:
             - "**/*.conf"
     script:
         - pip install pyhocon==0.3.58
-        - pip install loguru=0.5.3
+        - pip install loguru==0.5.3
         - python .gitlab/tools/parse-hocon.py
 
 compile_scripts:
