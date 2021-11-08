@@ -28,16 +28,15 @@ ktlint:
     script:
         - ./.gitlab/tools/ktlint.sh
 
-# pyhocon:
-#     stage: prepare
-#     image: python:3.9-alpine
-#     only:
-#         changes:
-#             - "**/*.conf"
-#     script:
-#         - pip install pyhocon==0.3.57
-#         - apk add --no-cache bash
-#         - ./.gitlab/tools/pyhocon.sh
+ pyhocon:
+     stage: prepare
+     image: python:3.9-alpine
+     only:
+         changes:
+             - "**/*.conf"
+     script:
+         - pip install pyhocon==0.3.58
+         - ./.gitlab/tools/parse-hocon.py
 
 compile_scripts:
     stage: prepare
