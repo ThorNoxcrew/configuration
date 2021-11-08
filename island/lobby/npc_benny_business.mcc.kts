@@ -14,9 +14,11 @@ mccScript {
 
         val pointList = LinkedList<Transform>()
         pointList += Transform(302.2, 37.5, 588.7)
+        pointList += Transform(300.0, 37.5, 579.0)
         pointList += Transform(298.5, 38.0, 577.5)
-        pointList += Transform(263.8, 38.0, 577.5)
-        pointList += Transform(263.8, 38.0, 552.0)
+        pointList += Transform(266.0, 38.0, 577.5)
+        pointList += Transform(263.6, 38.0, 575.0)
+        pointList += Transform(264.8, 38.0, 554.0)
         pointList += Transform(261.6, 38.0, 547.6)
         pointList += Transform(261.6, 38.0, 539.0)
         pointList += Transform(257.2, 38.0, 535.5)
