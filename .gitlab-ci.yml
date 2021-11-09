@@ -28,26 +28,26 @@ ktlint:
     script:
         - ./.gitlab/tools/ktlint.sh
 
-# pyhocon:
-#     stage: prepare
-#     image: python:3.9-alpine
-#     only:
-#         changes:
-#             - "**/*.conf"
-#     script:
-#         - pip install pyhocon==0.3.57
-#         - apk add --no-cache bash
-#         - ./.gitlab/tools/pyhocon.sh
+pyhocon:
+    stage: prepare
+    image: python:3.9-alpine
+    only:
+        changes:
+            - "**/*.conf"
+    script:
+        - pip install pyhocon==0.3.58
+        - pip install loguru==0.5.3
+        - python .gitlab/tools/parse-hocon.py
 
 compile_scripts:
     stage: prepare
     image: harbor.services.noxcrew.online/mcc/mcc-script-cli:012fab20fcd35694120c7a3a62d993c390cf9b49
     script:
         - ./.gitlab/tools/compile-scripts.sh
-    artifacts:
-        expire_in: 24h
+    cache:
+        key: "$CI_COMMIT_BRANCH"
         paths:
-            - compiled/
+            - "compiled/"
 
 .upload_consul:
     image: harbor.services.noxcrew.online/tools/fs2consulkv:latest
@@ -56,6 +56,11 @@ compile_scripts:
     script:
         - ./.gitlab/tools/compress-csv.sh
         - ./.gitlab/tools/consul-wrapper.py fs2consulkv --fs-kv-path . --consul-url http://localhost:8500 --consul-acl-token "$CONSUL_ACL_TOKEN" --consul-kv-root "configuration/$CI_COMMIT_BRANCH" --sync
+    cache:
+        key: "$CI_COMMIT_BRANCH"
+        paths:
+            - "compiled/"
+        policy: pull
 
 .kube_env_dev:
     environment:
