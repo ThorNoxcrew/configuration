@@ -168,7 +168,7 @@ TRUE,Cosmetic,wardrobe_hat_sombrero,Hat,Sombrero,wardrobe_hat_sombrero.name,ward
 ,Cosmetic,,Hat,Big Ears,,,Uncommon,,,563,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,[Dumbo?]
 ,Cosmetic,,Hat,Big Eyes,,,Uncommon,,,563,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,[Eye spy with my big I.]
 ,Cosmetic,,Hat,Detective,,,Uncommon,,,563,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A cheshire cap like a certain Holmes might wear. [Someone stole the detective's hat! But he's on the case!]
-TRUE,Cosmetic,wardrobe_hat_frog_bucket_hat,Hat,Frog Bucket Hat,wardrobe_hat_frog_bucket_hat.name,wardrobe_hat_frog_bucket_hat.desc,Uncommon,mcc:island_cosmetics.frog_bucket_hat,,563,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[Ribbit!]
+TRUE,Cosmetic,wardrobe_hat_frog_bucket_hat,Hat,Frog Bucket Hat,wardrobe_hat_frog_bucket_hat.name,wardrobe_hat_frog_bucket_hat.desc,Uncommon,mcc:island_cosmetics.head.frog_bucket_hat,,563,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[Ribbit!]
 TRUE,Cosmetic,wardrobe_hat_graduate,Hat,Graduate,wardrobe_hat_graduate.name,wardrobe_hat_graduate.desc,Uncommon,mcc:island_cosmetics.head.graduate,,563,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,"A black, square hat with a golden tassal to one side. [Highschool is out!]"
 ,Cosmetic,,Hat,Pilot's Hat,,,Uncommon,,,563,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,None,[Ready to fly?]
 TRUE,Cosmetic,wardrobe_hat_pirate_hat,Hat,Pirate Hat,wardrobe_hat_pirate_hat.name,wardrobe_hat_pirate_hat.desc,Uncommon,mcc:island_cosmetics.head.pirate_hat,,563,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[Arrrr!]
