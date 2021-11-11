@@ -140,21 +140,24 @@ TRUE,Cosmetic,wardrobe_hair_soul_patch,Hair,Soul Patch,wardrobe_hair_soul_patch.
 TRUE,Cosmetic,wardrobe_hair_viking_beard,Hair,Viking Beard Braids,wardrobe_hair_viking_beard.name,wardrobe_hair_viking_beard.desc,Uncommon,mcc:island_cosmetics.hair.viking_beard,Hair,563,75, $ 1.50 ,---,barberShop,FALSE,FALSE,TRUE,Complete,A long beard with braids inside it. [Hinga Dinga Durgen]
 TRUE,Cosmetic,wardrobe_hair_wizard_beard,Hair,Wizard Beard,wardrobe_hair_wizard_beard.name,wardrobe_hair_wizard_beard.desc,Uncommon,mcc:island_cosmetics.hair.wizard_beard,Hair,563,75, $ 1.50 ,---,barberShop,FALSE,FALSE,TRUE,Complete,A full white beard that ends in a fine point at the sternum. [8d6!? Count me in!]
 FALSE,Cosmetic,wardrobe_hair_cat_ears,Hair,Cat Ears,wardrobe_hair_cat_ears.name,wardrobe_hair_cat_ears.desc,Epic,,,"3,375",300, $ 6.00 ,,,FALSE,FALSE,FALSE,,
-,Cosmetic,,Hat,Fanciest Hat,,,Legendary,,Epiclandlord's Legendary Arsenal,"10,800",600, $ 12.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A purple wide-brim hat with an orange feather. [Perfection.]
-,Cosmetic,,Hat,Magician,,,Common,,Mineshafts and Magic,375,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,A black magician's hat with a red stripe across the brim.
-,Cosmetic,,Hat,Cthulu,,,Epic,,Spooktacular,"3,375",300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A mass of tentacles spewing from the player's head. Maybe bat ears on the side of the head.
-,Cosmetic,,Hat,Bandana,,,Common,,,375,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A red bandana around the head. Think Rambo.
-,Cosmetic,,Hat,Beret,,,Common,,,375,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A black beret with a small red puff on the top. [Found you!]
-,Cosmetic,,Hat,Blindfold,,,Common,,,375,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,[Fifty shades of complete darkness]
-,Cosmetic,,Hat,Mobster,,,Common,,,375,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A black fedora like that a gangster might wear. [An offer you can't refuse]
-,Cosmetic,,Hat,Sun Visor,,,Common,,,375,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,[Watch out for the sun!]
-,Cosmetic,,Hat,Sun Hat,,,Common,,,375,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,A long brimmed hat for the summer
-,Cosmetic,,Hat,Trucker Hat,,,Common,,,375,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,"Reads ""I <3 MCC."" [Look at my Trucker Hat.]"
-,Cosmetic,,Hat,Ushanka,,,Common,,,375,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,"A brown, furry hat that covers the sides of the head. [Excellent for cold weather.]"
+TRUE,Cosmetic,wardrobe_hat_fancy_hat,Hat,Fancy Hat,wardrobe_hat_fancy_hat.name,wardrobe_hat_fancy_hat.desc,Legendary,mcc:island_cosmetics.head.fancy_hat,Epiclandlord's Legendary Arsenal,"10,800",600, $ 12.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,A purple wide-brim hat with an orange feather. [Perfection.]
+TRUE,Cosmetic,wardrobe_hat_magicians_hat,Hat,Magician's Hat,wardrobe_hat_magicians_hat.name,wardrobe_hat_magicians_hat.desc,Common,mcc:island_cosmetics.head.magicians_hat,Mineshafts and Magic,375,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,A black magician's hat with a red stripe across the brim.
+TRUE,Cosmetic,wardrobe_hat_cthulus_head,Hat,Cthulu's Head,wardrobe_hat_cthulus_head.name,wardrobe_hat_cthulus_head.desc,Epic,mcc:island_cosmetics.head.cthulus_head,Spooktacular,"3,375",300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,A mass of tentacles spewing from the player's head. Maybe bat ears on the side of the head.
+TRUE,Cosmetic,wardrobe_hat_bandana,Hat,Bandana,wardrobe_hat_bandana.name,wardrobe_hat_bandana.desc,Common,mcc:island_cosmetics.head.bandana,,375,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,A red bandana around the head. Think Rambo.
+TRUE,Cosmetic,wardrobe_hat_beret,Hat,Beret,wardrobe_hat_beret.name,wardrobe_hat_beret.desc,Common,mcc:island_cosmetics.head.beret,,375,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,A black beret with a small red puff on the top. [Found you!]
+TRUE,Cosmetic,wardrobe_hat_blindfold,Hat,Blindfold,wardrobe_hat_blindfold.name,wardrobe_hat_blindfold.desc,Common,mcc:island_cosmetics.head.blindfold,,375,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[Fifty shades of complete darkness]
+TRUE,Cosmetic,wardrobe_hat_mobster_hat,Hat,Mobster Hat,wardrobe_hat_mobster_hat.name,wardrobe_hat_mobster_hat.desc,Common,mcc:island_cosmetics.head.mobster_hat,,375,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,A black fedora like that a gangster might wear. [An offer you can't refuse]
+TRUE,Cosmetic,wardrobe_hat_sun_visor,Hat,Sun Visor,wardrobe_hat_sun_visor.name,wardrobe_hat_sun_visor.desc,Common,mcc:island_cosmetics.head.sun_visor,,375,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[Watch out for the sun!]
+TRUE,Cosmetic,wardrobe_hat_sun_hat,Hat,Sun Hat,wardrobe_hat_sun_hat.name,wardrobe_hat_sun_hat.desc,Common,mcc:island_cosmetics.head.sun_hat,,375,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,A long brimmed hat for the summer
+TRUE,Cosmetic,wardrobe_hat_trucker_hat,Hat,Trucker Hat,wardrobe_hat_trucker_hat.name,wardrobe_hat_trucker_hat.desc,Common,mcc:island_cosmetics.head.trucker_hat,,375,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,"Reads ""I <3 MCC."" [Look at my Trucker Hat.]"
+TRUE,Cosmetic,wardrobe_hat_gaming_headphones,Hat,Gaming Headphones,wardrobe_hat_gaming_headphones.name,wardrobe_hat_gaming_headphones.desc,Rare,mcc:island_cosmetics.head.gaming_headphones,,"1,463",150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[Wearing these will *not* make you better at the game.]
+TRUE,Cosmetic,wardrobe_hat_cat_ear_headphones,Hat,Cat Ear Headphones,wardrobe_hat_cat_ear_headphones.name,wardrobe_hat_cat_ear_headphones.desc,Epic,mcc:island_cosmetics.head.cat_ear_headphones,,"3,375",300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[Purrfect starter kit for streaming!]
+TRUE,Cosmetic,wardrobe_hat_bucket_hat,Hat,Bucket Hat,wardrobe_hat_bucket_hat.name,wardrobe_hat_bucket_hat.desc,Common,mcc:island_cosmetics.head.bucket_hat,,375,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[Note: Does not hold water]
+TRUE,Cosmetic,wardrobe_hat_ushanka,Hat,Ushanka,wardrobe_hat_ushanka.name,wardrobe_hat_ushanka.desc,Common,mcc:island_cosmetics.head.ushanka,,375,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,"A brown, furry hat that covers the sides of the head. [Excellent for cold weather.]"
 TRUE,Cosmetic,wardrobe_hat_burger_head,Hat,Burger Head,wardrobe_hat_burger_head.name,wardrobe_hat_burger_head.desc,Epic,mcc:island_cosmetics.head.burger_head,,"3,375",300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[Mmm.. Burger]
-,Cosmetic,,Hat,Dimmsdale,,,Epic,,,"3,375",300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,"An incredibly tall pearly white cowboy hat. [I'm Neal Noxite, owner of the Noxite Vox-Noxesium.]"
-TRUE,Cosmetic,wardrobe_hat_vr_headset,Hat,VR,wardrobe_hat_vr_headset.name,wardrobe_hat_vr_headset.desc,Epic,mcc:island_cosmetics.head.vr_headset,,"3,375",300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[Enter a new reality]
-,Cosmetic,,Hat,Napoleon,,,Legendary,,,"10,800",600, $ 12.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,French army general hat like that of Napoleon.
+TRUE,Cosmetic,wardrobe_hat_texan_capitalist,Hat,Texan Capitalist,wardrobe_hat_texan_capitalist.name,wardrobe_hat_texan_capitalist.desc,Epic,mcc:island_cosmetics.head.texan_capitalist,,"3,375",300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,"An incredibly tall pearly white cowboy hat. [I'm Neal Noxite, owner of the Noxite Vox-Noxesium.]"
+TRUE,Cosmetic,wardrobe_hat_vr_headset,Hat,VR Headset,wardrobe_hat_vr_headset.name,wardrobe_hat_vr_headset.desc,Epic,mcc:island_cosmetics.head.vr_headset,,"3,375",300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[Enter a new reality]
+TRUE,Cosmetic,wardrobe_hat_la_revolution,Hat,La Revolution,wardrobe_hat_la_revolution.name,wardrobe_hat_la_revolution.desc,Legendary,mcc:island_cosmetics.head.la_revolution,,"10,800",600, $ 12.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,French army general hat like that of Napoleon.
 TRUE,Cosmetic,,Hat,Archer,,,Rare,,,"1,463",150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,[Robbin' Hood?]
 TRUE,Cosmetic,wardrobe_hat_chefs_hat,Hat,Chef's Hat,wardrobe_hat_chefs_hat.name,wardrobe_hat_chefs_hat.desc,Rare,mcc:island_cosmetics.head.chefs_hat,,"1,463",150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,"[What's cookin, good lookin?]"
 ,Cosmetic,,Hat,Fruit Basket,,,Rare,,,"1,463",150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,None,[I get fruit! You get fruit! Everyone gets some fruit!]
@@ -165,12 +168,12 @@ TRUE,Cosmetic,wardrobe_hat_sombrero,Hat,Sombrero,wardrobe_hat_sombrero.name,ward
 ,Cosmetic,,Hat,Big Ears,,,Uncommon,,,563,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,[Dumbo?]
 ,Cosmetic,,Hat,Big Eyes,,,Uncommon,,,563,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,[Eye spy with my big I.]
 ,Cosmetic,,Hat,Detective,,,Uncommon,,,563,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,None,A cheshire cap like a certain Holmes might wear. [Someone stole the detective's hat! But he's on the case!]
-,Cosmetic,,Hat,Frog Bucket Hat,,,Uncommon,,,563,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,[Ribbit!]
-TRUE,Cosmetic,wardrobe_hat_graduate,Hat,Graduate,wardrobe_hat_graduate.name,wardrobe_hat_graduate.desc,Uncommon,mcc:island_cosmetics.head.graduate,,563,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,None,"A black, square hat with a golden tassal to one side. [Highschool is out!]"
+TRUE,Cosmetic,wardrobe_hat_frog_bucket_hat,Hat,Frog Bucket Hat,wardrobe_hat_frog_bucket_hat.name,wardrobe_hat_frog_bucket_hat.desc,Uncommon,mcc:island_cosmetics.frog_bucket_hat,,563,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[Ribbit!]
+TRUE,Cosmetic,wardrobe_hat_graduate,Hat,Graduate,wardrobe_hat_graduate.name,wardrobe_hat_graduate.desc,Uncommon,mcc:island_cosmetics.head.graduate,,563,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,"A black, square hat with a golden tassal to one side. [Highschool is out!]"
 ,Cosmetic,,Hat,Pilot's Hat,,,Uncommon,,,563,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,None,[Ready to fly?]
-,Cosmetic,,Hat,Pirate,,,Uncommon,,,563,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,[Arrrr!]
+TRUE,Cosmetic,wardrobe_hat_pirate_hat,Hat,Pirate Hat,wardrobe_hat_pirate_hat.name,wardrobe_hat_pirate_hat.desc,Uncommon,mcc:island_cosmetics.head.pirate_hat,,563,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[Arrrr!]
 ,Cosmetic,,Hat,Sun Shades,,,Uncommon,,,563,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,In Progress,"[Sun's out, Guns out!]"
-TRUE,Cosmetic,wardrobe_hat_tv,Hat,TV Head,wardrobe_hat_tv.name,wardrobe_hat_tv.desc,Uncommon,mcc:island_cosmetics.head.tv_head,,563,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,A Television set placed upon your head. [Reminds me of something from a comic...]
+TRUE,Cosmetic,wardrobe_hat_tv_head,Hat,TV Head,wardrobe_hat_tv_head.name,wardrobe_hat_tv_head.desc,Uncommon,mcc:island_cosmetics.head.tv_head,,563,75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,A Television set placed upon your head. [Reminds me of something from a comic...]
 ,Cosmetic,,Hat,Aqua Cap,,,Common,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,An aqua baseball cap. Aqua Axolotyl Loyalty reward.
 ,Cosmetic,,Hat,Blue Cap,,,Common,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,A bluebaseball cap. Blue Bat Loyalty reward.
 ,Cosmetic,,Hat,Cyan Cap,,,Common,,Faction Mastery,---,---, --- ,No Currency,factionReward,FALSE,FALSE,FALSE,None,A cyan baseball cap. Cyan Creeper Loyalty reward.
@@ -215,12 +218,12 @@ TRUE,Cosmetic,,Hat,Yellow Cap,,,Common,,Faction Mastery,---,---, --- ,No Currenc
 TRUE,Cosmetic,wardrobe_hat_chicken_head,Hat,Chicken Head,wardrobe_hat_chicken_head.name,wardrobe_hat_chicken_head.desc,Rare,mcc:island_cosmetics.head.chicken_head,Animal Instinct,"1,463",150, $ 3.00 ,---,bundle,TRUE,TRUE,FALSE,Complete,[No longer headless!]
 TRUE,Cosmetic,wardrobe_hat_mascot_bobblehead,Hat,Mascot Bobblehead,wardrobe_hat_mascot_bobblehead.name,wardrobe_hat_mascot_bobblehead.desc,Legendary,mcc:island_cosmetics.head.mascot_bobblehead,MC Championship,"10,800",600, $ 12.00 ,---,bundle,TRUE,TRUE,FALSE,Complete,[The Champion]
 ,Cosmetic,,Hat,Disguise,,,Common,,,375,50, $ 1.00 ,---,shards,TRUE,TRUE,FALSE,In Progress,"Classic glasses, nose and moustached disguise. Groucho Marx. [Who are you?]"
-,Cosmetic,,Hat,Traffic Cone,,,Common,,,375,50, $ 1.00 ,---,shards,TRUE,TRUE,FALSE,In Progress,[I'm walkin' here]
+TRUE,Cosmetic,wardrobe_hat_traffic_cone,Hat,Traffic Cone,wardrobe_hat_traffic_cone.name,wardrobe_hat_traffic_cone.desc,Common,mcc:island_cosmetics.head.traffic_cone,,375,50, $ 1.00 ,---,shards,TRUE,TRUE,FALSE,Complete,[I'm walkin' here]
 ,Cosmetic,,Hat,Football Helmet,,,Rare,,,"1,463",150, $ 3.00 ,---,shards,TRUE,TRUE,FALSE,None,Classic Football Helmet. [10. 24. Hike!]
-,Cosmetic,,Hat,Night Vision,,,Rare,,,"1,463",150, $ 3.00 ,---,shards,TRUE,TRUE,FALSE,None,"[Fisher, do you copy?]"
+TRUE,Cosmetic,wardrobe_hat_night_vision,Hat,Night Vision Goggles,wardrobe_hat_night_vision.name,wardrobe_hat_night_vision.desc,Rare,mcc:island_cosmetics.head.night_vision,,"1,463",150, $ 3.00 ,---,shards,TRUE,TRUE,FALSE,Complete,"[Fisher, do you copy?]"
 ,Cosmetic,,Hat,Horned Viking Helmet,,,Uncommon,,,563,75, $ 1.50 ,---,shards,TRUE,TRUE,FALSE,None,[Not Historically Accurate]
 TRUE,Cosmetic,wardrobe_hat_goggles,Hat,Goggles,wardrobe_hat_goggles.name,wardrobe_hat_goggles.desc,Common,mcc:island_cosmetics.head.goggles,,375,50, $ 1.00 ,---,shards,TRUE,TRUE,FALSE,Complete,[Perfect for mischief goblin welding!]
-,Cosmetic,,Hat,Headphones,,,Common,,,375,50, $ 1.00 ,---,shards,TRUE,TRUE,FALSE,In Progress,Basic Headphones [Pump up the volume to your heart's content!]
+TRUE,Cosmetic,wardrobe_hat_headphones,Hat,Headphones,wardrobe_hat_headphones.name,wardrobe_hat_headphones.desc,Common,mcc:island_cosmetics.head.headphones,,375,50, $ 1.00 ,---,shards,TRUE,TRUE,FALSE,Complete,Basic Headphones [Pump up the volume to your heart's content!]
 ,Cosmetic,,Hat,Party Hat,,,Common,,,375,50, $ 1.00 ,---,shards,TRUE,TRUE,FALSE,In Progress,[Party like it's 1999]
 ,Cosmetic,,Hat,Vanity,,,Rare,,,"1,463",150, $ 3.00 ,---,shards,TRUE,TRUE,FALSE,In Progress,It makes your head look bigger. [Well you think you look great. And that's all that really matters.]
 FALSE,Cosmetic,,Hat,Cool Dude Shades,,,Legendary,,,---,---, --- ,No Currency,bundle,FALSE,FALSE,FALSE,None,"A pair of very nice, very expensive, very exclusive shades. [Welcome to MCC Island, baby.]"
@@ -250,7 +253,7 @@ TRUE,Cosmetic,trail_pixie_dust,Trail,Pixie Dust,trail_pixie_dust.name,trail_pixi
 ,Cosmetic,,Trail,Rainbow,,,Uncommon,,,"1,125",150, $ 3.00 ,---,particleStore,TRUE,TRUE,FALSE,None,Multicolored light goes in your wake.
 ,Cosmetic,,Trail,Stink Lines,,,Uncommon,,,"1,125",150, $ 3.00 ,---,particleStore,TRUE,TRUE,FALSE,None,Small green/yellow lines hover slightly above your character when stationary.
 ,Cosmetic,trail_smoke_cloud,Trail,Smoke Cloud,trail_smoke_cloud.name,trail_smoke_cloud.desc,Rare,mcc:island_cosmetics.trails.smoke_cloud,,"2,925",300, $ 6.00 ,---,shards,TRUE,TRUE,FALSE,Complete,Small puffs of grey smoke sporatically follow your character when in motion.
-FALSE,,,,,,,,,,0,,  ,,,FALSE,FALSE,FALSE,,
+FALSE,Cosmetic,aura_chippy,Aura,Chippy,aura_chippy.name,aura_chippy.desc,Legendary,mcc:island_cosmetics.aura_chippy,,"10,800","1,200", $ 24.00 ,---,particleStore,TRUE,TRUE,FALSE,None,"A small, smiling head made of diamonds slowly circles you. Every one in a while it speaks in a text box giving a cute quip. Reference to 'Clippy' the Paperclip and should give off a similar vibe. Have a list of quips for Chippy to randomly select."
 FALSE,,,,,,,,,,0,,  ,,,FALSE,FALSE,FALSE,,
 FALSE,,,,,,,,,,0,,  ,,,FALSE,FALSE,FALSE,,
 FALSE,,,,,,,,,,0,,  ,,,FALSE,FALSE,FALSE,,
