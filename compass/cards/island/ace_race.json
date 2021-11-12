@@ -9,7 +9,7 @@
         },
         {
             "type": "split_per_section",
-            "sections": ["space, clouds, pythons_crypt"]
+            "sections": ["~ref_*"]
         },
         {
             "type": "empty_region_padding"
