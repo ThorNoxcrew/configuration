@@ -22,7 +22,6 @@ mccScript {
         patrol(pointList)
 
         type("ambient")
-        
         helmet("mcc:island_cosmetics.hat.traffic_cone")
     }
 }
