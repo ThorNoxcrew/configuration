@@ -23,6 +23,6 @@ mccScript {
 
         type("ambient")
         
-        helmet(mcc:island_cosmetics.hat.traffic_cone")
+        helmet("mcc:island_cosmetics.hat.traffic_cone")
     }
 }
