@@ -14,7 +14,6 @@ mccScript {
         roaming(absoluteVec(383.0, 34.0, 615.5), absoluteVec(385.0, 34.0, 618.5))
 
         type("ambient")
-        
         mainHand("mcc:island_cosmetics.accessory.pipe_wrench")
     }
 }
