@@ -14,7 +14,6 @@ mccScript {
         rotation(0.0, 0.0)
 
         type("ambient")
-        
         helmet("mcc:island_cosmetics.hat.cat_ear_headphones")
     }
 }

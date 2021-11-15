@@ -19,7 +19,6 @@ mccScript {
         patrol(pointList)
 
         type("ambient")
-        
         offHand("mcc:island_cosmetics.accessory.robot_arm")
     }
 }

@@ -16,7 +16,6 @@ mccScript {
         cooldown(1.seconds)
 
         type("ambient")
-        
         mainHand("minecraft:bow")
     }
 }

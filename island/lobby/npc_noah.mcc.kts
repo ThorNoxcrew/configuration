@@ -16,7 +16,6 @@ mccScript {
         cooldown(1.seconds)
 
         type("ambient")
-        
         helmet("mcc:island_cosmetics.hat.trucker_hat")
     }
 }
