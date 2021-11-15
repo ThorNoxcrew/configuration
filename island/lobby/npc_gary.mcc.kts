@@ -14,7 +14,6 @@ mccScript {
         roaming(absoluteVec(382.5, 36.0, 601.5), absoluteVec(379.5, 36.0, 601.5))
 
         type("ambient")
-        
         helmet("mcc:island_cosmetics.hat.chefs_hat")
     }
 }
