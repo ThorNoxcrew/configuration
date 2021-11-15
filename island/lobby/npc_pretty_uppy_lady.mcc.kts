@@ -26,5 +26,7 @@ mccScript {
 
         belowName("island.npc.shop.barber")
         type("shop")
+        
+        mainHand("mcc:island_cosmetics.accessory.paintbrush")
     }
 }

@@ -16,5 +16,7 @@ mccScript {
         cooldown(1.seconds)
 
         type("ambient")
+        
+        offHand("mcc:island_cosmetics.accessory.cash_filled_briefcase")
     }
 }
