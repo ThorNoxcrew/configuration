@@ -26,13 +26,11 @@ mccScript {
             ),
             30.seconds
         )
-
         /*interactBehavior { npc, player ->
             withContext(Dispatchers.Minecraft) {
                 ShopGui(CurrencyType.NON_PREMIUM, "gadgetStore", player).open(player)
             }
         }*/
-        
         helmet("mcc:island_cosmetics.hair.professor")
         offHand("mcc:island_cosmetics.accessory.pipe_wrench")
 

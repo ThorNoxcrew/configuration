@@ -18,13 +18,11 @@ mccScript {
         rotation(-90.0, 45.0)
         lookClosePerPlayer(4)
         cooldown(1.seconds)
-        
         /*interactBehavior { npc, player ->
             withContext(Dispatchers.Minecraft) {
                 ShopGui(CurrencyType.NON_PREMIUM, "gadgetStore", player).open(player)
             }
-        }*/
-        
+        }*/ 
         belowName("island.npc.shop.gadgets")
         type("shop")
     }
