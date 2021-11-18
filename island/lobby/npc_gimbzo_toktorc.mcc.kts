@@ -18,7 +18,6 @@ mccScript {
         rotation(75.0, 0.0)
         lookClosePerPlayer(6)
         cooldown(1.seconds)
-        
         proximityChat(
             listOf(
                 i18n.translatable("island.npc.gadgetsClosed.dialogue1"),
