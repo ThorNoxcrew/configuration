@@ -22,7 +22,7 @@ mccScript {
             withContext(Dispatchers.Minecraft) {
                 ShopGui(CurrencyType.NON_PREMIUM, "gadgetStore", player).open(player)
             }
-        }*/ 
+        }*/
         belowName("island.npc.shop.gadgets")
         type("shop")
     }
