@@ -18,6 +18,15 @@ mccScript {
         rotation(75.0, 0.0)
         lookClosePerPlayer(6)
         cooldown(1.seconds)
+        
+        proximityChat(
+            listOf(
+                i18n.translatable("island.npc.gadgetsClosed.dialogue1"),
+                i18n.translatable("island.npc.gadgetsClosed.dialogue2"),
+                i18n.translatable("island.npc.gadgetsClosed.dialogue3")
+            ),
+            30.seconds
+        )
 
         interactBehavior { npc, player ->
             withContext(Dispatchers.Minecraft) {
