@@ -38,6 +38,7 @@ mccScript {
         pointList += Transform(374.5, 41.0, 651.0)
         pointList += Transform(374.5, 41.0, 663.0)
         pointList += Transform(376.5, 41.0, 664.5)
+        
         patrol(pointList)
         
         helmet("mcc:island_cosmetics.wardrobe_hair_groundskeeper")
