@@ -272,10 +272,10 @@ FALSE,,,,Warhammer,,,,,,0,,  ,,,FALSE,FALSE,FALSE,,
 FALSE,Cosmetic,,Trail,Smelly Cloud,,,Rare,,,"7,313",300, $ 6.00 ,---,particleStore,TRUE,TRUE,FALSE,None,A green-yellow-brown cloud floats around and behind you (honestly like a fart cloud).
 TRUE,Cosmetic,accessory_beam_sword,Accessory,Beam Sword,accessory_beam_sword.name,accessory_beam_sword.desc,Epic,mcc:island_cosmetics.accessory.beam_sword,,"8,438",300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[You hold in your hand\nA sword that shoots laser beams.]
 TRUE,Cosmetic,accessory_hot_dog,Accessory,Hot Dog,accessory_hot_dog.name,accessory_hot_dog.desc,Uncommon,mcc:island_cosmetics.accessory.hot_dog,,"1,406",75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[Is it a sandwich? Or a taco?]
-TRUE,Cosmetic,wardrobe_hat_astronaut_helmet,Hat,Astronaut Helmet,wardrobe_hat_astronaut_helmet.name,wardrobe_hat_astronaut_helmet.desc,Epic,mcc:island_cosmetics.head.astronaut_helmet,,"8,438",300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[One small step is all it takes]
+TRUE,Cosmetic,wardrobe_hat_astronaut_helmet,Hat,Astronaut Helmet,wardrobe_hat_astronaut_helmet.name,wardrobe_hat_astronaut_helmet.desc,Epic,mcc:island_cosmetics.hat.astronaut_helmet,,"8,438",300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[One small step is all it takes]
 TRUE,Cosmetic,wardrobe_hat_banana_hat,Hat,Banana Hat,wardrobe_hat_banana_hat.name,wardrobe_hat_banana_hat.desc,Legendary,mcc:island_cosmetics.hat.banana_hat,,"27,000",600, $ 12.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[Behold! For I am Potassium-Man!]
 TRUE,Cosmetic,wardrobe_hat_egg_yolk,Hat,Egg Yolk,wardrobe_hat_egg_yolk.name,wardrobe_hat_egg_yolk.desc,Uncommon,mcc:island_cosmetics.hat.egg_yolk,,"1,406",75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[For when you just.. crack]
-TRUE,Cosmetic,wardrobe_hat_eyeball,Hat,Eyeball,wardrobe_hat_eyeball.name,wardrobe_hat_eyeball.desc,Uncommon,mcc:island_cosmetics.head.eyeball,,"1,406",75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[I spy with my colossal eye..]
+TRUE,Cosmetic,wardrobe_hat_eyeball,Hat,Eyeball,wardrobe_hat_eyeball.name,wardrobe_hat_eyeball.desc,Uncommon,mcc:island_cosmetics.hat.eyeball,,"1,406",75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[I spy with my colossal eye..]
 FALSE,,,,,,,,,,0,,  ,,,FALSE,FALSE,FALSE,,
 FALSE,,,,,,,,,,0,,  ,,,FALSE,FALSE,FALSE,,
 FALSE,,,,,,,,,,0,,  ,,,FALSE,FALSE,FALSE,,
