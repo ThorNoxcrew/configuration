@@ -21,7 +21,7 @@ TRUE,Cosmetic,accessory_trash_can_lid,Accessory,Trash Can Lid,accessory_trash_ca
 ,Cosmetic,,Accessory,Fanciest Cane,,,Epic,,,"8,438",300, $ 6.00 ,---,shards,TRUE,TRUE,FALSE,None,Ornate walking stick with a jeweled tip.
 ,Cosmetic,,Accessory,Fancy Cane,,,Uncommon,,,"1,406",75, $ 1.50 ,---,shards,TRUE,TRUE,FALSE,None,"Nice, polished wood cane with an elegant curve. Traditional old man cane."
 ,Cosmetic,,Accessory,Lantern,,,Epic,,Spooktacular,"8,438",300, $ 6.00 ,---,shards,TRUE,TRUE,FALSE,None,A lantern dangles from your grip and shines light around the player.
-,Cosmetic,,Accessory,Magician's Wand,,,Uncommon,,Mineshafts and Magic,"1,406",75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,None,Black and white wand as used by stage magicians.
+TRUE,Cosmetic,,Accessory,Magician's Wand,,,Uncommon,mcc:island_cosmetics.accessory.magicians_wand,Mineshafts and Magic,"1,406",75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,None,[Abracadabra!]
 ,Cosmetic,,Accessory,Megaphone,,,Uncommon,,,"1,406",75, $ 1.50 ,---,shards,TRUE,TRUE,FALSE,None,A white megaphone with a red back and outline.
 ,Cosmetic,,Accessory,Money Bag,,,Rare,,,"3,656",150, $ 3.00 ,---,shards,TRUE,TRUE,FALSE,None,Hold a sack of cash with a dollar sign emblazoned on the side. It hangs under your grip.
 ,Cosmetic,,Accessory,Offhand Crown,,,Epic,,MC Championship,"8,438",300, $ 6.00 ,---,bundle,TRUE,TRUE,FALSE,None,Hold a shiny crown in your off-hand.
@@ -252,11 +252,11 @@ TRUE,Cosmetic,trail_sparkle,Trail,Sparkle,trail_sparkle.name,trail_sparkle.desc,
 ,Cosmetic,,Trail,Rainbow,,,Uncommon,,,"2,813",150, $ 3.00 ,---,particleStore,TRUE,TRUE,FALSE,None,Multicolored light goes in your wake.
 ,Cosmetic,trail_smoke_cloud,Trail,Smoke Cloud,trail_smoke_cloud.name,trail_smoke_cloud.desc,Rare,mcc:island_cosmetics.trails.smoke_cloud,,"7,313",300, $ 6.00 ,---,shards,TRUE,TRUE,FALSE,Complete,Small puffs of grey smoke sporatically follow your character when in motion.
 ,Cosmetic,,Trail,Speedster,,,Legendary,,,"45,000","1,000", $ 20.00 ,---,particleStore,TRUE,TRUE,FALSE,None,"Whenever you move, a transparent copy of you is left behind for 1 second. This makes you look like you're moving super fast!"
-,Cosmetic,,Trail,Stink Lines,,,Uncommon,,,"2,813",150, $ 3.00 ,---,particleStore,TRUE,TRUE,FALSE,None,Small green/yellow lines hover slightly above your character when stationary.
+,Cosmetic,,Aura,Stink Lines,,,Uncommon,,,"2,813",200, $ 4.00 ,---,particleStore,TRUE,TRUE,FALSE,None,Small green/yellow lines hover slightly above your character when stationary.
 FALSE,,,,Ball Mace,,,,,,0,,  ,,,FALSE,FALSE,FALSE,,
 FALSE,,,,Baseball Bat,,,,,,0,,  ,,,FALSE,FALSE,FALSE,,
 FALSE,,,,Beam Sword,,,,,,0,,  ,,,FALSE,FALSE,FALSE,,
-FALSE,,,,Burger,,,,,,0,,  ,,,FALSE,FALSE,FALSE,,
+TRUE,Cosmetic,,Accessory,Burger,,,Rare,mcc:island_cosmetics.accessory.burger,,"3,656",150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,"[Burgers But Fast, on the go!]"
 FALSE,,,,Chainsaw,,,,,,0,,  ,,,FALSE,FALSE,FALSE,,
 FALSE,,,,Cloudbuster,,,,,,0,,  ,,,FALSE,FALSE,FALSE,,
 FALSE,,,,Cricket Club,,,,,,0,,  ,,,FALSE,FALSE,FALSE,,
@@ -266,16 +266,16 @@ FALSE,,,,Earth Sword,,,,,,0,,  ,,,FALSE,FALSE,FALSE,,
 FALSE,,,,Fire Sword,,,,,,0,,  ,,,FALSE,FALSE,FALSE,,
 FALSE,,,,Ice Sword,,,,,,0,,  ,,,FALSE,FALSE,FALSE,,
 FALSE,,,,Ogre's Club,,,,,,0,,  ,,,FALSE,FALSE,FALSE,,
-FALSE,,,,Portal Device,,,,,,0,,  ,,,FALSE,FALSE,FALSE,,
+TRUE,Cosmetic,,Accessory,Wormhole Blaster,,,Epic,mcc:island_cosmetics.accessory.wormhole_blaster,,"8,438",300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[A colorful method of transportation]
 FALSE,,,,Spatula,,,,,,0,,  ,,,FALSE,FALSE,FALSE,,
 FALSE,,,,Warhammer,,,,,,0,,  ,,,FALSE,FALSE,FALSE,,
-FALSE,,,,,,,,,,0,,  ,,,FALSE,FALSE,FALSE,,
-FALSE,,,,,,,,,,0,,  ,,,FALSE,FALSE,FALSE,,
-FALSE,,,,,,,,,,0,,  ,,,FALSE,FALSE,FALSE,,
-FALSE,,,,,,,,,,0,,  ,,,FALSE,FALSE,FALSE,,
-FALSE,,,,,,,,,,0,,  ,,,FALSE,FALSE,FALSE,,
-FALSE,,,,,,,,,,0,,  ,,,FALSE,FALSE,FALSE,,
-FALSE,,,,,,,,,,0,,  ,,,FALSE,FALSE,FALSE,,
+FALSE,Cosmetic,,Trail,Smelly Cloud,,,Rare,,,"7,313",300, $ 6.00 ,---,particleStore,TRUE,TRUE,FALSE,None,A green-yellow-brown cloud floats around and behind you (honestly like a fart cloud).
+TRUE,Cosmetic,,Accessory,Beam Sword,,,Epic,mcc:island_cosmetics.accessory.beam_sword,,"8,438",300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[They say only the powerful can wield it]
+TRUE,Cosmetic,,Accessory,Hot Dog,,,Uncommon,mcc:island_cosmetics.accessory.hot_dog,,"1,406",75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[Is it a sandwich?]
+TRUE,Cosmetic,,Hat,Astronaut Helmet,,,Epic,mcc:island_cosmetics.head.astronaut_helmet,,"8,438",300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[One small step is all it takes]
+TRUE,Cosmetic,,Hat,Banana Hat,,,Legendary,mcc:island_cosmetics.hat.banana_hat,,"27,000",600, $ 12.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,"[Behold, For I am Potassium-Man!]"
+TRUE,Cosmetic,,Hat,Egg Yolk,,,Uncommon,mcc:island_cosmetics.hat.egg_yolk,,"1,406",75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[For when you just.. crack]
+TRUE,Cosmetic,,Hat,Eyeball,,,Uncommon,mcc:island_cosmetics.head.eyeball,,"1,406",75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[I spy with my colossal eye..]
 FALSE,,,,,,,,,,0,,  ,,,FALSE,FALSE,FALSE,,
 FALSE,,,,,,,,,,0,,  ,,,FALSE,FALSE,FALSE,,
 FALSE,,,,,,,,,,0,,  ,,,FALSE,FALSE,FALSE,,
