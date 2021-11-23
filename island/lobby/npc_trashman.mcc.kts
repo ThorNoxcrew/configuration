@@ -39,8 +39,8 @@ mccScript {
         pointList += Transform(374.5, 41.0, 663.0)
         pointList += Transform(376.5, 41.0, 664.5)
         patrol(pointList)
-        helmet("mcc:island_cosmetics.wardrobe_hair_groundskeeper")
-        offHand("mcc:island_cosmetics.accessory_trash_can_lid")
+        helmet("mcc:island_cosmetics.hair.groundskeeper")
+        offHand("mcc:island_cosmetics.accessory.trash_can_lid")
         type("ambient")
     }
 }
