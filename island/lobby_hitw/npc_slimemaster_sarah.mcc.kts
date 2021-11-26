@@ -13,7 +13,7 @@ mccScript {
     ) {
         lookClosePerPlayer(6)
         cooldown(1.seconds)
-        // roaming(absoluteVec(-231.0, 34.0, -778.0), absoluteVec(-229.0, 34.0, -759.0))
+        roaming(absoluteVec(-231.0, 34.0, -778.0), absoluteVec(-229.0, 34.0, -759.0))
 
         type("ambient")
     }
