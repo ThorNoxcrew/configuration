@@ -12,8 +12,8 @@ mccScript {
         "NekiBeBH/9JNzsE3QTnsv6WTOEdm+YUjLpaC+eArtDDeDzRCZr6I2TCC04YJIKmQ+S6Y92yQhxMn7LHxznDXRYa6gMhgU9/v+VOiwohFHTjLVlGljhc6FPaDuXSLJ+Lo2hvUxD77r+SzrF7g1dxBxKTMqg2Ant2rT8JSJ9NCSXMy8C5rhUL5rbScu4kZpyvuex4Ej2lw9tpgTNtKl+5XDhK7Mgtkfdw+97wiozJhbIDq3TFxdYRPU7CDoyJsK1pyYswpXB149EadpS5gkBEqU5FeOIHf606n6cI5BkE/J+w6qsEOC0VMesKiWMabkv3uyNQke7c+LCDOKfEkikIG9Hg75RphZ1Pm1x7UX4WpK0UMw0I/cd4j4+B15JPf6ACtbXLPxpkcr+NNoLR1iwUmH3xKfm4Hs2NBJqHFSkY0nlNdRh0iCjfoaoBOwqMy06D2N5c41RpiDCPH7GpGKzBbdD17xd+zni8MDSKvqzLhk3j8kYI7LOhwehpv7yTYo6cM5aIlXtuvEZ5Zt12RFbkr1XJDDXGGLMREssgw1mXN4yUadh5pY8M+v2aqTJE9ragEuUluPc1/wTWve5WUO+Isnft3gX6hGPy+Ll1kC8TL5gwRegQcLe6cmlAFbxXNKL1ioGlczaFNPv5/cA+69t9iA7mVApZXDrH++Zf/5wDDwAA="
     ) {
         rotation(180.0,0.0)
-        // lookClosePerPlayer(6)
-        // cooldown(1.seconds)
+        lookClosePerPlayer(6)
+        cooldown(1.seconds)
 
         type("ambient")
         
