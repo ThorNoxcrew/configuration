@@ -17,7 +17,7 @@ mccScript {
 
         type("ambient")
         
-        offhand("mcc:island_cosmetics.accessory.cash_filled_briefcase")
+        offHand("mcc:island_cosmetics.accessory.cash_filled_briefcase")
         helmet("mcc:island_cosmetics.hat.goggles")
     }
 }
