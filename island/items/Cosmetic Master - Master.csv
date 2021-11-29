@@ -149,7 +149,7 @@ TRUE,Cosmetic,wardrobe_hat_bucket_hat,Hat,Bucket Hat,wardrobe_hat_bucket_hat.nam
 TRUE,Cosmetic,wardrobe_hat_burger_head,Hat,Burger Head,wardrobe_hat_burger_head.name,wardrobe_hat_burger_head.desc,Epic,mcc:island_cosmetics.hat.burger_head,,"8,438",300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[Mmm.. Burger]
 TRUE,Cosmetic,wardrobe_hat_cat_ear_headphones,Hat,Cat Ear Headphones,wardrobe_hat_cat_ear_headphones.name,wardrobe_hat_cat_ear_headphones.desc,Epic,mcc:island_cosmetics.hat.cat_ear_headphones,,"8,438",300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[Purrfect starter headgear for streaming!]
 TRUE,Cosmetic,wardrobe_hat_chefs_hat,Hat,Chef's Hat,wardrobe_hat_chefs_hat.name,wardrobe_hat_chefs_hat.desc,Rare,mcc:island_cosmetics.hat.chefs_hat,,"3,656",150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,"[What's cookin, good lookin?]"
-TRUE,Cosmetic,wardrobe_hat_chicken_head,Hat,Chicken Head,wardrobe_hat_chicken_head.name,wardrobe_hat_chicken_head.desc,Rare,mcc:island_cosmetics.hat.chicken_head,Animal Instinct,"3,656",150, $ 3.00 ,---,bundle,TRUE,TRUE,FALSE,Complete,[No longer headless!]
+TRUE,Cosmetic,wardrobe_hat_chicken_head,Hat,Chicken Head,wardrobe_hat_chicken_head.name,wardrobe_hat_chicken_head.desc,Rare,mcc:island_cosmetics.hat.chicken_head,Animal Instinct,"3,656",150, $ 3.00 ,---,shards,TRUE,TRUE,FALSE,Complete,[No longer headless!]
 TRUE,Cosmetic,wardrobe_hat_cthulus_head,Hat,Cthulu's Head,wardrobe_hat_cthulus_head.name,wardrobe_hat_cthulus_head.desc,Epic,mcc:island_cosmetics.hat.cthulus_head,Spooktacular,"8,438",300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,A mass of tentacles spewing from the player's head. Maybe bat ears on the side of the head. [Ph'nglui mglw'nafh Bloc'kulu MCC Island wgah'nagl fhtagn]
 TRUE,Cosmetic,wardrobe_hat_fancy_hat,Hat,Fancy Hat,wardrobe_hat_fancy_hat.name,wardrobe_hat_fancy_hat.desc,Legendary,mcc:island_cosmetics.hat.fancy_hat,Epiclandlord's Legendary Arsenal,"27,000",600, $ 12.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,A purple wide-brim hat with an orange feather. [Perfect for when you mean to impress.]
 TRUE,Cosmetic,wardrobe_hat_frog_bucket_hat,Hat,Frog Bucket Hat,wardrobe_hat_frog_bucket_hat.name,wardrobe_hat_frog_bucket_hat.desc,Uncommon,mcc:island_cosmetics.hat.frog_bucket_hat,,"1,406",75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[Ribbit!]
@@ -159,7 +159,7 @@ TRUE,Cosmetic,wardrobe_hat_graduate,Hat,Graduate,wardrobe_hat_graduate.name,ward
 TRUE,Cosmetic,wardrobe_hat_headphones,Hat,Headphones,wardrobe_hat_headphones.name,wardrobe_hat_headphones.desc,Common,mcc:island_cosmetics.hat.headphones,,938,50, $ 1.00 ,---,shards,TRUE,TRUE,FALSE,Complete,Basic Headphones [Pump up the volume to your heart's content!]
 TRUE,Cosmetic,wardrobe_hat_la_revolution,Hat,La Revolution,wardrobe_hat_la_revolution.name,wardrobe_hat_la_revolution.desc,Legendary,mcc:island_cosmetics.hat.la_revolution,,"27,000",600, $ 12.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,"French army general hat like that of Napoleon. [Regarding popularity on MCC Island, stupidity is not a handicap.]"
 TRUE,Cosmetic,wardrobe_hat_magicians_hat,Hat,Magician's Hat,wardrobe_hat_magicians_hat.name,wardrobe_hat_magicians_hat.desc,Common,mcc:island_cosmetics.hat.magicians_hat,Mineshafts and Magic,938,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,A black magician's hat with a red stripe across the brim. [And now to make your coins disappear!]
-TRUE,Cosmetic,wardrobe_hat_mascot_bobblehead,Hat,Mascot Bobblehead,wardrobe_hat_mascot_bobblehead.name,wardrobe_hat_mascot_bobblehead.desc,Legendary,mcc:island_cosmetics.hat.mascot_bobblehead,MC Championship,"27,000",600, $ 12.00 ,---,bundle,TRUE,TRUE,FALSE,Complete,[The Champion]
+TRUE,Cosmetic,wardrobe_hat_mascot_bobblehead,Hat,Mascot Bobblehead,wardrobe_hat_mascot_bobblehead.name,wardrobe_hat_mascot_bobblehead.desc,Legendary,mcc:island_cosmetics.hat.mascot_bobblehead,MC Championship,"27,000",600, $ 12.00 ,---,shards,TRUE,TRUE,FALSE,Complete,[The Champion]
 TRUE,Cosmetic,wardrobe_hat_mobster_hat,Hat,Mobster Hat,wardrobe_hat_mobster_hat.name,wardrobe_hat_mobster_hat.desc,Common,mcc:island_cosmetics.hat.mobster_hat,,938,50, $ 1.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,A black fedora like that a gangster might wear. [This is a hat you can't refuse.]
 TRUE,Cosmetic,wardrobe_hat_night_vision,Hat,Night Vision Goggles,wardrobe_hat_night_vision.name,wardrobe_hat_night_vision.desc,Rare,mcc:island_cosmetics.hat.night_vision,,"3,656",150, $ 3.00 ,---,shards,TRUE,TRUE,FALSE,Complete,"[Fisher, do you copy?]"
 TRUE,Cosmetic,wardrobe_hat_pirate_hat,Hat,Pirate Hat,wardrobe_hat_pirate_hat.name,wardrobe_hat_pirate_hat.desc,Uncommon,mcc:island_cosmetics.hat.pirate_hat,,"1,406",75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[Yar har fiddle dee dee!]
@@ -256,7 +256,7 @@ TRUE,Cosmetic,trail_sparkle,Trail,Sparkle,trail_sparkle.name,trail_sparkle.desc,
 FALSE,,,,Ball Mace,,,,,,0,,  ,,,FALSE,FALSE,FALSE,,
 FALSE,,,,Baseball Bat,,,,,,0,,  ,,,FALSE,FALSE,FALSE,,
 FALSE,,,,Beam Sword,,,,,,0,,  ,,,FALSE,FALSE,FALSE,,
-TRUE,Cosmetic,accessory_burger,Accessory,Burger,accessory_burger.name,accessory_burger.desc,Rare,mcc:island_cosmetics.accessory.burger,,"3,656",150, $ 3.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,"[Burgers But Fast, on the go!]"
+TRUE,Cosmetic,accessory_burger,Accessory,Burger,accessory_burger.name,accessory_burger.desc,Rare,mcc:island_cosmetics.accessory.burger,,"3,656",150, $ 3.00 ,---,shards,TRUE,TRUE,FALSE,Complete,"[Burgers But Fast, on the go!]"
 FALSE,,,,Chainsaw,,,,,,0,,  ,,,FALSE,FALSE,FALSE,,
 FALSE,,,,Cloudbuster,,,,,,0,,  ,,,FALSE,FALSE,FALSE,,
 FALSE,,,,Cricket Club,,,,,,0,,  ,,,FALSE,FALSE,FALSE,,
@@ -271,11 +271,11 @@ FALSE,,,,Spatula,,,,,,0,,  ,,,FALSE,FALSE,FALSE,,
 FALSE,,,,Warhammer,,,,,,0,,  ,,,FALSE,FALSE,FALSE,,
 FALSE,Cosmetic,,Trail,Smelly Cloud,,,Rare,,,"7,313",300, $ 6.00 ,---,particleStore,TRUE,TRUE,FALSE,None,A green-yellow-brown cloud floats around and behind you (honestly like a fart cloud).
 TRUE,Cosmetic,accessory_beam_sword,Accessory,Beam Sword,accessory_beam_sword.name,accessory_beam_sword.desc,Epic,mcc:island_cosmetics.accessory.beam_sword,,"8,438",300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[You hold in your hand\nA sword that shoots laser beams.]
-TRUE,Cosmetic,accessory_hot_dog,Accessory,Hot Dog,accessory_hot_dog.name,accessory_hot_dog.desc,Uncommon,mcc:island_cosmetics.accessory.hot_dog,,"1,406",75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[Is it a sandwich? Or a taco?]
+TRUE,Cosmetic,accessory_hot_dog,Accessory,Hot Dog,accessory_hot_dog.name,accessory_hot_dog.desc,Uncommon,mcc:island_cosmetics.accessory.hot_dog,,"1,406",75, $ 1.50 ,---,shards,TRUE,TRUE,FALSE,Complete,[Is it a sandwich? Or a taco?]
 TRUE,Cosmetic,wardrobe_hat_astronaut_helmet,Hat,Astronaut Helmet,wardrobe_hat_astronaut_helmet.name,wardrobe_hat_astronaut_helmet.desc,Epic,mcc:island_cosmetics.hat.astronaut_helmet,,"8,438",300, $ 6.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[One small step is all it takes]
 TRUE,Cosmetic,wardrobe_hat_banana_hat,Hat,Banana Hat,wardrobe_hat_banana_hat.name,wardrobe_hat_banana_hat.desc,Legendary,mcc:island_cosmetics.hat.banana_hat,,"27,000",600, $ 12.00 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[Behold! For I am Potassium-Man!]
 TRUE,Cosmetic,wardrobe_hat_egg_yolk,Hat,Egg Yolk,wardrobe_hat_egg_yolk.name,wardrobe_hat_egg_yolk.desc,Uncommon,mcc:island_cosmetics.hat.egg_yolk,,"1,406",75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[For when you just.. crack]
-TRUE,Cosmetic,wardrobe_hat_eyeball,Hat,Eyeball,wardrobe_hat_eyeball.name,wardrobe_hat_eyeball.desc,Uncommon,mcc:island_cosmetics.hat.eyeball,,"1,406",75, $ 1.50 ,---,accessoryStore,TRUE,TRUE,FALSE,Complete,[I spy with my colossal eye..]
+TRUE,Cosmetic,wardrobe_hat_eyeball,Hat,Eyeball,wardrobe_hat_eyeball.name,wardrobe_hat_eyeball.desc,Uncommon,mcc:island_cosmetics.hat.eyeball,,"1,406",75, $ 1.50 ,---,shards,TRUE,TRUE,FALSE,Complete,[I spy with my colossal eye..]
 FALSE,,,,,,,,,,0,,  ,,,FALSE,FALSE,FALSE,,
 FALSE,,,,,,,,,,0,,  ,,,FALSE,FALSE,FALSE,,
 FALSE,,,,,,,,,,0,,  ,,,FALSE,FALSE,FALSE,,
