@@ -14,7 +14,7 @@ mccScript {
         rotation(90.0, 0.0)
         lookClosePerPlayer(6)
         cooldown(1.seconds)
-        roaming(absoluteVec(-231.0, 37.0, -746.0), absoluteVec(-237.0, 37.0, -746.0))
+        roaming(absoluteVec(-232.0, 37.0, -746.0), absoluteVec(-237.0, 37.0, -746.0))
 
         type("ambient")
         offHand("mcc:island_cosmetics.accessory.robot_arm")
