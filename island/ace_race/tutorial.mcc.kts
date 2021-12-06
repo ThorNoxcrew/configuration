@@ -58,7 +58,6 @@ mccScript {
 
     for (line in player.translateLines("island.games.tutorial.ace_race")) {
         player.sendMessage(line)
-        delay(3000)
     }
 
     // Send standby text

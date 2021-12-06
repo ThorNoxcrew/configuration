@@ -1,8 +1,8 @@
-import com.noxcrew.mcc.commons.base.currency.CurrencyType
+// import com.noxcrew.mcc.commons.base.currency.CurrencyType
 import com.noxcrew.mcc.commons.base.i18n.I18n
 import com.noxcrew.mcc.commons.base.inject
 import com.noxcrew.mcc.island.base.shop.ShopManager
-import com.noxcrew.mcc.island.server.shop.ShopGui
+// import com.noxcrew.mcc.island.server.shop.ShopGui
 import kotlin.time.seconds
 
 mccScript {
@@ -18,13 +18,19 @@ mccScript {
         rotation(75.0, 0.0)
         lookClosePerPlayer(6)
         cooldown(1.seconds)
-
-        interactBehavior { npc, player ->
+        proximityChat(
+            listOf(
+                i18n.translatable("island.npc.gadgetsClosed.dialogue1"),
+                i18n.translatable("island.npc.gadgetsClosed.dialogue2"),
+                i18n.translatable("island.npc.gadgetsClosed.dialogue3")
+            ),
+            30.seconds
+        )
+        /*interactBehavior { npc, player ->
             withContext(Dispatchers.Minecraft) {
                 ShopGui(CurrencyType.NON_PREMIUM, "gadgetStore", player).open(player)
             }
-        }
-
+        }*/
         helmet("mcc:island_cosmetics.hair.professor")
         offHand("mcc:island_cosmetics.accessory.pipe_wrench")
 

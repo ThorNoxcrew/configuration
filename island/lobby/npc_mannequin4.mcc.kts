@@ -20,7 +20,7 @@ mccScript {
         // Set the direction the NPC is facing when spawned, use decimals for this
         rotation(180.0, 0.0)
 
-        helmet("mcc:island_cosmetics.hair.professor")
+        helmet("mcc:island_cosmetics.hair.groundskeeper")
         // chestplate("diamond_chestplate")
         // leggings("minecraft:diamont_leggings")
         // boots("item here")
