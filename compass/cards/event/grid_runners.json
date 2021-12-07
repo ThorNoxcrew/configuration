@@ -63,6 +63,17 @@
                     "redstone_juggling",
                     "jungle_bridge_build",
                     "weave"
+                ],
+                "mcc19": [
+                    "yuleshave",
+                    "city_lamps",
+                    "house_search_winter",
+                    "snow_fall_targets",
+                    "bakery",
+                    "kitchen",
+                    "factory_tower",
+                    "slime_push_lamps",
+                    "conveyors"
                 ]
             }
         },
