@@ -11,7 +11,7 @@
             "presets": {
                 "mcc16": [
                     "jungle_temple",
-                    "bakery",
+                    "bakery_old",
                     "saw_mill",
                     "wild_west",
                     "kitchen",
@@ -23,7 +23,7 @@
                 "mcc17": [
                     "city_targets",
                     "city_statue",
-                    "bakery",
+                    "bakery_old",
                     "art_gallery",
                     "city_lamps",
                     "kitchen",
@@ -66,7 +66,7 @@
                 ],
                 "mcc19": [
                     "yuleshave",
-                    "bakery_winter",
+                    "bakery",
                     "city_lamps",
                     "house_search_winter",
                     "snow_fall_targets",
