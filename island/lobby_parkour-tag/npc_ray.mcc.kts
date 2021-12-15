@@ -14,7 +14,6 @@ mccScript {
         lookClosePerPlayer(6)
         cooldown(1.seconds)
         roaming(absoluteVec(183.5, 69.0, -787.0), absoluteVec(190.0, 69.0, -797.0))
-        
         type("ambient")
         offHand("mcc:island_cosmetics.accessory.wormhole_blaster")
     }
