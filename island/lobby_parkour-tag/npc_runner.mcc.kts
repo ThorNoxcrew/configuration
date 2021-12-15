@@ -14,7 +14,6 @@ mccScript {
         rotation(-120.0, 0.0)
         lookClosePerPlayer(6)
         cooldown(1.seconds)
-        
         type("ambient")
         helmet("mcc:island_cosmetics.hat.bandana")
     }
