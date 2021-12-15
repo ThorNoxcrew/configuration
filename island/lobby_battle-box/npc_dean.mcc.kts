@@ -13,7 +13,6 @@ mccScript {
     ) {
         rotation(0.0, 0.0)
         roaming(absoluteVec(290.0, 31.0, -403.0), absoluteVec(285.0, 31.0, -408.0))
-        
         type("ambient")
         mainHand("minecraft:wooden_sword")
     }

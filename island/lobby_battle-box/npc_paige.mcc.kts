@@ -17,7 +17,6 @@ mccScript {
         pointList += Transform(245.0, 31.0, -465.0)
         pointList += Transform(275.0, 31.0, -465.0)
         patrol(pointList)
-        
         type("ambient")
         helmet("mcc:island_cosmetics.hat.headphones")
     }

@@ -14,7 +14,6 @@ mccScript {
         rotation(-90.0, 0.0)
         lookClosePerPlayer(6)
         cooldown(1.seconds)
-        
         type("ambient")
         mainHand("mcc:island_cosmetics.accessory.comically_large_spoon")
     }
