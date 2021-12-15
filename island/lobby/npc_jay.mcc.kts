@@ -15,7 +15,6 @@ mccScript {
         lookClosePerPlayer(6)
         cooldown(1.seconds)
         roaming(absoluteVec(267.0, 41.0, 615.5), absoluteVec(266.5, 41.0, 622.5))
-
         type("ambient")
         offHand(mcc:island_cosmetics.accessory.comically_large_spoon)
     }
