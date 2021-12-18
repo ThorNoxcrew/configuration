@@ -1,10 +1,19 @@
 import com.noxcrew.mcc.commons.base.i18n.I18n
 import com.noxcrew.mcc.commons.base.inject
+import com.noxcrew.mcc.island.server.cosmetic.CosmeticCategory
+import com.noxcrew.mcc.island.server.cosmetic.CosmeticLoader
+import com.noxcrew.mcc.island.server.cosmetic.CosmeticManager
+import com.noxcrew.mcc.island.server.cosmetic.CosmeticOwner
+import org.slf4j.Logger
 
 mccScript {
     val i18n: I18n by inject()
+    val loger: Logger by inject()
 
-// Girl looking at flowers near main fountain
+    val cosmeticManager: CosmeticManager by injectModule()
+    val cosmeticLoader: CosmeticLoader by injectModule()
+
+    // Girl looking at flowers near main fountain
     playerNPC(
         absoluteVec(324.5, 37.0, 566.4),
         "Ayano Ai",
@@ -17,5 +26,16 @@ mccScript {
 
         type("ambient")
         helmet("mcc:island_cosmetics.hat.sun_hat")
+    }.also { npc -> 
+        val cosmetic = cosmeticLoader.getCosmetics(CosmeticCategory.ACCESSORY).get(StringKey("accessory_gauntlet_of_power"))
+
+        if(cosmetic != null) {
+            try {
+            cosmeticManager.equip(CosmeticOwner(npc), cosmetic.invoke()!!)
+            } catch (e: Exception) {
+                logger.info("Failed to equip cosmetic!")
+                e.printStackTrace()
+            }
+        }
     }
 }
