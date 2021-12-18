@@ -1,5 +1,8 @@
 import com.noxcrew.mcc.commons.base.i18n.I18n
 import com.noxcrew.mcc.commons.base.inject
+import com.noxcrew.mcc.commons.server.module.Module
+import com.noxcrew.mcc.commons.server.module.container.Container
+import com.noxcrew.mcc.commons.server.module.container.injectModule
 import com.noxcrew.mcc.island.server.cosmetic.CosmeticCategory
 import com.noxcrew.mcc.island.server.cosmetic.CosmeticLoader
 import com.noxcrew.mcc.island.server.cosmetic.CosmeticManager
