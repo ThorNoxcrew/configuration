@@ -1,7 +1,5 @@
 import com.noxcrew.mcc.commons.base.i18n.I18n
 import com.noxcrew.mcc.commons.base.inject
-import com.noxcrew.mcc.commons.server.module.Module
-import com.noxcrew.mcc.commons.server.module.container.Container
 import com.noxcrew.mcc.commons.server.module.container.injectModule
 import com.noxcrew.mcc.island.server.cosmetic.CosmeticCategory
 import com.noxcrew.mcc.island.server.cosmetic.CosmeticLoader
@@ -29,12 +27,12 @@ mccScript {
 
         type("ambient")
         helmet("mcc:island_cosmetics.hat.sun_hat")
-    }.also { npc -> 
+    }.also { npc ->
         val cosmetic = cosmeticLoader.getCosmetics(CosmeticCategory.ACCESSORY).get(StringKey("accessory_gauntlet_of_power"))
 
-        if(cosmetic != null) {
+        if (cosmetic != null) {
             try {
-            cosmeticManager.equip(CosmeticOwner(npc), cosmetic.invoke()!!)
+                cosmeticManager.equip(CosmeticOwner(npc), cosmetic.invoke()!!)
             } catch (e: Exception) {
                 logger.info("Failed to equip cosmetic!")
                 e.printStackTrace()
