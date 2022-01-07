@@ -48,7 +48,7 @@ TRUE,Cosmetic,aura_tornado,Aura,Tornado,aura_tornado.name,aura_tornado.desc,Epic
 ,Cosmetic,,Aura,Angel Wings,,,Epic,,,"12,656",800, $ 16.00 ,---,particleStore,TRUE,TRUE,FALSE,None,White Particles in the shape of Angle Wings on the back of the player
 ,Cosmetic,,Aura,Armor of Darkness,,,Uncommon,,Spooktacular,"2,813",200, $ 4.00 ,---,bundle,TRUE,TRUE,FALSE,In Progress,Black and grey shadows surround the player and dance around like an aura. Similar shadows faintly trail behind the player when moving.
 TRUE,Cosmetic,,Aura,Chicken,,,Rare,,,"7,313",400, $ 8.00 ,---,particleStore,TRUE,TRUE,FALSE,None,Feathers occasionally flutter around the player.
-TRUE,Cosmetic,aura_cuckoo,Aura,Cuckoo,aura_cuckoo.name,aura_cuckoo.desc,Epic,,,"12,656",800, $ 16.00 ,---,particleStore,TRUE,TRUE,FALSE,None,A yellow bird circles around the player's head.
+TRUE,Cosmetic,aura_cuckoo,Aura,Cuckoo,aura_cuckoo.name,aura_cuckoo.desc,Epic,mcc:island_cosmetics.aura_cuckoo,,"12,656",800, $ 16.00 ,---,particleStore,TRUE,TRUE,FALSE,None,A yellow bird circles around the player's head.
 ,Cosmetic,,Aura,Devil Wings,,,Epic,,,"12,656",800, $ 16.00 ,---,bundle,TRUE,TRUE,FALSE,None,Red Particles in the shape of Devil Wings on the back of the player
 ,Cosmetic,,Aura,Dizzy,,,Rare,,,"7,313",400, $ 8.00 ,---,parts,TRUE,TRUE,FALSE,None,Spirals and spell particles gently float over your head. Maybe you're drunk.
 TRUE,Cosmetic,,Aura,Storm Cloud,,,Uncommon,,,"2,813",200, $ 4.00 ,---,particleStore,TRUE,TRUE,FALSE,In Progress,A White cloud on the top of the player with a lightning blot coming out. Rain particles fall from the cloud on the back as well.
