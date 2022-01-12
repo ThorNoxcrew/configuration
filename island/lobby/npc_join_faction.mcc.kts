@@ -29,5 +29,7 @@ mccScript {
         )
 
         type("factionmaster")
+
+        flashing()
     }
 }
