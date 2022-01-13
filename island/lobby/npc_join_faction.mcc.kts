@@ -30,6 +30,8 @@ mccScript {
 
         type("factionmaster")
 
-        flashing()
+        flash { player ->
+            player.ready && player.faction != null
+        }
     }
 }
