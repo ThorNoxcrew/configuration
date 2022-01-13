@@ -1,5 +1,7 @@
 import com.noxcrew.mcc.commons.base.i18n.I18n
 import com.noxcrew.mcc.commons.base.inject
+import com.noxcrew.mcc.commons.server.util.ready
+import com.noxcrew.mcc.island.server.faction.faction
 import kotlin.time.seconds
 
 mccScript {
@@ -30,6 +32,8 @@ mccScript {
 
         type("factionmaster")
 
-        flash()
+        flash { player ->
+            player.ready && player.faction == null
+        }
     }
 }
