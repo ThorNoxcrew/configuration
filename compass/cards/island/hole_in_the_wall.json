@@ -9,7 +9,7 @@
         },
         {
             "type": "split_per_section",
-            "sections": ["highrise"]
+            "sections": ["highrise","beach"]
         },
         {
             "type": "empty_region_padding"
