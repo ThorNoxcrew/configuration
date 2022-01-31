@@ -294,26 +294,26 @@ TRUE,TRUE,Cosmetic,trail_shredding_notes,Trail,Shredding Notes,trail_shredding_n
 ,,,,,Ogre's Club,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
 ,,,,,Spatula,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
 ,,,,,Warhammer,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
-,,,,,,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
-,,,,,,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
-,,,,,,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
-,,,,,,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
-,,,,,,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
-,,,,,,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
-,,,,,,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
-,,,,,,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
-,,,,,,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
-,,,,,,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
-,,,,,,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
-,,,,,,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
-,,,,,,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
-,,,,,,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
-,,,,,,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
-,,,,,,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
-,,,,,,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
-,,,,,,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
-,,,,,,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
-,,,,,,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
+TRUE,TRUE,Cosmetic,wardrobe_hat_knight_helmet,Hat,Knight Helmet,wardrobe_hat_knight_helmet.name,wardrobe_hat_knight_helmet.desc,Epic,mcc:island_cosmetics.hat.knight_helmet,,"8,438",300, $ 6.00 ,---,accessoryStore,genericB,TRUE,TRUE,FALSE,None,[For the Kingdom!]
+TRUE,TRUE,Cosmetic,wardrobe_hat_crusader,Hat,Crusader,wardrobe_hat_crusader.name,wardrobe_hat_crusader.desc,Rare,mcc:island_cosmetics.hat.crusader,,"3,656",150, $ 3.00 ,---,accessoryStore,genericB,TRUE,TRUE,FALSE,None,['Tis but a scratch!]
+TRUE,TRUE,Cosmetic,wardrobe_hat_spartan,Hat,Spartan,wardrobe_hat_spartan.name,wardrobe_hat_spartan.desc,Epic,mcc:island_cosmetics.hat.spartan,,"8,438",300, $ 6.00 ,---,accessoryStore,genericB,TRUE,TRUE,FALSE,None,[This Is SPARTAAA!!!]
+TRUE,TRUE,Cosmetic,wardrobe_hat_hard_hat,Hat,Hard Hat,wardrobe_hat_hard_hat.name,wardrobe_hat_hard_hat.desc,Common,mcc:island_cosmetics.hat.hard_hat,,938,50, $ 1.00 ,---,accessoryStore,genericB,TRUE,TRUE,FALSE,None,[Protecting noggins since 1882]
+TRUE,TRUE,Cosmetic,wardrobe_hat_devils_horns,Hat,Devil's Horns,wardrobe_hat_devils_horns.name,wardrobe_hat_devils_horns.desc,Uncommon,mcc:island_cosmetics.hat.devils_horns,,"1,406",75, $ 1.50 ,---,accessoryStore,genericB,TRUE,TRUE,FALSE,None,[When you're feeling rather evil]
+TRUE,TRUE,Cosmetic,wardrobe_hat_curved_demon_horns,Hat,Curved Demon Horns,wardrobe_hat_curved_demon_horns.name,wardrobe_hat_curved_demon_horns.desc,Rare,mcc:island_cosmetics.hat.curved_demon_horns,,"3,656",150, $ 3.00 ,---,accessoryStore,genericB,TRUE,TRUE,FALSE,None,[True hellspawn]
+TRUE,TRUE,Cosmetic,wardrobe_hat_snapback,Hat,Snapback,wardrobe_hat_snapback.name,wardrobe_hat_snapback.desc,Uncommon,mcc:island_cosmetics.hat.snapback,,"1,406",75, $ 1.50 ,---,accessoryStore,genericB,TRUE,TRUE,FALSE,None,"[How do you do, fellow kids?]"
+TRUE,TRUE,Cosmetic,wardrobe_hat_snorkel,Hat,Snorkel,wardrobe_hat_snorkel.name,wardrobe_hat_snorkel.desc,Rare,mcc:island_cosmetics.hat.snorkel,,"3,656",150, $ 3.00 ,---,accessoryStore,genericB,TRUE,TRUE,FALSE,None,
+TRUE,TRUE,Cosmetic,wardrobe_hat_fishbowl,Hat,Fishbowl,wardrobe_hat_fishbowl.name,wardrobe_hat_fishbowl.desc,Epic,mcc:island_cosmetics.hat.fishbowl,,"8,438",300, $ 6.00 ,---,accessoryStore,genericB,TRUE,TRUE,FALSE,None,
+TRUE,TRUE,Cosmetic,wardrobe_hat_toadstool,Hat,Toadstool,wardrobe_hat_toadstool.name,wardrobe_hat_toadstool.desc,Uncommon,mcc:island_cosmetics.hat.toadstool,,"1,406",75, $ 1.50 ,---,accessoryStore,genericB,TRUE,TRUE,FALSE,None,"[Thank you, but our princess is in another tournament!]"
+TRUE,TRUE,Cosmetic,wardrobe_hat_strawberry_hat,Hat,Strawberry Hat,wardrobe_hat_strawberry_hat.name,wardrobe_hat_strawberry_hat.desc,Epic,mcc:island_cosmetics.hat.strawberry_hat,,"8,438",300, $ 6.00 ,---,accessoryStore,genericB,TRUE,TRUE,FALSE,None,[Sweet and Juicy!]
+TRUE,TRUE,Cosmetic,wardrobe_hat_gas_mask,Hat,Gas Mask,wardrobe_hat_gas_mask.name,wardrobe_hat_gas_mask.desc,Uncommon,mcc:island_cosmetics.hat.gas_mask,,"1,406",75, $ 1.50 ,---,accessoryStore,genericB,TRUE,TRUE,FALSE,None,[*unintelligble muffled quote*]
+TRUE,TRUE,Cosmetic,wardrobe_hat_plague_doctor,Hat,Plague Doctor,wardrobe_hat_plague_doctor.name,wardrobe_hat_plague_doctor.desc,Legendary,mcc:island_cosmetics.hat.plague_doctor,,"27,000",600, $ 12.00 ,---,accessoryStore,genericB,TRUE,TRUE,FALSE,None,[An apple a day keeps this nightmare away]
+TRUE,TRUE,Cosmetic,wardrobe_hat_boater,Hat,Boater,wardrobe_hat_boater.name,wardrobe_hat_boater.desc,Common,mcc:island_cosmetics.hat.boater,,938,50, $ 1.00 ,---,accessoryStore,genericB,TRUE,TRUE,FALSE,None,[I feel a song coming on!]
+TRUE,TRUE,Cosmetic,wardrobe_hat_wizard_hat,Hat,Wizard Hat,wardrobe_hat_wizard_hat.name,wardrobe_hat_wizard_hat.desc,Uncommon,mcc:island_cosmetics.hat.wizard_hat,,"1,406",75, $ 1.50 ,---,accessoryStore,genericB,TRUE,TRUE,FALSE,None,[You're a wizard!]
+TRUE,TRUE,Cosmetic,wardrobe_hat_drinking_helmet,Hat,Drinking Helmet,wardrobe_hat_drinking_helmet.name,wardrobe_hat_drinking_helmet.desc,Epic,mcc:island_cosmetics.hat.drinking_helmet,,"8,438",300, $ 6.00 ,---,accessoryStore,genericB,TRUE,TRUE,FALSE,None,"[Your favourite beverages, now handsfree]"
+TRUE,TRUE,Cosmetic,wardrobe_hat_propeller_hat,Hat,Propeller Hat,wardrobe_hat_propeller_hat.name,wardrobe_hat_propeller_hat.desc,Rare,mcc:island_cosmetics.hat.propeller_hat,,"3,656",150, $ 3.00 ,---,accessoryStore,genericB,TRUE,TRUE,FALSE,None,[Can it fly? Probably not..]
+TRUE,TRUE,Cosmetic,wardrobe_hat_beanie,Hat,Beanie,wardrobe_hat_beanie.name,wardrobe_hat_beanie.desc,Common,mcc:island_cosmetics.hat.beanie,,938,50, $ 1.00 ,---,accessoryStore,genericB,TRUE,TRUE,FALSE,None,[A staple of warm headwear]
+TRUE,TRUE,Cosmetic,wardrobe_hat_uncle_sam,Hat,Uncle Sam,wardrobe_hat_uncle_sam.name,wardrobe_hat_uncle_sam.desc,Rare,mcc:island_cosmetics.hat.uncle_sam,,"3,656",150, $ 3.00 ,---,accessoryStore,genericB,TRUE,TRUE,FALSE,None,[Star-Spangled Fashion]
+TRUE,TRUE,Cosmetic,wardrobe_hat_army_helmet,Hat,Army Helmet,wardrobe_hat_army_helmet.name,wardrobe_hat_army_helmet.desc,Uncommon,mcc:island_cosmetics.hat.army_helmet,,"1,406",75, $ 1.50 ,---,accessoryStore,genericB,TRUE,TRUE,FALSE,None,[Duck and cover!]
 ,,,,,,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
 ,,,,,,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
 ,,,,,,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
