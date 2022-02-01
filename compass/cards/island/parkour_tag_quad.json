@@ -1,0 +1,23 @@
+{
+    "processors": [
+        {
+            "type": "add_world",
+            "world": "island/games/parkour_tag_quad"
+        },
+        {
+            "type": "lighting_updater"
+        },
+        {
+            "type": "split_per_section",
+            "sections": ["~ref_*"]
+        },
+        {
+            "type": "duplicate_sections",
+            "sections": ["match"],
+            "duplicates": 4
+        },
+        {
+            "type": "empty_region_padding"
+        }
+    ]
+}
