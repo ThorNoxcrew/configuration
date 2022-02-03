@@ -5,6 +5,10 @@
             "world": "island/games/parkour_tag_quad"
         },
         {
+            "type": "remove_sections",
+            "sections": ["ref_maps"]
+        },
+        {
             "type": "lighting_updater"
         },
         {
