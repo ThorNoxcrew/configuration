@@ -12,13 +12,9 @@
             "type": "lighting_updater"
         },
         {
-            "type": "split_per_section",
-            "sections": ["~ref_*"]
-        },
-        {
             "type": "duplicate_sections",
             "sections": ["match"],
-            "duplicates": 4
+            "duplicates": 8
         },
         {
             "type": "empty_region_padding"
