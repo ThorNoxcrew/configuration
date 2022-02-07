@@ -41,7 +41,7 @@ pyhocon:
 
 compile_scripts:
     stage: prepare
-    image: harbor.services.noxcrew.online/mcc/mcc-script-cli:521951779a538b6b363dc47e2b66615c056ade1c
+    image: harbor.services.noxcrew.online/tools/tools:main-3bbc1a999a40dda41dfa41d005724d63fe45eb4e
     script:
         - ./.gitlab/tools/compile-scripts.sh
     cache:
