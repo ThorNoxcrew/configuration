@@ -41,10 +41,11 @@ pyhocon:
 
 compile_scripts:
     stage: prepare
-    image: harbor.services.noxcrew.online/mcc/mcc-script-cli:1ca018c6067399319a4c243a70f96028d376f422
+    image: 
+        name: harbor.services.noxcrew.online/mcc/mcc-script-cli:1ca018c6067399319a4c243a70f96028d376f422
+        entrypoint: /bin/sh
     script:
         - ./.gitlab/tools/compile-scripts.sh
-    entrypoint: /bin/sh
     cache:
         key: "$CI_COMMIT_BRANCH"
         paths:
