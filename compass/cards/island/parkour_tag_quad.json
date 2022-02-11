@@ -9,7 +9,7 @@
         },
         {
             "type": "remove_sections",
-            "sections": ["ref_maps"]
+            "sections": ["ref_maps", "ref_unused"]
         },
         {
             "type": "lighting_updater"
