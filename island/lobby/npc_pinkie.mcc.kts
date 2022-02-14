@@ -14,6 +14,6 @@ mccScript {
         rotation(-40.0, 0.0)
 
         type("ambient")
-        offHand("mcc:island_cosmetics.accessory.fairy_wand")
+        mainHand("mcc:island_cosmetics.accessory.fairy_wand")
     }
 }
