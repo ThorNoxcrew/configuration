@@ -14,5 +14,6 @@ mccScript {
         rotation(50.0, 0.0)
 
         type("ambient")
+        offHand("mcc:island_cosmetics.accessory.bone")
     }
 }
