@@ -16,6 +16,5 @@ mccScript {
         cooldown(1.seconds)
 
         type("ambient")
-        helmet("mcc:island_cosmetics.hair.prince_charming{display:{color:7548696}}")
     }
 }
