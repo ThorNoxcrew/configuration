@@ -14,5 +14,6 @@ mccScript {
         roaming(absoluteVec(171.0, 27.0, 740.0), absoluteVec(167.5, 26.0, 745.0))
 
         type("ambient")
+        helmet("mcc:island_cosmetics.hair.monk{display:{color:2952975}}")
     }
 }

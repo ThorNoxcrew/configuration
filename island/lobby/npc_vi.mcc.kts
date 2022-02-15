@@ -16,5 +16,6 @@ mccScript {
         cooldown(1.seconds)
 
         type("ambient")
+        mainHand("mcc:island_cosmetics.accessory.rose")
     }
 }
