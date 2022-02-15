@@ -14,6 +14,6 @@ mccScript {
         rotation(-150.0, 0.0)
 
         type("ambient")
-        helmet("mcc:island_cosmetics.hat.frog_bucket_hat")
+        helmet("mcc:island_cosmetics.hat.frog_bucket_hat{display:{color:3319890}}")
     }
 }

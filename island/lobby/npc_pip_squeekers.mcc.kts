@@ -25,7 +25,7 @@ mccScript {
             }
         }
 
-        helmet("mcc:island_cosmetics.hair.hipster")
+        helmet("mcc:island_cosmetics.hair.hipster{display:{color:4934475}}")
 
         belowName("island.npc.shop.coffee")
 
