@@ -5,7 +5,8 @@
             "world": "island/games/parkour_tag_quad"
         },
         {
-            "type": "parkour_tag_assembler"
+            "type": "parkour_tag_assembler",
+            "createHub": "false"
         },
         {
             "type": "remove_sections",

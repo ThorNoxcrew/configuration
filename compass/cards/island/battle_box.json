@@ -6,7 +6,7 @@
         },
         {
             "type": "battle_box_assembler",
-            "variant": "ISLAND"
+            "createHub": "false"
         },
         {
             "type": "remove_sections",
