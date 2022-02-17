@@ -1,0 +1,17 @@
+{
+    "processors": [
+        {
+            "type": "add_world",
+            "world": "island/games/sky_battle"
+        },
+        {
+            "type": "lighting_updater"
+        },
+        {
+            "type": "split_per_section"
+        },
+        {
+            "type": "empty_region_padding"
+        }
+    ]
+}
