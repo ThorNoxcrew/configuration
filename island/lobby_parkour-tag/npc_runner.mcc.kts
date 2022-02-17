@@ -15,6 +15,6 @@ mccScript {
         lookClosePerPlayer(6)
         cooldown(1.seconds)
         type("ambient")
-        helmet("mcc:island_cosmetics.hat.bandana")
+        helmet("mcc:island_cosmetics.hat.bandana{display:{color:15767085}}")
     }
 }

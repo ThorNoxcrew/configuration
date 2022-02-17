@@ -16,6 +16,6 @@ mccScript {
         cooldown(1.seconds)
 
         type("ambient")
-        helmet("mcc:island_cosmetics.hat.sun_hat")
+        helmet("mcc:island_cosmetics.hat.sun_hat{display:{color:14462810}}")
     }
 }

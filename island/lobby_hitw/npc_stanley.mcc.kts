@@ -23,6 +23,6 @@ mccScript {
         pointList += Transform(-222.5, 34.0, -788.5)
         patrol(pointList)
         type("ambient")
-        offHand("mcc:island_cosmetics.accessory.pipe_wrench")
+        offHand("mcc:island_cosmetics.accessory.pipe_wrench{display:{color:15079705}}")
     }
 }

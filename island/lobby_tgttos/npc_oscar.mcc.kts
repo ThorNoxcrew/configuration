@@ -21,6 +21,6 @@ mccScript {
         patrol(pointList)
 
         type("ambient")
-        helmet("mcc:island_cosmetics.hair.dreadlocks")
+        helmet("mcc:island_cosmetics.hair.dreadlocks{display:{color:1973790}}")
     }
 }
