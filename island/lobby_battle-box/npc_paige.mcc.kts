@@ -18,6 +18,6 @@ mccScript {
         pointList += Transform(1303.0, 31.0, 48.0)
         patrol(pointList)
         type("ambient")
-        helmet("mcc:island_cosmetics.hat.headphones")
+        helmet("mcc:island_cosmetics.hat.headphones{display:{color:3609670}}")
     }
 }
