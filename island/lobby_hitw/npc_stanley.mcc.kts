@@ -13,8 +13,8 @@ mccScript {
     ) {
         rotation(-90.0, 0.0)
         val pointList = LinkedList<Transform>()
-        pointList += Transform(-775.0, 34.5, 1254.5)
-        pointList += Transform(-780.0, 34.5, 1254.5)
+        pointList += Transform(-775.0, 34.5, 1252.0)
+        pointList += Transform(-780.0, 34.5, 1252.0)
         pointList += Transform(-779.0, 34.5, 1245.0)
         pointList += Transform(-764.0, 34.5, 1242.5)
         pointList += Transform(-760.0, 34.5, 1237.5)
