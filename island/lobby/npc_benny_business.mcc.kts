@@ -50,6 +50,6 @@ mccScript {
         patrol(pointList)
 
         type("ambient")
-        helmet("mcc:island_cosmetics.hat.mobster_hat")
+        helmet("mcc:island_cosmetics.hat.mobster_hat{display:{color:6648714}}")
     }
 }
