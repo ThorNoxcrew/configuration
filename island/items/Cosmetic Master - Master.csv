@@ -304,8 +304,13 @@ TRUE,TRUE,Cosmetic,trail_smoke_cloud,Trail,Smoke Cloud,trail_smoke_cloud.name,tr
 TRUE,TRUE,Cosmetic,aura_hover_ring,Aura,Hover Ring,aura_hover_ring.name,aura_hover_ring.desc,Uncommon,mcc:island_cosmetics.auras.hover_ring,,"2,813",200, $ 4.00 ,---,,genericD,FALSE,FALSE,FALSE,Complete,
 ,,,,,Ball Mace,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
 ,,,,,Baseball Bat,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
-,,,,,Chainsaw,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
-,,,,,Cloudbuster,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
+TRUE,TRUE,Cosmetic,accessory_chainsaw_hand,Accessory,Chainsaw Hand,accessory_chainsaw_hand.name,accessory_chainsaw_hand.desc,Epic,mcc:island_cosmetics.accessory.chainsaw_hand,,"8,438",300, $ 6.00 ,---,,,FALSE,FALSE,FALSE,,[Groovy!] <- please use this
+TRUE,TRUE,Cosmetic,accessory_skateboard,Accessory,Skateboard,accessory_skateboard.name,accessory_skateboard.desc,Rare,mcc:island_cosmetics.accessory.skateboard,,"3,656",150, $ 3.00 ,---,,,FALSE,FALSE,FALSE,,A Skateboard being held under the arm
+TRUE,TRUE,Cosmetic,accessory_football_shoulder_pad,Accessory,Football Shoulder Pad,accessory_football_shoulder_pad.name,accessory_football_shoulder_pad.desc,Uncommon,mcc:island_cosmetics.accessory.football_shoulder_pad,,"1,406",75, $ 1.50 ,---,,,FALSE,FALSE,FALSE,,[You'll need protection out on the field.]
+TRUE,TRUE,Cosmetic,accessory_blockle_tea,Accessory,Blockle Tea,accessory_blockle_tea.name,accessory_blockle_tea.desc,Common,mcc:island_cosmetics.accessory.blockle_tea,,938,50, $ 1.00 ,---,,,FALSE,FALSE,FALSE,,"[A sweet, milky beverage hand-crafted by Bea herself]"
+TRUE,TRUE,Cosmetic,accessory_pizza_slice,Accessory,Pizza Slice,accessory_pizza_slice.name,accessory_pizza_slice.desc,Common,mcc:island_cosmetics.accessory.pizza_slice,,938,50, $ 1.00 ,---,,,FALSE,FALSE,FALSE,,[Cowabunga!]
+TRUE,TRUE,Cosmetic,accessory_selfie_stick,Accessory,Selfie Stick,accessory_selfie_stick.name,accessory_selfie_stick.desc,Rare,mcc:island_cosmetics.accessory.selfie_stick,,"3,656",150, $ 3.00 ,---,,,FALSE,FALSE,FALSE,,A smartphone mounted on a stick
+TRUE,TRUE,Cosmetic,accessory_paint_palette,Accessory,Paint Palette,accessory_paint_palette.name,accessory_paint_palette.desc,Rare,mcc:island_cosmetics.accessory.paint_palette,,"3,656",150, $ 3.00 ,---,,,FALSE,FALSE,FALSE,,[All the colors you need to paint happy little trees!]
 ,,,,,Cricket Club,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
 ,,,,,Cthulu's Claw,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
 ,,,,,Cutlass,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
