@@ -17,18 +17,18 @@ program {
             } else {
                 reflect = true
             }
-    
+
             reflected(x = reflect) {
                 // hello lasers from eoymcmc past
                 absolute {
                     val z = 100
                     val time = 30
                     val lasers = 30
-                
+
                     repeat(lasers) {
                         val pos = z - (it * 10)
                         val duration = time - (it * 0.5)
-            
+
                         spawnLaser(pos(0, 0, -5), pos(0, 0, -5)) {
                             at(startTime) {
                                 teleportSource(pos(0, 0, 0))
@@ -41,14 +41,14 @@ program {
                                     pos(0, 0, 0) at 12.5
                                 }
                             }
-                            
+
                             at(15 + startTime) {
                                 destroy()
                             }
                         }
                     }
                 }
-            
+
             }
         }
         iteration++
