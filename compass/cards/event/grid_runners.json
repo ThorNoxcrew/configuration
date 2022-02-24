@@ -7,7 +7,7 @@
         {
             "comment": "Custom assembler to create the Grid Runners arena and paste in all selected rooms.",
             "type": "grid_runners_assembler",
-            "selectedPreset": "test_realm",
+            "selectedPreset": "mcc20",
             "presets": {
                 "mcc16": [
                     "jungle_temple",
@@ -73,6 +73,17 @@
                     "kitchen_winter",
                     "factory_tower",
                     "slime_push_lamps",
+                    "conveyors"
+                ],
+                "mcc20": [
+                    "city_statue",
+                    "golf",
+                    "stone_pyramid_key",
+                    "mobs_greek",
+                    "sewer_crossing",
+                    "snow_fall_targets",
+                    "prison",
+                    "colour_bridge_lamps",
                     "conveyors"
                 ],
                 "test_realm": [
