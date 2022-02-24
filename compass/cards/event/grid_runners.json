@@ -75,6 +75,17 @@
                     "slime_push_lamps",
                     "conveyors"
                 ],
+                "mcc20": [
+                    "city_statue",
+                    "golf",
+                    "stone_pyramid_key",
+                    "mobs_greek",
+                    "sewer_crossing",
+                    "snow_fall_targets",
+                    "prison",
+                    "colour_bridge_lamps",
+                    "conveyors"
+                ],
                 "test_realm": [
                     "pkt_1",
                     "decision_dome",
