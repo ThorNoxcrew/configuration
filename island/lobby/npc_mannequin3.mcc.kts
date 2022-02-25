@@ -20,11 +20,11 @@ mccScript {
         // Set the direction the NPC is facing when spawned, use decimals for this
         rotation(180.0, 0.0)
 
-        helmet("mcc:island_cosmetics.hat.snapback")
+        helmet("mcc:island_cosmetics.hat.snapback{display:{color:13465855}}")
         // chestplate("diamond_chestplate")
         // leggings("minecraft:diamont_leggings")
         // boots("item here")
         // mainHand("minecraft:potato{Enchantments:[{id:binding_curse,lvl:1}]}")
-        offHand("mcc:island_cosmetics.accessory.skateboard")
+        offHand("mcc:island_cosmetics.accessory.skateboard{display:{color:13465855}}")
     }
 }

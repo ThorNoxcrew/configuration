@@ -26,6 +26,7 @@ mccScript {
         }
 
         helmet("mcc:island_cosmetics.hat_npc.bea")
+        offHand("mcc:island_cosmetics.accessory.blockle_tea{display:{color:16756962}}")
 
         belowName("island.npc.shop.coffee")
 
