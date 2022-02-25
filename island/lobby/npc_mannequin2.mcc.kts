@@ -13,18 +13,18 @@ mccScript {
         // Translation key for name or untranslatable text
         "",
         // The texture provided from https://mineskin.org/
-        "ewogICJ0aW1lc3RhbXAiIDogMTYxMjc5ODY5ODIyNCwKICAicHJvZmlsZUlkIiA6ICJkZGVkNTZlMWVmOGI0MGZlOGFkMTYyOTIwZjdhZWNkYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEaXNjb3JkQXBwIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ4ZDE0ZjBjNjgxZTEzYTJhYjc0M2Q1YTE2YjAxMjk2YTc1YWFlYmQyNWJkMjQ1ZDU4NjI5ZTNiOTBjZWU0NTgiCiAgICB9CiAgfQp9",
+        "ewogICJ0aW1lc3RhbXAiIDogMTY0NTc0ODEzNDgwNCwKICAicHJvZmlsZUlkIiA6ICJmYzUwMjkzYTVkMGI0NzViYWYwNDJhNzIwMWJhMzBkMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJDVUNGTDE3IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzZjMGI0ZDBlMDNmYTAyMjAwMmJmNjhiYzQ5MzYxYjUwMjllOWU1MTVlN2EyZDJkZDI0MGI5NjE1MGM5ZjQ5NjQiCiAgICB9CiAgfQp9",
         // The testure signature provided from https://mineskin.org/
-        "BwGHkcC3kIlN/A4oPu8qy1nmPk3xMLc+yPa8hvptF3ctQe66VA8OkpOU129DDKn+lkiSS6E4EYq6nRoUPMc9iAtwzKmQDeLxh+C9CNptz6n/E821I3r/15va+r3H6r0DfYZSCg4udJc69ZFyH1lXfibDBGFNI1Y5HwkLNUb1vk7diyM5O0Z/dRFEfohv4tMYTIOknfMu4zwjFY6QikMi4kzCEcHvGPRemSAgSOZO5ArI8fwc27fJ/lRi4MmKaVYj71Q0SpIVCn88MGF+MjaHMrwgUhX1AdHel3oNiZD4I9EVeawBTb1cVoQwizJqyIYFWAlyJ7xT9uK0/FiEWPcRHhxDsmibtZFkhoMeHB0le8IOFju985iKpKFM89A/NbqS/h6c615cEqvFfXRWKuKFq8CQTV2p6vLWT9xqyeYXEBgRVwyVRF4yrsyjrC2xBqNIfw4RjP21E2C485PonFt0uCDYRT5VFXWTzcMPEzYZKFGXl1CypJ2pPfSthyv3CEstr5mLF6qybDxN5MruiJavLkC3pgSlEwzPLI5gQtgSTGQF+kciVFRYPsHSip7xlo/bQVWDnlqyJ+nBVrMCbyD/DgucYgJSkj19lG+D8sTC/MqQ76IDpLakRazZrwJSy2zfAcRPUb3lJsQLuvdpS/aDKTUtFjB/rZVxy7lGWYGBMtw="
+        "EWC/ukGq5LGzla+MOxaT318LTF3ikZ7uYWHYhrOnLgtbEB0SWWxysvXKVoRU9okFKP8KoGiKQtYo2uO/tak4ATDXtN+C7fg8HY1Be5yui6YdxhzIfNpKFb5g2T+H0Rq0RLzD5DESwOrmGrODLJYjs4kUD1XP2HbeEVYcKQLx4061yoXMPACrncxIhZHgiygTXxBHKtto7V3lIREuIxsgr0KJhWId9n2Ioz3Qz+QMEbC2mQ9Xsv7IF+YSPsybLuKWkwzprZXU4UuCmuELJUFUP638fdXvSGV6elerEfnXPrsRnm89pLdNGwCKeJcPoORc9FIe0wl+0q8efVnvtVPiYbyv97vSRwhyXEbVxSXvN5xccjQJ+Su65u9htADaqhzPl1HtI8a69LcViZX5arxPDxc8nxRVGQl+EW7Js4lWiX3reQaCeqvx6h6d5YUCPjdhiTYs6KfWT3LBuq8j83dw5E3Di4JXpezh8/+ppwp3m5MPQ4eSCq4X4jxc3Hm8A3mCgfXXwEA9B0cSLxXa9gjOJDj0w+8HQjlw/KSAfe/wefzClyWtR1wVvwZhEphz3n3I39VAj3KCqNNJ7wREz7C8L4GHtxv7TokXnSq9YWCo3ms1h46eOFHp+LNFnHnZdKLc0ixWcgAb27tx9tQoX59IZh1wvD1L7ufjp5wwiTnNuS4="
     ) {
         // Set the direction the NPC is facing when spawned, use decimals for this
         rotation(90.0, 0.0)
 
-        helmet("mcc:island_cosmetics.hair.schrute")
+        helmet("mcc:island_cosmetics.hat.chicken_head")
         // chestplate("diamond_chestplate")
         // leggings("minecraft:diamont_leggings")
         // boots("item here")
         // mainHand("minecraft:potato{Enchantments:[{id:binding_curse,lvl:1}]}")
-        offHand("mcc:island_cosmetics.accessory.cash_filled_briefcase")
+        offHand("mcc:island_cosmetics.accessory.robot_arm")
     }
 }
