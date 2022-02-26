@@ -31,7 +31,7 @@ mccScript {
                 ShopGui(CurrencyType.NON_PREMIUM, "gadgetStore", player).open(player)
             }
         }*/
-        helmet("mcc:island_cosmetics.hat.npc_gizmo")
+        helmet("mcc:island_cosmetics.hat_npc.gizmo")
 
         belowName("island.npc.shop.gadgets")
 
