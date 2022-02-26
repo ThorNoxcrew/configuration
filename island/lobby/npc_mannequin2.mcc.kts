@@ -9,7 +9,7 @@ mccScript {
     // API limit :)
     playerNPC(
         // The spawn position of the NPC, must use decimals
-        absoluteVec(344.5, 35.0, 463.5),
+        absoluteVec(344.5, 35.0, 462.5),
         // Translation key for name or untranslatable text
         "",
         // The texture provided from https://mineskin.org/
@@ -26,5 +26,6 @@ mccScript {
         // boots("item here")
         // mainHand("minecraft:potato{Enchantments:[{id:binding_curse,lvl:1}]}")
         offHand("mcc:island_cosmetics.accessory.robot_arm")
+        invisible()
     }
 }

@@ -9,7 +9,7 @@ mccScript {
     // API limit :)
     playerNPC(
         // The spawn position of the NPC, must use decimals
-        absoluteVec(333.5, 35.0, 464.5),
+        absoluteVec(344.5, 35.0, 465.5),
         // Translation key for name or untranslatable text
         "",
         // The texture provided from https://mineskin.org/
@@ -18,14 +18,14 @@ mccScript {
         "EWC/ukGq5LGzla+MOxaT318LTF3ikZ7uYWHYhrOnLgtbEB0SWWxysvXKVoRU9okFKP8KoGiKQtYo2uO/tak4ATDXtN+C7fg8HY1Be5yui6YdxhzIfNpKFb5g2T+H0Rq0RLzD5DESwOrmGrODLJYjs4kUD1XP2HbeEVYcKQLx4061yoXMPACrncxIhZHgiygTXxBHKtto7V3lIREuIxsgr0KJhWId9n2Ioz3Qz+QMEbC2mQ9Xsv7IF+YSPsybLuKWkwzprZXU4UuCmuELJUFUP638fdXvSGV6elerEfnXPrsRnm89pLdNGwCKeJcPoORc9FIe0wl+0q8efVnvtVPiYbyv97vSRwhyXEbVxSXvN5xccjQJ+Su65u9htADaqhzPl1HtI8a69LcViZX5arxPDxc8nxRVGQl+EW7Js4lWiX3reQaCeqvx6h6d5YUCPjdhiTYs6KfWT3LBuq8j83dw5E3Di4JXpezh8/+ppwp3m5MPQ4eSCq4X4jxc3Hm8A3mCgfXXwEA9B0cSLxXa9gjOJDj0w+8HQjlw/KSAfe/wefzClyWtR1wVvwZhEphz3n3I39VAj3KCqNNJ7wREz7C8L4GHtxv7TokXnSq9YWCo3ms1h46eOFHp+LNFnHnZdKLc0ixWcgAb27tx9tQoX59IZh1wvD1L7ufjp5wwiTnNuS4="
     ) {
         // Set the direction the NPC is facing when spawned, use decimals for this
-        rotation(-150.0, 0.0)
+        rotation(120.0, 0.0)
 
-        helmet("mcc:island_cosmetics.hat.chefs_hat{display:{color:15413039}}")
+        helmet("mcc:island_cosmetics.hat.magicians_hat{display:{color:15413039}}")
         // chestplate("diamond_chestplate")
         // leggings("minecraft:diamont_leggings")
         // boots("item here")
         // mainHand("minecraft:potato{Enchantments:[{id:binding_curse,lvl:1}]}")
-        offHand("mcc:island_cosmetics.accessory.pizza_slice")
+        offHand("mcc:island_cosmetics.accessory.playing_cards")
         invisible()
     }
 }
