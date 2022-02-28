@@ -5,6 +5,9 @@
             "world": "event/rocket_spleef_rush"
         },
         {
+            "type": "rocket_spleef_assembler"
+        },
+        {
             "type": "lighting_updater"
         },
         {
