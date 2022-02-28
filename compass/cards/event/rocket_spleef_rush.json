@@ -8,9 +8,6 @@
             "type": "lighting_updater"
         },
         {
-            "type": "split_per_section"
-        },
-        {
             "type": "empty_region_padding"
         }
     ]
