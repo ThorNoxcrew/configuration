@@ -101,6 +101,7 @@ upload_consul_prod:
     only:
         - main
         - master
+        - feature/tgtto-map-modifiers
 
 delete_consul_dev:
     extends: .kube_env_dev
