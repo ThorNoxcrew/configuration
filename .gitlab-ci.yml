@@ -102,6 +102,7 @@ upload_consul_prod:
         - main
         - master
         - feature/tgtto-map-modifiers
+    retry: 2
 
 delete_consul_dev:
     extends: .kube_env_dev
