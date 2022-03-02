@@ -56,6 +56,7 @@ compile_scripts:
     script:
         - ./.gitlab/tools/compress-csv.sh
         - ./.gitlab/tools/consul-wrapper.py fs2consulkv --fs-kv-path . --consul-url http://localhost:8500 --consul-acl-token "$CONSUL_ACL_TOKEN" --consul-kv-root "configuration/$CI_COMMIT_BRANCH" --sync
+    retry: 2
     cache:
         key: "$CI_COMMIT_BRANCH"
         paths:
@@ -69,47 +70,26 @@ compile_scripts:
         kubernetes:
             namespace: ops
 
-.kube_env_ptr:
+.kube_env_stg:
     environment:
-        name: ptr-fs2consulkv
+        name: stg-fs2consulkv
+        on_stop: delete_consul_stg
         kubernetes:
             namespace: ops
 
-.kube_env_prod:
+.kube_env_prd:
     environment:
         name: production-fs2consulkv
+        on_stop: delete_consul_prd
         kubernetes:
             namespace: ops
 
-upload_consul_dev:
-    stage: deploy
-    extends: [.kube_env_dev, .upload_consul]
-    except:
-        - main
-        - master
-
-#upload_consul_ptr:
-#    stage: deploy
-#    extends: [.kube_env_ptr, .upload_consul]
-#    only:
-#        - main
-#        - master
-
-upload_consul_prod:
-    stage: deploy
-    extends: [.kube_env_prod, .upload_consul]
-    only:
-        - main
-        - master
-
-delete_consul_dev:
-    extends: .kube_env_dev
+.delete_consul:
     dependencies: []
     image: harbor.services.noxcrew.online/tools/fs2consulkv:latest
     stage: delete
     when: manual
-    variables:
-        GIT_STRATEGY: none
+    retry: 2
     environment:
         action: stop
     script:
@@ -118,3 +98,23 @@ delete_consul_dev:
       - main
       - master
       - develop
+
+upload_consul_dev:
+    stage: deploy
+    extends: [.kube_env_dev, .upload_consul]
+
+#upload_consul_stg:
+#    stage: deploy
+#    extends: [.kube_env_stg, .upload_consul]
+
+upload_consul_prd:
+    stage: deploy
+    extends: [.kube_env_prod, .upload_consul]
+
+delete_consul_dev:
+    stage: delete
+    extends: [.kube_env_dev, .delete_consul]
+
+delete_consul_prd:
+    stage: delete
+    extends: [.kube_env_dev, .delete_consul]
