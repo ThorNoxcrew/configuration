@@ -117,4 +117,4 @@ delete_consul_dev:
 
 delete_consul_prd:
     stage: delete
-    extends: [.kube_env_dev, .delete_consul]
+    extends: [.kube_env_prd, .delete_consul]
