@@ -15,7 +15,7 @@ mccScript {
     ) {
         rotation(-180.0, 0.0)
 
-        helmet("mcc:island_cosmetics.hair.afro")
+        helmet("mcc:island_cosmetics.hair.afro{display:{color:986895}}")
 
         belowName("island.npc.ambient.sergey_torba")
 
