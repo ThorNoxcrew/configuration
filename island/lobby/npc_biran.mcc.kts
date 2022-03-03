@@ -14,5 +14,7 @@ mccScript {
         rotation(-90.0, 0.0)
 
         type("ambient")
+        mainHand("mcc:island_cosmetics.accessory.football_shoulder_pad{display:{color:1315860}}")
+        offHand("mcc:island_cosmetics.accessory.football_shoulder_pad{display:{color:1315860}}")
     }
 }
