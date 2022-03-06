@@ -13,12 +13,10 @@ mccScript {
     ) {
         rotation(90.0, 0.0)
 
-        helmet("mcc:island_cosmetics.hat.football_helmet{display:{color:6649989}}")
-        mainHand("mcc:island_cosmetics.accessory.football_shoulder_pad{display:{color:6649989}}")
-        offHand("mcc:island_cosmetics.accessory.football_shoulder_pad{display:{color:6649989}}")
-
         type("ambient")
-        mainHand("mcc:island_cosmetics.accessory.football_shoulder_pad{display:{color:2968350}}")
-        offHand("mcc:island_cosmetics.accessory.football_shoulder_pad{display:{color:2968350}}")
+
+        offHand("mcc:island_cosmetics.accessory.football_shoulder_pad{display:{color:6710906}}")
+        mainHand("mcc:island_cosmetics.accessory.football_shoulder_pad{display:{color:6710906}}")
+        helmet("mcc:island_cosmetics.hat.football_helmet{display:{color:6710906}}")
     }
 }
