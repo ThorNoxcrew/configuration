@@ -26,6 +26,6 @@ mccScript {
 
         belowName("island.npc.shop.barber")
         type("barber")
-        mainHand("mcc:island_cosmetics.accessory.paintbrush{display:{color:14448867}}")
+        mainHand("mcc:island_cosmetics.accessory.hair_dryer{display:{color:14448867}}")
     }
 }
