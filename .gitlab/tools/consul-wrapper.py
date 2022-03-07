@@ -7,9 +7,33 @@ import time
 import urllib.request
 import os
 
-proxy = subprocess.Popen("kubectl --namespace ops port-forward service/consul-server 8500:8500", env=os.environ, shell=True)
-socket_open = False
+def is_port_in_use(port: int) -> bool:
+    import socket
+    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+        return s.connect_ex(('localhost', port)) == 0
+
 attempts = 0
+
+while True:
+    try:
+        if not is_port_in_use(int(8500)):
+            print("[wrapper] Port is available, attempting to portforward...")
+            global proxy
+            proxy = subprocess.Popen("kubectl port-forward -n ops svc/consul-server --address 127.0.0.1 8500:8500", env=os.environ, shell=True)
+            attempts = 0
+            break
+        else:
+            raise Exception
+    except:
+        print("[wrapper] Port is already in use")
+
+    attempts = attempts + 1
+    if attempts > 20:
+        print("[wrapper] Failed to start consul wrapper...")
+        exit(1)
+    time.sleep(2)
+
+socket_open = False
 
 while True:
     time.sleep(2)

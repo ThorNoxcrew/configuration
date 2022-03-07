@@ -5,10 +5,10 @@
             "world": "event/rocket_spleef_rush"
         },
         {
-            "type": "lighting_updater"
+            "type": "rocket_spleef_assembler"
         },
         {
-            "type": "split_per_section"
+            "type": "lighting_updater"
         },
         {
             "type": "empty_region_padding"
