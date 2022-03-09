@@ -86,6 +86,8 @@ compile_scripts:
 
 .delete_consul:
     dependencies: []
+    variables:
+        GIT_STRATEGY: none
     image: harbor.services.noxcrew.online/tools/fs2consulkv:latest
     stage: delete
     when: manual
