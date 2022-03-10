@@ -11,7 +11,7 @@ mccScript {
         // The spawn position of the NPC, must use decimals
         absoluteVec(395.5, 34.0, 587.5),
         // Translation key for name or untranslatable text
-        "<glyph=mcc:icon.emojis.scream> Vin Petrol",
+        "<glyph:\"mcc:icon.emojis.scream\"> Vin Petrol",
         // The texture provided from https://mineskin.org/
         "ewogICJ0aW1lc3RhbXAiIDogMTYzMDU5Njg0MzY4MywKICAicHJvZmlsZUlkIiA6ICJhYjlkYmMzZjk4NGE0ZWI4YTVmY2RlYWMzNzEzZWFkMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJDeWJvcm51dDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGIxNzFhOGI3OTZlOWUzMWY1NDJjMmRjMDdkMzk1OTYwOTQ3YWIxMDJhYjBjZGMxMDBhMTRiZjA5NmRjNjUxMCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
         // The texture signature provided from https://mineskin.org/
