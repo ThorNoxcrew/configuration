@@ -16,5 +16,6 @@ mccScript {
         cooldown(1.seconds)
 
         type("ambient")
+        offHand("mcc:island_cosmetics.accessory.boombox{display:{color:3321835}}")
     }
 }
