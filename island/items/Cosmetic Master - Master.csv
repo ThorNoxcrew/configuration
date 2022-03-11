@@ -1,5 +1,6 @@
 Active,For Launch,System,Item ID,Category,Item Name,Name Translation,Description Translation,Rarity,Icon ID,Collection,Coin Price,Premium Price,Dollar Price,Override,Source,Cosmetic Part Box Pool,In Daily,In Weekly,In Static,Status,Description
-,TRUE,Cosmetic,accessory_beam_sword,Accessory,Beam Sword,accessory_beam_sword.name,accessory_beam_sword.desc,Rare,mcc:island_cosmetics.accessory.beam_sword,,"3,656",150, $ 3.00 ,---,accessory_shop,skyBattle,TRUE,TRUE,FALSE,Complete,[You hold in your hand\nA sword that shoots laser beams.]
+TRUE,TRUE,Cosmetic,accessory_beam_sword,Accessory,Beam Sword,accessory_beam_sword.name,accessory_beam_sword.desc,Rare,mcc:island_cosmetics.accessory.beam_sword,,"3,656",150, $ 3.00 ,---,accessory_shop,skyBattle,TRUE,TRUE,FALSE,Complete,[You hold in your hand\nA sword that shoots laser beams.]
+TRUE,TRUE,Cosmetic,accessory_variant_beam_sword_dual,Accessory,Beam Sword (Dual),accessory_variant_beam_sword_dual.name,accessory_variant_beam_sword_dual.desc,Rare,mcc:island_cosmetics.accessory_variant.beam_sword_dual,,"3,656",150, $ 3.00 ,---,accessory_shop,skyBattle,TRUE,TRUE,FALSE,Complete,[You hold in your hand\nA sword that shoots laser beams.]
 ,TRUE,Cosmetic,,Accessory,Bouquet,,,Uncommon,,Garden Variety,"1,406",75, $ 1.50 ,---,accessory_shop,tgttos,TRUE,TRUE,FALSE,None,A collection of flowers including roses.
 ,TRUE,Cosmetic,,Accessory,Cleaver,,,Uncommon,,,"1,406",75, $ 1.50 ,---,accessory_shop,battleBox,TRUE,TRUE,FALSE,None,Butcher's Cleaver as used by a butcher to carve meat.
 ,TRUE,Cosmetic,,Accessory,Dice,,,Rare,,Mineshafts and Magic,"3,656",150, $ 3.00 ,---,accessory_shop,genericA,TRUE,TRUE,FALSE,None,Giant six-sided die held in hand. Rotaes randomly when first equipped to show a different number.
@@ -37,6 +38,7 @@ TRUE,TRUE,Cosmetic,accessory_fairy_wand,Accessory,Fairy Wand,accessory_fairy_wan
 ,TRUE,Cosmetic,,Accessory,Fanciest Cane,,,Rare,,,"3,656",150, $ 3.00 ,---,parts,genericC,TRUE,TRUE,FALSE,None,Ornate walking stick with a jeweled tip.
 ,TRUE,Cosmetic,,Accessory,Fancy Cane,,,Common,,,938,50, $ 1.00 ,---,parts,genericC,TRUE,TRUE,FALSE,None,"Nice, polished wood cane with an elegant curve. Traditional old man cane."
 TRUE,TRUE,Cosmetic,accessory_gauntlet,Accessory,Gauntlet,accessory_gauntlet.name,accessory_gauntlet.desc,Epic,mcc:island_cosmetics.accessory.gauntlet,Epiclandlord's Legendary Arsenal,"8,438",300, $ 6.00 ,---,parts,genericD,TRUE,TRUE,FALSE,Complete,[Aw Snap!]
+TRUE,TRUE,Cosmetic,accessory_variant_gauntlet_elemental,Accessory,Gauntlet (Elemental),accessory_variant_gauntlet_elemental.name,accessory_variant_gauntlet_elemental.desc,Legendary,mcc:island_cosmetics.accessory_variant.gauntlet_elemental,Epiclandlord's Legendary Arsenal,"27,000",600, $ 12.00 ,---,parts,genericD,TRUE,TRUE,FALSE,Complete,[Aw Snap!]
 TRUE,TRUE,Cosmetic,accessory_hair_dryer,Accessory,Hair Dryer,accessory_hair_dryer.name,accessory_hair_dryer.desc,Common,mcc:island_cosmetics.accessory.hair_dryer,,938,50, $ 1.00 ,---,parts,genericA,TRUE,TRUE,FALSE,None,Hair Dryer
 TRUE,TRUE,Cosmetic,accessory_hot_dog,Accessory,Hot Dog,accessory_hot_dog.name,accessory_hot_dog.desc,Common,mcc:island_cosmetics.accessory.hot_dog,,938,50, $ 1.00 ,---,parts,genericB,TRUE,TRUE,FALSE,Complete,[Is it a sandwich? Or a taco?]
 TRUE,TRUE,Cosmetic,accessory_lantern,Accessory,Lantern,accessory_lantern.name,accessory_lantern.desc,Epic,mcc:island_cosmetics.accessory.lantern,Spooktacular,"8,438",300, $ 6.00 ,---,parts,parkourTag,TRUE,TRUE,FALSE,None,A lantern dangles from your grip and shines light around the player.
@@ -350,9 +352,9 @@ TRUE,,Cosmetic,wardrobe_hat_variant_chicken_head_illustrated,Hat,Chicken Head (I
 TRUE,,Cosmetic,wardrobe_hat_variant_chicken_head_golden,Hat,Chicken Head (Golden),wardrobe_hat_variant_chicken_head_golden.name,wardrobe_hat_variant_chicken_head_golden.desc,Rare,mcc:island_cosmetics.hat_variant.chicken_head_golden,Animal Instinct,"3,656",150, $ 3.00 ,---,special,tgttos,TRUE,TRUE,FALSE,Complete,[Does it lay golden eggs?]
 TRUE,,Cosmetic,wardrobe_hat_variant_knight_helmet_closed,Hat,Knight Helmet (Closed),wardrobe_hat_variant_knight_helmet_closed.name,wardrobe_hat_variant_knight_helmet_closed.desc,Epic,mcc:island_cosmetics.hat_variant.knight_helmet_closed,Animal Instinct,"8,438",300, $ 6.00 ,---,special,tgttos,TRUE,TRUE,FALSE,Complete,[Good Knight]
 TRUE,,Cosmetic,wardrobe_hat_variant_computer_head_code,Hat,Computer Head (Code),wardrobe_hat_variant_computer_head_code.name,wardrobe_hat_variant_computer_head_code.desc,Legendary,mcc:island_cosmetics.hat_variant.computer_head_code,Animal Instinct,"27,000",600, $ 12.00 ,---,special,tgttos,TRUE,TRUE,FALSE,Complete,[00111010 00101001]
-TRUE,,Cosmetic,wardrobe_hat_variant_night_vision_dual,Hat,Night Vision (Double-Vision),wardrobe_hat_variant_night_vision_dual.name,wardrobe_hat_variant_night_vision_dual.desc,Rare,mcc:island_cosmetics.hat_variant.night_vision_dual,Animal Instinct,"3,656",150, $ 3.00 ,---,special,tgttos,TRUE,TRUE,FALSE,Complete,[You only have two eyes? lame.]
-TRUE,,Cosmetic,wardrobe_hat_variant_night_vision_arachno,Hat,Night Vision (Arachno-Vision),wardrobe_hat_variant_night_vision_arachno.name,wardrobe_hat_variant_night_vision_arachno.desc,Rare,mcc:island_cosmetics.hat_variant.night_vision_arachno,Animal Instinct,"3,656",150, $ 3.00 ,---,special,tgttos,TRUE,TRUE,FALSE,Complete,[The Amazing Spider-Vision!]
-TRUE,,Cosmetic,wardrobe_hat_variant_gas_mask_toxic,Hat,Gas Mask (Toxic),wardrobe_hat_variant_gas_mask_toxic.name,wardrobe_hat_variant_gas_mask_toxic.desc,Rare,mcc:island_cosmetics.hat_variant.gas_mask_toxic,Animal Instinct,"3,656",150, $ 3.00 ,---,special,tgttos,TRUE,TRUE,FALSE,Complete, (something about toxic gamers I can't think of anything)
+TRUE,,Cosmetic,wardrobe_hat_variant_night_vision_dual,Hat,Night Vision (Double),wardrobe_hat_variant_night_vision_dual.name,wardrobe_hat_variant_night_vision_dual.desc,Rare,mcc:island_cosmetics.hat_variant.night_vision_dual,Animal Instinct,"3,656",150, $ 3.00 ,---,special,tgttos,TRUE,TRUE,FALSE,Complete,[You only have two eyes? lame.]
+TRUE,,Cosmetic,wardrobe_hat_variant_night_vision_arachno,Hat,Night Vision (Arachno),wardrobe_hat_variant_night_vision_arachno.name,wardrobe_hat_variant_night_vision_arachno.desc,Rare,mcc:island_cosmetics.hat_variant.night_vision_arachno,Animal Instinct,"3,656",150, $ 3.00 ,---,special,tgttos,TRUE,TRUE,FALSE,Complete,[The Amazing Spider-Vision!]
+TRUE,,Cosmetic,wardrobe_hat_variant_gas_mask_toxic,Hat,Gas Mask (Toxic),wardrobe_hat_variant_gas_mask_toxic.name,wardrobe_hat_variant_gas_mask_toxic.desc,Rare,mcc:island_cosmetics.hat_variant.gas_mask_toxic,Animal Instinct,"3,656",150, $ 3.00 ,---,special,tgttos,TRUE,TRUE,FALSE,Complete,
 ,,Cosmetic,wardrobe_hat_sprouted_boom,Hat,Bloom,wardrobe_hat_sprouted_boom.name,wardrobe_hat_sprouted_boom.desc,Common,mcc:island_cosmetics.hat.sprouted,,938,50, $ 1.00 ,---,special,aceRace,TRUE,TRUE,FALSE,In Progress,[Got plenty of sunlight.]
 ,,Cosmetic,wardrobe_hat_party_hat_striped,Hat,Striped,wardrobe_hat_party_hat_striped.name,wardrobe_hat_party_hat_striped.desc,Common,mcc:island_cosmetics.hat.party_hat,,938,50, $ 1.00 ,---,special,aceRace,TRUE,TRUE,FALSE,In Progress,[The best time to wear a striped hat is all the time!]
 ,,Cosmetic,wardrobe_hat_goggles_steampunk,Hat,Steampunk,wardrobe_hat_goggles_steampunk.name,wardrobe_hat_goggles_steampunk.desc,Common,mcc:island_cosmetics.hat.goggles,,938,50, $ 1.00 ,---,special,hitw,TRUE,FALSE,FALSE,Complete,[Imagine the will it took to create these.]
@@ -414,7 +416,7 @@ TRUE,TRUE,Cosmetic,wardrobe_hat_shark,Hat,Shark,wardrobe_hat_shark.name,wardrobe
 ,,,,,Ski Goggles,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
 ,,,,,Dragon,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
 ,,,,,Cyber Visor,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
-,,,,,,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
+,,,,,Burger Cap,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
 ,,,,,,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
 ,,,,,,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
 ,,,,,,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
@@ -450,7 +452,6 @@ TRUE,TRUE,Cosmetic,wardrobe_hat_shark,Hat,Shark,wardrobe_hat_shark.name,wardrobe
 ,,,,,Butterfly Net,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
 ,,,,,Crab Claw,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
 ,,,,,Umbrella,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
-,,,,,Popsicle,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
 ,,,,,Watering Can,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
 ,,,,,Paint Roller,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
 ,,,,,Hockey Stick,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
@@ -462,18 +463,15 @@ TRUE,TRUE,Cosmetic,wardrobe_hat_shark,Hat,Shark,wardrobe_hat_shark.name,wardrobe
 ,,,,,Scythe,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
 ,,,,,Surf Board,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
 ,,,,,Pizza Box,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
-,,,,,Slushie,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
 ,,,,,Camera,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
 ,,,,,Gavel,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
 ,,,,,Frying Pan,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
-,,,,,,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
-,,,,,,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
-,,,,,,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
-,,,,,,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
-,,,,,,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
-,,,,,,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
-,,,,,,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
-,,,,,,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
+,,,,,Paper Umbrella,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
+TRUE,TRUE,Cosmetic,accessory_knight_shield,Accessory,Knight Shield,accessory_knight_shield.name,accessory_knight_shield.desc,Rare,mcc:island_cosmetics.accessory.knight_shield,,"3,656",150, $ 3.00 ,---,parts,aceRace,TRUE,TRUE,FALSE,Complete,
+TRUE,TRUE,Cosmetic,accessory_paper_umbrella,Accessory,Paper Umbrella,accessory_paper_umbrella.name,accessory_paper_umbrella.desc,Epic,mcc:island_cosmetics.accessory.paper_umbrella,,"8,438",300, $ 6.00 ,---,parts,aceRace,TRUE,TRUE,FALSE,Complete,
+TRUE,TRUE,Cosmetic,accessory_plague_doctor_staff,Accessory,Plague Doctor Staff,accessory_plague_doctor_staff.name,accessory_plague_doctor_staff.desc,Rare,mcc:island_cosmetics.accessory.plague_doctor_staff,,"3,656",150, $ 3.00 ,---,parts,aceRace,TRUE,TRUE,FALSE,Complete,
+TRUE,TRUE,Cosmetic,accessory_popsicle,Accessory,Popsicle,accessory_popsicle.name,accessory_popsicle.desc,Common,mcc:island_cosmetics.accessory.popsicle,,938,50, $ 1.00 ,---,parts,aceRace,TRUE,TRUE,FALSE,Complete,
+TRUE,TRUE,Cosmetic,accessory_slushy,Accessory,Slushy,accessory_slushy.name,accessory_slushy.desc,Common,mcc:island_cosmetics.accessory.slushy,,938,50, $ 1.00 ,---,parts,aceRace,TRUE,TRUE,FALSE,Complete,
 ,,,,,,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
 ,,,,,,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
 ,,,,,,,,,,,0,,  ,,,,FALSE,FALSE,FALSE,,
