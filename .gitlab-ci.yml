@@ -104,10 +104,13 @@ compile_scripts:
       - main
       - master
       - develop
+      - /^event.*/ 
 
 upload_consul_dev:
     stage: deploy
     extends: [.kube_env_dev, .upload_consul]
+    except:
+        - /^event.*/
 
 #upload_consul_stg:
 #    stage: deploy
@@ -132,6 +135,5 @@ notify_event:
         refs:
             - /^event.*/
     script:
-        - "apk add --no-cache redis"
         - "echo \"PUBLISH HUB '{\\\"class\\\": \\\"com.noxcrew.creatorbash.commons.communication.packet.PacketPlayerMessage\\\", \\\"value\\\": {\\\"message\\\": \\\"§6GitLab Finished Build §7> §b$CI_PROJECT_NAME §7(#$CI_JOB_ID, $JOB_STATUS)\\\", \\\"permission_group\\\": \\\"DEVELOPER\\\"}}'\" | redis-cli -h event-01.mcc.noxcrew.online"
         - "echo \"PUBLISH GAME '{\\\"class\\\": \\\"com.noxcrew.creatorbash.commons.communication.packet.PacketPlayerMessage\\\", \\\"value\\\": {\\\"message\\\": \\\"§6GitLab Finished Build §7> §b$CI_PROJECT_NAME §7(#$CI_JOB_ID, $JOB_STATUS)\\\", \\\"permission_group\\\": \\\"DEVELOPER\\\"}}'\" | redis-cli -h event-01.mcc.noxcrew.online"
