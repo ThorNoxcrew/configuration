@@ -1,63 +1,63 @@
 Active,Category,Item Name,Rarity,Colorable,Default Color,Sources,Item ID,Icon ID,Status,Description,Game Tokens,Coin Price,Premium Pricce,Dollar Price
 TRUE,Accessory,Aqua Axolotls' Flag,Epic,,,,accessory_aqua_axolotls_flag,mcc:island_cosmetics.accessory.aqua_axolotls_flag,Complete,A golden rod with a colored flag depicting the associated faction logo.,50,"33,750",300,$6.00
 TRUE,Accessory,Banana,Common,,,,accessory_banana,mcc:island_cosmetics.accessory.banana,Complete,A giant banana in your hand.,5,"3,750",50,$1.00
-TRUE,Accessory,Beam Sword,Rare,,,,accessory_beam_sword,mcc:island_cosmetics.accessory.beam_sword,Complete,[You hold in your hand\nA sword that shoots laser beams.],20,"14,625",150,$3.00
-TRUE,Accessory,Blockle Tea,Common,,,,accessory_blockle_tea,mcc:island_cosmetics.accessory.blockle_tea,Complete,"[A sweet, milky beverage hand-crafted by Bea herself]",5,"3,750",50,$1.00
+TRUE,Accessory,Beam Sword,Rare,TRUE,,,accessory_beam_sword,mcc:island_cosmetics.accessory.beam_sword,Complete,[You hold in your hand\nA sword that shoots laser beams.],20,"14,625",150,$3.00
+TRUE,Accessory,Blockle Tea,Common,TRUE,,,accessory_blockle_tea,mcc:island_cosmetics.accessory.blockle_tea,Complete,"[A sweet, milky beverage hand-crafted by Bea herself]",5,"3,750",50,$1.00
 TRUE,Accessory,Blue Bats' Flag,Epic,,,,accessory_blue_bats_flag,mcc:island_cosmetics.accessory.blue_bats_flag,Complete,A golden rod with a colored flag depicting the associated faction logo.,50,"33,750",300,$6.00
 TRUE,Accessory,Bone,Common,,,,accessory_bone,mcc:island_cosmetics.accessory.bone,Complete,[Fetch!],5,"3,750",50,$1.00
-TRUE,Accessory,Boombox,Epic,,,,accessory_boombox,mcc:island_cosmetics.accessory.boombox,Complete,A boombox,50,"33,750",300,$6.00
+TRUE,Accessory,Boombox,Epic,TRUE,,,accessory_boombox,mcc:island_cosmetics.accessory.boombox,Complete,A boombox,50,"33,750",300,$6.00
 TRUE,Accessory,Burger,Common,,,,accessory_burger,mcc:island_cosmetics.accessory.burger,Complete,"[Burgers But Fast, on the go!]",5,"3,750",50,$1.00
-TRUE,Accessory,Camera,Uncommon,,,,accessory_camera,mcc:island_cosmetics.accessory.camera,Complete,[Smile! You're on camera.],10,"5,625",75,$1.50
+TRUE,Accessory,Camera,Uncommon,TRUE,,,accessory_camera,mcc:island_cosmetics.accessory.camera,Complete,[Smile! You're on camera.],10,"5,625",75,$1.50
 TRUE,Accessory,Briefcase,Uncommon,,,,accessory_cash_filled_briefcase,mcc:island_cosmetics.accessory.cash_filled_briefcase,Complete,[To keep it brief.. It's a case.],10,"5,625",75,$1.50
-TRUE,Accessory,Chainsaw Hand,Epic,,,,accessory_chainsaw_hand,mcc:island_cosmetics.accessory.chainsaw_hand,Complete,[Groovy!],50,"33,750",300,$6.00
-TRUE,Accessory,Coffee Mug,Rare,,,,accessory_coffee_mug,mcc:island_cosmetics.accessory.coffee_mug,Complete,White mug filled with brown coffee. Steam occasionally wafts up from the cup.,20,"14,625",150,$3.00
+TRUE,Accessory,Chainsaw Hand,Epic,TRUE,,,accessory_chainsaw_hand,mcc:island_cosmetics.accessory.chainsaw_hand,Complete,[Groovy!],50,"33,750",300,$6.00
+TRUE,Accessory,Coffee Mug,Rare,TRUE,,,accessory_coffee_mug,mcc:island_cosmetics.accessory.coffee_mug,Complete,White mug filled with brown coffee. Steam occasionally wafts up from the cup.,20,"14,625",150,$3.00
 TRUE,Accessory,Comically Large Spoon,Common,,,,accessory_comically_large_spoon,mcc:island_cosmetics.accessory.comically_large_spoon,Complete,"[It's a spoon, and it's comically large]",5,"3,750",50,$1.00
 TRUE,Accessory,Crowbar,Uncommon,,,,accessory_crowbar,mcc:island_cosmetics.accessory.crowbar,Complete,[Wake up and smell the ashes...],10,"5,625",75,$1.50
 TRUE,Accessory,Cyan Coyotes' Flag,Epic,,,,accessory_cyan_coyotes_flag,mcc:island_cosmetics.accessory.cyan_coyotes_flag,Complete,A golden rod with a colored flag depicting the associated faction logo.,50,"33,750",300,$6.00
-TRUE,Accessory,Drill Arm,Epic,,,,accessory_drill_arm,mcc:island_cosmetics.accessory.drill_arm,Complete,My drill (arm) shall pierce the championship!,50,"33,750",300,$6.00
-TRUE,Accessory,Fairy Wand,Rare,,,,accessory_fairy_wand,mcc:island_cosmetics.accessory.fairy_wand,Complete,Magic wand that mighe be used by a wizard (magic not included). Simple and wooden.,20,"14,625",150,$3.00
+TRUE,Accessory,Drill Arm,Epic,TRUE,,,accessory_drill_arm,mcc:island_cosmetics.accessory.drill_arm,Complete,My drill (arm) shall pierce the championship!,50,"33,750",300,$6.00
+TRUE,Accessory,Fairy Wand,Rare,TRUE,,,accessory_fairy_wand,mcc:island_cosmetics.accessory.fairy_wand,Complete,Magic wand that mighe be used by a wizard (magic not included). Simple and wooden.,20,"14,625",150,$3.00
 TRUE,Accessory,Fire Fist,Epic,,,,accessory_fire_fist,mcc:island_cosmetics.accessory.fire_fist,Complete,[Hadouken!],50,"33,750",300,$6.00
-TRUE,Accessory,Football Shoulder Pad,Uncommon,,,,accessory_football_shoulder_pad,mcc:island_cosmetics.accessory.football_shoulder_pad,Complete,[You'll need protection out on the field.],10,"5,625",75,$1.50
+TRUE,Accessory,Football Shoulder Pad,Uncommon,TRUE,,,accessory_football_shoulder_pad,mcc:island_cosmetics.accessory.football_shoulder_pad,Complete,[You'll need protection out on the field.],10,"5,625",75,$1.50
 TRUE,Accessory,Frying Pan,Uncommon,,,,accessory_frying_pan,mcc:island_cosmetics.accessory.frying_pan,Complete,,10,"5,625",75,$1.50
-TRUE,Accessory,Gauntlet,Rare,,,,accessory_gauntlet,mcc:island_cosmetics.accessory.gauntlet,Complete,[Aw Snap!],20,"14,625",150,$3.00
+TRUE,Accessory,Gauntlet,Rare,TRUE,,,accessory_gauntlet,mcc:island_cosmetics.accessory.gauntlet,Complete,[Aw Snap!],20,"14,625",150,$3.00
 TRUE,Accessory,Green Geckos' Flag,Epic,,,,accessory_green_geckos_flag,mcc:island_cosmetics.accessory.green_geckos_flag,Complete,A golden rod with a colored flag depicting the associated faction logo.,50,"33,750",300,$6.00
-TRUE,Accessory,Hair Dryer,Common,,,,accessory_hair_dryer,mcc:island_cosmetics.accessory.hair_dryer,Complete,Hair Dryer,5,"3,750",50,$1.00
+TRUE,Accessory,Hair Dryer,Common,TRUE,,,accessory_hair_dryer,mcc:island_cosmetics.accessory.hair_dryer,Complete,Hair Dryer,5,"3,750",50,$1.00
 TRUE,Accessory,Hot Dog,Common,,,,accessory_hot_dog,mcc:island_cosmetics.accessory.hot_dog,Complete,[Is it a sandwich? Or a taco?],5,"3,750",50,$1.00
-TRUE,Accessory,Knight Shield,Rare,,,,accessory_knight_shield,mcc:island_cosmetics.accessory.knight_shield,Complete,A medieval era Knight Shield [,20,"14,625",150,$3.00
-TRUE,Accessory,Lantern,Epic,,,,accessory_lantern,mcc:island_cosmetics.accessory.lantern,Complete,A lantern dangles from your grip and shines light around the player.,50,"33,750",300,$6.00
+TRUE,Accessory,Knight Shield,Rare,TRUE,,,accessory_knight_shield,mcc:island_cosmetics.accessory.knight_shield,Complete,A medieval era Knight Shield [,20,"14,625",150,$3.00
+TRUE,Accessory,Lantern,Epic,TRUE,,,accessory_lantern,mcc:island_cosmetics.accessory.lantern,Complete,A lantern dangles from your grip and shines light around the player.,50,"33,750",300,$6.00
 TRUE,Accessory,Lime Llamas' Flag,Epic,,,,accessory_lime_llamas_flag,mcc:island_cosmetics.accessory.lime_llamas_flag,Complete,A golden rod with a colored flag depicting the associated faction logo.,50,"33,750",300,$6.00
 TRUE,Accessory,Magician's Wand,Uncommon,,,,accessory_magicians_wand,mcc:island_cosmetics.accessory.magicians_wand,Complete,[Abracadabra!],10,"5,625",75,$1.50
 TRUE,Accessory,Magnifying Glass,Common,,,,accessory_magnifying_glass,mcc:island_cosmetics.accessory.magnifying_glass,Complete,Magnifying Glass,5,"3,750",50,$1.00
 TRUE,Accessory,Money Bag,Rare,,,,accessory_money_bag,mcc:island_cosmetics.accessory.money_bag,Complete,Hold a sack of cash with a dollar sign emblazoned on the side. It hangs under your grip.,20,"14,625",150,$3.00
 TRUE,Accessory,Orange Ocelots' Flag,Epic,,,,accessory_orange_ocelots_flag,mcc:island_cosmetics.accessory.orange_ocelots_flag,Complete,A golden rod with a colored flag depicting the associated faction logo.,50,"33,750",300,$6.00
 TRUE,Accessory,Paint Palette,Rare,,,,accessory_paint_palette,mcc:island_cosmetics.accessory.paint_palette,Complete,[All the colors you need to paint happy little trees!],20,"14,625",150,$3.00
-TRUE,Accessory,Paintbrush,Uncommon,,,,accessory_paintbrush,mcc:island_cosmetics.accessory.paintbrush,Complete,[Paint the town red.],10,"5,625",75,$1.50
-TRUE,Accessory,Paper Umbrella,Legendary,,,,accessory_paper_umbrella,mcc:island_cosmetics.accessory.paper_umbrella,Complete,,100,"108,000",600,$12.00
+TRUE,Accessory,Paintbrush,Uncommon,TRUE,,,accessory_paintbrush,mcc:island_cosmetics.accessory.paintbrush,Complete,[Paint the town red.],10,"5,625",75,$1.50
+TRUE,Accessory,Paper Umbrella,Legendary,TRUE,,,accessory_paper_umbrella,mcc:island_cosmetics.accessory.paper_umbrella,Complete,,100,"108,000",600,$12.00
 TRUE,Accessory,Pink Parrots' Flag,Epic,,,,accessory_pink_parrots_flag,mcc:island_cosmetics.accessory.pink_parrots_flag,Complete,A golden rod with a colored flag depicting the associated faction logo.,50,"33,750",300,$6.00
-TRUE,Accessory,Pipe Wrench,Common,,,,accessory_pipe_wrench,mcc:island_cosmetics.accessory.pipe_wrench,Complete,[Belonged to some Italian plumber],5,"3,750",50,$1.00
+TRUE,Accessory,Pipe Wrench,Common,TRUE,,,accessory_pipe_wrench,mcc:island_cosmetics.accessory.pipe_wrench,Complete,[Belonged to some Italian plumber],5,"3,750",50,$1.00
 TRUE,Accessory,Pizza Slice,Common,,,,accessory_pizza_slice,mcc:island_cosmetics.accessory.pizza_slice,Complete,[Cowabunga!],5,"3,750",50,$1.00
 TRUE,Accessory,Plague Doctor Staff,Rare,,,,accessory_plague_doctor_staff,mcc:island_cosmetics.accessory.plague_doctor_staff,Complete,,20,"14,625",150,$3.00
-TRUE,Accessory,Planetary Projector,Epic,,,,accessory_planetary_projector,mcc:island_cosmetics.accessory.planetary_projector,Complete,,50,"33,750",300,$6.00
+TRUE,Accessory,Planetary Projector,Epic,TRUE,,,accessory_planetary_projector,mcc:island_cosmetics.accessory.planetary_projector,Complete,,50,"33,750",300,$6.00
 TRUE,Accessory,Playing Cards,Uncommon,,,,accessory_playing_cards,mcc:island_cosmetics.accessory.playing_cards,Complete,Playing cards,10,"5,625",75,$1.50
 TRUE,Accessory,Police Baton,Uncommon,,,,accessory_police_baton,mcc:island_cosmetics.accessory.police_baton,Complete,"['Ello 'ello, what's all this then?]",10,"5,625",75,$1.50
-TRUE,Accessory,Popsicle,Common,,,,accessory_popsicle,mcc:island_cosmetics.accessory.popsicle,Complete,,5,"3,750",50,$1.00
+TRUE,Accessory,Popsicle,Common,TRUE,,,accessory_popsicle,mcc:island_cosmetics.accessory.popsicle,Complete,,5,"3,750",50,$1.00
 TRUE,Accessory,Purple Pandas' Flag,Epic,,,,accessory_purple_pandas_flag,mcc:island_cosmetics.accessory.purple_pandas_flag,Complete,A golden rod with a colored flag depicting the associated faction logo.,50,"33,750",300,$6.00
 TRUE,Accessory,Red Rabbits' Flag,Epic,,,,accessory_red_rabbits_flag,mcc:island_cosmetics.accessory.red_rabbits_flag,Complete,A golden rod with a colored flag depicting the associated faction logo. [Go Red Rabbits!],50,"33,750",300,$6.00
 TRUE,Accessory,Robot Arm,Uncommon,,,,accessory_robot_arm,mcc:island_cosmetics.accessory.robot_arm,Complete,A mechanical Robot Claw,10,"5,625",75,$1.50
 TRUE,Accessory,Rose,Common,,,,accessory_rose,mcc:island_cosmetics.accessory.rose,Complete,A single rose flower.,5,"3,750",50,$1.00
-TRUE,Accessory,Sai,Rare,,,,accessory_sai,mcc:island_cosmetics.accessory.sai,Complete,,20,"14,625",150,$3.00
+TRUE,Accessory,Sai,Rare,TRUE,,,accessory_sai,mcc:island_cosmetics.accessory.sai,Complete,,20,"14,625",150,$3.00
 TRUE,Accessory,Selfie Stick,Rare,,,,accessory_selfie_stick,mcc:island_cosmetics.accessory.selfie_stick,Complete,A smartphone mounted on a stick,20,"14,625",150,$3.00
-TRUE,Accessory,Skateboard,Rare,,,,accessory_skateboard,mcc:island_cosmetics.accessory.skateboard,Complete,A Skateboard being held under the arm,20,"14,625",150,$3.00
-TRUE,Accessory,Slushy,Common,,,,accessory_slushy,mcc:island_cosmetics.accessory.slushy,Complete,,5,"3,750",50,$1.00
+TRUE,Accessory,Skateboard,Rare,TRUE,,,accessory_skateboard,mcc:island_cosmetics.accessory.skateboard,Complete,A Skateboard being held under the arm,20,"14,625",150,$3.00
+TRUE,Accessory,Slushy,Common,TRUE,,,accessory_slushy,mcc:island_cosmetics.accessory.slushy,Complete,,5,"3,750",50,$1.00
 TRUE,Accessory,Sparkler,Rare,,,,accessory_sparkler,mcc:island_cosmetics.accessory.sparkler,Complete,,20,"14,625",150,$3.00
-TRUE,Accessory,Spell Shield,Legendary,,,,accessory_spell_shield,mcc:island_cosmetics.accessory.spell_shield,Complete,[Conjure a mystical shield out of thin air!],100,"108,000",600,$12.00
-TRUE,Accessory,Star Shield,Epic,,,,accessory_star_shield,mcc:island_cosmetics.accessory.star_shield,Complete,[Assemble!],50,"33,750",300,$6.00
+TRUE,Accessory,Spell Shield,Legendary,TRUE,,,accessory_spell_shield,mcc:island_cosmetics.accessory.spell_shield,Complete,[Conjure a mystical shield out of thin air!],100,"108,000",600,$12.00
+TRUE,Accessory,Star Shield,Epic,TRUE,,,accessory_star_shield,mcc:island_cosmetics.accessory.star_shield,Complete,[Assemble!],50,"33,750",300,$6.00
 TRUE,Accessory,Stick,Common,,,,accessory_stick,mcc:island_cosmetics.accessory.stick,Complete,A long branch with leaves still attached,5,"3,750",50,$1.00
-TRUE,Accessory,Surfboard,Rare,,,,accessory_surfboard,mcc:island_cosmetics.accessory.surfboard,Complete,"[Woah dude, that's like, totally tubular bro!]",20,"14,625",150,$3.00
+TRUE,Accessory,Surfboard,Rare,TRUE,,,accessory_surfboard,mcc:island_cosmetics.accessory.surfboard,Complete,"[Woah dude, that's like, totally tubular bro!]",20,"14,625",150,$3.00
 TRUE,Accessory,Trash Can Lid,Common,,,,accessory_trash_can_lid,mcc:island_cosmetics.accessory.trash_can_lid,Complete,[I can do this all day],5,"3,750",50,$1.00
-TRUE,Accessory,Viking Shield,Rare,,,,accessory_viking_shield,mcc:island_cosmetics.accessory.viking_shield,Complete,,20,"14,625",150,$3.00
-TRUE,Accessory,Wizard Staff,Rare,,,,accessory_wizard_staff,mcc:island_cosmetics.accessory.wizard_staff,Complete,[Ponder the Orb..],20,"14,625",150,$3.00
-TRUE,Accessory,Wormhole Blaster,Epic,,,,accessory_wormhole_blaster,mcc:island_cosmetics.accessory.wormhole_blaster,Complete,[A colorful method of transportation],50,"33,750",300,$6.00
+TRUE,Accessory,Viking Shield,Rare,TRUE,,,accessory_viking_shield,mcc:island_cosmetics.accessory.viking_shield,Complete,,20,"14,625",150,$3.00
+TRUE,Accessory,Wizard Staff,Rare,TRUE,,,accessory_wizard_staff,mcc:island_cosmetics.accessory.wizard_staff,Complete,[Ponder the Orb..],20,"14,625",150,$3.00
+TRUE,Accessory,Wormhole Blaster,Epic,TRUE,,,accessory_wormhole_blaster,mcc:island_cosmetics.accessory.wormhole_blaster,Complete,[A colorful method of transportation],50,"33,750",300,$6.00
 TRUE,Accessory,Yellow Yaks' Flag,Epic,,,,accessory_yellow_yaks_flag,mcc:island_cosmetics.accessory.yellow_yaks_flag,Complete,A golden rod with a colored flag depicting the associated faction logo.,50,"33,750",300,$6.00
 FALSE,Accessory,Red Trophy,Legendary,,,,,,In Progress,A red trophy with an N on top (for Noxcrew). Awarded as a Beta present for making any purchase.,100,"108,000",600,$12.00
 FALSE,Accessory,Poseidon's Trident,Legendary,,,,accessory_poseidons_trident,mcc:island_cosmetics.accessory.poseidons_trident,None,[Recovered from Atlantis!],100,"108,000",600,$12.00
@@ -79,120 +79,120 @@ FALSE,Accessory,Preppy Flag,Uncommon,,,,,,None,Small flag with 'MCC' written on 
 FALSE,Accessory,Tentacle Arm,Epic,,,,,,None,Make your whole off-hand arm look like an animated octopus tentacle. Or that of some eldritch abomination.,50,"33,750",300,$6.00
 FALSE,Accessory,TV Remote,Uncommon,,,,,,None,[Now we're channel surfing!],10,"5,625",75,$1.50
 FALSE,Accessory,Winner's Coin,,,,,,,None,,,,,
-TRUE,Hair,Afro,Uncommon,,,,wardrobe_hair_afro,mcc:island_cosmetics.hair.afro,Complete,,10,"5,625",75,$1.50
-TRUE,Hair,Amish,Uncommon,,,,wardrobe_hair_amish,mcc:island_cosmetics.hair.amish,Complete,A wreath of hawaiian flowers draped around the player's neck. Pretty pinks and blues. Given with a Welcome Bundle.,10,"5,625",75,$1.50
-TRUE,Hair,Anime,Rare,,,,wardrobe_hair_anime,mcc:island_cosmetics.hair.anime,Complete,,20,"14,625",150,$3.00
-TRUE,Hair,Bangs,Common,,,,wardrobe_hair_bangs,mcc:island_cosmetics.hair.bangs,Complete,,5,"3,750",50,$1.00
-TRUE,Hair,Barbarian,Rare,,,,wardrobe_hair_barbarian,mcc:island_cosmetics.hair.barbarian,Complete,,20,"14,625",150,$3.00
-TRUE,Hair,Basic,Common,,,default,wardrobe_hair_basic,mcc:island_cosmetics.hair.basic,Complete,,5,"3,750",50,$1.00
-TRUE,Hair,Beehive,Epic,,,,wardrobe_hair_beehive,mcc:island_cosmetics.hair.beehive,Complete,,50,"33,750",300,$6.00
-TRUE,Hair,Beetle,Common,,,,wardrobe_hair_beetle,mcc:island_cosmetics.hair.beetle,Complete,,5,"3,750",50,$1.00
-TRUE,Hair,Bob,Uncommon,,,,wardrobe_hair_bob,mcc:island_cosmetics.hair.bob,Complete,,10,"5,625",75,$1.50
-TRUE,Hair,Braid,Common,,,,wardrobe_hair_braid,mcc:island_cosmetics.hair.braid,Complete,,5,"3,750",50,$1.00
-TRUE,Hair,Bun,Common,,,default,wardrobe_hair_bun,mcc:island_cosmetics.hair.bun,Complete,,5,"3,750",50,$1.00
-TRUE,Hair,Cornrows,Common,,,,wardrobe_hair_cornrows,mcc:island_cosmetics.hair.cornrows,Complete,,5,"3,750",50,$1.00
-TRUE,Hair,Curly,Common,,,,wardrobe_hair_curly,mcc:island_cosmetics.hair.curly,Complete,,5,"3,750",50,$1.00
-TRUE,Hair,Dad,Uncommon,,,,wardrobe_hair_dad,mcc:island_cosmetics.hair.dad,Complete,,10,"5,625",75,$1.50
-TRUE,Hair,Dreadlocks,Uncommon,,,,wardrobe_hair_dreadlocks,mcc:island_cosmetics.hair.dreadlocks,Complete,,10,"5,625",75,$1.50
-TRUE,Hair,Elder,Uncommon,,,,wardrobe_hair_elder,mcc:island_cosmetics.hair.elder,Complete,,10,"5,625",75,$1.50
-TRUE,Hair,Elvis,Uncommon,,,,wardrobe_hair_elvis,mcc:island_cosmetics.hair.elvis,Complete,,10,"5,625",75,$1.50
-TRUE,Hair,Emo,Uncommon,,,,wardrobe_hair_emo,mcc:island_cosmetics.hair.emo,Complete,,10,"5,625",75,$1.50
-TRUE,Hair,Fade,Common,,,default,wardrobe_hair_fade,mcc:island_cosmetics.hair.fade,Complete,,5,"3,750",50,$1.00
-TRUE,Hair,Free Spirit,Rare,,,,wardrobe_hair_free_spirit,mcc:island_cosmetics.hair.free_spirit,Complete,,20,"14,625",150,$3.00
-TRUE,Hair,Full Beard,Uncommon,,,,wardrobe_hair_full_beard,mcc:island_cosmetics.hair.full_beard,Complete,,10,"5,625",75,$1.50
-TRUE,Hair,Goatee,Common,,,,wardrobe_hair_goatee,mcc:island_cosmetics.hair.goatee,Complete,,5,"3,750",50,$1.00
-TRUE,Hair,Groundskeeper,Rare,,,,wardrobe_hair_groundskeeper,mcc:island_cosmetics.hair.groundskeeper,Complete,,20,"14,625",150,$3.00
-TRUE,Hair,Handlebar Moustache,Uncommon,,,,wardrobe_hair_handlebar,mcc:island_cosmetics.hair.handlebar,Complete,,10,"5,625",75,$1.50
-TRUE,Hair,High Top,Common,,,,wardrobe_hair_high_top,mcc:island_cosmetics.hair.high_top,Complete,,5,"3,750",50,$1.00
-TRUE,Hair,Hipster,Rare,,,,wardrobe_hair_hipster,mcc:island_cosmetics.hair.hipster,Complete,,20,"14,625",150,$3.00
-TRUE,Hair,Hogan,Uncommon,,,,wardrobe_hair_hogan,mcc:island_cosmetics.hair.hogan,Complete,,10,"5,625",75,$1.50
-TRUE,Hair,Homeless,Rare,,,,wardrobe_hair_homeless,mcc:island_cosmetics.hair.homeless,Complete,,20,"14,625",150,$3.00
-TRUE,Hair,Judge,Rare,,,,wardrobe_hair_judge,mcc:island_cosmetics.hair.judge,Complete,,20,"14,625",150,$3.00
-TRUE,Hair,Long Sleek Hair,Common,,,default,wardrobe_hair_long_sleek_hair,mcc:island_cosmetics.hair.long_sleek_hair,Complete,,5,"3,750",50,$1.00
-TRUE,Hair,Mohawk,Rare,,,,wardrobe_hair_mohawk,mcc:island_cosmetics.hair.mohawk,Complete,,20,"14,625",150,$3.00
-TRUE,Hair,Monk,Uncommon,,,,wardrobe_hair_monk,mcc:island_cosmetics.hair.monk,Complete,,10,"5,625",75,$1.50
-TRUE,Hair,Mutton Chops,Rare,,,,wardrobe_hair_mutton_chops,mcc:island_cosmetics.hair.mutton_chops,Complete,,20,"14,625",150,$3.00
-TRUE,Hair,Noxstache,Legendary,,,,wardrobe_hair_noxstache,mcc:island_cosmetics.hair.noxstache,Complete,,100,"108,000",600,$12.00
-TRUE,Hair,Palm Tree,Epic,,,,wardrobe_hair_palm_tree,mcc:island_cosmetics.hair.palm_tree,Complete,,50,"33,750",300,$6.00
-TRUE,Hair,Pigtails,Common,,,,wardrobe_hair_pigtails,mcc:island_cosmetics.hair.pigtails,Complete,,5,"3,750",50,$1.00
-TRUE,Hair,Ponytail,Common,,,,wardrobe_hair_ponytail,mcc:island_cosmetics.hair.ponytail,Complete,,5,"3,750",50,$1.00
-TRUE,Hair,Prince Charming,Uncommon,,,,wardrobe_hair_prince_charming,mcc:island_cosmetics.hair.prince_charming,Complete,,10,"5,625",75,$1.50
-TRUE,Hair,Princess,Epic,,,,wardrobe_hair_princess,mcc:island_cosmetics.hair.princess,Complete,,50,"33,750",300,$6.00
-TRUE,Hair,Professor,Epic,,,,wardrobe_hair_professor,mcc:island_cosmetics.hair.professor,Complete,,50,"33,750",300,$6.00
-TRUE,Hair,Rat Tail,Common,,,,wardrobe_hair_rat_tail,mcc:island_cosmetics.hair.rat_tail,Complete,,5,"3,750",50,$1.00
-TRUE,Hair,Schrute,Uncommon,,,,wardrobe_hair_schrute,mcc:island_cosmetics.hair.schrute,Complete,,10,"5,625",75,$1.50
-TRUE,Hair,Soft Rocker,Epic,,,,wardrobe_hair_soft_rocker,mcc:island_cosmetics.hair.soft_rocker,Complete,,50,"33,750",300,$6.00
-TRUE,Hair,Soul Patch,Common,,,,wardrobe_hair_soul_patch,mcc:island_cosmetics.hair.soul_patch,Complete,,5,"3,750",50,$1.00
-TRUE,Hair,Spikes,Epic,,,,wardrobe_hair_spikes,mcc:island_cosmetics.hair.spikes,Complete,,50,"33,750",300,$6.00
-TRUE,Hair,Twin Bun,Uncommon,,,,wardrobe_hair_twin_bun,mcc:island_cosmetics.hair.twin_bun,Complete,,10,"5,625",75,$1.50
-TRUE,Hair,Undercut,Common,,,default,wardrobe_hair_undercut,mcc:island_cosmetics.hair.undercut,Complete,,5,"3,750",50,$1.00
-TRUE,Hair,Viking Beard Braids,Epic,,,,wardrobe_hair_viking_beard,mcc:island_cosmetics.hair.viking_beard,Complete,,50,"33,750",300,$6.00
-TRUE,Hair,Vintage,Uncommon,,,,wardrobe_hair_vintage,mcc:island_cosmetics.hair.vintage,Complete,,10,"5,625",75,$1.50
-TRUE,Hair,Wavy,Common,,,,wardrobe_hair_wavy,mcc:island_cosmetics.hair.wavy,Complete,,5,"3,750",50,$1.00
-TRUE,Hair,Wednesday,Uncommon,,,,wardrobe_hair_wednesday,mcc:island_cosmetics.hair.wednesday,Complete,,10,"5,625",75,$1.50
-TRUE,Hair,Wizard Beard,Rare,,,,wardrobe_hair_wizard_beard,mcc:island_cosmetics.hair.wizard_beard,Complete,,20,"14,625",150,$3.00
+TRUE,Hair,Afro,Uncommon,TRUE,,,wardrobe_hair_afro,mcc:island_cosmetics.hair.afro,Complete,,10,"5,625",75,$1.50
+TRUE,Hair,Amish,Uncommon,TRUE,,,wardrobe_hair_amish,mcc:island_cosmetics.hair.amish,Complete,A wreath of hawaiian flowers draped around the player's neck. Pretty pinks and blues. Given with a Welcome Bundle.,10,"5,625",75,$1.50
+TRUE,Hair,Anime,Rare,TRUE,,,wardrobe_hair_anime,mcc:island_cosmetics.hair.anime,Complete,,20,"14,625",150,$3.00
+TRUE,Hair,Bangs,Common,TRUE,,,wardrobe_hair_bangs,mcc:island_cosmetics.hair.bangs,Complete,,5,"3,750",50,$1.00
+TRUE,Hair,Barbarian,Rare,TRUE,,,wardrobe_hair_barbarian,mcc:island_cosmetics.hair.barbarian,Complete,,20,"14,625",150,$3.00
+TRUE,Hair,Basic,Common,TRUE,,default,wardrobe_hair_basic,mcc:island_cosmetics.hair.basic,Complete,,5,"3,750",50,$1.00
+TRUE,Hair,Beehive,Epic,TRUE,,,wardrobe_hair_beehive,mcc:island_cosmetics.hair.beehive,Complete,,50,"33,750",300,$6.00
+TRUE,Hair,Beetle,Common,TRUE,,,wardrobe_hair_beetle,mcc:island_cosmetics.hair.beetle,Complete,,5,"3,750",50,$1.00
+TRUE,Hair,Bob,Uncommon,TRUE,,,wardrobe_hair_bob,mcc:island_cosmetics.hair.bob,Complete,,10,"5,625",75,$1.50
+TRUE,Hair,Braid,Common,TRUE,,,wardrobe_hair_braid,mcc:island_cosmetics.hair.braid,Complete,,5,"3,750",50,$1.00
+TRUE,Hair,Bun,Common,TRUE,,default,wardrobe_hair_bun,mcc:island_cosmetics.hair.bun,Complete,,5,"3,750",50,$1.00
+TRUE,Hair,Cornrows,Common,TRUE,,,wardrobe_hair_cornrows,mcc:island_cosmetics.hair.cornrows,Complete,,5,"3,750",50,$1.00
+TRUE,Hair,Curly,Common,TRUE,,,wardrobe_hair_curly,mcc:island_cosmetics.hair.curly,Complete,,5,"3,750",50,$1.00
+TRUE,Hair,Dad,Uncommon,TRUE,,,wardrobe_hair_dad,mcc:island_cosmetics.hair.dad,Complete,,10,"5,625",75,$1.50
+TRUE,Hair,Dreadlocks,Uncommon,TRUE,,,wardrobe_hair_dreadlocks,mcc:island_cosmetics.hair.dreadlocks,Complete,,10,"5,625",75,$1.50
+TRUE,Hair,Elder,Uncommon,TRUE,,,wardrobe_hair_elder,mcc:island_cosmetics.hair.elder,Complete,,10,"5,625",75,$1.50
+TRUE,Hair,Elvis,Uncommon,TRUE,,,wardrobe_hair_elvis,mcc:island_cosmetics.hair.elvis,Complete,,10,"5,625",75,$1.50
+TRUE,Hair,Emo,Uncommon,TRUE,,,wardrobe_hair_emo,mcc:island_cosmetics.hair.emo,Complete,,10,"5,625",75,$1.50
+TRUE,Hair,Fade,Common,TRUE,,default,wardrobe_hair_fade,mcc:island_cosmetics.hair.fade,Complete,,5,"3,750",50,$1.00
+TRUE,Hair,Free Spirit,Rare,TRUE,,,wardrobe_hair_free_spirit,mcc:island_cosmetics.hair.free_spirit,Complete,,20,"14,625",150,$3.00
+TRUE,Hair,Full Beard,Uncommon,TRUE,,,wardrobe_hair_full_beard,mcc:island_cosmetics.hair.full_beard,Complete,,10,"5,625",75,$1.50
+TRUE,Hair,Goatee,Common,TRUE,,,wardrobe_hair_goatee,mcc:island_cosmetics.hair.goatee,Complete,,5,"3,750",50,$1.00
+TRUE,Hair,Groundskeeper,Rare,TRUE,,,wardrobe_hair_groundskeeper,mcc:island_cosmetics.hair.groundskeeper,Complete,,20,"14,625",150,$3.00
+TRUE,Hair,Handlebar Moustache,Uncommon,TRUE,,,wardrobe_hair_handlebar,mcc:island_cosmetics.hair.handlebar,Complete,,10,"5,625",75,$1.50
+TRUE,Hair,High Top,Common,TRUE,,,wardrobe_hair_high_top,mcc:island_cosmetics.hair.high_top,Complete,,5,"3,750",50,$1.00
+TRUE,Hair,Hipster,Rare,TRUE,,,wardrobe_hair_hipster,mcc:island_cosmetics.hair.hipster,Complete,,20,"14,625",150,$3.00
+TRUE,Hair,Hogan,Uncommon,TRUE,,,wardrobe_hair_hogan,mcc:island_cosmetics.hair.hogan,Complete,,10,"5,625",75,$1.50
+TRUE,Hair,Homeless,Rare,TRUE,,,wardrobe_hair_homeless,mcc:island_cosmetics.hair.homeless,Complete,,20,"14,625",150,$3.00
+TRUE,Hair,Judge,Rare,TRUE,,,wardrobe_hair_judge,mcc:island_cosmetics.hair.judge,Complete,,20,"14,625",150,$3.00
+TRUE,Hair,Long Sleek Hair,Common,TRUE,,default,wardrobe_hair_long_sleek_hair,mcc:island_cosmetics.hair.long_sleek_hair,Complete,,5,"3,750",50,$1.00
+TRUE,Hair,Mohawk,Rare,TRUE,,,wardrobe_hair_mohawk,mcc:island_cosmetics.hair.mohawk,Complete,,20,"14,625",150,$3.00
+TRUE,Hair,Monk,Uncommon,TRUE,,,wardrobe_hair_monk,mcc:island_cosmetics.hair.monk,Complete,,10,"5,625",75,$1.50
+TRUE,Hair,Mutton Chops,Rare,TRUE,,,wardrobe_hair_mutton_chops,mcc:island_cosmetics.hair.mutton_chops,Complete,,20,"14,625",150,$3.00
+TRUE,Hair,Noxstache,Legendary,TRUE,,,wardrobe_hair_noxstache,mcc:island_cosmetics.hair.noxstache,Complete,,100,"108,000",600,$12.00
+TRUE,Hair,Palm Tree,Epic,TRUE,,,wardrobe_hair_palm_tree,mcc:island_cosmetics.hair.palm_tree,Complete,,50,"33,750",300,$6.00
+TRUE,Hair,Pigtails,Common,TRUE,,,wardrobe_hair_pigtails,mcc:island_cosmetics.hair.pigtails,Complete,,5,"3,750",50,$1.00
+TRUE,Hair,Ponytail,Common,TRUE,,,wardrobe_hair_ponytail,mcc:island_cosmetics.hair.ponytail,Complete,,5,"3,750",50,$1.00
+TRUE,Hair,Prince Charming,Uncommon,TRUE,,,wardrobe_hair_prince_charming,mcc:island_cosmetics.hair.prince_charming,Complete,,10,"5,625",75,$1.50
+TRUE,Hair,Princess,Epic,TRUE,,,wardrobe_hair_princess,mcc:island_cosmetics.hair.princess,Complete,,50,"33,750",300,$6.00
+TRUE,Hair,Professor,Epic,TRUE,,,wardrobe_hair_professor,mcc:island_cosmetics.hair.professor,Complete,,50,"33,750",300,$6.00
+TRUE,Hair,Rat Tail,Common,TRUE,,,wardrobe_hair_rat_tail,mcc:island_cosmetics.hair.rat_tail,Complete,,5,"3,750",50,$1.00
+TRUE,Hair,Schrute,Uncommon,TRUE,,,wardrobe_hair_schrute,mcc:island_cosmetics.hair.schrute,Complete,,10,"5,625",75,$1.50
+TRUE,Hair,Soft Rocker,Epic,TRUE,,,wardrobe_hair_soft_rocker,mcc:island_cosmetics.hair.soft_rocker,Complete,,50,"33,750",300,$6.00
+TRUE,Hair,Soul Patch,Common,TRUE,,,wardrobe_hair_soul_patch,mcc:island_cosmetics.hair.soul_patch,Complete,,5,"3,750",50,$1.00
+TRUE,Hair,Spikes,Epic,TRUE,,,wardrobe_hair_spikes,mcc:island_cosmetics.hair.spikes,Complete,,50,"33,750",300,$6.00
+TRUE,Hair,Twin Bun,Uncommon,TRUE,,,wardrobe_hair_twin_bun,mcc:island_cosmetics.hair.twin_bun,Complete,,10,"5,625",75,$1.50
+TRUE,Hair,Undercut,Common,TRUE,,default,wardrobe_hair_undercut,mcc:island_cosmetics.hair.undercut,Complete,,5,"3,750",50,$1.00
+TRUE,Hair,Viking Beard Braids,Epic,TRUE,,,wardrobe_hair_viking_beard,mcc:island_cosmetics.hair.viking_beard,Complete,,50,"33,750",300,$6.00
+TRUE,Hair,Vintage,Uncommon,TRUE,,,wardrobe_hair_vintage,mcc:island_cosmetics.hair.vintage,Complete,,10,"5,625",75,$1.50
+TRUE,Hair,Wavy,Common,TRUE,,,wardrobe_hair_wavy,mcc:island_cosmetics.hair.wavy,Complete,,5,"3,750",50,$1.00
+TRUE,Hair,Wednesday,Uncommon,TRUE,,,wardrobe_hair_wednesday,mcc:island_cosmetics.hair.wednesday,Complete,,10,"5,625",75,$1.50
+TRUE,Hair,Wizard Beard,Rare,TRUE,,,wardrobe_hair_wizard_beard,mcc:island_cosmetics.hair.wizard_beard,Complete,,20,"14,625",150,$3.00
 TRUE,Hat,Anime Shades,Epic,,,,wardrobe_hat_anime_shades,mcc:island_cosmetics.hat.anime_shades,Complete,[My sword will pierce the championship!],50,"33,750",300,$6.00
 TRUE,Hat,Aqua Axolotls' Crown,Legendary,,,,wardrobe_hat_aqua_axolotls_crown,mcc:island_cosmetics.hat.aqua_axolotls_crown,Complete,,100,"108,000",600,$12.00
 TRUE,Hat,Aqua Axolotl Gills,Rare,,,,wardrobe_hat_aqua_axolotls_gills,mcc:island_cosmetics.hat.aqua_axolotls_gills,Complete,Aqua ferns sprout from your head. Aqua Axolotyl Loyalty reward.,20,"14,625",150,$3.00
 TRUE,Hat,Army Helmet,Uncommon,,,,wardrobe_hat_army_helmet,mcc:island_cosmetics.hat.army_helmet,Complete,[Duck and cover!],10,"5,625",75,$1.50
-TRUE,Hat,Astronaut Helmet,Rare,,,,wardrobe_hat_astronaut_helmet,mcc:island_cosmetics.hat.astronaut_helmet,Complete,[One small step is all it takes],20,"14,625",150,$3.00
+TRUE,Hat,Astronaut Helmet,Rare,TRUE,,,wardrobe_hat_astronaut_helmet,mcc:island_cosmetics.hat.astronaut_helmet,Complete,[One small step is all it takes],20,"14,625",150,$3.00
 TRUE,Hat,Banana Head,Legendary,,,,wardrobe_hat_banana_hat,mcc:island_cosmetics.hat.banana_hat,Complete,[Behold! For I am Potassium-Man!],100,"108,000",600,$12.00
-TRUE,Hat,Bandana,Common,,,,wardrobe_hat_bandana,mcc:island_cosmetics.hat.bandana,Complete,"A red bandana around the head. Think Rambo. [Don't push it, or I'll give you rivalry you won't believe.]",5,"3,750",50,$1.00
-TRUE,Hat,Beanie,Common,,,,wardrobe_hat_beanie,mcc:island_cosmetics.hat.beanie,Complete,[A staple of warm headwear],5,"3,750",50,$1.00
-TRUE,Hat,Beret,Common,,,,wardrobe_hat_beret,mcc:island_cosmetics.hat.beret,Complete,"A black beret with a small red puff on the top. [Popular among mimes, hide-and-seek enthusiasts, and the French.]",5,"3,750",50,$1.00
-TRUE,Hat,Blindfold,Uncommon,,,,wardrobe_hat_blindfold,mcc:island_cosmetics.hat.blindfold,Complete,[Fifty shades of complete darkness.],10,"5,625",75,$1.50
+TRUE,Hat,Bandana,Common,TRUE,,,wardrobe_hat_bandana,mcc:island_cosmetics.hat.bandana,Complete,"A red bandana around the head. Think Rambo. [Don't push it, or I'll give you rivalry you won't believe.]",5,"3,750",50,$1.00
+TRUE,Hat,Beanie,Common,TRUE,,,wardrobe_hat_beanie,mcc:island_cosmetics.hat.beanie,Complete,[A staple of warm headwear],5,"3,750",50,$1.00
+TRUE,Hat,Beret,Common,TRUE,,,wardrobe_hat_beret,mcc:island_cosmetics.hat.beret,Complete,"A black beret with a small red puff on the top. [Popular among mimes, hide-and-seek enthusiasts, and the French.]",5,"3,750",50,$1.00
+TRUE,Hat,Blindfold,Uncommon,TRUE,,,wardrobe_hat_blindfold,mcc:island_cosmetics.hat.blindfold,Complete,[Fifty shades of complete darkness.],10,"5,625",75,$1.50
 TRUE,Hat,Blue Bats' Crown,Legendary,,,,wardrobe_hat_blue_bats_crown,mcc:island_cosmetics.hat.blue_bats_crown,Complete,,100,"108,000",600,$12.00
 TRUE,Hat,Blue Bat Ears,Rare,,,,wardrobe_hat_blue_bats_ears,mcc:island_cosmetics.hat.blue_bats_ears,Complete,A set of giant blue bat ears. Blue Bat Loyalty reward.,20,"14,625",150,$3.00
-TRUE,Hat,Boater,Common,,,,wardrobe_hat_boater,mcc:island_cosmetics.hat.boater,Complete,[I feel a song coming on!],5,"3,750",50,$1.00
-TRUE,Hat,Bucket Hat,Common,,,,wardrobe_hat_bucket_hat,mcc:island_cosmetics.hat.bucket_hat,Complete,[*Does not hold water],5,"3,750",50,$1.00
+TRUE,Hat,Boater,Common,TRUE,,,wardrobe_hat_boater,mcc:island_cosmetics.hat.boater,Complete,[I feel a song coming on!],5,"3,750",50,$1.00
+TRUE,Hat,Bucket Hat,Common,TRUE,,,wardrobe_hat_bucket_hat,mcc:island_cosmetics.hat.bucket_hat,Complete,[*Does not hold water],5,"3,750",50,$1.00
 TRUE,Hat,Burger Head,Rare,,,,wardrobe_hat_burger_head,mcc:island_cosmetics.hat.burger_head,Complete,[Mmm.. Burger],20,"14,625",150,$3.00
 TRUE,Hat,Cat Ears,Uncommon,,,,wardrobe_hat_cat_ears,mcc:island_cosmetics.hat.cat_ears,Complete,[Meow?],10,"5,625",75,$1.50
-TRUE,Hat,Chef's Hat,Common,,,,wardrobe_hat_chefs_hat,mcc:island_cosmetics.hat.chefs_hat,Complete,"[What's cookin, good lookin?]",5,"3,750",50,$1.00
+TRUE,Hat,Chef's Hat,Common,TRUE,,,wardrobe_hat_chefs_hat,mcc:island_cosmetics.hat.chefs_hat,Complete,"[What's cookin, good lookin?]",5,"3,750",50,$1.00
 TRUE,Hat,Chicken Head,Rare,,,,wardrobe_hat_chicken_head,mcc:island_cosmetics.hat.chicken_head,Complete,[No longer headless!],20,"14,625",150,$3.00
-TRUE,Hat,Computer Head,Legendary,,,,wardrobe_hat_computer_head,mcc:island_cosmetics.hat.computer_head,Complete,[HELLO WORLD],100,"108,000",600,$12.00
+TRUE,Hat,Computer Head,Legendary,TRUE,,,wardrobe_hat_computer_head,mcc:island_cosmetics.hat.computer_head,Complete,[HELLO WORLD],100,"108,000",600,$12.00
 TRUE,Hat,Cool Shades,Rare,,,,wardrobe_hat_cool_shades,mcc:island_cosmetics.hat.cool_shades,Complete,"[Sun's out, guns out!]",20,"14,625",150,$3.00
 TRUE,Hat,Crusader,Rare,,,,wardrobe_hat_crusader,mcc:island_cosmetics.hat.crusader,Complete,['tis but a scratch!],20,"14,625",150,$3.00
 TRUE,Hat,Cthulu's Head,Epic,,,,wardrobe_hat_cthulus_head,mcc:island_cosmetics.hat.cthulus_head,Complete,A mass of tentacles spewing from the player's head. Maybe bat ears on the side of the head. [Ph'nglui mglw'nafh Bloc'kulu MCC Island wgah'nagl fhtagn],50,"33,750",300,$6.00
-TRUE,Hat,Curved Demon Horns,Rare,,,,wardrobe_hat_curved_demon_horns,mcc:island_cosmetics.hat.curved_demon_horns,Complete,[You are not prepared.],20,"14,625",150,$3.00
+TRUE,Hat,Curved Demon Horns,Rare,TRUE,,,wardrobe_hat_curved_demon_horns,mcc:island_cosmetics.hat.curved_demon_horns,Complete,[You are not prepared.],20,"14,625",150,$3.00
 TRUE,Hat,Cyan Coyotes' Crown,Legendary,,,,wardrobe_hat_cyan_coyotes_crown,mcc:island_cosmetics.hat.cyan_coyotes_crown,Complete,,100,"108,000",600,$12.00
 TRUE,Hat,Cyan Coyote Ears,Rare,,,,wardrobe_hat_cyan_coyotes_ears,mcc:island_cosmetics.hat.cyan_coyotes_ears,Complete,"A head lamp like what old miners would wear; but rather than a candle, there i a lit stick of dynamite on your head! Cyan Creeper Loyalty reward.",20,"14,625",150,$3.00
 TRUE,Hat,Detective,Common,,,,wardrobe_hat_detective,mcc:island_cosmetics.hat.detective,Complete,A cheshire cap like a certain Holmes might wear. [Someone stole the detective's hat; but he's on the case!],5,"3,750",50,$1.00
-TRUE,Hat,Devil Horns,Uncommon,,,,wardrobe_hat_devils_horns,mcc:island_cosmetics.hat.devils_horns,Complete,[For when you're feeling rather evil.],10,"5,625",75,$1.50
+TRUE,Hat,Devil Horns,Uncommon,TRUE,,,wardrobe_hat_devils_horns,mcc:island_cosmetics.hat.devils_horns,Complete,[For when you're feeling rather evil.],10,"5,625",75,$1.50
 TRUE,Hat,Disguise,Uncommon,,,,wardrobe_hat_disguise,mcc:island_cosmetics.hat.disguise,Complete,"Classic glasses, nose and moustached disguise. Groucho Marx. [Who are you?]",10,"5,625",75,$1.50
-TRUE,Hat,Drinking Helmet,Epic,,,,wardrobe_hat_drinking_helmet,mcc:island_cosmetics.hat.drinking_helmet,Complete,"[Your favourite beverages, now hands-free]",50,"33,750",300,$6.00
+TRUE,Hat,Drinking Helmet,Epic,TRUE,,,wardrobe_hat_drinking_helmet,mcc:island_cosmetics.hat.drinking_helmet,Complete,"[Your favourite beverages, now hands-free]",50,"33,750",300,$6.00
 TRUE,Hat,Egg Yolk,Common,,,,wardrobe_hat_egg_yolk,mcc:island_cosmetics.hat.egg_yolk,Complete,[For when you just.. crack],5,"3,750",50,$1.00
-TRUE,Hat,Eyeball,Epic,,,,wardrobe_hat_eyeball,mcc:island_cosmetics.hat.eyeball,Complete,[I spy with my colossal eye..],50,"33,750",300,$6.00
+TRUE,Hat,Eyeball,Epic,TRUE,,,wardrobe_hat_eyeball,mcc:island_cosmetics.hat.eyeball,Complete,[I spy with my colossal eye..],50,"33,750",300,$6.00
 TRUE,Hat,Green Gecko Goggles,Rare,,,,wardrobe_hat_faction_facial_green_geckos,mcc:island_cosmetics.hat.green_geckos_goggles,Complete,"A green fish is stuck to your head! Its tail points behind you, and its mouth swallows the back of your head. Green Guardian Loyalty reward.",20,"14,625",150,$3.00
-TRUE,Hat,Fancy Hat,Uncommon,,,,wardrobe_hat_fancy_hat,mcc:island_cosmetics.hat.fancy_hat,Complete,A purple wide-brim hat with an orange feather. [Perfect for when you mean to impress.],10,"5,625",75,$1.50
+TRUE,Hat,Fancy Hat,Uncommon,TRUE,,,wardrobe_hat_fancy_hat,mcc:island_cosmetics.hat.fancy_hat,Complete,A purple wide-brim hat with an orange feather. [Perfect for when you mean to impress.],10,"5,625",75,$1.50
 TRUE,Hat,Fez,Common,,,,wardrobe_hat_fez,mcc:island_cosmetics.hat.fez,Complete,[Fezzes are cool.],5,"3,750",50,$1.00
-TRUE,Hat,Fishbowl,Epic,,,,wardrobe_hat_fishbowl,mcc:island_cosmetics.hat.fishbowl,Complete,[The environmental hydration unit is technologically complex and not just a glass bowl.],50,"33,750",300,$6.00
-TRUE,Hat,Football Helmet,Uncommon,,,,wardrobe_hat_football_helmet,mcc:island_cosmetics.hat.football_helmet,Complete,Classic Football Helmet. [Blue! 24! Hike!],10,"5,625",75,$1.50
-TRUE,Hat,Frog Bucket Hat,Uncommon,,,,wardrobe_hat_frog_bucket_hat,mcc:island_cosmetics.hat.frog_bucket_hat,Complete,[Ribbit!],10,"5,625",75,$1.50
-TRUE,Hat,Fruit Crown,Uncommon,,,,wardrobe_hat_fruit_crown,mcc:island_cosmetics.hat.fruit_crown,Complete,[A champion can't be without a basket and a plethora of fruit!],10,"5,625",75,$1.50
-TRUE,Hat,Gas Mask,Uncommon,,,,wardrobe_hat_gas_mask,mcc:island_cosmetics.hat.gas_mask,Complete,[*unintelligble muffled quote*],10,"5,625",75,$1.50
-TRUE,Hat,Goggles,Common,,,,wardrobe_hat_goggles,mcc:island_cosmetics.hat.goggles,Complete,[Perfect for mischief goblin welding!],5,"3,750",50,$1.00
+TRUE,Hat,Fishbowl,Epic,TRUE,,,wardrobe_hat_fishbowl,mcc:island_cosmetics.hat.fishbowl,Complete,[The environmental hydration unit is technologically complex and not just a glass bowl.],50,"33,750",300,$6.00
+TRUE,Hat,Football Helmet,Uncommon,TRUE,,,wardrobe_hat_football_helmet,mcc:island_cosmetics.hat.football_helmet,Complete,Classic Football Helmet. [Blue! 24! Hike!],10,"5,625",75,$1.50
+TRUE,Hat,Frog Bucket Hat,Uncommon,TRUE,,,wardrobe_hat_frog_bucket_hat,mcc:island_cosmetics.hat.frog_bucket_hat,Complete,[Ribbit!],10,"5,625",75,$1.50
+TRUE,Hat,Fruit Crown,Uncommon,TRUE,,,wardrobe_hat_fruit_crown,mcc:island_cosmetics.hat.fruit_crown,Complete,[A champion can't be without a basket and a plethora of fruit!],10,"5,625",75,$1.50
+TRUE,Hat,Gas Mask,Uncommon,TRUE,,,wardrobe_hat_gas_mask,mcc:island_cosmetics.hat.gas_mask,Complete,[*unintelligble muffled quote*],10,"5,625",75,$1.50
+TRUE,Hat,Goggles,Common,TRUE,,,wardrobe_hat_goggles,mcc:island_cosmetics.hat.goggles,Complete,[Perfect for mischief goblin welding!],5,"3,750",50,$1.00
 TRUE,Hat,Graduate,Uncommon,,,,wardrobe_hat_graduate,mcc:island_cosmetics.hat.graduate,Complete,"A black, square hat with a golden tassal to one side. [Highschool is out!]",10,"5,625",75,$1.50
 TRUE,Hat,Green Geckos' Crown,Legendary,,,,wardrobe_hat_green_geckos_crown,mcc:island_cosmetics.hat.green_geckos_crown,Complete,,100,"108,000",600,$12.00
 TRUE,Hat,Hard Hat,Common,,,,wardrobe_hat_hard_hat,mcc:island_cosmetics.hat.hard_hat,Complete,[Protecting noggins since 1882.],5,"3,750",50,$1.00
-TRUE,Hat,Headphones,Common,,,,wardrobe_hat_headphones,mcc:island_cosmetics.hat.headphones,Complete,Basic Headphones [Pump up the volume to your heart's content!],5,"3,750",50,$1.00
+TRUE,Hat,Headphones,Common,TRUE,,,wardrobe_hat_headphones,mcc:island_cosmetics.hat.headphones,Complete,Basic Headphones [Pump up the volume to your heart's content!],5,"3,750",50,$1.00
 TRUE,Hat,Horned Viking Helmet,Uncommon,,,,wardrobe_hat_horned_viking_helmet,mcc:island_cosmetics.hat.horned_viking_helmet,Complete,[Not Historically Accurate],10,"5,625",75,$1.50
 TRUE,Hat,Kitsune Mask,Rare,,,,wardrobe_hat_kitsune_mask,mcc:island_cosmetics.hat.kitsune_mask,Complete,,20,"14,625",150,$3.00
-TRUE,Hat,Knight Helmet,Epic,,,,wardrobe_hat_knight_helmet,mcc:island_cosmetics.hat.knight_helmet,Complete,"[You may not be a bird, but you have a lovely plume.]",50,"33,750",300,$6.00
+TRUE,Hat,Knight Helmet,Epic,TRUE,,,wardrobe_hat_knight_helmet,mcc:island_cosmetics.hat.knight_helmet,Complete,"[You may not be a bird, but you have a lovely plume.]",50,"33,750",300,$6.00
 TRUE,Hat,Lime Llamas' Crown,Legendary,,,,wardrobe_hat_lime_llamas_crown,mcc:island_cosmetics.hat.lime_llamas_crown,Complete,,100,"108,000",600,$12.00
 TRUE,Hat,Lime Llama Ears,Rare,,,,wardrobe_hat_lime_llamas_ears,mcc:island_cosmetics.hat.lime_llamas_ears,Complete,Green fur around the player's neck area. Lime Llama Loyalty reward.,20,"14,625",150,$3.00
-TRUE,Hat,Magician's Hat,Uncommon,,,,wardrobe_hat_magicians_hat,mcc:island_cosmetics.hat.magicians_hat,Complete,A black magician's hat with a red stripe across the brim. [And now to make your coins disappear!],10,"5,625",75,$1.50
+TRUE,Hat,Magician's Hat,Uncommon,TRUE,,,wardrobe_hat_magicians_hat,mcc:island_cosmetics.hat.magicians_hat,Complete,A black magician's hat with a red stripe across the brim. [And now to make your coins disappear!],10,"5,625",75,$1.50
 TRUE,Hat,Mascot Bobblehead,Legendary,,,,wardrobe_hat_mascot_bobblehead,mcc:island_cosmetics.hat.mascot_bobblehead,Complete,[The Champion],100,"108,000",600,$12.00
-TRUE,Hat,Mobster Hat,Common,,,,wardrobe_hat_mobster_hat,mcc:island_cosmetics.hat.mobster_hat,Complete,A black fedora like that a gangster might wear. [This is a hat you can't refuse.],5,"3,750",50,$1.00
-TRUE,Hat,Night Vision Goggles,Rare,,,,wardrobe_hat_night_vision,mcc:island_cosmetics.hat.night_vision,Complete,"[Fisher, do you copy?]",20,"14,625",150,$3.00
+TRUE,Hat,Mobster Hat,Common,TRUE,,,wardrobe_hat_mobster_hat,mcc:island_cosmetics.hat.mobster_hat,Complete,A black fedora like that a gangster might wear. [This is a hat you can't refuse.],5,"3,750",50,$1.00
+TRUE,Hat,Night Vision Goggles,Rare,TRUE,,,wardrobe_hat_night_vision,mcc:island_cosmetics.hat.night_vision,Complete,"[Fisher, do you copy?]",20,"14,625",150,$3.00
 TRUE,Hat,Oni Mask,Epic,,,,wardrobe_hat_oni_mask,mcc:island_cosmetics.hat.oni_mask,Complete,,50,"33,750",300,$6.00
 TRUE,Hat,Orange Ocelots' Crown,Legendary,,,,wardrobe_hat_orange_ocelots_crown,mcc:island_cosmetics.hat.orange_ocelots_crown,Complete,,100,"108,000",600,$12.00
 TRUE,Hat,Orange Ocelot Ears,Rare,,,,wardrobe_hat_orange_ocelots_ears,mcc:island_cosmetics.hat.orange_ocelots_ears,Complete,Twin cat ears sprout from your head. [Nya!] Orange Ocelot Loyalty Reward,20,"14,625",150,$3.00
-TRUE,Hat,Party Hat,Common,,,,wardrobe_hat_party_hat,mcc:island_cosmetics.hat.party_hat,Complete,"[Party like it's November, 2011!]",5,"3,750",50,$1.00
+TRUE,Hat,Party Hat,Common,TRUE,,,wardrobe_hat_party_hat,mcc:island_cosmetics.hat.party_hat,Complete,"[Party like it's November, 2011!]",5,"3,750",50,$1.00
 TRUE,Hat,Pilot's Hat,Uncommon,,,,wardrobe_hat_pilot_hat,mcc:island_cosmetics.hat.pilot_hat,Complete,[Ready to fly?],10,"5,625",75,$1.50
 TRUE,Hat,Pink Parrots' Crown,Legendary,,,,wardrobe_hat_pink_parrots_crown,mcc:island_cosmetics.hat.pink_parrots_crown,Complete,,100,"108,000",600,$12.00
 TRUE,Hat,Pink Parrot Wings,Rare,,,,wardrobe_hat_pink_parrots_wings,mcc:island_cosmetics.hat.pink_parrots_wings,Complete,A pink rink of feathers surrounds your head. Pink Parrot Loyalty reward.,20,"14,625",150,$3.00
-TRUE,Hat,Pirate Hat,Rare,,,,wardrobe_hat_pirate_hat,mcc:island_cosmetics.hat.pirate_hat,Complete,[Yar har fiddle dee dee!],20,"14,625",150,$3.00
-TRUE,Hat,Plague Doctor,Legendary,,,,wardrobe_hat_plague_doctor,mcc:island_cosmetics.hat.plague_doctor,Complete,[An apple a day keeps this nightmare away.],100,"108,000",600,$12.00
+TRUE,Hat,Pirate Hat,Rare,TRUE,,,wardrobe_hat_pirate_hat,mcc:island_cosmetics.hat.pirate_hat,Complete,[Yar har fiddle dee dee!],20,"14,625",150,$3.00
+TRUE,Hat,Plague Doctor,Legendary,TRUE,,,wardrobe_hat_plague_doctor,mcc:island_cosmetics.hat.plague_doctor,Complete,[An apple a day keeps this nightmare away.],100,"108,000",600,$12.00
 TRUE,Hat,Police Cap,Common,,,,wardrobe_hat_police_cap,mcc:island_cosmetics.hat.police_cap,Complete,,5,"3,750",50,$1.00
 TRUE,Hat,Propeller,Rare,,,,wardrobe_hat_propeller_hat,mcc:island_cosmetics.hat.propeller_hat,Complete,[Can it fly? Probably not..],20,"14,625",150,$3.00
 TRUE,Hat,Purple Pandas' Crown,Legendary,,,,wardrobe_hat_purple_pandas_crown,mcc:island_cosmetics.hat.purple_pandas_crown,Complete,,100,"108,000",600,$12.00
@@ -202,26 +202,26 @@ TRUE,Hat,Red Rabbit Ears,Rare,,,,wardrobe_hat_red_rabbits_ears,mcc:island_cosmet
 TRUE,Hat,Sensei,Uncommon,,,,wardrobe_hat_sensei,mcc:island_cosmetics.hat.sensei,Complete,,10,"5,625",75,$1.50
 TRUE,Hat,Shark,Epic,,,,wardrobe_hat_shark,mcc:island_cosmetics.hat.shark,Complete,,50,"33,750",300,$6.00
 TRUE,Hat,Sheriff,Uncommon,,,,wardrobe_hat_sheriff,mcc:island_cosmetics.hat.sheriff,Complete,A brown cowboy hat. [There's a new hat in town.],10,"5,625",75,$1.50
-TRUE,Hat,Snapback,Uncommon,,,,wardrobe_hat_snapback,mcc:island_cosmetics.hat.snapback,Complete,"[How do you do, fellow kids?]",10,"5,625",75,$1.50
-TRUE,Hat,Snorkel,Rare,,,,wardrobe_hat_snorkel,mcc:island_cosmetics.hat.snorkel,Complete,[Ready to go diving for underwater treasure?],20,"14,625",150,$3.00
+TRUE,Hat,Snapback,Uncommon,TRUE,,,wardrobe_hat_snapback,mcc:island_cosmetics.hat.snapback,Complete,"[How do you do, fellow kids?]",10,"5,625",75,$1.50
+TRUE,Hat,Snorkel,Rare,TRUE,,,wardrobe_hat_snorkel,mcc:island_cosmetics.hat.snorkel,Complete,[Ready to go diving for underwater treasure?],20,"14,625",150,$3.00
 TRUE,Hat,Sombrero,Common,,,,wardrobe_hat_sombrero,mcc:island_cosmetics.hat.sombrero,Complete,A whide-brimmed straw hat with multiple tassals. [Mariachi flashbacks intensify.],5,"3,750",50,$1.00
-TRUE,Hat,Spartan,Epic,,,,wardrobe_hat_spartan,mcc:island_cosmetics.hat.spartan,Complete,[This Is MINECRAFT!!!],50,"33,750",300,$6.00
+TRUE,Hat,Spartan,Epic,TRUE,,,wardrobe_hat_spartan,mcc:island_cosmetics.hat.spartan,Complete,[This Is MINECRAFT!!!],50,"33,750",300,$6.00
 TRUE,Hat,Sprouted,Common,,,,wardrobe_hat_sprouted,mcc:island_cosmetics.hat.sprouted,Complete,[Needs plenty of sunlight],5,"3,750",50,$1.00
 TRUE,Hat,Strawberry Head,Epic,,,,wardrobe_hat_strawberry_hat,mcc:island_cosmetics.hat.strawberry_hat,Complete,[Sweet and Juicy!],50,"33,750",300,$6.00
-TRUE,Hat,Sultan,Uncommon,,,,wardrobe_hat_sultan,mcc:island_cosmetics.hat.sultan,Complete,A massive turban covered with gems. [Kingdom sold seperately],10,"5,625",75,$1.50
-TRUE,Hat,Sun Hat,Common,,,,wardrobe_hat_sun_hat,mcc:island_cosmetics.hat.sun_hat,Complete,A long brimmed hat for the summer. [Did somebody say beach episode?],5,"3,750",50,$1.00
-TRUE,Hat,Sun Visor,Common,,,,wardrobe_hat_sun_visor,mcc:island_cosmetics.hat.sun_visor,Complete,[Watch out for the sun!],5,"3,750",50,$1.00
+TRUE,Hat,Sultan,Uncommon,TRUE,,,wardrobe_hat_sultan,mcc:island_cosmetics.hat.sultan,Complete,A massive turban covered with gems. [Kingdom sold seperately],10,"5,625",75,$1.50
+TRUE,Hat,Sun Hat,Common,TRUE,,,wardrobe_hat_sun_hat,mcc:island_cosmetics.hat.sun_hat,Complete,A long brimmed hat for the summer. [Did somebody say beach episode?],5,"3,750",50,$1.00
+TRUE,Hat,Sun Visor,Common,TRUE,,,wardrobe_hat_sun_visor,mcc:island_cosmetics.hat.sun_visor,Complete,[Watch out for the sun!],5,"3,750",50,$1.00
 TRUE,Hat,Sunbrella,Uncommon,,,,wardrobe_hat_sunbrella,mcc:island_cosmetics.hat.sunbrella,Complete,An umbrella hat that protects the wearer from sun and rain! [Mom said not to leave home without an umbrella.],10,"5,625",75,$1.50
 TRUE,Hat,Texan Capitalist,Epic,,,,wardrobe_hat_texan_capitalist,mcc:island_cosmetics.hat.texan_capitalist,Complete,"An incredibly tall pearly white cowboy hat. [I'm Neal Noxite, owner of the Noxite Vox-Noxesium.]",50,"33,750",300,$6.00
 TRUE,Hat,Toadstool,Uncommon,,,,wardrobe_hat_toadstool,mcc:island_cosmetics.hat.toadstool,Complete,"[Thank you, but our princess is in another tournament!]",10,"5,625",75,$1.50
 TRUE,Hat,Traffic Cone,Uncommon,,,,wardrobe_hat_traffic_cone,mcc:island_cosmetics.hat.traffic_cone,Complete,[I'm walkin' here],10,"5,625",75,$1.50
-TRUE,Hat,Tricorn Hat,Uncommon,,,,wardrobe_hat_tricorn_hat,mcc:island_cosmetics.hat.tricorn_hat,Complete,"French army general hat like that of Napoleon. [Regarding popularity on MCC Island, stupidity is not a handicap.]",10,"5,625",75,$1.50
-TRUE,Hat,Trucker Hat,Common,,,,wardrobe_hat_trucker_hat,mcc:island_cosmetics.hat.trucker_hat,Complete,"Reads ""I <3 MCC."" [Look at my Trucker Hat.]",5,"3,750",50,$1.00
-TRUE,Hat,TV Head,Legendary,,,,wardrobe_hat_tv_head,mcc:island_cosmetics.hat.tv_head,Complete,A Television set placed upon your head. [Reminds me of something from a comic...],100,"108,000",600,$12.00
+TRUE,Hat,Tricorn Hat,Uncommon,TRUE,,,wardrobe_hat_tricorn_hat,mcc:island_cosmetics.hat.tricorn_hat,Complete,"French army general hat like that of Napoleon. [Regarding popularity on MCC Island, stupidity is not a handicap.]",10,"5,625",75,$1.50
+TRUE,Hat,Trucker Hat,Common,TRUE,,,wardrobe_hat_trucker_hat,mcc:island_cosmetics.hat.trucker_hat,Complete,"Reads ""I <3 MCC."" [Look at my Trucker Hat.]",5,"3,750",50,$1.00
+TRUE,Hat,TV Head,Legendary,TRUE,,,wardrobe_hat_tv_head,mcc:island_cosmetics.hat.tv_head,Complete,A Television set placed upon your head. [Reminds me of something from a comic...],100,"108,000",600,$12.00
 TRUE,Hat,Uncle Sam,Rare,,,,wardrobe_hat_uncle_sam,mcc:island_cosmetics.hat.uncle_sam,Complete,[Star-Spangled Fashion],20,"14,625",150,$3.00
-TRUE,Hat,Ushanka,Uncommon,,,,wardrobe_hat_ushanka,mcc:island_cosmetics.hat.ushanka,Complete,"A brown, furry hat that covers the sides of the head. [Excellent for cold weather.]",10,"5,625",75,$1.50
-TRUE,Hat,VR Headset,Epic,,,,wardrobe_hat_vr_headset,mcc:island_cosmetics.hat.vr_headset,Complete,[Enter a new reality],50,"33,750",300,$6.00
-TRUE,Hat,Wizard Hat,Uncommon,,,,wardrobe_hat_wizard_hat,mcc:island_cosmetics.hat.wizard_hat,Complete,[I ghast fireball!],10,"5,625",75,$1.50
+TRUE,Hat,Ushanka,Uncommon,TRUE,,,wardrobe_hat_ushanka,mcc:island_cosmetics.hat.ushanka,Complete,"A brown, furry hat that covers the sides of the head. [Excellent for cold weather.]",10,"5,625",75,$1.50
+TRUE,Hat,VR Headset,Epic,TRUE,,,wardrobe_hat_vr_headset,mcc:island_cosmetics.hat.vr_headset,Complete,[Enter a new reality],50,"33,750",300,$6.00
+TRUE,Hat,Wizard Hat,Uncommon,TRUE,,,wardrobe_hat_wizard_hat,mcc:island_cosmetics.hat.wizard_hat,Complete,[I ghast fireball!],10,"5,625",75,$1.50
 TRUE,Hat,Yellow Yaks' Crown,Legendary,,,,wardrobe_hat_yellow_yaks_crown,mcc:island_cosmetics.hat.yellow_yaks_crown,Complete,,100,"108,000",600,$12.00
 TRUE,Hat,Yellow Yak Horns,Rare,,,,wardrobe_hat_yellow_yaks_horns,mcc:island_cosmetics.hat.yellow_yaks_horns,Complete,Twin yellow yak horns sprout from your head. Yellow Yak Loyalty Reward.,20,"14,625",150,$3.00
 FALSE,Hat,Aqua Axolotl Helmet,Epic,,,,,,None,"Looks exactly like the Aqua Axolotls logo, but a 3-dimensional helmet. Aqua Axolotyl Loyalty reward.",50,"33,750",300,$6.00
