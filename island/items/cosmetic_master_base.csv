@@ -132,8 +132,8 @@ TRUE,Hair,Wavy,Common,TRUE,,,wardrobe_hair_wavy,mcc:island_cosmetics.hair.wavy,C
 TRUE,Hair,Wednesday,Uncommon,TRUE,,,wardrobe_hair_wednesday,mcc:island_cosmetics.hair.wednesday,Complete,,10,"5,625",75,$1.50
 TRUE,Hair,Wizard Beard,Rare,TRUE,,,wardrobe_hair_wizard_beard,mcc:island_cosmetics.hair.wizard_beard,Complete,,20,"14,625",150,$3.00
 TRUE,Hat,Anime Shades,Epic,,,,wardrobe_hat_anime_shades,mcc:island_cosmetics.hat.anime_shades,Complete,[My sword will pierce the championship!],50,"33,750",300,$6.00
-TRUE,Hat,Aqua Axolotls' Crown,Legendary,,,,wardrobe_hat_aqua_axolotls_crown,mcc:island_cosmetics.hat.aqua_axolotls_crown,Complete,,100,"108,000",600,$12.00
-TRUE,Hat,Aqua Axolotl Gills,Rare,,,,wardrobe_hat_aqua_axolotls_gills,mcc:island_cosmetics.hat.aqua_axolotls_gills,Complete,Aqua ferns sprout from your head. Aqua Axolotyl Loyalty reward.,20,"14,625",150,$3.00
+TRUE,Hat,Aqua Axolotls' Crown,Legendary,,,,wardrobe_hat_faction_crown_aqua_axolotls,mcc:island_cosmetics.hat_faction.crown_aqua_axolotls,Complete,,100,"108,000",600,$12.00
+TRUE,Hat,Aqua Axolotl Gills,Rare,,,,wardrobe_hat_faction_facial_aqua_axolotls,mcc:island_cosmetics.hat_faction.facial_aqua_axolotls,Complete,Aqua ferns sprout from your head. Aqua Axolotyl Loyalty reward.,20,"14,625",150,$3.00
 TRUE,Hat,Army Helmet,Uncommon,,,,wardrobe_hat_army_helmet,mcc:island_cosmetics.hat.army_helmet,Complete,[Duck and cover!],10,"5,625",75,$1.50
 TRUE,Hat,Astronaut Helmet,Rare,TRUE,,,wardrobe_hat_astronaut_helmet,mcc:island_cosmetics.hat.astronaut_helmet,Complete,[One small step is all it takes],20,"14,625",150,$3.00
 TRUE,Hat,Banana Head,Legendary,,,,wardrobe_hat_banana_hat,mcc:island_cosmetics.hat.banana_hat,Complete,[Behold! For I am Potassium-Man!],100,"108,000",600,$12.00
@@ -141,8 +141,8 @@ TRUE,Hat,Bandana,Common,TRUE,,,wardrobe_hat_bandana,mcc:island_cosmetics.hat.ban
 TRUE,Hat,Beanie,Common,TRUE,,,wardrobe_hat_beanie,mcc:island_cosmetics.hat.beanie,Complete,[A staple of warm headwear],5,"3,750",50,$1.00
 TRUE,Hat,Beret,Common,TRUE,,,wardrobe_hat_beret,mcc:island_cosmetics.hat.beret,Complete,"A black beret with a small red puff on the top. [Popular among mimes, hide-and-seek enthusiasts, and the French.]",5,"3,750",50,$1.00
 TRUE,Hat,Blindfold,Uncommon,TRUE,,,wardrobe_hat_blindfold,mcc:island_cosmetics.hat.blindfold,Complete,[Fifty shades of complete darkness.],10,"5,625",75,$1.50
-TRUE,Hat,Blue Bats' Crown,Legendary,,,,wardrobe_hat_blue_bats_crown,mcc:island_cosmetics.hat.blue_bats_crown,Complete,,100,"108,000",600,$12.00
-TRUE,Hat,Blue Bat Ears,Rare,,,,wardrobe_hat_blue_bats_ears,mcc:island_cosmetics.hat.blue_bats_ears,Complete,A set of giant blue bat ears. Blue Bat Loyalty reward.,20,"14,625",150,$3.00
+TRUE,Hat,Blue Bats' Crown,Legendary,,,,wardrobe_hat_faction_crown_blue_bats,mcc:island_cosmetics.hat_faction.crown_blue_bats,Complete,,100,"108,000",600,$12.00
+TRUE,Hat,Blue Bat Ears,Rare,,,,wardrobe_hat_faction_facial_blue_bats,mcc:island_cosmetics.hat_faction.facial_blue_bats,Complete,A set of giant blue bat ears. Blue Bat Loyalty reward.,20,"14,625",150,$3.00
 TRUE,Hat,Boater,Common,TRUE,,,wardrobe_hat_boater,mcc:island_cosmetics.hat.boater,Complete,[I feel a song coming on!],5,"3,750",50,$1.00
 TRUE,Hat,Bucket Hat,Common,TRUE,,,wardrobe_hat_bucket_hat,mcc:island_cosmetics.hat.bucket_hat,Complete,[*Does not hold water],5,"3,750",50,$1.00
 TRUE,Hat,Burger Head,Rare,,,,wardrobe_hat_burger_head,mcc:island_cosmetics.hat.burger_head,Complete,[Mmm.. Burger],20,"14,625",150,$3.00
@@ -154,15 +154,15 @@ TRUE,Hat,Cool Shades,Rare,,,,wardrobe_hat_cool_shades,mcc:island_cosmetics.hat.c
 TRUE,Hat,Crusader,Rare,,,,wardrobe_hat_crusader,mcc:island_cosmetics.hat.crusader,Complete,['tis but a scratch!],20,"14,625",150,$3.00
 TRUE,Hat,Cthulu's Head,Epic,,,,wardrobe_hat_cthulus_head,mcc:island_cosmetics.hat.cthulus_head,Complete,A mass of tentacles spewing from the player's head. Maybe bat ears on the side of the head. [Ph'nglui mglw'nafh Bloc'kulu MCC Island wgah'nagl fhtagn],50,"33,750",300,$6.00
 TRUE,Hat,Curved Demon Horns,Rare,TRUE,,,wardrobe_hat_curved_demon_horns,mcc:island_cosmetics.hat.curved_demon_horns,Complete,[You are not prepared.],20,"14,625",150,$3.00
-TRUE,Hat,Cyan Coyotes' Crown,Legendary,,,,wardrobe_hat_cyan_coyotes_crown,mcc:island_cosmetics.hat.cyan_coyotes_crown,Complete,,100,"108,000",600,$12.00
-TRUE,Hat,Cyan Coyote Ears,Rare,,,,wardrobe_hat_cyan_coyotes_ears,mcc:island_cosmetics.hat.cyan_coyotes_ears,Complete,"A head lamp like what old miners would wear; but rather than a candle, there i a lit stick of dynamite on your head! Cyan Creeper Loyalty reward.",20,"14,625",150,$3.00
+TRUE,Hat,Cyan Coyotes' Crown,Legendary,,,,wardrobe_hat_cyan_coyotes_crown,mcc:island_cosmetics.hat_faction.crown_cyan_coyotes,Complete,,100,"108,000",600,$12.00
+TRUE,Hat,Cyan Coyote Ears,Rare,,,,wardrobe_hat_faction_facial_cyan_coyotes,mcc:island_cosmetics.hat_faction.facial_cyan_coyotes,Complete,"A head lamp like what old miners would wear; but rather than a candle, there i a lit stick of dynamite on your head! Cyan Creeper Loyalty reward.",20,"14,625",150,$3.00
 TRUE,Hat,Detective,Common,,,,wardrobe_hat_detective,mcc:island_cosmetics.hat.detective,Complete,A cheshire cap like a certain Holmes might wear. [Someone stole the detective's hat; but he's on the case!],5,"3,750",50,$1.00
 TRUE,Hat,Devil Horns,Uncommon,TRUE,,,wardrobe_hat_devils_horns,mcc:island_cosmetics.hat.devils_horns,Complete,[For when you're feeling rather evil.],10,"5,625",75,$1.50
 TRUE,Hat,Disguise,Uncommon,,,,wardrobe_hat_disguise,mcc:island_cosmetics.hat.disguise,Complete,"Classic glasses, nose and moustached disguise. Groucho Marx. [Who are you?]",10,"5,625",75,$1.50
 TRUE,Hat,Drinking Helmet,Epic,TRUE,,,wardrobe_hat_drinking_helmet,mcc:island_cosmetics.hat.drinking_helmet,Complete,"[Your favourite beverages, now hands-free]",50,"33,750",300,$6.00
 TRUE,Hat,Egg Yolk,Common,,,,wardrobe_hat_egg_yolk,mcc:island_cosmetics.hat.egg_yolk,Complete,[For when you just.. crack],5,"3,750",50,$1.00
 TRUE,Hat,Eyeball,Epic,TRUE,,,wardrobe_hat_eyeball,mcc:island_cosmetics.hat.eyeball,Complete,[I spy with my colossal eye..],50,"33,750",300,$6.00
-TRUE,Hat,Green Gecko Goggles,Rare,,,,wardrobe_hat_faction_facial_green_geckos,mcc:island_cosmetics.hat.green_geckos_goggles,Complete,"A green fish is stuck to your head! Its tail points behind you, and its mouth swallows the back of your head. Green Guardian Loyalty reward.",20,"14,625",150,$3.00
+TRUE,Hat,Green Gecko Goggles,Rare,,,,wardrobe_hat_faction_facial_green_geckos,mcc:island_cosmetics.hat_faction.facial_green_geckos,Complete,"A green fish is stuck to your head! Its tail points behind you, and its mouth swallows the back of your head. Green Guardian Loyalty reward.",20,"14,625",150,$3.00
 TRUE,Hat,Fancy Hat,Uncommon,TRUE,,,wardrobe_hat_fancy_hat,mcc:island_cosmetics.hat.fancy_hat,Complete,A purple wide-brim hat with an orange feather. [Perfect for when you mean to impress.],10,"5,625",75,$1.50
 TRUE,Hat,Fez,Common,,,,wardrobe_hat_fez,mcc:island_cosmetics.hat.fez,Complete,[Fezzes are cool.],5,"3,750",50,$1.00
 TRUE,Hat,Fishbowl,Epic,TRUE,,,wardrobe_hat_fishbowl,mcc:island_cosmetics.hat.fishbowl,Complete,[The environmental hydration unit is technologically complex and not just a glass bowl.],50,"33,750",300,$6.00
@@ -172,33 +172,33 @@ TRUE,Hat,Fruit Crown,Uncommon,TRUE,,,wardrobe_hat_fruit_crown,mcc:island_cosmeti
 TRUE,Hat,Gas Mask,Uncommon,TRUE,,,wardrobe_hat_gas_mask,mcc:island_cosmetics.hat.gas_mask,Complete,[*unintelligble muffled quote*],10,"5,625",75,$1.50
 TRUE,Hat,Goggles,Common,TRUE,,,wardrobe_hat_goggles,mcc:island_cosmetics.hat.goggles,Complete,[Perfect for mischief goblin welding!],5,"3,750",50,$1.00
 TRUE,Hat,Graduate,Uncommon,,,,wardrobe_hat_graduate,mcc:island_cosmetics.hat.graduate,Complete,"A black, square hat with a golden tassal to one side. [Highschool is out!]",10,"5,625",75,$1.50
-TRUE,Hat,Green Geckos' Crown,Legendary,,,,wardrobe_hat_green_geckos_crown,mcc:island_cosmetics.hat.green_geckos_crown,Complete,,100,"108,000",600,$12.00
+TRUE,Hat,Green Geckos' Crown,Legendary,,,,wardrobe_hat_faction_crown_green_geckos,mcc:island_cosmetics.hat_faction.crown_green_geckos,Complete,,100,"108,000",600,$12.00
 TRUE,Hat,Hard Hat,Common,,,,wardrobe_hat_hard_hat,mcc:island_cosmetics.hat.hard_hat,Complete,[Protecting noggins since 1882.],5,"3,750",50,$1.00
 TRUE,Hat,Headphones,Common,TRUE,,,wardrobe_hat_headphones,mcc:island_cosmetics.hat.headphones,Complete,Basic Headphones [Pump up the volume to your heart's content!],5,"3,750",50,$1.00
 TRUE,Hat,Horned Viking Helmet,Uncommon,,,,wardrobe_hat_horned_viking_helmet,mcc:island_cosmetics.hat.horned_viking_helmet,Complete,[Not Historically Accurate],10,"5,625",75,$1.50
 TRUE,Hat,Kitsune Mask,Rare,,,,wardrobe_hat_kitsune_mask,mcc:island_cosmetics.hat.kitsune_mask,Complete,,20,"14,625",150,$3.00
 TRUE,Hat,Knight Helmet,Epic,TRUE,,,wardrobe_hat_knight_helmet,mcc:island_cosmetics.hat.knight_helmet,Complete,"[You may not be a bird, but you have a lovely plume.]",50,"33,750",300,$6.00
-TRUE,Hat,Lime Llamas' Crown,Legendary,,,,wardrobe_hat_lime_llamas_crown,mcc:island_cosmetics.hat.lime_llamas_crown,Complete,,100,"108,000",600,$12.00
-TRUE,Hat,Lime Llama Ears,Rare,,,,wardrobe_hat_lime_llamas_ears,mcc:island_cosmetics.hat.lime_llamas_ears,Complete,Green fur around the player's neck area. Lime Llama Loyalty reward.,20,"14,625",150,$3.00
+TRUE,Hat,Lime Llamas' Crown,Legendary,,,,wardrobe_hat_faction_crown_lime_llamas,mcc:island_cosmetics.hat_faction.crown_lime_llamas,Complete,,100,"108,000",600,$12.00
+TRUE,Hat,Lime Llama Ears,Rare,,,,wardrobe_hat_faction_facial_lime_llamas,mcc:island_cosmetics.hat_faction.facial_lime_llamas,Complete,Green fur around the player's neck area. Lime Llama Loyalty reward.,20,"14,625",150,$3.00
 TRUE,Hat,Magician's Hat,Uncommon,TRUE,,,wardrobe_hat_magicians_hat,mcc:island_cosmetics.hat.magicians_hat,Complete,A black magician's hat with a red stripe across the brim. [And now to make your coins disappear!],10,"5,625",75,$1.50
 TRUE,Hat,Mascot Bobblehead,Legendary,,,,wardrobe_hat_mascot_bobblehead,mcc:island_cosmetics.hat.mascot_bobblehead,Complete,[The Champion],100,"108,000",600,$12.00
 TRUE,Hat,Mobster Hat,Common,TRUE,,,wardrobe_hat_mobster_hat,mcc:island_cosmetics.hat.mobster_hat,Complete,A black fedora like that a gangster might wear. [This is a hat you can't refuse.],5,"3,750",50,$1.00
 TRUE,Hat,Night Vision Goggles,Rare,TRUE,,,wardrobe_hat_night_vision,mcc:island_cosmetics.hat.night_vision,Complete,"[Fisher, do you copy?]",20,"14,625",150,$3.00
 TRUE,Hat,Oni Mask,Epic,,,,wardrobe_hat_oni_mask,mcc:island_cosmetics.hat.oni_mask,Complete,,50,"33,750",300,$6.00
-TRUE,Hat,Orange Ocelots' Crown,Legendary,,,,wardrobe_hat_orange_ocelots_crown,mcc:island_cosmetics.hat.orange_ocelots_crown,Complete,,100,"108,000",600,$12.00
-TRUE,Hat,Orange Ocelot Ears,Rare,,,,wardrobe_hat_orange_ocelots_ears,mcc:island_cosmetics.hat.orange_ocelots_ears,Complete,Twin cat ears sprout from your head. [Nya!] Orange Ocelot Loyalty Reward,20,"14,625",150,$3.00
+TRUE,Hat,Orange Ocelots' Crown,Legendary,,,,wardrobe_hat_faction_crown_orange_ocelots,mcc:island_cosmetics.hat_faction.crown_orange_ocelots,Complete,,100,"108,000",600,$12.00
+TRUE,Hat,Orange Ocelot Ears,Rare,,,,wardrobe_hat_faction_facial_orange_ocelots,mcc:island_cosmetics.hat_faction.facial_orange_ocelots,Complete,Twin cat ears sprout from your head. [Nya!] Orange Ocelot Loyalty Reward,20,"14,625",150,$3.00
 TRUE,Hat,Party Hat,Common,TRUE,,,wardrobe_hat_party_hat,mcc:island_cosmetics.hat.party_hat,Complete,"[Party like it's November, 2011!]",5,"3,750",50,$1.00
 TRUE,Hat,Pilot's Hat,Uncommon,,,,wardrobe_hat_pilot_hat,mcc:island_cosmetics.hat.pilot_hat,Complete,[Ready to fly?],10,"5,625",75,$1.50
-TRUE,Hat,Pink Parrots' Crown,Legendary,,,,wardrobe_hat_pink_parrots_crown,mcc:island_cosmetics.hat.pink_parrots_crown,Complete,,100,"108,000",600,$12.00
-TRUE,Hat,Pink Parrot Wings,Rare,,,,wardrobe_hat_pink_parrots_wings,mcc:island_cosmetics.hat.pink_parrots_wings,Complete,A pink rink of feathers surrounds your head. Pink Parrot Loyalty reward.,20,"14,625",150,$3.00
+TRUE,Hat,Pink Parrots' Crown,Legendary,,,,wardrobe_hat_faction_crown_pink_parrots,mcc:island_cosmetics.hat_faction.crown_pink_parrots,Complete,,100,"108,000",600,$12.00
+TRUE,Hat,Pink Parrot Wings,Rare,,,,wardrobe_hat_faction_facial_pink_parrots,mcc:island_cosmetics.hat_faction.facial_pink_parrots,Complete,A pink rink of feathers surrounds your head. Pink Parrot Loyalty reward.,20,"14,625",150,$3.00
 TRUE,Hat,Pirate Hat,Rare,TRUE,,,wardrobe_hat_pirate_hat,mcc:island_cosmetics.hat.pirate_hat,Complete,[Yar har fiddle dee dee!],20,"14,625",150,$3.00
 TRUE,Hat,Plague Doctor,Legendary,TRUE,,,wardrobe_hat_plague_doctor,mcc:island_cosmetics.hat.plague_doctor,Complete,[An apple a day keeps this nightmare away.],100,"108,000",600,$12.00
 TRUE,Hat,Police Cap,Common,,,,wardrobe_hat_police_cap,mcc:island_cosmetics.hat.police_cap,Complete,,5,"3,750",50,$1.00
 TRUE,Hat,Propeller,Rare,,,,wardrobe_hat_propeller_hat,mcc:island_cosmetics.hat.propeller_hat,Complete,[Can it fly? Probably not..],20,"14,625",150,$3.00
-TRUE,Hat,Purple Pandas' Crown,Legendary,,,,wardrobe_hat_purple_pandas_crown,mcc:island_cosmetics.hat.purple_pandas_crown,Complete,,100,"108,000",600,$12.00
-TRUE,Hat,Purple Panda Ears,Rare,,,,wardrobe_hat_purple_pandas_ears,mcc:island_cosmetics.hat.purple_pandas_ears,Complete,A woven basket helmet with purple panda ears sticking out of the top. Purple Panda Loyalty reward.,20,"14,625",150,$3.00
-TRUE,Hat,Red Rabbits' Crown,Legendary,,,,wardrobe_hat_red_rabbits_crown,mcc:island_cosmetics.hat.red_rabbits_crown,Complete,,100,"108,000",600,$12.00
-TRUE,Hat,Red Rabbit Ears,Rare,,,,wardrobe_hat_red_rabbits_ears,mcc:island_cosmetics.hat.red_rabbits_ears,Complete,Twin red rabbit ears sprout from your head. Red Rabbit Loyalty reward.,20,"14,625",150,$3.00
+TRUE,Hat,Purple Pandas' Crown,Legendary,,,,wardrobe_hat_faction_crown_purple_pandas,mcc:island_cosmetics.hat_faction.crown_purple_pandas,Complete,,100,"108,000",600,$12.00
+TRUE,Hat,Purple Panda Ears,Rare,,,,wardrobe_hat_faction_facial_purple_pandas,mcc:island_cosmetics.hat_faction.facial_purple_pandas,Complete,A woven basket helmet with purple panda ears sticking out of the top. Purple Panda Loyalty reward.,20,"14,625",150,$3.00
+TRUE,Hat,Red Rabbits' Crown,Legendary,,,,wardrobe_hat_faction_crown_red_rabbits,mcc:island_cosmetics.hat_faction.crown_red_rabbits,Complete,,100,"108,000",600,$12.00
+TRUE,Hat,Red Rabbit Ears,Rare,,,,wardrobe_hat_faction_facial_red_rabbits,mcc:island_cosmetics.hat_faction.facial_red_rabbits,Complete,Twin red rabbit ears sprout from your head. Red Rabbit Loyalty reward.,20,"14,625",150,$3.00
 TRUE,Hat,Sensei,Uncommon,,,,wardrobe_hat_sensei,mcc:island_cosmetics.hat.sensei,Complete,,10,"5,625",75,$1.50
 TRUE,Hat,Shark,Epic,,,,wardrobe_hat_shark,mcc:island_cosmetics.hat.shark,Complete,,50,"33,750",300,$6.00
 TRUE,Hat,Sheriff,Uncommon,,,,wardrobe_hat_sheriff,mcc:island_cosmetics.hat.sheriff,Complete,A brown cowboy hat. [There's a new hat in town.],10,"5,625",75,$1.50
@@ -222,38 +222,38 @@ TRUE,Hat,Uncle Sam,Rare,,,,wardrobe_hat_uncle_sam,mcc:island_cosmetics.hat.uncle
 TRUE,Hat,Ushanka,Uncommon,TRUE,,,wardrobe_hat_ushanka,mcc:island_cosmetics.hat.ushanka,Complete,"A brown, furry hat that covers the sides of the head. [Excellent for cold weather.]",10,"5,625",75,$1.50
 TRUE,Hat,VR Headset,Epic,TRUE,,,wardrobe_hat_vr_headset,mcc:island_cosmetics.hat.vr_headset,Complete,[Enter a new reality],50,"33,750",300,$6.00
 TRUE,Hat,Wizard Hat,Uncommon,TRUE,,,wardrobe_hat_wizard_hat,mcc:island_cosmetics.hat.wizard_hat,Complete,[I ghast fireball!],10,"5,625",75,$1.50
-TRUE,Hat,Yellow Yaks' Crown,Legendary,,,,wardrobe_hat_yellow_yaks_crown,mcc:island_cosmetics.hat.yellow_yaks_crown,Complete,,100,"108,000",600,$12.00
-TRUE,Hat,Yellow Yak Horns,Rare,,,,wardrobe_hat_yellow_yaks_horns,mcc:island_cosmetics.hat.yellow_yaks_horns,Complete,Twin yellow yak horns sprout from your head. Yellow Yak Loyalty Reward.,20,"14,625",150,$3.00
+TRUE,Hat,Yellow Yaks' Crown,Legendary,,,,wardrobe_hat_faction_crown_yellow_yaks,mcc:island_cosmetics.hat_faction.crown_yellow_yaks,Complete,,100,"108,000",600,$12.00
+TRUE,Hat,Yellow Yak Horns,Rare,,,,wardrobe_hat_faction_facial_yellow_yaks,mcc:island_cosmetics.hat_faction.facial_yellow_yaks,Complete,Twin yellow yak horns sprout from your head. Yellow Yak Loyalty Reward.,20,"14,625",150,$3.00
 FALSE,Hat,Aqua Axolotl Helmet,Epic,,,,,,None,"Looks exactly like the Aqua Axolotls logo, but a 3-dimensional helmet. Aqua Axolotyl Loyalty reward.",50,"33,750",300,$6.00
-FALSE,Hat,Aqua Axolotls' Beanie,Common,,,,,,None,An aqua baseball cap. Aqua Axolotyl Loyalty reward.,5,"3,750",50,$1.00
+TRUE,Hat,Aqua Axolotls' Beanie,Common,,,,wardrobe_hat_faction_beanie_aqua_axolotls,mcc:island_cosmetics.hat_faction.beanie_aqua_axolotls,Complete,An aqua baseball cap. Aqua Axolotyl Loyalty reward.,5,"3,750",50,$1.00
 FALSE,Hat,Archer,Uncommon,,,,,,None,[Robbin' Hood?],10,"5,625",75,$1.50
 FALSE,Hat,Blue Bat Helmet,Epic,,,,,,None,"Looks exactly like the Blue Bats logo, but a 3-dimensional helmet. Blue Bat Loyalty reward.",50,"33,750",300,$6.00
-FALSE,Hat,Blue Bats' Beanie,Common,,,,,,None,A bluebaseball cap. Blue Bat Loyalty reward.,5,"3,750",50,$1.00
+TRUE,Hat,Blue Bats' Beanie,Common,,,,wardrobe_hat_faction_beanie_blue_bats,mcc:island_cosmetics.hat_faction.beanie_blue_bats,Complete,A bluebaseball cap. Blue Bat Loyalty reward.,5,"3,750",50,$1.00
 FALSE,Hat,Champion Scarf,,,,,,,,,,,,
 FALSE,Hat,Champion's Crown,Epic,,,,,,None,"A golden crown with no fabric (look at designs of count, vicount, and marquis crowns). This should be less visually complex than any of the faction crown rewards.",50,"33,750",300,$6.00
 FALSE,Hat,Cyan Coyote Helmet,Epic,,,,,,None,"Looks exactly like the Cyan Coyotes logo, but a 3-dimensional helmet. Cyan Coyote Loyalty reward.",50,"33,750",300,$6.00
-FALSE,Hat,Cyan Coyotes' Beanie,Common,,,,,,None,A cyan baseball cap. Cyan Creeper Loyalty reward.,5,"3,750",50,$1.00
+TRUE,Hat,Cyan Coyotes' Beanie,Common,,,,wardrobe_hat_faction_beanie_cyan_coyotes,mcc:island_cosmetics.hat_faction.beanie_cyan_coyotes,Complete,A cyan baseball cap. Cyan Creeper Loyalty reward.,5,"3,750",50,$1.00
 FALSE,Hat,Decision Dome,,,,,,,,,,,,
 FALSE,Hat,Flagmaster,Uncommon,,,,,,None,A headband with two small triangular flags (one white and one gold) pointing to the player's left and right.,10,"5,625",75,$1.50
 FALSE,Hat,Glasses,Common,,,,,,None,"A pair of normal, prescription spectacles.",5,"3,750",50,$1.00
 FALSE,Hat,Green Gecko Helmet,Epic,,,,,,None,"Looks exactly like the Green Geckos logo, but a 3-dimensional helmet. Green Gecko Loyalty reward.",50,"33,750",300,$6.00
-FALSE,Hat,Green Geckos' Beanie,Common,,,,,,None,A green baseball cap. Green Guardian Loyalty reward.,5,"3,750",50,$1.00
+TRUE,Hat,Green Geckos' Beanie,Common,,,,wardrobe_hat_faction_beanie_green_geckos,mcc:island_cosmetics.hat_faction.beanie_green_geckos,Complete,A green baseball cap. Green Guardian Loyalty reward.,5,"3,750",50,$1.00
 FALSE,Hat,Hexapus Head,,,,,,,,,,,,
 FALSE,Hat,Lime Llama Helmet,Epic,,,,,,None,"Looks exactly like the Lime Llamas logo, but a 3-dimensional helmet. Lime Llama Loyalty reward.",50,"33,750",300,$6.00
-FALSE,Hat,Lime Llamas' Beanie,Common,,,,,,None,A lime baseball cap. Lime Llama Loyalty reward.,5,"3,750",50,$1.00
+TRUE,Hat,Lime Llamas' Beanie,Common,,,,wardrobe_hat_faction_beanie_lime_llamas,mcc:island_cosmetics.hat_faction.beanie_lime_llamas,Complete,A lime baseball cap. Lime Llama Loyalty reward.,5,"3,750",50,$1.00
 FALSE,Hat,MCC Cap,,,,,,,,,,,,
 FALSE,Hat,Neccromancer Skull,Epic,,,,,,None,"In Noxcrew's Dragon Skies, there is an enemy: the Necromancer. A miniature version of his skull now rests upon the player's head (also leaning back slightly). Its eyes are lifeless and hollow. .....Or they're animated and glowing...!",50,"33,750",300,$6.00
 FALSE,Hat,Orange Ocelot Helmet,Epic,,,,,,None,"Looks exactly like the Orange Ocelot logo, but a 3-dimensional helmet. Orange Ocelot Loyalty Reward",50,"33,750",300,$6.00
-FALSE,Hat,Orange Ocelots' Beanie,Common,,,,,,None,An orange baseball cap. Orange Ocelot Loyalty Reward,5,"3,750",50,$1.00
+TRUE,Hat,Orange Ocelots' Beanie,Common,,,,wardrobe_hat_faction_beanie_orange_ocelots,mcc:island_cosmetics.hat_faction.beanie_orange_ocelots,Complete,An orange baseball cap. Orange Ocelot Loyalty Reward,5,"3,750",50,$1.00
 FALSE,Hat,Pink Parrots Helmet,Epic,,,,,,None,"Looks exactly like the Pink Parrots logo, but a 3-dimensional helmet. Pink Parrot Loyalty reward.",50,"33,750",300,$6.00
-FALSE,Hat,Pink Parrots' Beanie,Common,,,,,,None,A pink baseball cap. Pink Parrot Loyalty reward.,5,"3,750",50,$1.00
+TRUE,Hat,Pink Parrots' Beanie,Common,,,,wardrobe_hat_faction_beanie_pink_parrots,mcc:island_cosmetics.hat_faction.beanie_pink_parrots,Complete,A pink baseball cap. Pink Parrot Loyalty reward.,5,"3,750",50,$1.00
 FALSE,Hat,Purple Pandas Helmet,Epic,,,,,,None,"Looks exactly like the Purple Pandas logo, but a 3-dimensional helmet. Purple Panda Loyalty reward.",50,"33,750",300,$6.00
-FALSE,Hat,Purple Pandas' Beanie,Common,,,,,,None,A purple baseball cap. Purple Panda Loyalty reward.,5,"3,750",50,$1.00
+TRUE,Hat,Purple Pandas' Beanie,Common,,,,wardrobe_hat_faction_beanie_purple_pandas,mcc:island_cosmetics.hat_faction.beanie_purple_pandas,Complete,A purple baseball cap. Purple Panda Loyalty reward.,5,"3,750",50,$1.00
 FALSE,Hat,Red Rabbit Helmet,Epic,,,,,,None,"Looks exactly like the Red Rabbit logo, but a 3-dimensional helmet. Red Rabbit Loyalty reward.",50,"33,750",300,$6.00
-FALSE,Hat,Red Rabbits' Beanie,Common,,,,,,None,A red baseball cap. Red Rabbit Loyalty reward.,5,"3,750",50,$1.00
+TRUE,Hat,Red Rabbits' Beanie,Common,,,,wardrobe_hat_faction_beanie_red_rabbits,mcc:island_cosmetics.hat_faction.beanie_red_rabbits,Complete,A red baseball cap. Red Rabbit Loyalty reward.,5,"3,750",50,$1.00
 FALSE,Hat,TSF Helmet,Rare,,,,,,None,A grey helmet top and bottom with an orange visor that covers the entirety of the face. Look at Terra Swoop Force flight suits for reference.,20,"14,625",150,$3.00
 FALSE,Hat,Yellow Yak Helmet,Epic,,,,,,None,"Looks exactly like the Yellow Yak logo, but a 3-dimensional helmet. Yellow Yak Loyalty Reward.",50,"33,750",300,$6.00
-FALSE,Hat,Yellow Yaks' Beanie,Common,,,,,,None,A yellow baseball cap. Yellow Yak Loyalty Reward.,5,"3,750",50,$1.00
+TRUE,Hat,Yellow Yaks' Beanie,Common,,,,wardrobe_hat_faction_beanie_yellow_yaks,mcc:island_cosmetics.hat_faction.beanie_yellow_yaks,Complete,A yellow baseball cap. Yellow Yak Loyalty Reward.,5,"3,750",50,$1.00
 FALSE,Aura,Angel Wings,Epic,,,,,mcc:island_cosmetics.auras.angel_wings,In Progress,White Particles in the shape of Angle Wings on the back of the player,50,"50,625",800,$16.00
 TRUE,Aura,Angry!,Uncommon,,,,aura_angry,mcc:island_cosmetics.auras.angry,Complete,"Every few seconds, smoke billows out of the player's ears, and their head increases in size slightly. [Blow it out your ear!]",10,"11,250",200,$4.00
 TRUE,Aura,Armor of Darkness,Uncommon,,,,aura_armor_of_darkness,mcc:island_cosmetics.auras.armor_of_darkness,Complete,Black and grey shadows surround the player and dance around like an aura. Similar shadows faintly trail behind the player when moving.,10,"11,250",200,$4.00
