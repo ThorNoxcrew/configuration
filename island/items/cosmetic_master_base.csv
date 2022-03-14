@@ -154,7 +154,7 @@ TRUE,Hat,Cool Shades,Rare,,,,wardrobe_hat_cool_shades,mcc:island_cosmetics.hat.c
 TRUE,Hat,Crusader,Rare,,,,wardrobe_hat_crusader,mcc:island_cosmetics.hat.crusader,Complete,['tis but a scratch!],20,"14,625",150,$3.00
 TRUE,Hat,Cthulu's Head,Epic,,,,wardrobe_hat_cthulus_head,mcc:island_cosmetics.hat.cthulus_head,Complete,A mass of tentacles spewing from the player's head. Maybe bat ears on the side of the head. [Ph'nglui mglw'nafh Bloc'kulu MCC Island wgah'nagl fhtagn],50,"33,750",300,$6.00
 TRUE,Hat,Curved Demon Horns,Rare,TRUE,,,wardrobe_hat_curved_demon_horns,mcc:island_cosmetics.hat.curved_demon_horns,Complete,[You are not prepared.],20,"14,625",150,$3.00
-TRUE,Hat,Cyan Coyotes' Crown,Legendary,,,,wardrobe_hat_cyan_coyotes_crown,mcc:island_cosmetics.hat_faction.crown_cyan_coyotes,Complete,,100,"108,000",600,$12.00
+TRUE,Hat,Cyan Coyotes' Crown,Legendary,,,,wardrobe_hat_faction_crown_cyan_coyotes,mcc:island_cosmetics.hat_faction.crown_cyan_coyotes,Complete,,100,"108,000",600,$12.00
 TRUE,Hat,Cyan Coyote Ears,Rare,,,,wardrobe_hat_faction_facial_cyan_coyotes,mcc:island_cosmetics.hat_faction.facial_cyan_coyotes,Complete,"A head lamp like what old miners would wear; but rather than a candle, there i a lit stick of dynamite on your head! Cyan Creeper Loyalty reward.",20,"14,625",150,$3.00
 TRUE,Hat,Detective,Common,,,,wardrobe_hat_detective,mcc:island_cosmetics.hat.detective,Complete,A cheshire cap like a certain Holmes might wear. [Someone stole the detective's hat; but he's on the case!],5,"3,750",50,$1.00
 TRUE,Hat,Devil Horns,Uncommon,TRUE,,,wardrobe_hat_devils_horns,mcc:island_cosmetics.hat.devils_horns,Complete,[For when you're feeling rather evil.],10,"5,625",75,$1.50
