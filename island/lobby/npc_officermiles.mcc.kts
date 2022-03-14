@@ -17,5 +17,6 @@ mccScript {
 
         type("ambient")
         helmet("mcc:island_cosmetics.hat.police_cap")
+        offHand("mcc:island_cosmetics.accessory.police_baton")
     }
 }
