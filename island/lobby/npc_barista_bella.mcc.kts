@@ -16,6 +16,6 @@ mccScript {
         cooldown(1.seconds)
 
         type("ambient")
-        helmet("mcc:island_cosmetics.hair.fade")
+        helmet("mcc:island_cosmetics.hair.fade{display:{13139208}}")
     }
 }

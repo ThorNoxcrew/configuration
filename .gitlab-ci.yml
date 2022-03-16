@@ -64,6 +64,7 @@ compile_scripts:
         policy: pull
 
 .kube_env_dev:
+    resource_group: dev
     environment:
         name: dev-fs2consulkv
         on_stop: delete_consul_dev
@@ -71,6 +72,7 @@ compile_scripts:
             namespace: ops
 
 .kube_env_stg:
+    resource_group: stg
     environment:
         name: stg-fs2consulkv
         on_stop: delete_consul_stg
@@ -78,6 +80,7 @@ compile_scripts:
             namespace: ops
 
 .kube_env_prd:
+    resource_group: prd
     environment:
         name: production-fs2consulkv
         on_stop: delete_consul_prd
@@ -86,6 +89,8 @@ compile_scripts:
 
 .delete_consul:
     dependencies: []
+    variables:
+        GIT_STRATEGY: none
     image: harbor.services.noxcrew.online/tools/fs2consulkv:latest
     stage: delete
     when: manual

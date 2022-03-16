@@ -16,5 +16,6 @@ mccScript {
         cooldown(1.seconds)
 
         type("ambient")
+        offHand("mcc:island_cosmetics.accessory.skateboard{display:{color:1659080}}")
     }
 }

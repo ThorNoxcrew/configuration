@@ -2,7 +2,7 @@
     "processors": [
         {
             "type": "add_world",
-            "world": "event/lobby"
+            "world": "event/hub"
         },
         {
             "type": "lighting_updater"
