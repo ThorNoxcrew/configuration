@@ -19,9 +19,7 @@ mccScript {
         cooldown(1.seconds)
 
         interactBehavior { npc, player ->
-            withContext(Dispatchers.Minecraft) {
-                BarberShopGuiController(player).openWithCurrentHairStyle(null)
-            }
+            BarberShopGuiController(player).openWithCurrentHairStyle(null)
         }
 
         belowName("island.npc.shop.barber")
