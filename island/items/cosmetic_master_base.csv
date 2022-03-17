@@ -79,57 +79,57 @@ FALSE,Accessory,Preppy Flag,Uncommon,,,,,,None,Small flag with 'MCC' written on 
 FALSE,Accessory,Tentacle Arm,Epic,,,,,,None,Make your whole off-hand arm look like an animated octopus tentacle. Or that of some eldritch abomination.,50,"33,750",300,$6.00
 FALSE,Accessory,TV Remote,Uncommon,,,,,,None,[Now we're channel surfing!],10,"5,625",75,$1.50
 FALSE,Accessory,Winner's Coin,,,,,,,None,,,,,
-TRUE,Hair,Afro,Uncommon,TRUE,,barberShop,wardrobe_hair_afro,mcc:island_cosmetics.hair.afro,Complete,,10,"5,625",75,$1.50
-TRUE,Hair,Amish,Uncommon,TRUE,,barberShop,wardrobe_hair_amish,mcc:island_cosmetics.hair.amish,Complete,A wreath of hawaiian flowers draped around the player's neck. Pretty pinks and blues. Given with a Welcome Bundle.,10,"5,625",75,$1.50
-TRUE,Hair,Anime,Rare,TRUE,,barberShop,wardrobe_hair_anime,mcc:island_cosmetics.hair.anime,Complete,,20,"14,625",150,$3.00
-TRUE,Hair,Bangs,Common,TRUE,,barberShop,wardrobe_hair_bangs,mcc:island_cosmetics.hair.bangs,Complete,,5,"3,750",50,$1.00
-TRUE,Hair,Barbarian,Rare,TRUE,,barberShop,wardrobe_hair_barbarian,mcc:island_cosmetics.hair.barbarian,Complete,,20,"14,625",150,$3.00
+TRUE,Hair,Afro,Uncommon,TRUE,,shop_barber,wardrobe_hair_afro,mcc:island_cosmetics.hair.afro,Complete,,10,"5,625",75,$1.50
+TRUE,Hair,Amish,Uncommon,TRUE,,shop_barber,wardrobe_hair_amish,mcc:island_cosmetics.hair.amish,Complete,A wreath of hawaiian flowers draped around the player's neck. Pretty pinks and blues. Given with a Welcome Bundle.,10,"5,625",75,$1.50
+TRUE,Hair,Anime,Rare,TRUE,,shop_barber,wardrobe_hair_anime,mcc:island_cosmetics.hair.anime,Complete,,20,"14,625",150,$3.00
+TRUE,Hair,Bangs,Common,TRUE,,shop_barber,wardrobe_hair_bangs,mcc:island_cosmetics.hair.bangs,Complete,,5,"3,750",50,$1.00
+TRUE,Hair,Barbarian,Rare,TRUE,,shop_barber,wardrobe_hair_barbarian,mcc:island_cosmetics.hair.barbarian,Complete,,20,"14,625",150,$3.00
 TRUE,Hair,Basic,Common,TRUE,,default,wardrobe_hair_basic,mcc:island_cosmetics.hair.basic,Complete,,5,"3,750",50,$1.00
-TRUE,Hair,Beehive,Epic,TRUE,,barberShop,wardrobe_hair_beehive,mcc:island_cosmetics.hair.beehive,Complete,,50,"33,750",300,$6.00
-TRUE,Hair,Beetle,Common,TRUE,,barberShop,wardrobe_hair_beetle,mcc:island_cosmetics.hair.beetle,Complete,,5,"3,750",50,$1.00
-TRUE,Hair,Bob,Uncommon,TRUE,,barberShop,wardrobe_hair_bob,mcc:island_cosmetics.hair.bob,Complete,,10,"5,625",75,$1.50
-TRUE,Hair,Braid,Common,TRUE,,barberShop,wardrobe_hair_braid,mcc:island_cosmetics.hair.braid,Complete,,5,"3,750",50,$1.00
+TRUE,Hair,Beehive,Epic,TRUE,,shop_barber,wardrobe_hair_beehive,mcc:island_cosmetics.hair.beehive,Complete,,50,"33,750",300,$6.00
+TRUE,Hair,Beetle,Common,TRUE,,shop_barber,wardrobe_hair_beetle,mcc:island_cosmetics.hair.beetle,Complete,,5,"3,750",50,$1.00
+TRUE,Hair,Bob,Uncommon,TRUE,,shop_barber,wardrobe_hair_bob,mcc:island_cosmetics.hair.bob,Complete,,10,"5,625",75,$1.50
+TRUE,Hair,Braid,Common,TRUE,,shop_barber,wardrobe_hair_braid,mcc:island_cosmetics.hair.braid,Complete,,5,"3,750",50,$1.00
 TRUE,Hair,Bun,Common,TRUE,,default,wardrobe_hair_bun,mcc:island_cosmetics.hair.bun,Complete,,5,"3,750",50,$1.00
-TRUE,Hair,Cornrows,Common,TRUE,,barberShop,wardrobe_hair_cornrows,mcc:island_cosmetics.hair.cornrows,Complete,,5,"3,750",50,$1.00
-TRUE,Hair,Curly,Common,TRUE,,barberShop,wardrobe_hair_curly,mcc:island_cosmetics.hair.curly,Complete,,5,"3,750",50,$1.00
-TRUE,Hair,Dad,Uncommon,TRUE,,barberShop,wardrobe_hair_dad,mcc:island_cosmetics.hair.dad,Complete,,10,"5,625",75,$1.50
-TRUE,Hair,Dreadlocks,Uncommon,TRUE,,barberShop,wardrobe_hair_dreadlocks,mcc:island_cosmetics.hair.dreadlocks,Complete,,10,"5,625",75,$1.50
-TRUE,Hair,Elder,Uncommon,TRUE,,barberShop,wardrobe_hair_elder,mcc:island_cosmetics.hair.elder,Complete,,10,"5,625",75,$1.50
-TRUE,Hair,Elvis,Uncommon,TRUE,,barberShop,wardrobe_hair_elvis,mcc:island_cosmetics.hair.elvis,Complete,,10,"5,625",75,$1.50
-TRUE,Hair,Emo,Uncommon,TRUE,,barberShop,wardrobe_hair_emo,mcc:island_cosmetics.hair.emo,Complete,,10,"5,625",75,$1.50
+TRUE,Hair,Cornrows,Common,TRUE,,shop_barber,wardrobe_hair_cornrows,mcc:island_cosmetics.hair.cornrows,Complete,,5,"3,750",50,$1.00
+TRUE,Hair,Curly,Common,TRUE,,shop_barber,wardrobe_hair_curly,mcc:island_cosmetics.hair.curly,Complete,,5,"3,750",50,$1.00
+TRUE,Hair,Dad,Uncommon,TRUE,,shop_barber,wardrobe_hair_dad,mcc:island_cosmetics.hair.dad,Complete,,10,"5,625",75,$1.50
+TRUE,Hair,Dreadlocks,Uncommon,TRUE,,shop_barber,wardrobe_hair_dreadlocks,mcc:island_cosmetics.hair.dreadlocks,Complete,,10,"5,625",75,$1.50
+TRUE,Hair,Elder,Uncommon,TRUE,,shop_barber,wardrobe_hair_elder,mcc:island_cosmetics.hair.elder,Complete,,10,"5,625",75,$1.50
+TRUE,Hair,Elvis,Uncommon,TRUE,,shop_barber,wardrobe_hair_elvis,mcc:island_cosmetics.hair.elvis,Complete,,10,"5,625",75,$1.50
+TRUE,Hair,Emo,Uncommon,TRUE,,shop_barber,wardrobe_hair_emo,mcc:island_cosmetics.hair.emo,Complete,,10,"5,625",75,$1.50
 TRUE,Hair,Fade,Common,TRUE,,default,wardrobe_hair_fade,mcc:island_cosmetics.hair.fade,Complete,,5,"3,750",50,$1.00
-TRUE,Hair,Free Spirit,Rare,TRUE,,barberShop,wardrobe_hair_free_spirit,mcc:island_cosmetics.hair.free_spirit,Complete,,20,"14,625",150,$3.00
-TRUE,Hair,Full Beard,Uncommon,TRUE,,barberShop,wardrobe_hair_full_beard,mcc:island_cosmetics.hair.full_beard,Complete,,10,"5,625",75,$1.50
-TRUE,Hair,Goatee,Common,TRUE,,barberShop,wardrobe_hair_goatee,mcc:island_cosmetics.hair.goatee,Complete,,5,"3,750",50,$1.00
-TRUE,Hair,Groundskeeper,Rare,TRUE,,barberShop,wardrobe_hair_groundskeeper,mcc:island_cosmetics.hair.groundskeeper,Complete,,20,"14,625",150,$3.00
-TRUE,Hair,Handlebar Moustache,Uncommon,TRUE,,barberShop,wardrobe_hair_handlebar,mcc:island_cosmetics.hair.handlebar,Complete,,10,"5,625",75,$1.50
-TRUE,Hair,High Top,Common,TRUE,,barberShop,wardrobe_hair_high_top,mcc:island_cosmetics.hair.high_top,Complete,,5,"3,750",50,$1.00
-TRUE,Hair,Hipster,Rare,TRUE,,barberShop,wardrobe_hair_hipster,mcc:island_cosmetics.hair.hipster,Complete,,20,"14,625",150,$3.00
-TRUE,Hair,Hogan,Uncommon,TRUE,,barberShop,wardrobe_hair_hogan,mcc:island_cosmetics.hair.hogan,Complete,,10,"5,625",75,$1.50
-TRUE,Hair,Homeless,Rare,TRUE,,barberShop,wardrobe_hair_homeless,mcc:island_cosmetics.hair.homeless,Complete,,20,"14,625",150,$3.00
-TRUE,Hair,Judge,Rare,TRUE,,barberShop,wardrobe_hair_judge,mcc:island_cosmetics.hair.judge,Complete,,20,"14,625",150,$3.00
+TRUE,Hair,Free Spirit,Rare,TRUE,,shop_barber,wardrobe_hair_free_spirit,mcc:island_cosmetics.hair.free_spirit,Complete,,20,"14,625",150,$3.00
+TRUE,Hair,Full Beard,Uncommon,TRUE,,shop_barber,wardrobe_hair_full_beard,mcc:island_cosmetics.hair.full_beard,Complete,,10,"5,625",75,$1.50
+TRUE,Hair,Goatee,Common,TRUE,,shop_barber,wardrobe_hair_goatee,mcc:island_cosmetics.hair.goatee,Complete,,5,"3,750",50,$1.00
+TRUE,Hair,Groundskeeper,Rare,TRUE,,shop_barber,wardrobe_hair_groundskeeper,mcc:island_cosmetics.hair.groundskeeper,Complete,,20,"14,625",150,$3.00
+TRUE,Hair,Handlebar Moustache,Uncommon,TRUE,,shop_barber,wardrobe_hair_handlebar,mcc:island_cosmetics.hair.handlebar,Complete,,10,"5,625",75,$1.50
+TRUE,Hair,High Top,Common,TRUE,,shop_barber,wardrobe_hair_high_top,mcc:island_cosmetics.hair.high_top,Complete,,5,"3,750",50,$1.00
+TRUE,Hair,Hipster,Rare,TRUE,,shop_barber,wardrobe_hair_hipster,mcc:island_cosmetics.hair.hipster,Complete,,20,"14,625",150,$3.00
+TRUE,Hair,Hogan,Uncommon,TRUE,,shop_barber,wardrobe_hair_hogan,mcc:island_cosmetics.hair.hogan,Complete,,10,"5,625",75,$1.50
+TRUE,Hair,Homeless,Rare,TRUE,,shop_barber,wardrobe_hair_homeless,mcc:island_cosmetics.hair.homeless,Complete,,20,"14,625",150,$3.00
+TRUE,Hair,Judge,Rare,TRUE,,shop_barber,wardrobe_hair_judge,mcc:island_cosmetics.hair.judge,Complete,,20,"14,625",150,$3.00
 TRUE,Hair,Long Sleek Hair,Common,TRUE,,default,wardrobe_hair_long_sleek_hair,mcc:island_cosmetics.hair.long_sleek_hair,Complete,,5,"3,750",50,$1.00
-TRUE,Hair,Mohawk,Rare,TRUE,,barberShop,wardrobe_hair_mohawk,mcc:island_cosmetics.hair.mohawk,Complete,,20,"14,625",150,$3.00
-TRUE,Hair,Monk,Uncommon,TRUE,,barberShop,wardrobe_hair_monk,mcc:island_cosmetics.hair.monk,Complete,,10,"5,625",75,$1.50
-TRUE,Hair,Mutton Chops,Rare,TRUE,,barberShop,wardrobe_hair_mutton_chops,mcc:island_cosmetics.hair.mutton_chops,Complete,,20,"14,625",150,$3.00
-TRUE,Hair,Noxstache,Legendary,TRUE,,barberShop,wardrobe_hair_noxstache,mcc:island_cosmetics.hair.noxstache,Complete,,100,"108,000",600,$12.00
-TRUE,Hair,Palm Tree,Epic,TRUE,,barberShop,wardrobe_hair_palm_tree,mcc:island_cosmetics.hair.palm_tree,Complete,,50,"33,750",300,$6.00
-TRUE,Hair,Pigtails,Common,TRUE,,barberShop,wardrobe_hair_pigtails,mcc:island_cosmetics.hair.pigtails,Complete,,5,"3,750",50,$1.00
-TRUE,Hair,Ponytail,Common,TRUE,,barberShop,wardrobe_hair_ponytail,mcc:island_cosmetics.hair.ponytail,Complete,,5,"3,750",50,$1.00
-TRUE,Hair,Prince Charming,Uncommon,TRUE,,barberShop,wardrobe_hair_prince_charming,mcc:island_cosmetics.hair.prince_charming,Complete,,10,"5,625",75,$1.50
-TRUE,Hair,Princess,Epic,TRUE,,barberShop,wardrobe_hair_princess,mcc:island_cosmetics.hair.princess,Complete,,50,"33,750",300,$6.00
-TRUE,Hair,Professor,Epic,TRUE,,barberShop,wardrobe_hair_professor,mcc:island_cosmetics.hair.professor,Complete,,50,"33,750",300,$6.00
-TRUE,Hair,Rat Tail,Common,TRUE,,barberShop,wardrobe_hair_rat_tail,mcc:island_cosmetics.hair.rat_tail,Complete,,5,"3,750",50,$1.00
-TRUE,Hair,Schrute,Uncommon,TRUE,,barberShop,wardrobe_hair_schrute,mcc:island_cosmetics.hair.schrute,Complete,,10,"5,625",75,$1.50
-TRUE,Hair,Soft Rocker,Epic,TRUE,,barberShop,wardrobe_hair_soft_rocker,mcc:island_cosmetics.hair.soft_rocker,Complete,,50,"33,750",300,$6.00
-TRUE,Hair,Soul Patch,Common,TRUE,,barberShop,wardrobe_hair_soul_patch,mcc:island_cosmetics.hair.soul_patch,Complete,,5,"3,750",50,$1.00
-TRUE,Hair,Spikes,Epic,TRUE,,barberShop,wardrobe_hair_spikes,mcc:island_cosmetics.hair.spikes,Complete,,50,"33,750",300,$6.00
-TRUE,Hair,Twin Bun,Uncommon,TRUE,,barberShop,wardrobe_hair_twin_bun,mcc:island_cosmetics.hair.twin_bun,Complete,,10,"5,625",75,$1.50
+TRUE,Hair,Mohawk,Rare,TRUE,,shop_barber,wardrobe_hair_mohawk,mcc:island_cosmetics.hair.mohawk,Complete,,20,"14,625",150,$3.00
+TRUE,Hair,Monk,Uncommon,TRUE,,shop_barber,wardrobe_hair_monk,mcc:island_cosmetics.hair.monk,Complete,,10,"5,625",75,$1.50
+TRUE,Hair,Mutton Chops,Rare,TRUE,,shop_barber,wardrobe_hair_mutton_chops,mcc:island_cosmetics.hair.mutton_chops,Complete,,20,"14,625",150,$3.00
+TRUE,Hair,Noxstache,Legendary,TRUE,,shop_barber,wardrobe_hair_noxstache,mcc:island_cosmetics.hair.noxstache,Complete,,100,"108,000",600,$12.00
+TRUE,Hair,Palm Tree,Epic,TRUE,,shop_barber,wardrobe_hair_palm_tree,mcc:island_cosmetics.hair.palm_tree,Complete,,50,"33,750",300,$6.00
+TRUE,Hair,Pigtails,Common,TRUE,,shop_barber,wardrobe_hair_pigtails,mcc:island_cosmetics.hair.pigtails,Complete,,5,"3,750",50,$1.00
+TRUE,Hair,Ponytail,Common,TRUE,,shop_barber,wardrobe_hair_ponytail,mcc:island_cosmetics.hair.ponytail,Complete,,5,"3,750",50,$1.00
+TRUE,Hair,Prince Charming,Uncommon,TRUE,,shop_barber,wardrobe_hair_prince_charming,mcc:island_cosmetics.hair.prince_charming,Complete,,10,"5,625",75,$1.50
+TRUE,Hair,Princess,Epic,TRUE,,shop_barber,wardrobe_hair_princess,mcc:island_cosmetics.hair.princess,Complete,,50,"33,750",300,$6.00
+TRUE,Hair,Professor,Epic,TRUE,,shop_barber,wardrobe_hair_professor,mcc:island_cosmetics.hair.professor,Complete,,50,"33,750",300,$6.00
+TRUE,Hair,Rat Tail,Common,TRUE,,shop_barber,wardrobe_hair_rat_tail,mcc:island_cosmetics.hair.rat_tail,Complete,,5,"3,750",50,$1.00
+TRUE,Hair,Schrute,Uncommon,TRUE,,shop_barber,wardrobe_hair_schrute,mcc:island_cosmetics.hair.schrute,Complete,,10,"5,625",75,$1.50
+TRUE,Hair,Soft Rocker,Epic,TRUE,,shop_barber,wardrobe_hair_soft_rocker,mcc:island_cosmetics.hair.soft_rocker,Complete,,50,"33,750",300,$6.00
+TRUE,Hair,Soul Patch,Common,TRUE,,shop_barber,wardrobe_hair_soul_patch,mcc:island_cosmetics.hair.soul_patch,Complete,,5,"3,750",50,$1.00
+TRUE,Hair,Spikes,Epic,TRUE,,shop_barber,wardrobe_hair_spikes,mcc:island_cosmetics.hair.spikes,Complete,,50,"33,750",300,$6.00
+TRUE,Hair,Twin Bun,Uncommon,TRUE,,shop_barber,wardrobe_hair_twin_bun,mcc:island_cosmetics.hair.twin_bun,Complete,,10,"5,625",75,$1.50
 TRUE,Hair,Undercut,Common,TRUE,,default,wardrobe_hair_undercut,mcc:island_cosmetics.hair.undercut,Complete,,5,"3,750",50,$1.00
-TRUE,Hair,Viking Beard Braids,Epic,TRUE,,barberShop,wardrobe_hair_viking_beard,mcc:island_cosmetics.hair.viking_beard,Complete,,50,"33,750",300,$6.00
-TRUE,Hair,Vintage,Uncommon,TRUE,,barberShop,wardrobe_hair_vintage,mcc:island_cosmetics.hair.vintage,Complete,,10,"5,625",75,$1.50
-TRUE,Hair,Wavy,Common,TRUE,,barberShop,wardrobe_hair_wavy,mcc:island_cosmetics.hair.wavy,Complete,,5,"3,750",50,$1.00
-TRUE,Hair,Wednesday,Uncommon,TRUE,,barberShop,wardrobe_hair_wednesday,mcc:island_cosmetics.hair.wednesday,Complete,,10,"5,625",75,$1.50
+TRUE,Hair,Viking Beard Braids,Epic,TRUE,,shop_barber,wardrobe_hair_viking_beard,mcc:island_cosmetics.hair.viking_beard,Complete,,50,"33,750",300,$6.00
+TRUE,Hair,Vintage,Uncommon,TRUE,,shop_barber,wardrobe_hair_vintage,mcc:island_cosmetics.hair.vintage,Complete,,10,"5,625",75,$1.50
+TRUE,Hair,Wavy,Common,TRUE,,shop_barber,wardrobe_hair_wavy,mcc:island_cosmetics.hair.wavy,Complete,,5,"3,750",50,$1.00
+TRUE,Hair,Wednesday,Uncommon,TRUE,,shop_barber,wardrobe_hair_wednesday,mcc:island_cosmetics.hair.wednesday,Complete,,10,"5,625",75,$1.50
 TRUE,Hair,Wizard Beard,Rare,TRUE,,,wardrobe_hair_wizard_beard,mcc:island_cosmetics.hair.wizard_beard,Complete,,20,"14,625",150,$3.00
 TRUE,Hat,Anime Shades,Epic,,,,wardrobe_hat_anime_shades,mcc:island_cosmetics.hat.anime_shades,Complete,[My sword will pierce the championship!],50,"33,750",300,$6.00
 TRUE,Hat,Aqua Axolotls' Crown,Legendary,,,,wardrobe_hat_faction_crown_aqua_axolotls,mcc:island_cosmetics.hat_faction.crown_aqua_axolotls,Complete,,100,"108,000",600,$12.00
