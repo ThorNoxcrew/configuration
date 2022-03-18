@@ -200,7 +200,7 @@ TRUE,Hat,Purple Panda Ears,Rare,,,,wardrobe_hat_faction_facial_purple_pandas,mcc
 TRUE,Hat,Red Rabbits' Crown,Legendary,,,,wardrobe_hat_faction_crown_red_rabbits,mcc:island_cosmetics.hat_faction.crown_red_rabbits,Complete,,100,"108,000",600,$12.00
 TRUE,Hat,Red Rabbit Ears,Rare,,,,wardrobe_hat_faction_facial_red_rabbits,mcc:island_cosmetics.hat_faction.facial_red_rabbits,Complete,Twin red rabbit ears sprout from your head. Red Rabbit Loyalty reward.,20,"14,625",150,$3.00
 TRUE,Hat,Sensei,Uncommon,,,,wardrobe_hat_sensei,mcc:island_cosmetics.hat.sensei,Complete,,10,"5,625",75,$1.50
-TRUE,Hat,Shark,Epic,,,,wardrobe_hat_shark,mcc:island_cosmetics.hat.shark,Complete,,50,"33,750",300,$6.00
+TRUE,Hat,Shark,Epic,TRUE,54d8f5,,wardrobe_hat_shark,mcc:island_cosmetics.hat.shark,Complete,,50,"33,750",300,$6.00
 TRUE,Hat,Sheriff,Uncommon,,,,wardrobe_hat_sheriff,mcc:island_cosmetics.hat.sheriff,Complete,A brown cowboy hat. [There's a new hat in town.],10,"5,625",75,$1.50
 TRUE,Hat,Snapback,Uncommon,TRUE,7EC41B,,wardrobe_hat_snapback,mcc:island_cosmetics.hat.snapback,Complete,"[How do you do, fellow kids?]",10,"5,625",75,$1.50
 TRUE,Hat,Snorkel,Rare,TRUE,ffd34c,,wardrobe_hat_snorkel,mcc:island_cosmetics.hat.snorkel,Complete,[Ready to go diving for underwater treasure?],20,"14,625",150,$3.00
@@ -233,7 +233,6 @@ FALSE,Hat,Champion Scarf,,,,,,,,,,,,
 FALSE,Hat,Champion's Crown,Epic,,,,,,None,"A golden crown with no fabric (look at designs of count, vicount, and marquis crowns). This should be less visually complex than any of the faction crown rewards.",50,"33,750",300,$6.00
 FALSE,Hat,Cyan Coyote Helmet,Epic,,,,,,None,"Looks exactly like the Cyan Coyotes logo, but a 3-dimensional helmet. Cyan Coyote Loyalty reward.",50,"33,750",300,$6.00
 TRUE,Hat,Cyan Coyotes' Beanie,Common,,,,wardrobe_hat_faction_beanie_cyan_coyotes,mcc:island_cosmetics.hat_faction.beanie_cyan_coyotes,Complete,A cyan baseball cap. Cyan Creeper Loyalty reward.,5,"3,750",50,$1.00
-FALSE,Hat,Decision Dome,,,,,,,,,,,,
 FALSE,Hat,Flagmaster,Uncommon,,,,,,None,A headband with two small triangular flags (one white and one gold) pointing to the player's left and right.,10,"5,625",75,$1.50
 FALSE,Hat,Glasses,Common,,,,,,None,"A pair of normal, prescription spectacles.",5,"3,750",50,$1.00
 FALSE,Hat,Green Gecko Helmet,Epic,,,,,,None,"Looks exactly like the Green Geckos logo, but a 3-dimensional helmet. Green Gecko Loyalty reward.",50,"33,750",300,$6.00
@@ -254,6 +253,16 @@ TRUE,Hat,Red Rabbits' Beanie,Common,,,,wardrobe_hat_faction_beanie_red_rabbits,m
 FALSE,Hat,TSF Helmet,Rare,,,,,,None,A grey helmet top and bottom with an orange visor that covers the entirety of the face. Look at Terra Swoop Force flight suits for reference.,20,"14,625",150,$3.00
 FALSE,Hat,Yellow Yak Helmet,Epic,,,,,,None,"Looks exactly like the Yellow Yak logo, but a 3-dimensional helmet. Yellow Yak Loyalty Reward.",50,"33,750",300,$6.00
 TRUE,Hat,Yellow Yaks' Beanie,Common,,,,wardrobe_hat_faction_beanie_yellow_yaks,mcc:island_cosmetics.hat_faction.beanie_yellow_yaks,Complete,A yellow baseball cap. Yellow Yak Loyalty Reward.,5,"3,750",50,$1.00
+TRUE,Hat,Halo,Epic,,,,wardrobe_hat_halo,mcc:island_cosmetics.hat.halo,Complete,[This Is MINECRAFT!!!],50,"33,750",300,$6.00
+TRUE,Hat,Tiki Mask,Rare,TRUE,3eb2ff,,wardrobe_hat_tiki_mask,mcc:island_cosmetics.hat.tiki_mask,Complete,,20,"14,625",150,$3.00
+TRUE,Hat,Cardboard Box,Uncommon,,,,wardrobe_hat_cardboard_box,mcc:island_cosmetics.hat.cardboard_box,Complete,[It's not just a box..],10,"5,625",75,$1.50
+TRUE,Hat,3D Glasses,Common,,,,wardrobe_hat_3d_glasses,mcc:island_cosmetics.hat.3d_glasses,Complete,,5,"3,750",50,$1.00
+TRUE,Hat,Toy Robot,Rare,TRUE,f44336,,wardrobe_hat_toy_robot,mcc:island_cosmetics.hat.toy_robot,Complete,,20,"14,625",150,$3.00
+TRUE,Hat,Dino,Legendary,TRUE,a8e751,,wardrobe_hat_dino,mcc:island_cosmetics.hat.dino,Complete,,100,"108,000",600,$12.00
+TRUE,Hat,Mellowhead,Rare,,,,wardrobe_hat_mellowhead,mcc:island_cosmetics.hat.mellowhead,Complete,,20,"14,625",150,$3.00
+TRUE,Hat,8-Ball,Uncommon,,,,wardrobe_hat_8_ball,mcc:island_cosmetics.hat.8_ball,Complete,[Outlook good.],10,"5,625",75,$1.50
+TRUE,Hat,Samurai Helmet,Epic,TRUE,b23f33,,wardrobe_hat_samurai_helmet,mcc:island_cosmetics.hat.samurai_helmet,Complete,,50,"33,750",300,$6.00
+TRUE,Hat,Decision Dome Jr.,Legendary,,,,wardrobe_hat_decision_dome_jr,mcc:island_cosmetics.hat.decision_dome_jr,Complete,,100,"108,000",600,$12.00
 FALSE,Aura,Angel Wings,Epic,,,,,mcc:island_cosmetics.auras.angel_wings,In Progress,White Particles in the shape of Angle Wings on the back of the player,50,"50,625",800,$16.00
 TRUE,Aura,Angry!,Uncommon,,,,aura_angry,mcc:island_cosmetics.auras.angry,Complete,"Every few seconds, smoke billows out of the player's ears, and their head increases in size slightly. [Blow it out your ear!]",10,"11,250",200,$4.00
 TRUE,Aura,Armor of Darkness,Uncommon,,,,aura_armor_of_darkness,mcc:island_cosmetics.auras.armor_of_darkness,Complete,Black and grey shadows surround the player and dance around like an aura. Similar shadows faintly trail behind the player when moving.,10,"11,250",200,$4.00
@@ -286,15 +295,6 @@ TRUE,Trail,Smelly Cloud,Rare,,,,trail_smelly_cloud,mcc:island_cosmetics.trails.s
 TRUE,Trail,Smoke Cloud,Rare,,,,trail_smoke_cloud,mcc:island_cosmetics.trails.smoke_cloud,Complete,Small puffs of grey smoke sporadically follow your character when in motion.,20,"29,250",300,$6.00
 FALSE,Trail,Speedster,Legendary,,,,trail_speedster,mcc:island_cosmetics.trails.speedster,In Progress,"Whenever you move, a transparent copy of you is left behind for 1 second. This makes you look like you're moving super fast!",100,"180,000","1,000",$20.00
 FALSE,Trail,Superior Ranked Trail,Legendary,,,,,,In Progress,"Must own or have owned at some point rank 5 to unlock. Identical to the Ranked Trail, but orange should be added to the possible colors. Additionally, a light red outline (and possible tint) should be added to all the shapes. The frequency of shapes appearing should increase.",100,"180,000","1,000",$20.00
-FALSE,,,,,,,,,,,,,,
-FALSE,,,,,,,,,,,,,,
-FALSE,,,,,,,,,,,,,,
-FALSE,,,,,,,,,,,,,,
-FALSE,,,,,,,,,,,,,,
-FALSE,,,,,,,,,,,,,,
-FALSE,,,,,,,,,,,,,,
-FALSE,,,,,,,,,,,,,,
-FALSE,,,,,,,,,,,,,,
 FALSE,,,,,,,,,,,,,,
 FALSE,,,,,,,,,,,,,,
 FALSE,,,,,,,,,,,,,,
