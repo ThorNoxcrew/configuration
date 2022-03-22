@@ -158,7 +158,7 @@ TRUE,Hat,Goggles,Common,TRUE,,#784735,,wardrobe_hat_goggles,mcc:island_cosmetics
 TRUE,Hat,Graduate,Uncommon,,,,,wardrobe_hat_graduate,mcc:island_cosmetics.hat.graduate,,,Complete,"A black, square hat with a golden tassal to one side. [Highschool is out!]",10,"5,625",75,$1.50
 TRUE,Hat,Hard Hat,Common,,,#ffb500,,wardrobe_hat_hard_hat,mcc:island_cosmetics.hat.hard_hat,,,Complete,[Protecting noggins since 1882.],5,"3,750",50,$1.00
 TRUE,Hat,Headphones,Common,TRUE,,#4FD673,,wardrobe_hat_headphones,mcc:island_cosmetics.hat.headphones,,,Complete,Basic Headphones [Pump up the volume to your heart's content!],5,"3,750",50,$1.00
-TRUE,Hat,Horned Viking Helmet,Uncommon,,,,,wardrobe_hat_horned_viking_helmet,mcc:island_cosmetics.hat.horned_viking_helmet,,,Complete,[Not Historically Accurate],10,"5,625",75,$1.50
+TRUE,Hat,Horned Helmet,Uncommon,,,,,wardrobe_hat_horned_viking_helmet,mcc:island_cosmetics.hat.horned_viking_helmet,,,Complete,[Not Historically Accurate],10,"5,625",75,$1.50
 TRUE,Hat,Kitsune Mask,Rare,,,,,wardrobe_hat_kitsune_mask,mcc:island_cosmetics.hat.kitsune_mask,,,Complete,,20,"14,625",150,$3.00
 TRUE,Hat,Knight Helmet,Epic,TRUE,,#FD382A,,wardrobe_hat_knight_helmet,mcc:island_cosmetics.hat.knight_helmet,,,Complete,"[You may not be a bird, but you have a lovely plume.]",50,"33,750",300,$6.00
 TRUE,Hat,Magician's Hat,Uncommon,TRUE,,#F7391B,,wardrobe_hat_magicians_hat,mcc:island_cosmetics.hat.magicians_hat,,,Complete,A black magician's hat with a red stripe across the brim. [And now to make your coins disappear!],10,"5,625",75,$1.50
@@ -213,9 +213,9 @@ TRUE,Hat,Mellowhead,Rare,,,,,wardrobe_hat_mellowhead,mcc:island_cosmetics.hat.me
 TRUE,Hat,8-Ball,Uncommon,,,,,wardrobe_hat_8_ball,mcc:island_cosmetics.hat.8_ball,,,Complete,[Outlook good.],10,"5,625",75,$1.50
 TRUE,Hat,Samurai Helmet,Epic,TRUE,,#b23f33,,wardrobe_hat_samurai_helmet,mcc:island_cosmetics.hat.samurai_helmet,,,Complete,,50,"33,750",300,$6.00
 TRUE,Hat,Decision Dome Jr.,Legendary,,,,,wardrobe_hat_decision_dome_jr,mcc:island_cosmetics.hat.decision_dome_jr,,,Complete,,100,"108,000",600,$12.00
-FALSE,Hat,Faction Crown,Legendary,,TRUE,,,,,,,None,,100,"108,000",600,$12.00
-FALSE,Hat,Faction Beanie,Common,,TRUE,,,wardrobe_hat_faction_crown,,,,None,,5,"3,750",50,$1.00
-FALSE,Hat,Faction Facial,Rare,,TRUE,,,wardrobe_hat_faction_beanie,,,,None,,20,"14,625",150,$3.00
+TRUE,Hat,Faction Crown,Legendary,,TRUE,,,,,,,Complete,,100,"108,000",600,$12.00
+TRUE,Hat,Faction Beanie,Common,,TRUE,,,wardrobe_hat_faction_crown,,,,Complete,,5,"3,750",50,$1.00
+TRUE,Hat,Faction Facial,Rare,,TRUE,,,wardrobe_hat_faction_beanie,,,,Complete,,20,"14,625",150,$3.00
 FALSE,Hat,Faction Helmet,Epic,,TRUE,,,wardrobe_hat_faction_facial,,,,None,,50,"33,750",300,$6.00
 FALSE,Aura,Angel Wings,Epic,,,,,,mcc:island_cosmetics.auras.angel_wings,,,In Progress,White Particles in the shape of Angle Wings on the back of the player,50,"50,625",800,$16.00
 TRUE,Aura,Angry!,Uncommon,,,,,aura_angry,mcc:island_cosmetics.auras.angry,,,Complete,"Every few seconds, smoke billows out of the player's ears, and their head increases in size slightly. [Blow it out your ear!]",10,"11,250",200,$4.00
@@ -238,17 +238,17 @@ FALSE,Aura,Storm Cloud,Uncommon,,,,,aura_storm_cloud,mcc:island_cosmetics.auras.
 TRUE,Aura,Tornado,Epic,,,,,aura_tornado,mcc:island_cosmetics.auras.tornado,,,Complete,A spiral of air surrounds the player and lifts nearby blocks of earth into its vortex. [you're not in SMP anymore.],50,"50,625",800,$16.00
 FALSE,Trail,Celebrator,Rare,,,,,,,,,None,"Small, colorful firework explosions follow the player.",20,"29,250",300,$6.00
 TRUE,Trail,Ember,Uncommon,,,,,trail_ember,mcc:island_cosmetics.trails.ember,,,Complete,Red-grey ash trails behind you.,10,"11,250",150,$3.00
-FALSE,Trail,Greater Ranked Trail,Epic,,,,,,,,,In Progress,"Must own rank 3 or higher to unlock. Identical to the Lesser Ranked Trail, but a roughly equal distribution of the gems should be green, blue, or purple as oposed to only green. The frequency of shapes should increase.",50,"67,500",600,$12.00
+FALSE,Trail,Greater Ranked Trail,Epic,,,,,,,,,In Progress,"Must own rank 3 or higher to unlock. Identical to the Lesser Ranked Trail, but a roughly equal distribution of the gems should be green, blue, or purple as oposed to only green. The frequency of shapes should increase.",50,"50,625",600,$12.00
 FALSE,Trail,Lord of the Flies,Uncommon,,,,,,,,,None,Motes of black flies are left in your wake. They slowly disperse.,10,"11,250",150,$3.00
-TRUE,Trail,Mastermind,Epic,,,,,trail_mastermind,mcc:island_cosmetics.trails.mastermind,,,Complete,"Floating text keeps appearing around the player with maths equations such as 1+1=, E=MC2 and 3.14159",50,"67,500",600,$12.00
+TRUE,Trail,Mastermind,Epic,,,,,trail_mastermind,mcc:island_cosmetics.trails.mastermind,,,Complete,"Floating text keeps appearing around the player with maths equations such as 1+1=, E=MC2 and 3.14159",50,"50,625",600,$12.00
 TRUE,Trail,Pixie Dust,Uncommon,,,,,trail_pixie_dust,mcc:island_cosmetics.trails.pixie_dust,,,Complete,Pink puffs of dragon breath trail behind you,10,"11,250",150,$3.00
 TRUE,Trail,Rainbow,Uncommon,,,,,trail_rainbow,mcc:island_cosmetics.trails.rainbow,,,Complete,Multicolored light goes in your wake.,10,"11,250",150,$3.00
 FALSE,Trail,Ranked Trail,Rare,,,,,,,,,In Progress,Must own rank 1 or higher to unlock. Small green diamonds (the shape) and jewel shapes appear behind the player. The shapes spin along the Y axis.,20,"29,250",300,$6.00
-TRUE,Trail,Shredding Notes,Epic,,,,,trail_shredding_notes,mcc:island_cosmetics.trails.shredding_notes,,,Complete,"Whenever you move, rock-n-roll style notes float behind your character and animate briefly. They also float in circles around your character.",50,"67,500",600,$12.00
+TRUE,Trail,Shredding Notes,Epic,,,,,trail_shredding_notes,mcc:island_cosmetics.trails.shredding_notes,,,Complete,"Whenever you move, rock-n-roll style notes float behind your character and animate briefly. They also float in circles around your character.",50,"50,625",600,$12.00
 TRUE,Trail,Smelly Cloud,Rare,,,,,trail_smelly_cloud,mcc:island_cosmetics.trails.smelly_cloud,,,Complete,A green-yellow-brown cloud floats around and behind you (honestly like a fart cloud).,20,"29,250",300,$6.00
 TRUE,Trail,Smoke Cloud,Rare,,,,,trail_smoke_cloud,mcc:island_cosmetics.trails.smoke_cloud,,,Complete,Small puffs of grey smoke sporadically follow your character when in motion.,20,"29,250",300,$6.00
-FALSE,Trail,Speedster,Legendary,,,,,trail_speedster,mcc:island_cosmetics.trails.speedster,,,In Progress,"Whenever you move, a transparent copy of you is left behind for 1 second. This makes you look like you're moving super fast!",100,"180,000","1,000",$20.00
-FALSE,Trail,Superior Ranked Trail,Legendary,,,,,,,,,In Progress,"Must own or have owned at some point rank 5 to unlock. Identical to the Ranked Trail, but orange should be added to the possible colors. Additionally, a light red outline (and possible tint) should be added to all the shapes. The frequency of shapes appearing should increase.",100,"180,000","1,000",$20.00
+FALSE,Trail,Speedster,Legendary,,,,,trail_speedster,mcc:island_cosmetics.trails.speedster,,,In Progress,"Whenever you move, a transparent copy of you is left behind for 1 second. This makes you look like you're moving super fast!",100,"108,000","1,000",$20.00
+FALSE,Trail,Superior Ranked Trail,Legendary,,,,,,,,,In Progress,"Must own or have owned at some point rank 5 to unlock. Identical to the Ranked Trail, but orange should be added to the possible colors. Additionally, a light red outline (and possible tint) should be added to all the shapes. The frequency of shapes appearing should increase.",100,"108,000","1,000",$20.00
 FALSE,,,,,,,,,,,,,,,,,
 FALSE,,,,,,,,,,,,,,,,,
 FALSE,,,,,,,,,,,,,,,,,
