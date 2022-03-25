@@ -8,7 +8,8 @@
             "type": "lighting_updater"
         },
         {
-            "type": "split_per_section"
+            "type": "split_per_section",
+            "sections": ["~ref_*"]
         },
         {
             "type": "empty_region_padding"
