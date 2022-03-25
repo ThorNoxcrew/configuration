@@ -1,18 +1,8 @@
 Active,Category,Item Name,Rarity,Colorable,Default Color,Sources,Item ID,Icon ID,Editor Icon ID,Wardrobe Icon ID,Base Cosmetic,Price (Crafting),Status,Description
-TRUE,Accessory,Aqua Axolotls' Flag,Epic,,,,accessory_aqua_axolotls_flag,mcc:island_cosmetics.accessory.aqua_axolotls_flag,,,accessory_faction_flag,,Complete,A golden rod with a colored flag depicting the associated faction logo.
-TRUE,Accessory,Beam Sword (Dual),Epic,TRUE,#c45cff,,accessory_variant_beam_sword_dual,mcc:island_cosmetics.accessory_variant.beam_sword_dual,,,accessory_beam_sword,component_bland_thread: 0; component_chicken_glue: 2; component_clouded_glass: 3; component_leather_scrap: 0; component_rubber_band: 1; component_finde_string: 0; component_shiny_rock: 4; component_smoking_sulfur: 0; component_vacant_seashell: 0; component_feather_bundle: 0; component_reptilian_scales: 0; component_steel_plate: 3; component_velvet_fabric: 0; component_abyssal_ichor: 0; component_crystal_shards: 3; component_hollow_bone: 0; component_silky_satin: 0; component_everliving_flame: 0; component_glistening_pearl: 0; component_perfected_alloy: 0; component_pristine_chitin: 0,Complete,
-TRUE,Accessory,Blue Bats' Flag,Epic,,,,accessory_blue_bats_flag,mcc:island_cosmetics.accessory.blue_bats_flag,,,accessory_faction_flag,,Complete,A golden rod with a colored flag depicting the associated faction logo.
-TRUE,Accessory,Cyan Coyotes' Flag,Epic,,,,accessory_cyan_coyotes_flag,mcc:island_cosmetics.accessory.cyan_coyotes_flag,,,accessory_faction_flag,,Complete,A golden rod with a colored flag depicting the associated faction logo.
+TRUE,Accessory,Faction Flag (Improved),Rare,,,,accessory_faction_flag_improved,,,,accessory_faction_flag,component_bland_thread: 0; component_chicken_glue: 0; component_clouded_glass: 0; component_leather_scrap: 0; component_rubber_band: 0; component_finde_string: 0; component_shiny_rock: 0; component_smoking_sulfur: 0; component_vacant_seashell: 0; component_feather_bundle: 0; component_reptilian_scales: 0; component_steel_plate: 0; component_velvet_fabric: 0; component_abyssal_ichor: 0; component_crystal_shards: 0; component_hollow_bone: 0; component_silky_satin: 0; component_everliving_flame: 0; component_glistening_pearl: 0; component_perfected_alloy: 0; component_pristine_chitin: 0,Complete,
 FALSE,Accessory,Gauntlet (Golden),Epic,,,,,,,,accessory_gauntlet,,None,
-TRUE,Accessory,Green Geckos' Flag,Epic,,,,accessory_green_geckos_flag,mcc:island_cosmetics.accessory.green_geckos_flag,,,accessory_faction_flag,,Complete,A golden rod with a colored flag depicting the associated faction logo.
-TRUE,Accessory,Lime Llamas' Flag,Epic,,,,accessory_lime_llamas_flag,mcc:island_cosmetics.accessory.lime_llamas_flag,,,accessory_faction_flag,,Complete,A golden rod with a colored flag depicting the associated faction logo.
 FALSE,Accessory,Money Bag (Moneybags),Epic,,,,,,,,accessory_money_bag,,None,
-TRUE,Accessory,Orange Ocelots' Flag,Epic,,,,accessory_orange_ocelots_flag,mcc:island_cosmetics.accessory.orange_ocelots_flag,,,accessory_faction_flag,,Complete,A golden rod with a colored flag depicting the associated faction logo.
 FALSE,Accessory,Paintbrush (Dripping),Epic,,,,,,,,accessory_paintbrush,,None,
-TRUE,Accessory,Pink Parrots' Flag,Epic,,,,accessory_pink_parrots_flag,mcc:island_cosmetics.accessory.pink_parrots_flag,,,accessory_faction_flag,,Complete,A golden rod with a colored flag depicting the associated faction logo.
-TRUE,Accessory,Purple Pandas' Flag,Epic,,,,accessory_purple_pandas_flag,mcc:island_cosmetics.accessory.purple_pandas_flag,,,accessory_faction_flag,,Complete,A golden rod with a colored flag depicting the associated faction logo.
-TRUE,Accessory,Red Rabbits' Flag,Epic,,,,accessory_red_rabbits_flag,mcc:island_cosmetics.accessory.red_rabbits_flag,,,accessory_faction_flag,,Complete,A golden rod with a colored flag depicting the associated faction logo. [Go Red Rabbits!]
-TRUE,Accessory,Yellow Yaks' Flag,Epic,,,,accessory_yellow_yaks_flag,mcc:island_cosmetics.accessory.yellow_yaks_flag,,,accessory_faction_flag,,Complete,A golden rod with a colored flag depicting the associated faction logo.
 FALSE,Accessory,Gauntlet (Dark Matter),Legendary,,,,,,,,accessory_gauntlet,,None,
 TRUE,Accessory,Gauntlet (Elemental),Legendary,,,,accessory_variant_gauntlet_elemental,mcc:island_cosmetics.accessory_variant.gauntlet_elemental,,,accessory_gauntlet,component_bland_thread: 0; component_chicken_glue: 5; component_clouded_glass: 0; component_leather_scrap: 2; component_rubber_band: 1; component_finde_string: 0; component_shiny_rock: 5; component_smoking_sulfur: 0; component_vacant_seashell: 0; component_feather_bundle: 0; component_reptilian_scales: 0; component_steel_plate: 3; component_velvet_fabric: 0; component_abyssal_ichor: 0; component_crystal_shards: 3; component_hollow_bone: 0; component_silky_satin: 0; component_everliving_flame: 1; component_glistening_pearl: 0; component_perfected_alloy: 1; component_pristine_chitin: 0,Complete,[Aw snap!]
 FALSE,Accessory,Lantern (Soul),Legendary,,,,,,,,accessory_lantern,,None,
@@ -72,6 +62,16 @@ FALSE,Hat,Plague Doctor (Leather),Legendary,,,,wardrobe_hat_variant_plague_docto
 FALSE,Hat,Plague Doctor (White),Legendary,,,,wardrobe_hat_variant_plague_doctor_white,mcc:island_cosmetics.hat_variant.plague_doctor_white,,,wardrobe_hat_plague_doctor,,In Progress,[Porcelain is more refined than leather.]
 FALSE,Hat,Plague Doctor (Hooded),Legendary,,,,wardrobe_hat_variant_plague_doctor_white,mcc:island_cosmetics.hat_variant.plague_doctor_white,,,wardrobe_hat_plague_doctor,,In Progress,[Porcelain is more refined than leather.]
 FALSE,Hat,TV Head (Vintage),Legendary,,,,wardrobe_hat_variant_tv_head_vintage,mcc:island_cosmetics.hat_variant.tv_head_vintage,,,wardrobe_hat_tv_head,,In Progress,"[Good morning, Minecraft!]"
+FALSE,,,,,,,,,,,,,,
+FALSE,,,,,,,,,,,,,,
+FALSE,,,,,,,,,,,,,,
+FALSE,,,,,,,,,,,,,,
+FALSE,,,,,,,,,,,,,,
+FALSE,,,,,,,,,,,,,,
+FALSE,,,,,,,,,,,,,,
+FALSE,,,,,,,,,,,,,,
+FALSE,,,,,,,,,,,,,,
+FALSE,,,,,,,,,,,,,,
 FALSE,,,,,,,,,,,,,,
 FALSE,,,,,,,,,,,,,,
 FALSE,,,,,,,,,,,,,,

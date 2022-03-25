@@ -19,7 +19,7 @@ TRUE,Accessory,Comically Large Spoon,Common,,,,,accessory_comically_large_spoon,
 FALSE,Accessory,Crab Claw,Rare,,,,,,,,,None,Giant Crab claw replaces your off-hand. It covers your hand entirely.,20,"14,625",150,$3.00
 TRUE,Accessory,Crowbar,Uncommon,,,,,accessory_crowbar,mcc:island_cosmetics.accessory.crowbar,,,Complete,[Wake up and smell the ashes...],10,"5,625",75,$1.50
 TRUE,Accessory,Drill Arm,Epic,TRUE,,#FFBA30,,accessory_drill_arm,mcc:island_cosmetics.accessory.drill_arm,,,Complete,My drill (arm) shall pierce the championship!,50,"33,750",300,$6.00
-FALSE,Accessory,Faction Flag,Epic,,TRUE,,,accessory_faction_flag,,,,None,,50,"33,750",300,$6.00
+TRUE,Accessory,Faction Flag,Uncommon,,TRUE,,,accessory_faction_flag,,,,Complete,,10,"5,625",75,$1.50
 TRUE,Accessory,Fairy Wand,Rare,TRUE,,#E85FD1,,accessory_fairy_wand,mcc:island_cosmetics.accessory.fairy_wand,,,Complete,Magic wand that mighe be used by a wizard (magic not included). Simple and wooden.,20,"14,625",150,$3.00
 TRUE,Accessory,Fire Fist,Epic,,,,default,accessory_fire_fist,mcc:island_cosmetics.accessory.fire_fist,,,Complete,[Hadouken!],50,"33,750",300,$6.00
 FALSE,Accessory,Foam Finger,Common,,,,,,,,,None,"A large, red foam finger with the inscription ""#1"" displayed on its side.",5,"3,750",50,$1.00
