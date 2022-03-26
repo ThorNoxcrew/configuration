@@ -16,6 +16,6 @@ mccScript {
         type("ambient")
         mainHand("minecraft:blue_candle")
         offHand("minecraft:blue_candle")
-        (invisible)
+        invisible()
     }
 }

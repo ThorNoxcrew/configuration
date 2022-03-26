@@ -17,6 +17,6 @@ mccScript {
 
         type("ambient")
         helmet("minecraft:black_candle")
-        (invisible)
+        invisible()
     }
 }
