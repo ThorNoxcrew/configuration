@@ -16,7 +16,7 @@ mccScript {
         cooldown(1.seconds)
 
         type("ambient")
-        helmet("minecraft:red_candle")
+        helmet("mcc:island_cosmetics.hat_npc.chicken_head")
         invisible()
     }
 }

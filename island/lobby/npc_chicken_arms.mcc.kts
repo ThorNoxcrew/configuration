@@ -14,8 +14,8 @@ mccScript {
         rotation(-110.0, 0.0)
 
         type("ambient")
-        mainHand("minecraft:blue_candle")
-        offHand("minecraft:blue_candle")
+        mainHand("mcc:island_cosmetics.accessory_npc.chicken_wing")
+        offHand("mcc:island_cosmetics.accessory_npc.chicken_wing")
         invisible()
     }
 }
