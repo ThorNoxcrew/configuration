@@ -16,7 +16,7 @@ mccScript {
         cooldown(1.seconds)
 
         type("ambient")
-        helmet("minecraft:black_candle")
+        helmet("minecraft:red_candle")
         invisible()
     }
 }
