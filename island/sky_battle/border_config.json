@@ -5,7 +5,7 @@
             "top": "roof",
             "minY": 30,
             "maxY": 80,
-            "warningDistance": 12,
+            "warningDistance": 15,
             "showWhenStatic": true,
             "staticColor": [0, 255, 255],
             "movingColor": [255, 0, 0]
@@ -13,7 +13,7 @@
         "roof": {
             "type": "particle_roof",
             "base": "cylinder",
-            "warningDistance": 7,
+            "warningDistance": 10,
             "showWhenStatic": false,
             "staticColor": [255, 165, 0],
             "movingColor": [255, 165, 0]

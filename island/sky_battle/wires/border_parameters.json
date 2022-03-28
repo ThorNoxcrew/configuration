@@ -1,7 +1,7 @@
 {
     "radius": {
         "cylinder": {
-            "initial": 155,
+            "initial": 80,
             "keypoints": [
                 {
                     "type": "static",
@@ -22,7 +22,7 @@
     },
     "height": {
         "roof": {
-            "initial": 80,
+            "initial": 90,
             "keypoints": [
                 {
                     "type": "static",
@@ -31,7 +31,7 @@
                 {
                     "type": "linear",
                     "time": "240s",
-                    "target": 40
+                    "target": 65
                 }
             ]
         }
