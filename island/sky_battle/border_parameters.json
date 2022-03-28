@@ -25,7 +25,7 @@
             "initial": 80,
             "keypoints": [
                 {
-                    "type": "static", 
+                    "type": "static",
                     "time": "60s"
                 },
                 {
