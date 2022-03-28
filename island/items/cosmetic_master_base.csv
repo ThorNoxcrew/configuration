@@ -141,7 +141,7 @@ FALSE,Hat,Champion Scarf,,,,,,,,,,,,,,,
 TRUE,Hat,Chef's Hat,Common,TRUE,,#F7391B,,wardrobe_hat_chefs_hat,mcc:island_cosmetics.hat.chefs_hat,,,Complete,"[What's cookin, good lookin?]",5,"3,750",50,$1.00
 TRUE,Hat,Chicken Head,Rare,,,,,wardrobe_hat_chicken_head,mcc:island_cosmetics.hat.chicken_head,,,Complete,[No longer headless!],20,"14,625",150,$3.00
 TRUE,Hat,Computer Head,Legendary,TRUE,,#B1FF00,,wardrobe_hat_computer_head,mcc:island_cosmetics.hat.computer_head,,,Complete,[HELLO WORLD],100,"108,000",600,$12.00
-TRUE,Hat,Cool Shades,Rare,,,,,wardrobe_hat_cool_shades,mcc:island_cosmetics.hat.cool_shades,,,Complete,"[Sun's out, guns out!]",20,"14,625",150,$3.00
+TRUE,Hat,Shades,Common,,,,,wardrobe_hat_shades,mcc:island_cosmetics.hat.shades,,,Complete,,5,"3,750",50,$1.00
 TRUE,Hat,Crusader,Rare,,,,,wardrobe_hat_crusader,mcc:island_cosmetics.hat.crusader,,,Complete,['tis but a scratch!],20,"14,625",150,$3.00
 TRUE,Hat,Cthulu's Head,Epic,,,,,wardrobe_hat_cthulus_head,mcc:island_cosmetics.hat.cthulus_head,,,Complete,A mass of tentacles spewing from the player's head. Maybe bat ears on the side of the head. [Ph'nglui mglw'nafh Bloc'kulu MCC Island wgah'nagl fhtagn],50,"33,750",300,$6.00
 TRUE,Hat,Curved Demon Horns,Rare,TRUE,,#8c466d,,wardrobe_hat_curved_demon_horns,mcc:island_cosmetics.hat.curved_demon_horns,,,Complete,[You are not prepared.],20,"14,625",150,$3.00
@@ -162,7 +162,6 @@ TRUE,Hat,Fez,Common,,,,,wardrobe_hat_fez,mcc:island_cosmetics.hat.fez,,,Complete
 TRUE,Hat,Fishbowl,Epic,TRUE,,#FF9F44,,wardrobe_hat_fishbowl,mcc:island_cosmetics.hat.fishbowl,,,Complete,[The environmental hydration unit is technologically complex and not just a glass bowl.],50,"33,750",300,$6.00
 FALSE,Hat,Flagmaster,Uncommon,,,,,,,,,None,A headband with two small triangular flags (one white and one gold) pointing to the player's left and right.,10,"5,625",75,$1.50
 TRUE,Hat,Football Helmet,Uncommon,TRUE,,#FF2F2F,,wardrobe_hat_football_helmet,mcc:island_cosmetics.hat.football_helmet,,,Complete,Classic Football Helmet. [Blue! 24! Hike!],10,"5,625",75,$1.50
-TRUE,Hat,Frog Bucket Hat,Uncommon,TRUE,,#6ed64f,,wardrobe_hat_frog_bucket_hat,mcc:island_cosmetics.hat.frog_bucket_hat,,,Complete,[Ribbit!],10,"5,625",75,$1.50
 TRUE,Hat,Fruit Crown,Uncommon,TRUE,,,,wardrobe_hat_fruit_crown,mcc:island_cosmetics.hat.fruit_crown,,,Complete,[A champion can't be without a basket and a plethora of fruit!],10,"5,625",75,$1.50
 TRUE,Hat,Gas Mask,Uncommon,TRUE,,#4a4a50,,wardrobe_hat_gas_mask,mcc:island_cosmetics.hat.gas_mask,,,Complete,[*unintelligble muffled quote*],10,"5,625",75,$1.50
 FALSE,Hat,Glasses,Common,,,,,,,,,None,"A pair of normal, prescription spectacles.",5,"3,750",50,$1.00
@@ -227,7 +226,6 @@ TRUE,Aura,Cuckoo,Epic,,,,,aura_cuckoo,mcc:island_cosmetics.auras.cuckoo,,,Comple
 FALSE,Aura,Devil Wings,Epic,,,,,,,,,None,Red Particles in the shape of Devil Wings on the back of the player,50,"50,625",800,$16.00
 FALSE,Aura,Dizzy,Rare,,,,,,,,,None,Spirals and spell particles gently float over your head. Maybe you're drunk.,20,"29,250",400,$8.00
 TRUE,Aura,Flutter,Rare,,,,,aura_flutter,mcc:island_cosmetics.auras.flutter,,,Complete,Feathers occasionally flutter around the player.,20,"29,250",400,$8.00
-TRUE,Aura,Greater Ranked Aura,Legendary,,,,,aura_rank_4_scattered_shapes,,,,Complete,"Must own rank 4 to unlock. Ihdenstical to the Ranked Aura, but an equal distribution of the apes should be green, blue, purple and orange as opposed to only green and blue. The frequency of shapes should increase.",100,"108,000","1,200",$24.00
 TRUE,Aura,Hover Rings,Uncommon,,,,default,aura_hover_rings,mcc:island_cosmetics.auras.hover_rings,,,Complete,,10,"11,250",200,$4.00
 TRUE,Aura,MCC Coin,Rare,,,,,aura_mcc_coin,mcc:island_cosmetics.auras.mcc_coin,,,Complete,"Occasionally, MCC Coins float around the player and wink in-and-out of existence. [*These Coins do not affect final score.]",20,"29,250",400,$8.00
 TRUE,Aura,Ranked Aura,Epic,,,,,aura_rank_2_scattered_shapes,,,,Complete,Must own rank 2 or higher to unlock. Small diamonds (the shape) slowly appear and disappear around the player. The diamonds spin along the Y axis. A roughly equal number of the shapes should be green and blue.,50,"50,625",800,$16.00
@@ -240,7 +238,6 @@ FALSE,Aura,Mobile Garden,Rare,,,,,aura_mobile_garden,,,,In Progress,A ring of fl
 FALSE,Aura,Flyman Dan,Legendary,,,,,aura_flyman_dan,,,,In Progress,A little dude with elytra wings flys around the player,100,"108,000","1,200",$24.00
 FALSE,Trail,Celebrator,Rare,,,,,,,,,None,"Small, colorful firework explosions follow the player.",20,"29,250",300,$6.00
 TRUE,Trail,Ember,Uncommon,,,,,trail_ember,mcc:island_cosmetics.trails.ember,,,Complete,Red-grey ash trails behind you.,10,"11,250",150,$3.00
-TRUE,Trail,Greater Ranked Trail,Epic,,,,,trail_rank_3_scattered_shapes,,,,Complete,"Must own rank 3 or higher to unlock. Identical to the Lesser Ranked Trail, but a roughly equal distribution of the gems should be green, blue, or purple as oposed to only green. The frequency of shapes should increase.",50,"50,625",600,$12.00
 FALSE,Trail,Lord of the Flies,Uncommon,,,,,,,,,None,Motes of black flies are left in your wake. They slowly disperse.,10,"11,250",150,$3.00
 TRUE,Trail,Mastermind,Epic,,,,,trail_mastermind,mcc:island_cosmetics.trails.mastermind,,,Complete,"Floating text keeps appearing around the player with maths equations such as 1+1=, E=MC2 and 3.14159",50,"50,625",600,$12.00
 TRUE,Trail,Pixie Dust,Uncommon,,,,,trail_pixie_dust,mcc:island_cosmetics.trails.pixie_dust,,,Complete,Pink puffs of dragon breath trail behind you,10,"11,250",150,$3.00
@@ -250,7 +247,6 @@ TRUE,Trail,Shredding Notes,Epic,,,,,trail_shredding_notes,mcc:island_cosmetics.t
 TRUE,Trail,Smelly Cloud,Rare,,,,,trail_smelly_cloud,mcc:island_cosmetics.trails.smelly_cloud,,,Complete,A green-yellow-brown cloud floats around and behind you (honestly like a fart cloud).,20,"29,250",300,$6.00
 TRUE,Trail,Smoke Cloud,Rare,,,,,trail_smoke_cloud,mcc:island_cosmetics.trails.smoke_cloud,,,Complete,Small puffs of grey smoke sporadically follow your character when in motion.,20,"29,250",300,$6.00
 FALSE,Trail,Speedster,Legendary,,,,,trail_speedster,mcc:island_cosmetics.trails.speedster,,,In Progress,"Whenever you move, a transparent copy of you is left behind for 1 second. This makes you look like you're moving super fast!",100,"108,000","1,000",$20.00
-TRUE,Trail,Superior Ranked Trail,Legendary,,,,,trail_rank_5_scattered_shapes,,,,Complete,"Must own or have owned at some point rank 5 to unlock. Identical to the Ranked Trail, but orange should be added to the possible colors. Additionally, a light red outline (and possible tint) should be added to all the shapes. The frequency of shapes appearing should increase.",100,"108,000","1,000",$20.00
 FALSE,Trail,Valentine,,,,,,,,,,None,Pink hearts swirl and pink air trail behind you.,,,,
 FALSE,Trail,Light Ribbon,,,,,,,,,,None,"A small, clear ribbon of light follows the player (think TRON). It doesn't extend too far beyond the player--maybe 2 blocks.",,,,
 FALSE,Trail,Chromatic Light Ribbon,,,,,,,,,,None,"A small, clear ribbon of light follows the player (think TRON). The light slowly changes color from white to red through the color spectrum to purple and back.",,,,
@@ -259,6 +255,10 @@ FALSE,Trail,Flaming Footprints,,,,,,,,,,None,"Whenever you walk, leave a trail o
 FALSE,Trail,FelFlame Footprints,,,,,,,,,,None,"Whenever you walk, leave a trail of small green flames on the ground. Similar to Illidan from Warcraft 3's footprints.",,,,
 FALSE,Trail,Paku Paku,,,,,,,,,,None,Small white dots trail behind your character when in motion.,,,,
 FALSE,Trail,Fae Queen,,,,,,,,,,None,Butterflies and other beautiful insects flutter in your wake briefly before despawning. You also leave vibrant colors reminiscent of a fairy world.,,,,
+FALSE,,,,,,,,,,,,,,,,,
+FALSE,,,,,,,,,,,,,,,,,
+FALSE,,,,,,,,,,,,,,,,,
+FALSE,,,,,,,,,,,,,,,,,
 FALSE,,,,,,,,,,,,,,,,,
 FALSE,,,,,,,,,,,,,,,,,
 FALSE,,,,,,,,,,,,,,,,,

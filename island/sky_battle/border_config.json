@@ -1,0 +1,22 @@
+{
+    "borders": {
+        "cylinder": {
+            "type": "particle_walls",
+            "top": "roof",
+            "minY": 40,
+            "maxY": 100,
+            "warningDistance": 15,
+            "showWhenStatic": true,
+            "staticColor": [0, 255, 255],
+            "movingColor": [255, 0, 0]
+        },
+        "roof": {
+            "type": "particle_roof",
+            "base": "cylinder",
+            "warningDistance": 10,
+            "showWhenStatic": false,
+            "staticColor": [255, 165, 0],
+            "movingColor": [255, 165, 0]
+        }
+    }
+}
