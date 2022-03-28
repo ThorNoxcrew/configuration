@@ -1,0 +1,39 @@
+{
+    "radius": {
+        "cylinder": {
+            "initial": 155,
+            "keypoints": [
+                {
+                    "type": "static",
+                    "time": "30s"
+                },
+                {
+                    "type": "linear",
+                    "time": "130s",
+                    "target": 40
+                },
+                {
+                    "type": "linear",
+                    "time": "210s",
+                    "target": 0
+                }
+            ]
+        }
+    },
+    "height": {
+        "roof": {
+            "initial": 80,
+            "keypoints": [
+                {
+                    "type": "static", 
+                    "time": "60s"
+                },
+                {
+                    "type": "linear",
+                    "time": "240s",
+                    "target": 40
+                }
+            ]
+        }
+    }
+}
