@@ -6,7 +6,7 @@
         },
         {
             "type": "parkour_tag_assembler",
-            "createHub": "false"
+            "createHub": "true"
         },
         {
             "type": "remove_sections",
