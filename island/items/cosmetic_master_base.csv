@@ -170,7 +170,7 @@ TRUE,Hat,Hard Hat,Common,,,#ffb500,,wardrobe_hat_hard_hat,mcc:island_cosmetics.h
 TRUE,Hat,Headphones,Common,TRUE,,#4FD673,,wardrobe_hat_headphones,mcc:island_cosmetics.hat.headphones,,,Complete,Basic Headphones [Pump up the volume to your heart's content!],5,"3,750",50,$1.00
 FALSE,Hat,Hexapus Head,,,,,,,,,,,,,,,
 TRUE,Hat,Horned Helmet,Uncommon,,,,,wardrobe_hat_horned_viking_helmet,mcc:island_cosmetics.hat.horned_viking_helmet,,,Complete,[Not Historically Accurate],10,"5,625",75,$1.50
-TRUE,Hat,Kitsune Mask,Rare,TRUE,,,default,wardrobe_hat_kitsune_mask,mcc:island_cosmetics.hat.kitsune_mask,,,Complete,,20,"14,625",150,$3.00
+TRUE,Hat,Kitsune Mask,Rare,TRUE,,#ff788e,default,wardrobe_hat_kitsune_mask,mcc:island_cosmetics.hat.kitsune_mask,,,Complete,,20,"14,625",150,$3.00
 TRUE,Hat,Knight Helmet,Epic,TRUE,,#FD382A,,wardrobe_hat_knight_helmet,mcc:island_cosmetics.hat.knight_helmet,,,Complete,"[You may not be a bird, but you have a lovely plume.]",50,"33,750",300,$6.00
 TRUE,Hat,Magician's Hat,Uncommon,TRUE,,#F7391B,,wardrobe_hat_magicians_hat,mcc:island_cosmetics.hat.magicians_hat,,,Complete,A black magician's hat with a red stripe across the brim. [And now to make your coins disappear!],10,"5,625",75,$1.50
 TRUE,Hat,Mascot Bobblehead,Legendary,,,,,wardrobe_hat_mascot_bobblehead,mcc:island_cosmetics.hat.mascot_bobblehead,,,Complete,[The Champion],100,"108,000",600,$12.00
