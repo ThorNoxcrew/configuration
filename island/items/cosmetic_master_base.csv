@@ -17,7 +17,7 @@ FALSE,Accessory,Cleaver,Uncommon,,,,,,,,,None,Butcher's Cleaver as used by a but
 TRUE,Accessory,Coffee Mug,Rare,TRUE,,#ffffff,,accessory_coffee_mug,mcc:island_cosmetics.accessory.coffee_mug,,,Complete,White mug filled with brown coffee. Steam occasionally wafts up from the cup.,20,"14,625",150,$3.00
 TRUE,Accessory,Comically Large Spoon,Common,,,,,accessory_comically_large_spoon,mcc:island_cosmetics.accessory.comically_large_spoon,,,Complete,"[It's a spoon, and it's comically large]",5,"3,750",50,$1.00
 FALSE,Accessory,Crab Claw,Rare,,,,,,,,,None,Giant Crab claw replaces your off-hand. It covers your hand entirely.,20,"14,625",150,$3.00
-TRUE,Accessory,Crowbar,Uncommon,,,,,accessory_crowbar,mcc:island_cosmetics.accessory.crowbar,,,Complete,[Wake up and smell the ashes...],10,"5,625",75,$1.50
+TRUE,Accessory,Crowbar,Uncommon,TRUE,,,,accessory_crowbar,mcc:island_cosmetics.accessory.crowbar,,,Complete,[Wake up and smell the ashes...],10,"5,625",75,$1.50
 TRUE,Accessory,Drill Arm,Epic,TRUE,,#FFBA30,,accessory_drill_arm,mcc:island_cosmetics.accessory.drill_arm,,,Complete,My drill (arm) shall pierce the championship!,50,"33,750",300,$6.00
 TRUE,Accessory,Faction Flag,Uncommon,,TRUE,,,accessory_faction_flag,,,,Complete,,10,"5,625",75,$1.50
 TRUE,Accessory,Fairy Wand,Rare,TRUE,,#E85FD1,,accessory_fairy_wand,mcc:island_cosmetics.accessory.fairy_wand,,,Complete,Magic wand that mighe be used by a wizard (magic not included). Simple and wooden.,20,"14,625",150,$3.00
@@ -53,7 +53,7 @@ FALSE,Accessory,Poseidon's Trident,Legendary,,,,,accessory_poseidons_trident,mcc
 FALSE,Accessory,Preppy Flag,Uncommon,,,,,,,,,None,Small flag with 'MCC' written on it.,10,"5,625",75,$1.50
 FALSE,Accessory,Red Trophy,Legendary,,,,,,,,,In Progress,A red trophy with an N on top (for Noxcrew). Awarded as a Beta present for making any purchase.,100,"108,000",600,$12.00
 TRUE,Accessory,Robot Arm,Uncommon,,,,default,accessory_robot_arm,mcc:island_cosmetics.accessory.robot_arm,,,Complete,A mechanical Robot Claw,10,"5,625",75,$1.50
-TRUE,Accessory,Rose,Common,,,,,accessory_rose,mcc:island_cosmetics.accessory.rose,,,Complete,A single rose flower.,5,"3,750",50,$1.00
+TRUE,Accessory,Rose,Common,TRUE,,,,accessory_rose,mcc:island_cosmetics.accessory.rose,,,Complete,A single rose flower.,5,"3,750",50,$1.00
 TRUE,Accessory,Sai,Rare,TRUE,,#e54545,,accessory_sai,mcc:island_cosmetics.accessory.sai,,,Complete,,20,"14,625",150,$3.00
 TRUE,Accessory,Selfie Stick,Rare,,,,,accessory_selfie_stick,mcc:island_cosmetics.accessory.selfie_stick,,,Complete,A smartphone mounted on a stick,20,"14,625",150,$3.00
 TRUE,Accessory,Skateboard,Rare,TRUE,,#8fce00,,accessory_skateboard,mcc:island_cosmetics.accessory.skateboard,,,Complete,A Skateboard being held under the arm,20,"14,625",150,$3.00
@@ -131,7 +131,6 @@ TRUE,Hat,Banana Head,Legendary,,,,,wardrobe_hat_banana_hat,mcc:island_cosmetics.
 TRUE,Hat,Bandana,Common,TRUE,,#F7391B,,wardrobe_hat_bandana,mcc:island_cosmetics.hat.bandana,,,Complete,"A red bandana around the head. Think Rambo. [Don't push it, or I'll give you rivalry you won't believe.]",5,"3,750",50,$1.00
 TRUE,Hat,Beanie,Common,TRUE,,#00c4d7,,wardrobe_hat_beanie,mcc:island_cosmetics.hat.beanie,,,Complete,[A staple of warm headwear],5,"3,750",50,$1.00
 TRUE,Hat,Beret,Common,TRUE,,#5F5B63,,wardrobe_hat_beret,mcc:island_cosmetics.hat.beret,,,Complete,"A black beret with a small red puff on the top. [Popular among mimes, hide-and-seek enthusiasts, and the French.]",5,"3,750",50,$1.00
-TRUE,Hat,Blindfold,Uncommon,TRUE,,#4BBBF2,,wardrobe_hat_blindfold,mcc:island_cosmetics.hat.blindfold,,,Complete,[Fifty shades of complete darkness.],10,"5,625",75,$1.50
 TRUE,Hat,Boater,Common,TRUE,,#5c75ff,,wardrobe_hat_boater,mcc:island_cosmetics.hat.boater,,,Complete,[I feel a song coming on!],5,"3,750",50,$1.00
 TRUE,Hat,Bucket Hat,Common,TRUE,,#FF903B,,wardrobe_hat_bucket_hat,mcc:island_cosmetics.hat.bucket_hat,,,Complete,[*Does not hold water],5,"3,750",50,$1.00
 TRUE,Hat,Burger Head,Rare,,,,,wardrobe_hat_burger_head,mcc:island_cosmetics.hat.burger_head,,,Complete,[Mmm.. Burger],20,"14,625",150,$3.00
@@ -141,7 +140,7 @@ FALSE,Hat,Champion Scarf,,,,,,,,,,,,,,,
 TRUE,Hat,Chef's Hat,Common,TRUE,,#F7391B,,wardrobe_hat_chefs_hat,mcc:island_cosmetics.hat.chefs_hat,,,Complete,"[What's cookin, good lookin?]",5,"3,750",50,$1.00
 TRUE,Hat,Chicken Head,Rare,,,,,wardrobe_hat_chicken_head,mcc:island_cosmetics.hat.chicken_head,,,Complete,[No longer headless!],20,"14,625",150,$3.00
 TRUE,Hat,Computer Head,Legendary,TRUE,,#B1FF00,,wardrobe_hat_computer_head,mcc:island_cosmetics.hat.computer_head,,,Complete,[HELLO WORLD],100,"108,000",600,$12.00
-TRUE,Hat,Shades,Common,,,,,wardrobe_hat_shades,mcc:island_cosmetics.hat.shades,,,Complete,,5,"3,750",50,$1.00
+TRUE,Hat,Shades,Common,TRUE,,,,wardrobe_hat_shades,mcc:island_cosmetics.hat.shades,,,Complete,,5,"3,750",50,$1.00
 TRUE,Hat,Crusader,Rare,,,,,wardrobe_hat_crusader,mcc:island_cosmetics.hat.crusader,,,Complete,['tis but a scratch!],20,"14,625",150,$3.00
 TRUE,Hat,Cthulu's Head,Epic,,,,,wardrobe_hat_cthulus_head,mcc:island_cosmetics.hat.cthulus_head,,,Complete,A mass of tentacles spewing from the player's head. Maybe bat ears on the side of the head. [Ph'nglui mglw'nafh Bloc'kulu MCC Island wgah'nagl fhtagn],50,"33,750",300,$6.00
 TRUE,Hat,Curved Demon Horns,Rare,TRUE,,#8c466d,,wardrobe_hat_curved_demon_horns,mcc:island_cosmetics.hat.curved_demon_horns,,,Complete,[You are not prepared.],20,"14,625",150,$3.00
@@ -157,7 +156,6 @@ TRUE,Hat,Faction Beanie,Common,,TRUE,,,wardrobe_hat_faction_beanie,,,,Complete,,
 TRUE,Hat,Faction Crown,Legendary,,TRUE,,,wardrobe_hat_faction_crown,,,,Complete,,100,"108,000",600,$12.00
 TRUE,Hat,Faction Facial,Rare,,TRUE,,,wardrobe_hat_faction_facial,,,,Complete,,20,"14,625",150,$3.00
 TRUE,Hat,Faction Helmet,Epic,,TRUE,,,wardrobe_hat_faction_helmet,,,,Complete,,50,"33,750",300,$6.00
-TRUE,Hat,Fancy Hat,Uncommon,TRUE,,#E85FD1,,wardrobe_hat_fancy_hat,mcc:island_cosmetics.hat.fancy_hat,,,Complete,A purple wide-brim hat with an orange feather. [Perfect for when you mean to impress.],10,"5,625",75,$1.50
 TRUE,Hat,Fez,Common,,,,,wardrobe_hat_fez,mcc:island_cosmetics.hat.fez,,,Complete,[Fezzes are cool.],5,"3,750",50,$1.00
 TRUE,Hat,Fishbowl,Epic,TRUE,,#FF9F44,,wardrobe_hat_fishbowl,mcc:island_cosmetics.hat.fishbowl,,,Complete,[The environmental hydration unit is technologically complex and not just a glass bowl.],50,"33,750",300,$6.00
 FALSE,Hat,Flagmaster,Uncommon,,,,,,,,,None,A headband with two small triangular flags (one white and one gold) pointing to the player's left and right.,10,"5,625",75,$1.50
@@ -172,7 +170,7 @@ TRUE,Hat,Hard Hat,Common,,,#ffb500,,wardrobe_hat_hard_hat,mcc:island_cosmetics.h
 TRUE,Hat,Headphones,Common,TRUE,,#4FD673,,wardrobe_hat_headphones,mcc:island_cosmetics.hat.headphones,,,Complete,Basic Headphones [Pump up the volume to your heart's content!],5,"3,750",50,$1.00
 FALSE,Hat,Hexapus Head,,,,,,,,,,,,,,,
 TRUE,Hat,Horned Helmet,Uncommon,,,,,wardrobe_hat_horned_viking_helmet,mcc:island_cosmetics.hat.horned_viking_helmet,,,Complete,[Not Historically Accurate],10,"5,625",75,$1.50
-TRUE,Hat,Kitsune Mask,Rare,,,,default,wardrobe_hat_kitsune_mask,mcc:island_cosmetics.hat.kitsune_mask,,,Complete,,20,"14,625",150,$3.00
+TRUE,Hat,Kitsune Mask,Rare,TRUE,,,default,wardrobe_hat_kitsune_mask,mcc:island_cosmetics.hat.kitsune_mask,,,Complete,,20,"14,625",150,$3.00
 TRUE,Hat,Knight Helmet,Epic,TRUE,,#FD382A,,wardrobe_hat_knight_helmet,mcc:island_cosmetics.hat.knight_helmet,,,Complete,"[You may not be a bird, but you have a lovely plume.]",50,"33,750",300,$6.00
 TRUE,Hat,Magician's Hat,Uncommon,TRUE,,#F7391B,,wardrobe_hat_magicians_hat,mcc:island_cosmetics.hat.magicians_hat,,,Complete,A black magician's hat with a red stripe across the brim. [And now to make your coins disappear!],10,"5,625",75,$1.50
 TRUE,Hat,Mascot Bobblehead,Legendary,,,,,wardrobe_hat_mascot_bobblehead,mcc:island_cosmetics.hat.mascot_bobblehead,,,Complete,[The Champion],100,"108,000",600,$12.00
@@ -181,7 +179,7 @@ TRUE,Hat,Mellowhead,Rare,,,,default,wardrobe_hat_mellowhead,mcc:island_cosmetics
 TRUE,Hat,Mobster Hat,Common,TRUE,,#403D42,,wardrobe_hat_mobster_hat,mcc:island_cosmetics.hat.mobster_hat,,,Complete,A black fedora like that a gangster might wear. [This is a hat you can't refuse.],5,"3,750",50,$1.00
 FALSE,Hat,Neccromancer Skull,Epic,,,,,,,,,None,"In Noxcrew's Dragon Skies, there is an enemy: the Necromancer. A miniature version of his skull now rests upon the player's head (also leaning back slightly). Its eyes are lifeless and hollow. .....Or they're animated and glowing...!",50,"33,750",300,$6.00
 TRUE,Hat,Night Vision Goggles,Rare,TRUE,,#A2FF17,,wardrobe_hat_night_vision,mcc:island_cosmetics.hat.night_vision,,,Complete,"[Fisher, do you copy?]",20,"14,625",150,$3.00
-TRUE,Hat,Oni Mask,Epic,TRUE,,#039dfc,default,wardrobe_hat_oni_mask,mcc:island_cosmetics.hat.oni_mask,,,Complete,,50,"33,750",300,$6.00
+TRUE,Hat,Oni Mask,Epic,TRUE,,#DD153C,default,wardrobe_hat_oni_mask,mcc:island_cosmetics.hat.oni_mask,,,Complete,,50,"33,750",300,$6.00
 TRUE,Hat,Party Hat,Common,TRUE,,#ff8dc9,,wardrobe_hat_party_hat,mcc:island_cosmetics.hat.party_hat,,,Complete,"[Party like it's November, 2011!]",5,"3,750",50,$1.00
 TRUE,Hat,Pilot's Hat,Uncommon,,,,,wardrobe_hat_pilot_hat,mcc:island_cosmetics.hat.pilot_hat,,,Complete,[Ready to fly?],10,"5,625",75,$1.50
 TRUE,Hat,Pirate Hat,Rare,TRUE,,#ed3e3e,,wardrobe_hat_pirate_hat,mcc:island_cosmetics.hat.pirate_hat,,,Complete,[Yar har fiddle dee dee!],20,"14,625",150,$3.00
@@ -201,8 +199,6 @@ TRUE,Hat,Strawberry Head,Epic,,,,,wardrobe_hat_strawberry_hat,mcc:island_cosmeti
 TRUE,Hat,Sultan,Uncommon,TRUE,,#A250E5,,wardrobe_hat_sultan,mcc:island_cosmetics.hat.sultan,,,Complete,A massive turban covered with gems. [Kingdom sold seperately],10,"5,625",75,$1.50
 TRUE,Hat,Sun Hat,Common,TRUE,,#F77E14,,wardrobe_hat_sun_hat,mcc:island_cosmetics.hat.sun_hat,,,Complete,A long brimmed hat for the summer. [Did somebody say beach episode?],5,"3,750",50,$1.00
 TRUE,Hat,Sun Visor,Common,TRUE,,#F7391B,,wardrobe_hat_sun_visor,mcc:island_cosmetics.hat.sun_visor,,,Complete,[Watch out for the sun!],5,"3,750",50,$1.00
-TRUE,Hat,Sunbrella,Uncommon,,,,,wardrobe_hat_sunbrella,mcc:island_cosmetics.hat.sunbrella,,,Complete,An umbrella hat that protects the wearer from sun and rain! [Mom said not to leave home without an umbrella.],10,"5,625",75,$1.50
-TRUE,Hat,Texan Capitalist,Epic,,,,,wardrobe_hat_texan_capitalist,mcc:island_cosmetics.hat.texan_capitalist,,,Complete,"An incredibly tall pearly white cowboy hat. [I'm Neal Noxite, owner of the Noxite Vox-Noxesium.]",50,"33,750",300,$6.00
 TRUE,Hat,Toadstool,Uncommon,,,,,wardrobe_hat_toadstool,mcc:island_cosmetics.hat.toadstool,,,Complete,"[Thank you, but our princess is in another tournament!]",10,"5,625",75,$1.50
 TRUE,Hat,Toy Robot,Rare,TRUE,,#f44336,default,wardrobe_hat_toy_robot,mcc:island_cosmetics.hat.toy_robot,,,Complete,,20,"14,625",150,$3.00
 TRUE,Hat,Traffic Cone,Uncommon,,,,,wardrobe_hat_traffic_cone,mcc:island_cosmetics.hat.traffic_cone,,,Complete,[I'm walkin' here],10,"5,625",75,$1.50
@@ -255,6 +251,10 @@ FALSE,Trail,Flaming Footprints,,,,,,,,,,None,"Whenever you walk, leave a trail o
 FALSE,Trail,FelFlame Footprints,,,,,,,,,,None,"Whenever you walk, leave a trail of small green flames on the ground. Similar to Illidan from Warcraft 3's footprints.",,,,
 FALSE,Trail,Paku Paku,,,,,,,,,,None,Small white dots trail behind your character when in motion.,,,,
 FALSE,Trail,Fae Queen,,,,,,,,,,None,Butterflies and other beautiful insects flutter in your wake briefly before despawning. You also leave vibrant colors reminiscent of a fairy world.,,,,
+FALSE,,,,,,,,,,,,,,,,,
+FALSE,,,,,,,,,,,,,,,,,
+FALSE,,,,,,,,,,,,,,,,,
+FALSE,,,,,,,,,,,,,,,,,
 FALSE,,,,,,,,,,,,,,,,,
 FALSE,,,,,,,,,,,,,,,,,
 FALSE,,,,,,,,,,,,,,,,,
