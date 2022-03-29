@@ -3,8 +3,8 @@
         "cylinder": {
             "type": "particle_walls",
             "top": "roof",
-            "minY": 30,
-            "maxY": 80,
+            "minY": 40,
+            "maxY": 100,
             "warningDistance": 15,
             "showWhenStatic": true,
             "staticColor": [0, 255, 255],
