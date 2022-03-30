@@ -19,7 +19,7 @@ TRUE,Accessory,Comically Large Spoon,Common,,,,,accessory_comically_large_spoon,
 FALSE,Accessory,Crab Claw,Rare,,,,,,,,,None,Giant Crab claw replaces your off-hand. It covers your hand entirely.,20,"14,625",150,$3.00
 TRUE,Accessory,Crowbar,Uncommon,TRUE,,,,accessory_crowbar,mcc:island_cosmetics.accessory.crowbar,,,Complete,[Wake up and smell the ashes...],10,"5,625",75,$1.50
 TRUE,Accessory,Drill Arm,Epic,TRUE,,#FFBA30,,accessory_drill_arm,mcc:island_cosmetics.accessory.drill_arm,,,Complete,My drill (arm) shall pierce the championship!,50,"33,750",300,$6.00
-TRUE,Accessory,Faction Flag,Uncommon,,TRUE,,,accessory_faction_flag,,,,Complete,,10,"5,625",75,$1.50
+TRUE,Accessory,Faction Flag,Uncommon,,TRUE,,,accessory_faction_flag,mcc:island_cosmetics.accessory_faction.flag_improved,,,Complete,,10,"5,625",75,$1.50
 TRUE,Accessory,Fairy Wand,Rare,TRUE,,#E85FD1,,accessory_fairy_wand,mcc:island_cosmetics.accessory.fairy_wand,,,Complete,Magic wand that mighe be used by a wizard (magic not included). Simple and wooden.,20,"14,625",150,$3.00
 TRUE,Accessory,Fire Fist,Epic,,,,default,accessory_fire_fist,mcc:island_cosmetics.accessory.fire_fist,,,Complete,[Hadouken!],50,"33,750",300,$6.00
 FALSE,Accessory,Foam Finger,Common,,,,,,,,,None,"A large, red foam finger with the inscription ""#1"" displayed on its side.",5,"3,750",50,$1.00
@@ -70,6 +70,8 @@ TRUE,Accessory,Viking Shield,Rare,TRUE,,#ef3141,,accessory_viking_shield,mcc:isl
 FALSE,Accessory,Winner's Coin,,,,,,,,,,None,,,,,
 TRUE,Accessory,Wizard Staff,Rare,TRUE,,#19d6ff,default,accessory_wizard_staff,mcc:island_cosmetics.accessory.wizard_staff,,,Complete,[Ponder the Orb..],20,"14,625",150,$3.00
 TRUE,Accessory,Wormhole Blaster,Epic,TRUE,,#4FDCFF,,accessory_wormhole_blaster,mcc:island_cosmetics.accessory.wormhole_blaster,,,Complete,[A colorful method of transportation],50,"33,750",300,$6.00
+TRUE,Accessory,Boxing Glove,Uncommon,TRUE,,#ff473a,default,accessory_boxing_glove,mcc:island_cosmetics.accessory.boxing_glove,,,Complete,,10,"5,625",75,$1.50
+TRUE,Accessory,Spatula,Uncommon,TRUE,,#995733,default,accessory_spatula,mcc:island_cosmetics.accessory.spatula,,,Complete,,10,"5,625",75,$1.50
 TRUE,Hair,Afro,Uncommon,TRUE,,,shop_barber,wardrobe_hair_afro,mcc:island_cosmetics.hair.afro,,,Complete,,10,"5,625",75,$1.50
 TRUE,Hair,Amish,Uncommon,TRUE,,,shop_barber,wardrobe_hair_amish,mcc:island_cosmetics.hair.amish,,,Complete,A wreath of hawaiian flowers draped around the player's neck. Pretty pinks and blues. Given with a Welcome Bundle.,10,"5,625",75,$1.50
 TRUE,Hair,Anime,Rare,TRUE,,,shop_barber,wardrobe_hair_anime,mcc:island_cosmetics.hair.anime,,,Complete,,20,"14,625",150,$3.00
@@ -124,7 +126,6 @@ TRUE,Hair,Wednesday,Uncommon,TRUE,,,shop_barber,wardrobe_hair_wednesday,mcc:isla
 TRUE,Hair,Wizard Beard,Rare,TRUE,,,,wardrobe_hair_wizard_beard,mcc:island_cosmetics.hair.wizard_beard,,,Complete,,20,"14,625",150,$3.00
 TRUE,Hat,3D Glasses,Common,,,,default,wardrobe_hat_3d_glasses,mcc:island_cosmetics.hat.3d_glasses,,,Complete,,5,"3,750",50,$1.00
 TRUE,Hat,8-Ball,Uncommon,,,,default,wardrobe_hat_8_ball,mcc:island_cosmetics.hat.8_ball,,,Complete,[Outlook good.],10,"5,625",75,$1.50
-FALSE,Hat,Archer,Uncommon,,,,,,,,,None,[Robbin' Hood?],10,"5,625",75,$1.50
 TRUE,Hat,Army Helmet,Uncommon,,,,,wardrobe_hat_army_helmet,mcc:island_cosmetics.hat.army_helmet,,,Complete,[Duck and cover!],10,"5,625",75,$1.50
 TRUE,Hat,Astronaut Helmet,Rare,TRUE,,#FF4D0D,,wardrobe_hat_astronaut_helmet,mcc:island_cosmetics.hat.astronaut_helmet,,,Complete,[One small step is all it takes],20,"14,625",150,$3.00
 TRUE,Hat,Banana Head,Legendary,,,,,wardrobe_hat_banana_hat,mcc:island_cosmetics.hat.banana_hat,,,Complete,[Behold! For I am Potassium-Man!],100,"108,000",600,$12.00
@@ -136,7 +137,6 @@ TRUE,Hat,Bucket Hat,Common,TRUE,,#FF903B,,wardrobe_hat_bucket_hat,mcc:island_cos
 TRUE,Hat,Burger Head,Rare,,,,,wardrobe_hat_burger_head,mcc:island_cosmetics.hat.burger_head,,,Complete,[Mmm.. Burger],20,"14,625",150,$3.00
 TRUE,Hat,Cardboard Box,Uncommon,,,,default,wardrobe_hat_cardboard_box,mcc:island_cosmetics.hat.cardboard_box,,,Complete,[It's not just a box..],10,"5,625",75,$1.50
 TRUE,Hat,Cat Ears,Uncommon,,,,,wardrobe_hat_cat_ears,mcc:island_cosmetics.hat.cat_ears,,,Complete,[Meow?],10,"5,625",75,$1.50
-FALSE,Hat,Champion Scarf,,,,,,,,,,,,,,,
 TRUE,Hat,Chef's Hat,Common,TRUE,,#F7391B,,wardrobe_hat_chefs_hat,mcc:island_cosmetics.hat.chefs_hat,,,Complete,"[What's cookin, good lookin?]",5,"3,750",50,$1.00
 TRUE,Hat,Chicken Head,Rare,,,,,wardrobe_hat_chicken_head,mcc:island_cosmetics.hat.chicken_head,,,Complete,[No longer headless!],20,"14,625",150,$3.00
 TRUE,Hat,Computer Head,Legendary,TRUE,,#B1FF00,,wardrobe_hat_computer_head,mcc:island_cosmetics.hat.computer_head,,,Complete,[HELLO WORLD],100,"108,000",600,$12.00
@@ -152,32 +152,27 @@ TRUE,Hat,Disguise,Uncommon,,,,,wardrobe_hat_disguise,mcc:island_cosmetics.hat.di
 TRUE,Hat,Drinking Helmet,Epic,TRUE,,#ff3d12,,wardrobe_hat_drinking_helmet,mcc:island_cosmetics.hat.drinking_helmet,,,Complete,"[Your favourite beverages, now hands-free]",50,"33,750",300,$6.00
 TRUE,Hat,Egg Yolk,Common,,,,,wardrobe_hat_egg_yolk,mcc:island_cosmetics.hat.egg_yolk,,,Complete,[For when you just.. crack],5,"3,750",50,$1.00
 TRUE,Hat,Eyeball,Epic,TRUE,,#5FC234,,wardrobe_hat_eyeball,mcc:island_cosmetics.hat.eyeball,,,Complete,[I spy with my colossal eye..],50,"33,750",300,$6.00
-TRUE,Hat,Faction Beanie,Common,,TRUE,,,wardrobe_hat_faction_beanie,,,,Complete,,5,"3,750",50,$1.00
-TRUE,Hat,Faction Crown,Legendary,,TRUE,,,wardrobe_hat_faction_crown,,,,Complete,,100,"108,000",600,$12.00
-TRUE,Hat,Faction Facial,Rare,,TRUE,,,wardrobe_hat_faction_facial,,,,Complete,,20,"14,625",150,$3.00
-TRUE,Hat,Faction Helmet,Epic,,TRUE,,,wardrobe_hat_faction_helmet,,,,Complete,,50,"33,750",300,$6.00
+TRUE,Hat,Faction Beanie,Common,,TRUE,,,wardrobe_hat_faction_beanie,mcc:island_cosmetics.hat_faction.beanie,,,Complete,,5,"3,750",50,$1.00
+TRUE,Hat,Faction Crown,Legendary,,TRUE,,,wardrobe_hat_faction_crown,mcc:island_cosmetics.hat_faction.crown,,,Complete,,100,"108,000",600,$12.00
+TRUE,Hat,Faction Facial,Rare,,TRUE,,,wardrobe_hat_faction_facial,mcc:island_cosmetics.hat_faction.facial,,,Complete,,20,"14,625",150,$3.00
+FALSE,Hat,Faction Helmet,Epic,,TRUE,,,wardrobe_hat_faction_helmet,mcc:island_cosmetics.hat_faction.helmet,,,None,,50,"33,750",300,$6.00
 TRUE,Hat,Fez,Common,,,,,wardrobe_hat_fez,mcc:island_cosmetics.hat.fez,,,Complete,[Fezzes are cool.],5,"3,750",50,$1.00
 TRUE,Hat,Fishbowl,Epic,TRUE,,#FF9F44,,wardrobe_hat_fishbowl,mcc:island_cosmetics.hat.fishbowl,,,Complete,[The environmental hydration unit is technologically complex and not just a glass bowl.],50,"33,750",300,$6.00
-FALSE,Hat,Flagmaster,Uncommon,,,,,,,,,None,A headband with two small triangular flags (one white and one gold) pointing to the player's left and right.,10,"5,625",75,$1.50
 TRUE,Hat,Football Helmet,Uncommon,TRUE,,#FF2F2F,,wardrobe_hat_football_helmet,mcc:island_cosmetics.hat.football_helmet,,,Complete,Classic Football Helmet. [Blue! 24! Hike!],10,"5,625",75,$1.50
 TRUE,Hat,Fruit Crown,Uncommon,TRUE,,,,wardrobe_hat_fruit_crown,mcc:island_cosmetics.hat.fruit_crown,,,Complete,[A champion can't be without a basket and a plethora of fruit!],10,"5,625",75,$1.50
 TRUE,Hat,Gas Mask,Uncommon,TRUE,,#4a4a50,,wardrobe_hat_gas_mask,mcc:island_cosmetics.hat.gas_mask,,,Complete,[*unintelligble muffled quote*],10,"5,625",75,$1.50
-FALSE,Hat,Glasses,Common,,,,,,,,,None,"A pair of normal, prescription spectacles.",5,"3,750",50,$1.00
 TRUE,Hat,Goggles,Common,TRUE,,#784735,,wardrobe_hat_goggles,mcc:island_cosmetics.hat.goggles,,,Complete,[Perfect for mischief goblin welding!],5,"3,750",50,$1.00
 TRUE,Hat,Graduate,Uncommon,,,,,wardrobe_hat_graduate,mcc:island_cosmetics.hat.graduate,,,Complete,"A black, square hat with a golden tassal to one side. [Highschool is out!]",10,"5,625",75,$1.50
 TRUE,Hat,Halo,Epic,,,,default,wardrobe_hat_halo,mcc:island_cosmetics.hat.halo,,,Complete,[This Is MINECRAFT!!!],50,"33,750",300,$6.00
 TRUE,Hat,Hard Hat,Common,,,#ffb500,,wardrobe_hat_hard_hat,mcc:island_cosmetics.hat.hard_hat,,,Complete,[Protecting noggins since 1882.],5,"3,750",50,$1.00
 TRUE,Hat,Headphones,Common,TRUE,,#4FD673,,wardrobe_hat_headphones,mcc:island_cosmetics.hat.headphones,,,Complete,Basic Headphones [Pump up the volume to your heart's content!],5,"3,750",50,$1.00
-FALSE,Hat,Hexapus Head,,,,,,,,,,,,,,,
 TRUE,Hat,Horned Helmet,Uncommon,,,,,wardrobe_hat_horned_viking_helmet,mcc:island_cosmetics.hat.horned_viking_helmet,,,Complete,[Not Historically Accurate],10,"5,625",75,$1.50
-TRUE,Hat,Kitsune Mask,Rare,TRUE,,,default,wardrobe_hat_kitsune_mask,mcc:island_cosmetics.hat.kitsune_mask,,,Complete,,20,"14,625",150,$3.00
+TRUE,Hat,Kitsune Mask,Rare,TRUE,,#ff788e,default,wardrobe_hat_kitsune_mask,mcc:island_cosmetics.hat.kitsune_mask,,,Complete,,20,"14,625",150,$3.00
 TRUE,Hat,Knight Helmet,Epic,TRUE,,#FD382A,,wardrobe_hat_knight_helmet,mcc:island_cosmetics.hat.knight_helmet,,,Complete,"[You may not be a bird, but you have a lovely plume.]",50,"33,750",300,$6.00
 TRUE,Hat,Magician's Hat,Uncommon,TRUE,,#F7391B,,wardrobe_hat_magicians_hat,mcc:island_cosmetics.hat.magicians_hat,,,Complete,A black magician's hat with a red stripe across the brim. [And now to make your coins disappear!],10,"5,625",75,$1.50
 TRUE,Hat,Mascot Bobblehead,Legendary,,,,,wardrobe_hat_mascot_bobblehead,mcc:island_cosmetics.hat.mascot_bobblehead,,,Complete,[The Champion],100,"108,000",600,$12.00
-FALSE,Hat,MCC Cap,,,,,,,,,,,,,,,
 TRUE,Hat,Mellowhead,Rare,,,,default,wardrobe_hat_mellowhead,mcc:island_cosmetics.hat.mellowhead,,,Complete,,20,"14,625",150,$3.00
 TRUE,Hat,Mobster Hat,Common,TRUE,,#403D42,,wardrobe_hat_mobster_hat,mcc:island_cosmetics.hat.mobster_hat,,,Complete,A black fedora like that a gangster might wear. [This is a hat you can't refuse.],5,"3,750",50,$1.00
-FALSE,Hat,Neccromancer Skull,Epic,,,,,,,,,None,"In Noxcrew's Dragon Skies, there is an enemy: the Necromancer. A miniature version of his skull now rests upon the player's head (also leaning back slightly). Its eyes are lifeless and hollow. .....Or they're animated and glowing...!",50,"33,750",300,$6.00
 TRUE,Hat,Night Vision Goggles,Rare,TRUE,,#A2FF17,,wardrobe_hat_night_vision,mcc:island_cosmetics.hat.night_vision,,,Complete,"[Fisher, do you copy?]",20,"14,625",150,$3.00
 TRUE,Hat,Oni Mask,Epic,TRUE,,#DD153C,default,wardrobe_hat_oni_mask,mcc:island_cosmetics.hat.oni_mask,,,Complete,,50,"33,750",300,$6.00
 TRUE,Hat,Party Hat,Common,TRUE,,#ff8dc9,,wardrobe_hat_party_hat,mcc:island_cosmetics.hat.party_hat,,,Complete,"[Party like it's November, 2011!]",5,"3,750",50,$1.00
@@ -205,12 +200,24 @@ TRUE,Hat,Traffic Cone,Uncommon,,,,,wardrobe_hat_traffic_cone,mcc:island_cosmetic
 TRUE,Hat,Tribal Mask,Rare,TRUE,,#3eb2ff,default,wardrobe_hat_tiki_mask,mcc:island_cosmetics.hat.tiki_mask,,,Complete,,20,"14,625",150,$3.00
 TRUE,Hat,Tricorn Hat,Uncommon,TRUE,,#485c69,,wardrobe_hat_tricorn_hat,mcc:island_cosmetics.hat.tricorn_hat,,,Complete,"French army general hat like that of Napoleon. [Regarding popularity on MCC Island, stupidity is not a handicap.]",10,"5,625",75,$1.50
 TRUE,Hat,Trucker Hat,Common,TRUE,,#5988D9,,wardrobe_hat_trucker_hat,mcc:island_cosmetics.hat.trucker_hat,,,Complete,"Reads ""I <3 MCC."" [Look at my Trucker Hat.]",5,"3,750",50,$1.00
-FALSE,Hat,TSF Helmet,Rare,,,,,,,,,None,A grey helmet top and bottom with an orange visor that covers the entirety of the face. Look at Terra Swoop Force flight suits for reference.,20,"14,625",150,$3.00
 TRUE,Hat,TV Head,Legendary,TRUE,,#8C90A1,,wardrobe_hat_tv_head,mcc:island_cosmetics.hat.tv_head,,,Complete,A Television set placed upon your head. [Reminds me of something from a comic...],100,"108,000",600,$12.00
 TRUE,Hat,Uncle Sam,Rare,,,,,wardrobe_hat_uncle_sam,mcc:island_cosmetics.hat.uncle_sam,,,Complete,[Star-Spangled Fashion],20,"14,625",150,$3.00
 TRUE,Hat,Ushanka,Uncommon,TRUE,,#7F82A3,,wardrobe_hat_ushanka,mcc:island_cosmetics.hat.ushanka,,,Complete,"A brown, furry hat that covers the sides of the head. [Excellent for cold weather.]",10,"5,625",75,$1.50
 TRUE,Hat,VR Headset,Epic,TRUE,,#17F0FF,,wardrobe_hat_vr_headset,mcc:island_cosmetics.hat.vr_headset,,,Complete,[Enter a new reality],50,"33,750",300,$6.00
 TRUE,Hat,Wizard Hat,Uncommon,TRUE,,#9f67d4,,wardrobe_hat_wizard_hat,mcc:island_cosmetics.hat.wizard_hat,,,Complete,[I ghast fireball!],10,"5,625",75,$1.50
+FALSE,Hat,Archer,Uncommon,,,,,,,,,None,[Robbin' Hood?],10,"5,625",75,$1.50
+FALSE,Hat,Champion Scarf,,,,,,,,,,,,,,,
+FALSE,Hat,Flagmaster,Uncommon,,,,,,,,,None,A headband with two small triangular flags (one white and one gold) pointing to the player's left and right.,10,"5,625",75,$1.50
+FALSE,Hat,Glasses,Common,,,,,,,,,None,"A pair of normal, prescription spectacles.",5,"3,750",50,$1.00
+FALSE,Hat,Hexapus Head,,,,,,,,,,,,,,,
+FALSE,Hat,MCC Cap,,,,,,,,,,,,,,,
+FALSE,Hat,Neccromancer Skull,Epic,,,,,,,,,None,"In Noxcrew's Dragon Skies, there is an enemy: the Necromancer. A miniature version of his skull now rests upon the player's head (also leaning back slightly). Its eyes are lifeless and hollow. .....Or they're animated and glowing...!",50,"33,750",300,$6.00
+FALSE,Hat,TSF Helmet,Rare,,,,,,,,,None,A grey helmet top and bottom with an orange visor that covers the entirety of the face. Look at Terra Swoop Force flight suits for reference.,20,"14,625",150,$3.00
+TRUE,Hat,Clown Mask,Epic,TRUE,,#ff5a40,,wardrobe_hat_clown_mask,mcc:island_cosmetics.hat.clown_mask,,,Complete,[Send in the clowns..],50,"33,750",300,$6.00
+TRUE,Hat,Jester,Rare,TRUE,,#209fff,,wardrobe_hat_jester,mcc:island_cosmetics.hat.jester,,,Complete,"[If you weren't already a joke, this hat'll make sure of it!]",20,"14,625",150,$3.00
+TRUE,Hat,King Whip,Legendary,TRUE,,#ffeec5,,wardrobe_hat_king_whip,mcc:island_cosmetics.hat.king_whip,,,Complete,[I'll whip you up an icey treat!],100,"108,000",600,$12.00
+TRUE,Hat,Pharoah Headpiece,Epic,,,,,wardrobe_hat_pharaoh_headpiece,mcc:island_cosmetics.hat.pharoah_headpiece,,,Complete,Ruler of Egypt,50,"33,750",300,$6.00
+TRUE,Hat,Witch Hat,Rare,TRUE,,#4e4564,,wardrobe_hat_witch_hat,mcc:island_cosmetics.hat.witch_hat,,,Complete,"[Bubble, boil, toil & trouble!]",20,"14,625",150,$3.00
 FALSE,Aura,Angel Wings,Epic,,,,,,mcc:island_cosmetics.auras.angel_wings,,,In Progress,White Particles in the shape of Angle Wings on the back of the player,50,"50,625",800,$16.00
 TRUE,Aura,Angry!,Uncommon,,,,,aura_angry,mcc:island_cosmetics.auras.angry,,,Complete,"Every few seconds, smoke billows out of the player's ears, and their head increases in size slightly. [Blow it out your ear!]",10,"11,250",200,$4.00
 TRUE,Aura,Armor of Darkness,Uncommon,,,,,aura_armor_of_darkness,mcc:island_cosmetics.auras.armor_of_darkness,,,Complete,Black and grey shadows surround the player and dance around like an aura. Similar shadows faintly trail behind the player when moving.,10,"11,250",200,$4.00
@@ -251,13 +258,6 @@ FALSE,Trail,Flaming Footprints,,,,,,,,,,None,"Whenever you walk, leave a trail o
 FALSE,Trail,FelFlame Footprints,,,,,,,,,,None,"Whenever you walk, leave a trail of small green flames on the ground. Similar to Illidan from Warcraft 3's footprints.",,,,
 FALSE,Trail,Paku Paku,,,,,,,,,,None,Small white dots trail behind your character when in motion.,,,,
 FALSE,Trail,Fae Queen,,,,,,,,,,None,Butterflies and other beautiful insects flutter in your wake briefly before despawning. You also leave vibrant colors reminiscent of a fairy world.,,,,
-FALSE,,,,,,,,,,,,,,,,,
-FALSE,,,,,,,,,,,,,,,,,
-FALSE,,,,,,,,,,,,,,,,,
-FALSE,,,,,,,,,,,,,,,,,
-FALSE,,,,,,,,,,,,,,,,,
-FALSE,,,,,,,,,,,,,,,,,
-FALSE,,,,,,,,,,,,,,,,,
 FALSE,,,,,,,,,,,,,,,,,
 FALSE,,,,,,,,,,,,,,,,,
 FALSE,,,,,,,,,,,,,,,,,
