@@ -19,7 +19,7 @@ TRUE,Accessory,Comically Large Spoon,Common,,,,,accessory_comically_large_spoon,
 FALSE,Accessory,Crab Claw,Rare,,,,,,,,,None,Giant Crab claw replaces your off-hand. It covers your hand entirely.,20,"14,625",150,$3.00
 TRUE,Accessory,Crowbar,Uncommon,TRUE,,,,accessory_crowbar,mcc:island_cosmetics.accessory.crowbar,,,Complete,[Wake up and smell the ashes...],10,"5,625",75,$1.50
 TRUE,Accessory,Drill Arm,Epic,TRUE,,#FFBA30,,accessory_drill_arm,mcc:island_cosmetics.accessory.drill_arm,,,Complete,My drill (arm) shall pierce the championship!,50,"33,750",300,$6.00
-TRUE,Accessory,Faction Flag,Uncommon,,TRUE,,,accessory_faction_flag,,,,Complete,,10,"5,625",75,$1.50
+TRUE,Accessory,Faction Flag,Uncommon,,TRUE,,,accessory_faction_flag,mcc:island_cosmetics.accessory_faction.flag_improved,,,Complete,,10,"5,625",75,$1.50
 TRUE,Accessory,Fairy Wand,Rare,TRUE,,#E85FD1,,accessory_fairy_wand,mcc:island_cosmetics.accessory.fairy_wand,,,Complete,Magic wand that mighe be used by a wizard (magic not included). Simple and wooden.,20,"14,625",150,$3.00
 TRUE,Accessory,Fire Fist,Epic,,,,default,accessory_fire_fist,mcc:island_cosmetics.accessory.fire_fist,,,Complete,[Hadouken!],50,"33,750",300,$6.00
 FALSE,Accessory,Foam Finger,Common,,,,,,,,,None,"A large, red foam finger with the inscription ""#1"" displayed on its side.",5,"3,750",50,$1.00
@@ -152,10 +152,10 @@ TRUE,Hat,Disguise,Uncommon,,,,,wardrobe_hat_disguise,mcc:island_cosmetics.hat.di
 TRUE,Hat,Drinking Helmet,Epic,TRUE,,#ff3d12,,wardrobe_hat_drinking_helmet,mcc:island_cosmetics.hat.drinking_helmet,,,Complete,"[Your favourite beverages, now hands-free]",50,"33,750",300,$6.00
 TRUE,Hat,Egg Yolk,Common,,,,,wardrobe_hat_egg_yolk,mcc:island_cosmetics.hat.egg_yolk,,,Complete,[For when you just.. crack],5,"3,750",50,$1.00
 TRUE,Hat,Eyeball,Epic,TRUE,,#5FC234,,wardrobe_hat_eyeball,mcc:island_cosmetics.hat.eyeball,,,Complete,[I spy with my colossal eye..],50,"33,750",300,$6.00
-TRUE,Hat,Faction Beanie,Common,,TRUE,,,wardrobe_hat_faction_beanie,,,,Complete,,5,"3,750",50,$1.00
-TRUE,Hat,Faction Crown,Legendary,,TRUE,,,wardrobe_hat_faction_crown,,,,Complete,,100,"108,000",600,$12.00
-TRUE,Hat,Faction Facial,Rare,,TRUE,,,wardrobe_hat_faction_facial,,,,Complete,,20,"14,625",150,$3.00
-TRUE,Hat,Faction Helmet,Epic,,TRUE,,,wardrobe_hat_faction_helmet,,,,Complete,,50,"33,750",300,$6.00
+TRUE,Hat,Faction Beanie,Common,,TRUE,,,wardrobe_hat_faction_beanie,mcc:island_cosmetics.hat_faction.beanie,,,Complete,,5,"3,750",50,$1.00
+TRUE,Hat,Faction Crown,Legendary,,TRUE,,,wardrobe_hat_faction_crown,mcc:island_cosmetics.hat_faction.crown,,,Complete,,100,"108,000",600,$12.00
+TRUE,Hat,Faction Facial,Rare,,TRUE,,,wardrobe_hat_faction_facial,mcc:island_cosmetics.hat_faction.facial,,,Complete,,20,"14,625",150,$3.00
+FALSE,Hat,Faction Helmet,Epic,,TRUE,,,wardrobe_hat_faction_helmet,mcc:island_cosmetics.hat_faction.helmet,,,None,,50,"33,750",300,$6.00
 TRUE,Hat,Fez,Common,,,,,wardrobe_hat_fez,mcc:island_cosmetics.hat.fez,,,Complete,[Fezzes are cool.],5,"3,750",50,$1.00
 TRUE,Hat,Fishbowl,Epic,TRUE,,#FF9F44,,wardrobe_hat_fishbowl,mcc:island_cosmetics.hat.fishbowl,,,Complete,[The environmental hydration unit is technologically complex and not just a glass bowl.],50,"33,750",300,$6.00
 TRUE,Hat,Football Helmet,Uncommon,TRUE,,#FF2F2F,,wardrobe_hat_football_helmet,mcc:island_cosmetics.hat.football_helmet,,,Complete,Classic Football Helmet. [Blue! 24! Hike!],10,"5,625",75,$1.50
