@@ -14,7 +14,6 @@ mccScript {
         rotation(-170.0, 18.0)
         lookClosePerPlayer(6)
         cooldown(1.seconds)
-        
         type("ambient")
         helmet("mcc:island_cosmetics.hat.snorkel{display:{color:13068314}}")
     }
