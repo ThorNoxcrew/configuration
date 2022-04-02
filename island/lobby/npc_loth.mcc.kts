@@ -14,6 +14,6 @@ mccScript {
         rotation(0.0, 0.0)
 
         type("ambient")
-        helmet("mcc:island_cosmetics.hat.curved_demon_horns{display:{color:3289650}}")
+        helmet("mcc:island_cosmetics.hat_variant.wicked_horns_curved{display:{color:3289650}}")
     }
 }

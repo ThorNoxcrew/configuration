@@ -19,7 +19,7 @@ TRUE,Accessory,Comically Large Spoon,Common,,,,,accessory_comically_large_spoon,
 FALSE,Accessory,Crab Claw,Rare,,,,,,,,,None,Giant Crab claw replaces your off-hand. It covers your hand entirely.,20,"14,625",150,$3.00
 TRUE,Accessory,Crowbar,Uncommon,TRUE,,,,accessory_crowbar,mcc:island_cosmetics.accessory.crowbar,,,Complete,[Wake up and smell the ashes...],10,"5,625",75,$1.50
 TRUE,Accessory,Drill Arm,Epic,TRUE,,#FFBA30,,accessory_drill_arm,mcc:island_cosmetics.accessory.drill_arm,,,Complete,My drill (arm) shall pierce the championship!,50,"33,750",300,$6.00
-TRUE,Accessory,Faction Flag,Uncommon,,TRUE,,,accessory_faction_flag,mcc:island_cosmetics.accessory_faction.flag_improved,,,Complete,,10,"5,625",75,$1.50
+TRUE,Accessory,Faction Flag,Uncommon,,TRUE,,,accessory_faction_flag_improved,mcc:island_cosmetics.accessory_faction.flag_improved,,,Complete,,10,"5,625",75,$1.50
 TRUE,Accessory,Fairy Wand,Rare,TRUE,,#E85FD1,,accessory_fairy_wand,mcc:island_cosmetics.accessory.fairy_wand,,,Complete,Magic wand that mighe be used by a wizard (magic not included). Simple and wooden.,20,"14,625",150,$3.00
 TRUE,Accessory,Fire Fist,Epic,,,,default,accessory_fire_fist,mcc:island_cosmetics.accessory.fire_fist,,,Complete,[Hadouken!],50,"33,750",300,$6.00
 FALSE,Accessory,Foam Finger,Common,,,,,,,,,None,"A large, red foam finger with the inscription ""#1"" displayed on its side.",5,"3,750",50,$1.00
@@ -143,10 +143,9 @@ TRUE,Hat,Computer Head,Legendary,TRUE,,#B1FF00,,wardrobe_hat_computer_head,mcc:i
 TRUE,Hat,Shades,Common,TRUE,,,,wardrobe_hat_shades,mcc:island_cosmetics.hat.shades,,,Complete,,5,"3,750",50,$1.00
 TRUE,Hat,Crusader,Rare,,,,,wardrobe_hat_crusader,mcc:island_cosmetics.hat.crusader,,,Complete,['tis but a scratch!],20,"14,625",150,$3.00
 TRUE,Hat,Cthulu's Head,Epic,,,,,wardrobe_hat_cthulus_head,mcc:island_cosmetics.hat.cthulus_head,,,Complete,A mass of tentacles spewing from the player's head. Maybe bat ears on the side of the head. [Ph'nglui mglw'nafh Bloc'kulu MCC Island wgah'nagl fhtagn],50,"33,750",300,$6.00
-TRUE,Hat,Curved Demon Horns,Rare,TRUE,,#8c466d,,wardrobe_hat_curved_demon_horns,mcc:island_cosmetics.hat.curved_demon_horns,,,Complete,[You are not prepared.],20,"14,625",150,$3.00
 TRUE,Hat,Decision Dome Jr.,Legendary,,,,default,wardrobe_hat_decision_dome_jr,mcc:island_cosmetics.hat.decision_dome_jr,,,Complete,,100,"108,000",600,$12.00
 TRUE,Hat,Detective,Common,,,,,wardrobe_hat_detective,mcc:island_cosmetics.hat.detective,,,Complete,A cheshire cap like a certain Holmes might wear. [Someone stole the detective's hat; but he's on the case!],5,"3,750",50,$1.00
-TRUE,Hat,Devil Horns,Uncommon,TRUE,,#d2374b,,wardrobe_hat_devils_horns,mcc:island_cosmetics.hat.devils_horns,,,Complete,[For when you're feeling rather evil.],10,"5,625",75,$1.50
+TRUE,Hat,Wicked Horns,Uncommon,TRUE,,#d2374b,,wardrobe_hat_wicked_horns,mcc:island_cosmetics.hat.wicked_horns,,,Complete,[For when you're feeling rather evil.],10,"5,625",75,$1.50
 TRUE,Hat,Dino,Legendary,TRUE,,#a8e751,default,wardrobe_hat_dino,mcc:island_cosmetics.hat.dino,,,Complete,,100,"108,000",600,$12.00
 TRUE,Hat,Disguise,Uncommon,,,,,wardrobe_hat_disguise,mcc:island_cosmetics.hat.disguise,,,Complete,"Classic glasses, nose and moustached disguise. Groucho Marx. [Who are you?]",10,"5,625",75,$1.50
 TRUE,Hat,Drinking Helmet,Epic,TRUE,,#ff3d12,,wardrobe_hat_drinking_helmet,mcc:island_cosmetics.hat.drinking_helmet,,,Complete,"[Your favourite beverages, now hands-free]",50,"33,750",300,$6.00
@@ -258,6 +257,7 @@ FALSE,Trail,Flaming Footprints,,,,,,,,,,None,"Whenever you walk, leave a trail o
 FALSE,Trail,FelFlame Footprints,,,,,,,,,,None,"Whenever you walk, leave a trail of small green flames on the ground. Similar to Illidan from Warcraft 3's footprints.",,,,
 FALSE,Trail,Paku Paku,,,,,,,,,,None,Small white dots trail behind your character when in motion.,,,,
 FALSE,Trail,Fae Queen,,,,,,,,,,None,Butterflies and other beautiful insects flutter in your wake briefly before despawning. You also leave vibrant colors reminiscent of a fairy world.,,,,
+FALSE,,,,,,,,,,,,,,,,,
 FALSE,,,,,,,,,,,,,,,,,
 FALSE,,,,,,,,,,,,,,,,,
 FALSE,,,,,,,,,,,,,,,,,

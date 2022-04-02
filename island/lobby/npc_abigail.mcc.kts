@@ -17,6 +17,6 @@ mccScript {
 
         type("ambient")
         offHand("mcc:island_cosmetics.accessory.blockle_tea{display:{color:16754085}}")
-        helmet("mcc:island_cosmetics.hat_faction.beanie_red_rabbits")
+        helmet("mcc:island_cosmetics.hat_faction.beanie_red")
     }
 }
