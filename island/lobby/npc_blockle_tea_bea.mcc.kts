@@ -19,17 +19,11 @@ mccScript {
         lookClosePerPlayer(6)
         cooldown(1.seconds)
 
-        interactBehavior { npc, player ->
-            withContext(Dispatchers.Minecraft) {
-                ShopGui(CurrencyType.NON_PREMIUM, "gadgetStore", player).open(player)
-            }
-        }
-
         helmet("mcc:island_cosmetics.hat_npc.bea")
         offHand("mcc:island_cosmetics.accessory.blockle_tea{display:{color:16756962}}")
 
-        belowName("island.npc.shop.coffee")
+        //belowName("island.npc.shop.coffee")
 
-        type("shop_drinks")
+        //type("shop_drinks")
     }
 }

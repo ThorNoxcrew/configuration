@@ -9,6 +9,7 @@ mccScript {
     val i18n: I18n by inject()
     val shopManager: ShopManager by inject()
 
+// Bank Vendor
     playerNPC(
         absoluteVec(315.5, 36.0, 419.0),
         "Jonald Brave",

@@ -4,7 +4,7 @@ import com.noxcrew.mcc.commons.base.inject
 mccScript {
     val i18n: I18n by inject()
 
-// Post Officer second in line for hot dogs at the vendor
+// Doctor third in line for hot dogs at the vendor
     playerNPC(
         absoluteVec(331.5, 34.5, 479.5),
         "Dr. Larry",

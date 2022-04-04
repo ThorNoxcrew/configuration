@@ -4,7 +4,7 @@ import com.noxcrew.mcc.commons.base.inject
 mccScript {
     val i18n: I18n by inject()
 
-// Man at tables outside of diner (table of 4).
+// Man at tables inside of diner (table of 4).
     playerNPC(
         absoluteVec(332.5, 32.0, 388.5),
         "Stuart Rice",
