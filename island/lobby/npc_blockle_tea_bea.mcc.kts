@@ -30,6 +30,6 @@ mccScript {
 
         belowName("island.npc.shop.coffee")
 
-        type("shop")
+        type("shop_drinks")
     }
 }
