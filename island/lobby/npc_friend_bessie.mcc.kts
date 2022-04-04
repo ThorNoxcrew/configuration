@@ -4,7 +4,7 @@ import com.noxcrew.mcc.commons.base.inject
 mccScript {
     val i18n: I18n by inject()
 
-// Girl at tables outside of diner (table of 4).
+// Girl at tables inside of diner (table of 4).
     playerNPC(
         absoluteVec(334.5, 32.0, 390.5),
         "Bessie Moobell",

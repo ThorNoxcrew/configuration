@@ -31,15 +31,9 @@ mccScript {
 
         patrol(pointList)
 
-        interactBehavior { npc, player ->
-            withContext(Dispatchers.Minecraft) {
-                ShopGui(CurrencyType.NON_PREMIUM, "gadgetStore", player).open(player)
-            }
-        }
-
         helmet("mcc:island_cosmetics.hat_npc.bea")
-        belowName("island.npc.shop.coffee")
+        //belowName("island.npc.shop.coffee")
 
-        type("shop")
+        //type("shop")
     }
 }

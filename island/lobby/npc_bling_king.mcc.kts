@@ -26,7 +26,6 @@ mccScript {
         }
 
         belowName("island.npc.shop.accessory")
-        type("shop")
-        helmet("mcc:island_cosmetics.hat.texan_capitalist")
+        type("shop_wardrobe")
     }
 }
