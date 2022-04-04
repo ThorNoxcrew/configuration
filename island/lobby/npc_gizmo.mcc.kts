@@ -33,7 +33,7 @@ mccScript {
         }*/
         helmet("mcc:island_cosmetics.hat_npc.gizmo")
 
-        //belowName("island.npc.shop.gadgets")
-        //type("shop_gadgets")
+        // belowName("island.npc.shop.gadgets")
+        // type("shop_gadgets")
     }
 }
